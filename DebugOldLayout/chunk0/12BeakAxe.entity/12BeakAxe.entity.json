@@ -1,0 +1,283 @@
+{
+	"tempHash": "00EA313C3A1B78DF",
+	"tbluHash": "008C4B84F06C5615",
+	"rootEntity": "4d352ea6c1c7c733",
+	"entities": {
+		"f752fc9fda8e5c74": {
+			"parent": "4d352ea6c1c7c733",
+			"name": "Helper_Evergreen_SelectableItem",
+			"factory": "007EE200640F15E5",
+			"blueprint": "00BCA591C00A579D",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "b153112f-9cd1-4a49-a9c6-ba1a34f443ab"
+				},
+				"InspectionPivotTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.12999999523162842,
+							"y": 0.009999999776482582,
+							"z": -1.149999976158142
+						}
+					}
+				},
+				"TextureLocked": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E5ACE48FA5FC14",
+						"flag": "5F"
+					}
+				},
+				"TextureUnlocked": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0036EFA54B97D4DD",
+						"flag": "5F"
+					}
+				},
+				"TextureScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 5,
+						"y": 2,
+						"z": 5
+					}
+				},
+				"TextureTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -89.999996584905,
+							"y": 0.026169578010026985,
+							"z": 179.9738304217077
+						},
+						"position": {
+							"x": 0.019999999552965164,
+							"y": -0.3499999940395355,
+							"z": 0.019999999552965164
+						}
+					}
+				},
+				"InspectionItemTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.019999999552965164,
+							"y": -0.00800000037997961,
+							"z": -0.026000000536441803
+						}
+					}
+				},
+				"melee": {
+					"type": "bool",
+					"value": false
+				},
+				"GearWall": {
+					"type": "bool",
+					"value": false
+				},
+				"Supplier": {
+					"type": "bool",
+					"value": false
+				},
+				"ItemTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"Stash": {
+					"type": "bool",
+					"value": false
+				},
+				"RewardCrate": {
+					"type": "bool",
+					"value": false
+				},
+				"m_boundary": {
+					"type": "SEntityTemplateReference",
+					"value": "9fad6d8783e4b760",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "4d352ea6c1c7c733",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"4d352ea6c1c7c733"
+				]
+			}
+		},
+		"4d352ea6c1c7c733": {
+			"parent": null,
+			"name": "Helper_Evergreen_SelectableItem_BeakAxe",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90,
+							"y": 90,
+							"z": 0
+						},
+						"position": {
+							"x": -6,
+							"y": 0,
+							"z": -13
+						}
+					}
+				}
+			},
+			"propertyAliases": {
+				"GearCapacityUsed": [
+					{
+						"originalProperty": "GearCapacityUsed",
+						"originalEntity": "f752fc9fda8e5c74"
+					}
+				],
+				"GearWall": [
+					{
+						"originalProperty": "GearWall",
+						"originalEntity": "f752fc9fda8e5c74"
+					}
+				],
+				"ItemTransform": [
+					{
+						"originalProperty": "ItemTransform",
+						"originalEntity": "f752fc9fda8e5c74"
+					}
+				],
+				"RewardCrate": [
+					{
+						"originalProperty": "RewardCrate",
+						"originalEntity": "f752fc9fda8e5c74"
+					}
+				],
+				"Stash": [
+					{
+						"originalProperty": "Stash",
+						"originalEntity": "f752fc9fda8e5c74"
+					}
+				],
+				"Supplier": [
+					{
+						"originalProperty": "Supplier",
+						"originalEntity": "f752fc9fda8e5c74"
+					}
+				]
+			},
+			"exposedEntities": {
+				"Owned": {
+					"isArray": false,
+					"refersTo": [
+						{
+							"ref": "f752fc9fda8e5c74",
+							"externalScene": null,
+							"exposedEntity": "Owned"
+						}
+					]
+				}
+			},
+			"exposedInterfaces": {
+				"ZEvergreenMenuEntryEntity": "f752fc9fda8e5c74",
+				"ZRandomSelectorChoice": "f752fc9fda8e5c74",
+				"ZEventReceiverEntity_bool": "f752fc9fda8e5c74",
+				"ZEventReceiverEntity_void": "f752fc9fda8e5c74"
+			}
+		},
+		"9fad6d8783e4b760": {
+			"parent": "4d352ea6c1c7c733",
+			"name": "Boundary",
+			"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.100000023841858,
+						"y": 0.25600001215934753,
+						"z": 0.060261499136686325
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "f752fc9fda8e5c74",
+						"externalScene": null,
+						"exposedEntity": "ItemTransform"
+					}
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.029999999329447746,
+							"y": -0.004999999888241291,
+							"z": 0.02195899933576584
+						}
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+
+	],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "[assembly:/geometry/g2/gizmos.wl2?/gizmo_trigger_01.prim].pc_prim",
+			"flag": "5F"
+		}
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
+}

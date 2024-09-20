@@ -1,0 +1,51 @@
+{
+	"tempHash": "0083D164D0CE6988",
+	"tbluHash": "00D744B249DE78D6",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"93cc5c72c34d4f5b",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aValuesothercond",
+						[
+							{
+								"AddItemAfter": [
+									"57ebfca888f920b6",
+									"cafed47e714abc61"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"66b72663ecfcb330",
+				{
+					"AddInputCopyConnection": [
+						"MakeInvisible",
+						"SetFalse",
+						"cafed47e714abc61"
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafed47e714abc61",
+				{
+					"parent": "66b72663ecfcb330",
+					"name": "AlwaysTrueUnlessShopVisited",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bValue": { "type": "bool", "value": true }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

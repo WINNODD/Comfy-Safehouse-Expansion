@@ -1,0 +1,271 @@
+{
+	"tempHash": "00FF3319F161930E",
+	"tbluHash": "002A678E9030BF5C",
+	"rootEntity": "9ca183f44774110a",
+	"entities": {
+		"057c8fb47d38521d": {
+			"parent": "9ca183f44774110a",
+			"name": "CollisionCapsule",
+			"factory": "[assembly:/templates/physics/collisionvolumes.template?/collisioncapsule.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/physics/collisionvolumes.template?/collisioncapsule.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mOffset": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.75 }
+					}
+				},
+				"m_vCapsuleLength": { "type": "float32", "value": 1.5 },
+				"m_fCapsuleRadius": { "type": "float32", "value": 0.5 },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"m_bCollideHitman": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "9ca183f44774110a",
+					"postInit": true
+				}
+			}
+		},
+		"32477a7b93ad6765": {
+			"parent": "7d1fe29ee6405ccf",
+			"name": "BoneResourceItem",
+			"factory": "[modules:/zmorphemebonesource.class].pc_entitytype",
+			"blueprint": "[modules:/zmorphemebonesource.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 0 }
+				},
+				"m_duration": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 1048576 }
+				},
+				"m_animationResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "008128E81B81A31B",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"7d1fe29ee6405ccf": {
+			"parent": "14675250c115ecbc",
+			"name": "MorphemeBoneTrack",
+			"factory": "[modules:/zmorphemebonetrack.class].pc_entitytype",
+			"blueprint": "[modules:/zmorphemebonetrack.class].pc_entityblueprint",
+			"properties": {
+				"m_sSlotName": { "type": "ZString", "value": "FullBody" },
+				"m_bUpperBody": { "type": "bool", "value": false },
+				"m_aItems": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["32477a7b93ad6765"]
+				},
+				"m_animationResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "008128E81B81A31B",
+						"flag": "5F"
+					}
+				},
+				"m_entityGroup": {
+					"type": "SEntityTemplateReference",
+					"value": "14675250c115ecbc",
+					"postInit": true
+				}
+			},
+			"propertyAliases": {
+				"m_animationResourceID": [
+					{
+						"originalProperty": "m_animationResourceID",
+						"originalEntity": "32477a7b93ad6765"
+					}
+				]
+			}
+		},
+		"14675250c115ecbc": {
+			"parent": "5481e0246fc57f2b",
+			"name": "EntityTrack_ OUTFIT_Nightmare_TheConstant_M_Actor_v0",
+			"factory": "[modules:/zentitygroup.class].pc_entitytype",
+			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+			"properties": {
+				"m_aTracksAndGroups": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["7d1fe29ee6405ccf"]
+				},
+				"m_animationResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "008128E81B81A31B",
+						"flag": "5F"
+					}
+				},
+				"m_targetEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "6bd429306a6dd709",
+					"postInit": true
+				}
+			},
+			"propertyAliases": {
+				"m_animationResourceID": [
+					{
+						"originalProperty": "m_animationResourceID",
+						"originalEntity": "7d1fe29ee6405ccf"
+					}
+				]
+			}
+		},
+		"5481e0246fc57f2b": {
+			"parent": "9ca183f44774110a",
+			"name": "Sequence",
+			"factory": "[modules:/zsequenceentity.class].pc_entitytype",
+			"blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
+			"properties": {
+				"m_aTracksAndGroups": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["14675250c115ecbc"]
+				},
+				"m_duration": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 1048576 }
+				},
+				"m_nLoopCount": { "type": "int32", "value": -1 },
+				"m_animationResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "008128E81B81A31B",
+						"flag": "5F"
+					}
+				},
+				"m_sequenceOrigin": {
+					"type": "SEntityTemplateReference",
+					"value": "9ca183f44774110a",
+					"postInit": true
+				}
+			},
+			"propertyAliases": {
+				"m_animationResourceID": [
+					{
+						"originalProperty": "m_animationResourceID",
+						"originalEntity": "14675250c115ecbc"
+					}
+				]
+			}
+		},
+		"cdf8bf40e9f5d9b3": {
+			"parent": "9ca183f44774110a",
+			"name": "Intro cut start",
+			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_eEvent": {
+					"type": "EGameEventType",
+					"value": "GET_IntroCutStart"
+				}
+			},
+			"events": {
+				"EventOccurred": { "Start": ["5481e0246fc57f2b"] }
+			}
+		},
+		"6bd429306a6dd709": {
+			"parent": "9ca183f44774110a",
+			"name": "OUTFIT_Nightmare_TheConstant_M_Actor_v0",
+			"factory": "[assembly:/_pro/characters/templates/wolverine/char_wolverine_nightmare.template?/outfit_nightmare_lucasgrey_m_actor_v0.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/wolverine/char_wolverine_nightmare.template?/outfit_nightmare_lucasgrey_m_actor_v0.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "9ca183f44774110a",
+					"postInit": true
+				}
+			}
+		},
+		"9ca183f44774110a": {
+			"parent": null,
+			"name": "SafehouseFrozenCharacterGrey",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"m_bCollideHitman": { "type": "bool", "value": true },
+				"m_animationResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "008128E81B81A31B",
+						"flag": "5F"
+					}
+				}
+			},
+			"inputCopying": {
+				"MakeVisible": {
+					"MakeVisible": ["6bd429306a6dd709"],
+					"EnableHitmanCollision": ["057c8fb47d38521d"]
+				},
+				"MakeInvisible": {
+					"MakeInvisible": ["6bd429306a6dd709"],
+					"DisableHitmanCollision": ["057c8fb47d38521d"]
+				}
+			},
+			"propertyAliases": {
+				"m_animationResourceID": [
+					{
+						"originalProperty": "m_animationResourceID",
+						"originalEntity": "5481e0246fc57f2b"
+					}
+				],
+				"m_bCastShadows": [
+					{
+						"originalProperty": "m_bCastShadows",
+						"originalEntity": "6bd429306a6dd709"
+					}
+				],
+				"m_bCollideHitman": [
+					{
+						"originalProperty": "m_bCollideHitman",
+						"originalEntity": "057c8fb47d38521d"
+					}
+				]
+			},
+			"exposedEntities": {
+				"Ground": { "isArray": false, "refersTo": [] },
+				"Character": {
+					"isArray": false,
+					"refersTo": ["6bd429306a6dd709"]
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{ "resource": "0067DBFCD08097C8", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

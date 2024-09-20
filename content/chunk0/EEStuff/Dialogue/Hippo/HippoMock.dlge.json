@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "0033380FA8F389D1",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "hippomock",
+		"soundtag": "Voiceover_Handler",
+		"defaultWav": "001CCD4C5B8D267A",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/golden/lunaria/40500_lunaria_story/pdlc40507_allobjctandcash_lunaria_002.animset].pc_animset",
+		"languages": {
+            "en": "//[LUNARIA]\\\\//(0,30)\\\\You are on your own. You always were, and you always will be.",
+			"fr": "//[LUNARIA]\\\\//(0,30)\\\\Vous êtes seul. Vous l'avez toujours été et vous le serez toujours.",
+			"it": "//[LUNARIA]\\\\//(0,30)\\\\Siete soli. Lo siete sempre stati e lo sarete sempre.",
+			"de": "//[LUNARIA]\\\\//(0,30)\\\\Sie sind auf sich allein gestellt. Das waren Sie schon immer, und das werden Sie auch immer sein.",
+			"es": "//[LUNARIA]\\\\//(0,30)\\\\Estás solo. Siempre lo has estado y siempre lo estarás.",
+			"ru": "//[LUNARIA]\\\\//(0,30)\\\\Вы сами по себе. Вы всегда были и всегда будете.",
+			"cn": "//[LUNARIA]\\\\//(0,30)\\\\你只剩自己一个人了。以前是，以后也永远是。",
+			"tc": "//[LUNARIA]\\\\//(0,30)\\\\你只剩自己一個人了。以前是，以後也永遠是。",
+			"jp": "//[LUNARIA]\\\\//(0,30)\\\\自分のことは自分でする。これまでもそうだったし、これからもそうだ。"
+            }
+	}
+}

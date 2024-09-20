@@ -1,0 +1,14 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "00F03BF3EB3DD5DE",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr40174_greystorygreyprematurekillrandom_grey_002",
+		"soundtag": "Voiceover_Handler_Dream",
+		"defaultWav": "006C860BA89CEE41",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/golden/gecko/40000_story/dr40174_greystorygreyprematurekillrandom_grey_002.animset].pc_animset",
+		"languages": {}
+	}
+}

@@ -1,0 +1,302 @@
+{
+	"tempHash": "00C0CC82014D7EBC",
+	"tbluHash": "007EAEF8FED6421D",
+	"rootEntity": "45781990c1ec4d9f",
+	"entities": {
+		"592bf9613f8f9918": {
+			"parent": "45781990c1ec4d9f",
+			"name": "Helper_Evergreen_SelectableItem",
+			"factory": "007EE200640F15E5",
+			"blueprint": "00BCA591C00A579D",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "f6d61543-405b-411f-b0c7-a5befc1c62cd"
+				},
+				"InspectionItemTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.0020000000949949026,
+							"y": -0.029999999329447746,
+							"z": -0.02500000037252903
+						}
+					}
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.01976704358638215,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": 0.05894099920988083,
+							"y": 0.022644000127911568,
+							"z": -0.0000019999999949504854
+						}
+					}
+				},
+				"InspectionPivotTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -0.10000000149011612,
+							"y": 0.019999999552965164,
+							"z": -0.6499999761581421
+						}
+					}
+				},
+				"TextureScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 6.78000020980835,
+						"y": 7,
+						"z": 7
+					}
+				},
+				"TextureTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90.99995438332104,
+							"y": 1.224488187311569e-16,
+							"z": -90.00000000000001
+						},
+						"position": {
+							"x": -0.4880000054836273,
+							"y": -0.07500000298023224,
+							"z": 0.02199999988079071
+						}
+					}
+				},
+				"TextureLocked": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00962CD0D1FC765F",
+						"flag": "5F"
+					}
+				},
+				"TextureUnlocked": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00D84F804A885E2A",
+						"flag": "5F"
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"SMG": {
+					"type": "bool",
+					"value": true
+				},
+				"GearWall": {
+					"type": "bool",
+					"value": false
+				},
+				"Supplier": {
+					"type": "bool",
+					"value": false
+				},
+				"ItemTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"Stash": {
+					"type": "bool",
+					"value": false
+				},
+				"RewardCrate": {
+					"type": "bool",
+					"value": false
+				},
+				"m_boundary": {
+					"type": "SEntityTemplateReference",
+					"value": "c49fe91b51d1162a",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "45781990c1ec4d9f",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"45781990c1ec4d9f"
+				]
+			}
+		},
+		"45781990c1ec4d9f": {
+			"parent": null,
+			"name": "Helper_Evergreen_SelectableItem_DAKX2CovertSloth",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": -4.326169967651367,
+							"y": -0.00009899999713525176,
+							"z": -24.300100326538086
+						}
+					}
+				}
+			},
+			"propertyAliases": {
+				"GearCapacityUsed": [
+					{
+						"originalProperty": "GearCapacityUsed",
+						"originalEntity": "592bf9613f8f9918"
+					}
+				],
+				"GearWall": [
+					{
+						"originalProperty": "GearWall",
+						"originalEntity": "592bf9613f8f9918"
+					}
+				],
+				"ItemTransform": [
+					{
+						"originalProperty": "ItemTransform",
+						"originalEntity": "592bf9613f8f9918"
+					}
+				],
+				"RewardCrate": [
+					{
+						"originalProperty": "RewardCrate",
+						"originalEntity": "592bf9613f8f9918"
+					}
+				],
+				"Stash": [
+					{
+						"originalProperty": "Stash",
+						"originalEntity": "592bf9613f8f9918"
+					}
+				],
+				"Supplier": [
+					{
+						"originalProperty": "Supplier",
+						"originalEntity": "592bf9613f8f9918"
+					}
+				]
+			},
+			"exposedEntities": {
+				"Owned": {
+					"isArray": false,
+					"refersTo": [
+						{
+							"ref": "592bf9613f8f9918",
+							"externalScene": null,
+							"exposedEntity": "Owned"
+						}
+					]
+				}
+			},
+			"exposedInterfaces": {
+				"ZRandomSelectorChoice": "592bf9613f8f9918",
+				"ZEventReceiverEntity_bool": "592bf9613f8f9918",
+				"ZEventReceiverEntity_void": "592bf9613f8f9918",
+				"ZEvergreenMenuEntryEntity": "592bf9613f8f9918"
+			}
+		},
+		"c49fe91b51d1162a": {
+			"parent": "45781990c1ec4d9f",
+			"name": "Boundary",
+			"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.28040099143981934,
+						"y": 0.43686598539352417,
+						"z": 0.059417299926280975
+					}
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.053102001547813416,
+							"y": -0.056992001831531525,
+							"z": 0.021642999723553658
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "592bf9613f8f9918",
+						"externalScene": null,
+						"exposedEntity": "ItemTransform"
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+
+	],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "[assembly:/geometry/g2/gizmos.wl2?/gizmo_trigger_01.prim].pc_prim",
+			"flag": "5F"
+		}
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
+}

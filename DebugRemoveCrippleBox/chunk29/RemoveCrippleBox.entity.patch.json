@@ -1,0 +1,150 @@
+{
+	"tempHash": "00A9B93A825F5BDC",
+	"tbluHash": "005BA5CA6AC00627",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"e07c81c25ad49639",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bBlindFire",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e07c81c25ad49639",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHairTrigger",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e07c81c25ad49639",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bFire",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e07c81c25ad49639",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bThrowItem",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e07c81c25ad49639",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bPlaceItem",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6dc8b9e643da837f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bPickupItem",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6dc8b9e643da837f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bDropItem",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6dc8b9e643da837f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bDragBody",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"901665526a9ff11c",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bAim",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"901665526a9ff11c",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bPlaceItem",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"901665526a9ff11c",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bThrowItem",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"975b7045061419a5",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bThrowItem",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"975b7045061419a5",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bPlaceItem",
+						"value": true
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

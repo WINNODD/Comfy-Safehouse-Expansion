@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "00B66D9430AC8B6D",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "pdlc40507_allobjctandcash_lunaria_002",
+		"soundtag": "Voiceover_Handler",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/golden/lunaria/40500_lunaria_story/pdlc40507_allobjctandcash_lunaria_002.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/golden/lunaria/40500_lunaria_story/pdlc40507_allobjctandcash_lunaria_002.animset].pc_animset",
+		"languages": {
+			"en": "//[LUNARIA]\\\\//(0,30)\\\\You've reaped all the goodness. Well done.",
+			"fr": "//[LUNARIA]\\\\//(0,30)\\\\Vous avez récolté tout le bien qu'elle pouvait vous apporter. Bien joué.",
+			"it": "//[LUNARIA]\\\\//(0,30)\\\\Hai ottenuto tutto quello che potevi. Ben fatto.",
+			"de": "//[LUNARIA]\\\\//(0,30)\\\\Sie haben all die Früchte geerntet. Gut gemacht.",
+			"es": "//[LUNARIA]\\\\//(0,2.4)\\\\Has cosechado todo lo bueno que podía darte.//(2.7,4.6)\\\\Bien hecho.",
+			"ru": "//[LUNARIA]\\\\//(0,30)\\\\Ты собрал свою жатву. Просто прекрасно.",
+			"cn": "//[LUNARIA]\\\\//(0,30)\\\\你收获了所有的美好。干得好。",
+			"tc": "//[LUNARIA]\\\\//(0,30)\\\\你取得了所有好東西，做得好。",
+			"jp": "//[LUNARIA]\\\\//(0,30)\\\\いいところを全てかき集めた。よくやった。"
+		}
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"tempHash": "009BE52009680546",
+	"tbluHash": "00F4ADF8A7CB191F",
+	"rootEntity": "2ed3aa8cc1e0b74f",
+	"entities": {
+		"2ed3aa8cc1e0b74f": {
+			"parent": null,
+			"name": "GeomEntity01",
+			"factory": "[modules:/zgeomentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgeomentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1, "y": 1, "z": 1 }
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/makeup/sean_rose_face_mask_a.wl2?/sean_rose_face_mask_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

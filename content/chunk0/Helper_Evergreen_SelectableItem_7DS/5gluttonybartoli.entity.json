@@ -1,0 +1,273 @@
+{
+    "tempHash": "008639E7480B66D2",
+    "tbluHash": "008E448F2BB29FD4",
+    "rootEntity": "020d10261f192ab6",
+    "entities": {
+        "7b243bba31de6345": {
+            "parent": "020d10261f192ab6",
+            "name": "Helper_Evergreen_SelectableItem",
+            "factory": "007EE200640F15E5",
+            "blueprint": "00BCA591C00A579D",
+            "properties": {
+                "m_RepositoryId": {
+                    "type": "ZGuid",
+                    "value": "d4f6e560-cf9f-4a0a-955d-787577b073d6"
+                },
+                "InspectionItemTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "position": {
+                            "x": -0.05999999865889549,
+                            "y": 0.019999999552965164,
+                            "z": -0.019999999552965164
+                        }
+                    }
+                },
+                "InspectionPivotTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 1.0000001599597008,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "position": {
+                            "x": -0.029999999329447746,
+                            "y": 0.009999999776482582,
+                            "z": -0.6000000238418579
+                        }
+                    }
+                },
+                "TextureTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": -90,
+                            "y": 0,
+                            "z": 180
+                        },
+                        "position": {
+                            "x": 0.04500000178813934,
+                            "y": -0.44999998807907104,
+                            "z": 0.019999999552965164
+                        }
+                    }
+                },
+                "TextureScale": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 7,
+                        "y": 7,
+                        "z": 7
+                    }
+                },
+                "m_eRoomBehaviour": {
+                    "type": "ZSpatialEntity.ERoomBehaviour",
+                    "value": "ROOM_DYNAMIC"
+                },
+                "TextureLocked": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "00FD24425CEE9A20",
+                        "flag": "5F"
+                    }
+                },
+                "TextureUnlocked": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "0081CAA6510D8465",
+                        "flag": "5F"
+                    }
+                },
+                "shotgun": {
+                    "type": "bool",
+                    "value": true
+                },
+                "GearWall": {
+                    "type": "bool",
+                    "value": false
+                },
+                "Supplier": {
+                    "type": "bool",
+                    "value": false
+                },
+                "ItemTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        }
+                    }
+                },
+                "Stash": {
+                    "type": "bool",
+                    "value": false
+                },
+                "RewardCrate": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_boundary": {
+                    "type": "SEntityTemplateReference",
+                    "value": "82036a8058f8d011",
+                    "postInit": true
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "020d10261f192ab6",
+                    "postInit": true
+                }
+            },
+            "subsets": {
+                "AudioEmitters": [
+                    "020d10261f192ab6"
+                ]
+            }
+        },
+        "020d10261f192ab6": {
+            "parent": null,
+            "name": "Helper_Evergreen_SelectableItem_GluttonySawedOffBartoli12G",
+            "factory": "[modules:/zcompositeentity.class].pc_entitytype",
+            "blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": -90,
+                            "y": 0,
+                            "z": -180
+                        },
+                        "position": {
+                            "x": -2,
+                            "y": 0,
+                            "z": -11
+                        }
+                    }
+                }
+            },
+            "propertyAliases": {
+                "GearWall": [
+                    {
+                        "originalProperty": "GearWall",
+                        "originalEntity": "7b243bba31de6345"
+                    }
+                ],
+                "Supplier": [
+                    {
+                        "originalProperty": "Supplier",
+                        "originalEntity": "7b243bba31de6345"
+                    }
+                ],
+                "GearCapacityUsed": [
+                    {
+                        "originalProperty": "GearCapacityUsed",
+                        "originalEntity": "7b243bba31de6345"
+                    }
+                ],
+                "ItemTransform": [
+                    {
+                        "originalProperty": "ItemTransform",
+                        "originalEntity": "7b243bba31de6345"
+                    }
+                ],
+                "Stash": [
+                    {
+                        "originalProperty": "Stash",
+                        "originalEntity": "7b243bba31de6345"
+                    }
+                ],
+                "RewardCrate": [
+                    {
+                        "originalProperty": "RewardCrate",
+                        "originalEntity": "7b243bba31de6345"
+                    }
+                ]
+            },
+            "exposedEntities": {
+                "Owned": {
+                    "isArray": false,
+                    "refersTo": [
+                        {
+                            "ref": "7b243bba31de6345",
+                            "externalScene": null,
+                            "exposedEntity": "Owned"
+                        }
+                    ]
+                }
+            },
+            "exposedInterfaces": {
+                "ZRandomSelectorChoice": "7b243bba31de6345",
+                "ZEventReceiverEntity_bool": "7b243bba31de6345",
+                "ZEventReceiverEntity_void": "7b243bba31de6345",
+                "ZEvergreenMenuEntryEntity": "7b243bba31de6345"
+            }
+        },
+        "82036a8058f8d011": {
+            "parent": "020d10261f192ab6",
+            "name": "Boundary",
+            "factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+            "blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+            "properties": {
+                "m_vGlobalSize": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0.5988680124282837,
+                        "y": 0.18303099274635315,
+                        "z": 0.027886399999260902
+                    }
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": {
+                        "ref": "7b243bba31de6345",
+                        "externalScene": null,
+                        "exposedEntity": "ItemTransform"
+                    }
+                },
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0.01976704358638215,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "position": {
+                            "x": 0.04504900053143501,
+                            "y": -0.06311500072479248,
+                            "z": 0.019534999504685402
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "propertyOverrides": [],
+    "overrideDeletes": [],
+    "pinConnectionOverrides": [],
+    "pinConnectionOverrideDeletes": [],
+    "externalScenes": [],
+    "subType": "template",
+    "quickEntityVersion": 3.1,
+    "extraFactoryDependencies": [
+        {
+            "resource": "[assembly:/geometry/g2/gizmos.wl2?/gizmo_trigger_01.prim].pc_prim",
+            "flag": "5F"
+        }
+    ],
+    "extraBlueprintDependencies": [],
+    "comments": []
+}

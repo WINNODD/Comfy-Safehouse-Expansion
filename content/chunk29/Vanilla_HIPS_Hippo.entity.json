@@ -1,0 +1,289 @@
+{
+	"tempHash": "00CD09594E8EE786",
+	"tbluHash": "00A09717196C61C7",
+	"rootEntity": "48c51e5e9069d46a",
+	"entities": {
+		"e7ad3610add5bc09": {
+			"parent": "48c51e5e9069d46a",
+			"name": "HIPS position",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "48c51e5e9069d46a",
+					"postInit": true
+				}
+			}
+		},
+		"0e4257f0bf5f2b0a": {
+			"parent": "48c51e5e9069d46a",
+			"name": "DebugGizmoEntity",
+			"factory": "[modules:/zdebuggizmoentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdebuggizmoentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 173.84198756239002
+						},
+						"position": {
+							"x": 0.06599999964237213,
+							"y": -0.7549999952316284,
+							"z": 0.0
+						}
+					}
+				},
+				"m_GizmoGeomRID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/geometry/g2/actspecific_gizmos.wl2?/debug_sit_specs.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_bSelectVisibleOnly": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "e7ad3610add5bc09"
+				},
+				"m_bForceVisible": { "type": "bool", "value": false },
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eDrawLayer": {
+					"type": "ZDebugGizmoEntity.EDrawLayer",
+					"value": "DL_ALIGNMENT"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"db7f087bd75d4876": {
+			"parent": "48c51e5e9069d46a",
+			"name": "VRConfig_Trigger",
+			"factory": "[assembly:/_pro/design/gamecore/vrhelpers.template?/vrconfig_trigger.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/vrhelpers.template?/vrconfig_trigger.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_eAnimMode": {
+					"type": "EVRConfigAnimationMode",
+					"value": "EVRCAM_FullAnimationFreeze"
+				},
+				"m_eHeadAnchorMode": {
+					"type": "EVRConfigHeadAnchorMode",
+					"value": "EVRCHAM_HeadBone"
+				},
+				"m_eSpineIK": {
+					"type": "EVRIKElementMode",
+					"value": "EVRIKEM_Enabled"
+				},
+				"m_ePelvisIK": {
+					"type": "EVRIKElementMode",
+					"value": "EVRIKEM_Enabled"
+				},
+				"m_bLeftHandForceEnableIKIfFarAway": {
+					"type": "bool",
+					"value": true
+				}
+			}
+		},
+		"940b9e8117965fc9": {
+			"parent": "48c51e5e9069d46a",
+			"name": "SetpieceHelper_FocusedInteraction_Logic",
+			"factory": "[assembly:/_pro/design/gamecore/setpiecehelpers.template?/setpiecehelper_focusedinteraction_logic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/setpiecehelpers.template?/setpiecehelper_focusedinteraction_logic.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"m_pSafeZoneOrigin": {
+					"type": "SEntityTemplateReference",
+					"value": "e7ad3610add5bc09"
+				},
+				"m_RuntimeNetworkResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00BEFF4010C2E783",
+						"flag": "5F"
+					}
+				},
+				"GizmoTransformBase": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"InteractionPoint": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -0.05000000074505806,
+							"y": -1.0,
+							"z": 1.1
+						}
+					}
+				},
+				"PromptPoint": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 0.0,
+							"y": 0.3499999940395355,
+							"z": 0.003000000026077032
+						}
+					}
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "c3db0856-8d88-49d7-af8b-63b04404fde9"
+				},
+				"m_rPromptTextResourceenter": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/setpieces.sweetmenutext?/setpieces_localization_prompt_lean.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rPromptTextResourceexit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/setpieces.sweetmenutext?/setpieces_localization_prompt_leave.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rPromptTextPassiveResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/setpieces.sweetmenutext?/setpieces_localization_prompt_cannotlean.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_aUIHighlightGeom": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_rRequirements": {
+					"type": "SEntityTemplateReference",
+					"value": null
+				},
+				"m_aValuesconditionsvisible": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"MayLeaveConditions": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "48c51e5e9069d46a",
+					"postInit": true
+				}
+			},
+			"events": { "InLoop": { "Trigger": ["db7f087bd75d4876"] } },
+			"outputCopying": {
+				"OnEntering": { "OnEntering": ["48c51e5e9069d46a"] },
+				"OnEntered": { "OnEntered": ["48c51e5e9069d46a"] },
+				"OnLeaving": { "OnLeaving": ["48c51e5e9069d46a"] },
+				"OnLeft": { "OnLeft": ["48c51e5e9069d46a"] }
+			}
+		},
+		"48c51e5e9069d46a": {
+			"parent": null,
+			"name": "Vanilla_Hips_Hippo",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 6.078941822052002,
+							"y": 6.630000114440918,
+							"z": 0.0
+						}
+					}
+				}
+			},
+			"inputCopying": {
+				"DEBUG_EnterSafeZone": {
+					"DEBUG_EnterSafeZone": ["940b9e8117965fc9"]
+				},
+				"DEBUG_ExitSafeZone": {
+					"DEBUG_ExitSafeZone": ["940b9e8117965fc9"]
+				}
+			},
+			"propertyAliases": {
+				"VisibilityConditions": [
+					{
+						"originalProperty": "m_aValuesconditionsvisible",
+						"originalEntity": "940b9e8117965fc9"
+					}
+				],
+				"m_aUIHighlightGeom": [
+					{
+						"originalProperty": "m_aUIHighlightGeom",
+						"originalEntity": "940b9e8117965fc9"
+					}
+				],
+				"m_rRequirements": [
+					{
+						"originalProperty": "m_rRequirements",
+						"originalEntity": "940b9e8117965fc9"
+					}
+				],
+				"MayLeaveConditions": [
+					{
+						"originalProperty": "MayLeaveConditions",
+						"originalEntity": "940b9e8117965fc9"
+					}
+				]
+			},
+			"exposedEntities": {
+				"IsInUse": {
+					"isArray": false,
+					"refersTo": [
+						{
+							"ref": "940b9e8117965fc9",
+							"externalScene": null,
+							"exposedEntity": "IsInUse"
+						}
+					]
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "[assembly:/localization/hitman6/conversations/ui/pro/setpieces.sweetmenutext?/setpieces_localization_prompt_cannotblendin.sweetline].pc_sweetline",
+			"flag": "5F"
+		}
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

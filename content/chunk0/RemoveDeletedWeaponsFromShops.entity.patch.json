@@ -1,0 +1,243 @@
+{
+	"tempHash": "00A7DE3CC5CD9068",
+	"tbluHash": "00682B75FB1563E4",
+	"patch": [
+		{ "RemoveEntityByID": "8bb3001a678ba139" },
+		{ "RemoveEntityByID": "c53d08db39ba6720" },
+		{ "RemoveEntityByID": "b4d8e965b7e09047" },
+		{ "RemoveEntityByID": "73b39ab1591d819e" },
+		{ "RemoveEntityByID": "e747598cb64a5222" },
+		{ "RemoveEntityByID": "103b7cf74fc883e9" },
+		{ "RemoveEntityByID": "f2cf60ce7d86c086" },
+		{ "RemoveEntityByID": "b85dfbad9fd5341e" },
+		{ "RemoveEntityByID": "213501d0c11b3cb0" },
+		{ "RemoveEntityByID": "a00cb5e254c6ef12" },
+		{ "RemoveEntityByID": "035543efdd0374d6" },
+		{ "RemoveEntityByID": "541605f9e9419744" },
+		{ "RemoveEntityByID": "190e91aea48a0730" },
+		{ "RemoveEntityByID": "d4b7991e8d16b52a" },
+		{ "RemoveEntityByID": "23106bddabab5168" },
+		{ "RemoveEntityByID": "a220ba4775704592" },
+		{ "RemoveEntityByID": "0b706c38cff803be" },
+		{ "RemoveEntityByID": "677ed4e8cc712ebf" },
+		{ "RemoveEntityByID": "53e73dbef920974e" },
+		{ "RemoveEntityByID": "917cc2292511b5cc" },
+		{ "RemoveEntityByID": "385ee603afabf981" },
+		{ "RemoveEntityByID": "f880273a94625715" },
+		{ "RemoveEntityByID": "c7d4195dd67c899f" },
+		{ "RemoveEntityByID": "24ad013e91af13f3" },
+		{ "RemoveEntityByID": "52914352f7cd0dc4" },
+		{ "RemoveEntityByID": "31d267aac936128c" },
+		{ "RemoveEntityByID": "26ff2ec53d1fcdbb" },
+		{ "RemoveEntityByID": "eef718c89cf1d256" },
+		{ "RemoveEntityByID": "e8fbd18d07fa3fa3" },
+		{ "RemoveEntityByID": "58390075ff601c32" },
+		{
+			"SubEntityOperation": [
+				"4c938898b9b64483",
+				{
+					"PatchArrayPropertyValue": [
+						"m_entries",
+						[
+							{ "RemoveItemByValue": "b4d8e965b7e09047" },
+							{ "RemoveItemByValue": "eef718c89cf1d256" },
+							{ "RemoveItemByValue": "58390075ff601c32" },
+							{ "RemoveItemByValue": "52914352f7cd0dc4" },
+							{ "RemoveItemByValue": "213501d0c11b3cb0" },
+							{ "RemoveItemByValue": "23106bddabab5168" },
+							{ "RemoveItemByValue": "d4b7991e8d16b52a" },
+							{ "RemoveItemByValue": "677ed4e8cc712ebf" },
+							{ "RemoveItemByValue": "c7d4195dd67c899f" },
+							{ "RemoveItemByValue": "f2cf60ce7d86c086" },
+							{ "RemoveItemByValue": "917cc2292511b5cc" },
+							{ "RemoveItemByValue": "b85dfbad9fd5341e" },
+							{ "RemoveItemByValue": "035543efdd0374d6" },
+							{ "RemoveItemByValue": "c53d08db39ba6720" },
+							{ "RemoveItemByValue": "f880273a94625715" },
+							{ "RemoveItemByValue": "e8fbd18d07fa3fa3" },
+							{ "RemoveItemByValue": "a00cb5e254c6ef12" },
+							{ "RemoveItemByValue": "26ff2ec53d1fcdbb" },
+							{ "RemoveItemByValue": "e747598cb64a5222" },
+							{ "RemoveItemByValue": "73b39ab1591d819e" },
+							{ "RemoveItemByValue": "541605f9e9419744" },
+							{ "RemoveItemByValue": "a220ba4775704592" },
+							{ "RemoveItemByValue": "8bb3001a678ba139" },
+							{ "RemoveItemByValue": "53e73dbef920974e" },
+							{ "RemoveItemByValue": "0b706c38cff803be" },
+							{ "RemoveItemByValue": "24ad013e91af13f3" },
+							{ "RemoveItemByValue": "103b7cf74fc883e9" },
+							{ "RemoveItemByValue": "31d267aac936128c" },
+							{ "RemoveItemByValue": "190e91aea48a0730" },
+							{ "RemoveItemByValue": "385ee603afabf981" }
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"468b90560118a9e7",
+				{
+					"PatchArrayPropertyValue": [
+						"m_entries",
+						[
+							{ "RemoveItemByValue": "b4d8e965b7e09047" },
+							{ "RemoveItemByValue": "eef718c89cf1d256" },
+							{ "RemoveItemByValue": "58390075ff601c32" },
+							{ "RemoveItemByValue": "52914352f7cd0dc4" },
+							{ "RemoveItemByValue": "213501d0c11b3cb0" },
+							{ "RemoveItemByValue": "23106bddabab5168" },
+							{ "RemoveItemByValue": "d4b7991e8d16b52a" },
+							{ "RemoveItemByValue": "677ed4e8cc712ebf" },
+							{ "RemoveItemByValue": "c7d4195dd67c899f" },
+							{ "RemoveItemByValue": "f2cf60ce7d86c086" },
+							{ "RemoveItemByValue": "917cc2292511b5cc" },
+							{ "RemoveItemByValue": "b85dfbad9fd5341e" },
+							{ "RemoveItemByValue": "035543efdd0374d6" },
+							{ "RemoveItemByValue": "c53d08db39ba6720" },
+							{ "RemoveItemByValue": "f880273a94625715" },
+							{ "RemoveItemByValue": "e8fbd18d07fa3fa3" },
+							{ "RemoveItemByValue": "a00cb5e254c6ef12" },
+							{ "RemoveItemByValue": "26ff2ec53d1fcdbb" },
+							{ "RemoveItemByValue": "e747598cb64a5222" },
+							{ "RemoveItemByValue": "73b39ab1591d819e" },
+							{ "RemoveItemByValue": "541605f9e9419744" },
+							{ "RemoveItemByValue": "a220ba4775704592" },
+							{ "RemoveItemByValue": "8bb3001a678ba139" },
+							{ "RemoveItemByValue": "53e73dbef920974e" },
+							{ "RemoveItemByValue": "0b706c38cff803be" },
+							{ "RemoveItemByValue": "24ad013e91af13f3" },
+							{ "RemoveItemByValue": "103b7cf74fc883e9" },
+							{ "RemoveItemByValue": "31d267aac936128c" },
+							{ "RemoveItemByValue": "190e91aea48a0730" },
+							{ "RemoveItemByValue": "385ee603afabf981" }
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5896768ecf13e551",
+				{
+					"PatchArrayPropertyValue": [
+						"m_Choices",
+						[
+							{ "RemoveItemByValue": "541605f9e9419744" },
+							{ "RemoveItemByValue": "a220ba4775704592" },
+							{ "RemoveItemByValue": "8bb3001a678ba139" },
+							{ "RemoveItemByValue": "53e73dbef920974e" },
+							{ "RemoveItemByValue": "0b706c38cff803be" }
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3c4c36b15e937673",
+				{
+					"PatchArrayPropertyValue": [
+						"m_Choices",
+						[
+							{ "RemoveItemByValue": "d4b7991e8d16b52a" },
+							{ "RemoveItemByValue": "c7d4195dd67c899f" },
+							{ "RemoveItemByValue": "677ed4e8cc712ebf" },
+							{ "RemoveItemByValue": "23106bddabab5168" }
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ef3e25baa8cd87cb",
+				{
+					"PatchArrayPropertyValue": [
+						"m_Choices",
+						[
+							{ "RemoveItemByValue": "24ad013e91af13f3" },
+							{ "RemoveItemByValue": "103b7cf74fc883e9" },
+							{ "RemoveItemByValue": "31d267aac936128c" },
+							{ "RemoveItemByValue": "190e91aea48a0730" },
+							{ "RemoveItemByValue": "385ee603afabf981" }
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"24201011b4f6b949",
+				{
+					"PatchArrayPropertyValue": [
+						"m_Choices",
+						[{ "RemoveItemByValue": "f2cf60ce7d86c086" }]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ffdc469af6b2b204",
+				{
+					"PatchArrayPropertyValue": [
+						"m_Choices",
+						[
+							{ "RemoveItemByValue": "c53d08db39ba6720" },
+							{ "RemoveItemByValue": "f880273a94625715" },
+							{ "RemoveItemByValue": "035543efdd0374d6" },
+							{ "RemoveItemByValue": "917cc2292511b5cc" },
+							{ "RemoveItemByValue": "b85dfbad9fd5341e" }
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"61a91180c26ad7c4",
+				{
+					"PatchArrayPropertyValue": [
+						"m_Choices",
+						[
+							{ "RemoveItemByValue": "52914352f7cd0dc4" },
+							{ "RemoveItemByValue": "58390075ff601c32" },
+							{ "RemoveItemByValue": "eef718c89cf1d256" },
+							{ "RemoveItemByValue": "b4d8e965b7e09047" }
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"caa8cad263c86412",
+				{
+					"PatchArrayPropertyValue": [
+						"m_Choices",
+						[{ "RemoveItemByValue": "213501d0c11b3cb0" }]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d7fdd9142b0d3725",
+				{
+					"PatchArrayPropertyValue": [
+						"m_Choices",
+						[
+							{ "RemoveItemByValue": "e8fbd18d07fa3fa3" },
+							{ "RemoveItemByValue": "a00cb5e254c6ef12" },
+							{ "RemoveItemByValue": "26ff2ec53d1fcdbb" },
+							{ "RemoveItemByValue": "e747598cb64a5222" },
+							{ "RemoveItemByValue": "73b39ab1591d819e" }
+						]
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

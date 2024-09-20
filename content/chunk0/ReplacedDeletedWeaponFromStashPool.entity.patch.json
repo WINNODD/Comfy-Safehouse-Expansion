@@ -1,0 +1,47 @@
+{
+	"tempHash": "00100757521CC642",
+	"tbluHash": "00512EC270635802",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"e7d54724e88e1c8e",
+				{
+					"SetName": "Helper_Evergreen_SelectableItem_ICA19FAStealth"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e7d54724e88e1c8e",
+				{ "SetFactory": "00E0B8F75B2D2B4F" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e7d54724e88e1c8e",
+				{ "SetBlueprint": "00CC072F1100A1B3" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e375347aa9c4ee6c",
+				{
+					"SetName": "Helper_Evergreen_SelectableItem_ICA19BlackTrinity"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e375347aa9c4ee6c",
+				{ "SetFactory": "005B19B8C6CEAD09" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e375347aa9c4ee6c",
+				{ "SetBlueprint": "00818656CD7E57FC" }
+			]
+		}
+	],
+	"patchVersion": 6
+}

@@ -1,0 +1,387 @@
+{
+	"tempHash": "00D328E16C14E7F8",
+	"tbluHash": "006EDD3D4AEE6D1D",
+	"rootEntity": "0eedb9279cb639fb",
+	"entities": {
+		"abcf028c9c81f840": {
+			"parent": "0eedb9279cb639fb",
+			"name": "Part_Lenses",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/santa/geometry/male_reg_santa.wl2?/glasses_01.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"608d477547b079fe": {
+			"parent": "0eedb9279cb639fb",
+			"name": "Part_Shirt",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/santa/geometry/male_reg_santa.wl2?/cloth_up.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"c864c095488542a9": {
+			"parent": "0eedb9279cb639fb",
+			"name": "Part_Shoes",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/santa/geometry/male_reg_santa.wl2?/boots.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"bd6b9b9f64a5bcc4": {
+			"parent": "0eedb9279cb639fb",
+			"name": "Head_AgentSmith",
+			"factory": "00A6077F02091F57",
+			"blueprint": "00CD99E4F087EA20",
+			"properties": {
+				"ConstantColorRGB_02_Value_1": {
+					"type": "SColorRGB",
+					"value": "#523818"
+				},
+				"ConstantColorRGB_02_Value_2": {
+					"type": "SColorRGB",
+					"value": "#523818"
+				}
+			}
+		},
+		"ea7286584719b6f3": {
+			"parent": "0eedb9279cb639fb",
+			"name": "Santa_Collider",
+			"factory": "00B1FA8F7C809191",
+			"blueprint": "00FAF3030B1623C5",
+			"properties": {
+				"m_linkedEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "0eedb9279cb639fb",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "0eedb9279cb639fb",
+					"postInit": true
+				}
+			}
+		},
+		"b3668697ff4d0244": {
+			"parent": "0eedb9279cb639fb",
+			"name": "Part_Beard",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/santa/geometry/male_reg_santa.wl2?/beard.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"a8ec1c46a9f02b70": {
+			"parent": "0eedb9279cb639fb",
+			"name": "Part_Gloves",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/santa/geometry/male_reg_santa.wl2?/gloves.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"3f2de5012612e24e": {
+			"parent": "0eedb9279cb639fb",
+			"name": "Part_Hat",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/santa/geometry/male_reg_santa.wl2?/hat.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cf98a363252007a2": {
+			"parent": "0eedb9279cb639fb",
+			"name": "Part_Glasses",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/santa/geometry/male_reg_santa.wl2?/glasses.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"722f961b18e49b55": {
+			"parent": "0eedb9279cb639fb",
+			"name": "Part_Belt",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/santa/geometry/male_reg_santa.wl2?/belt.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"996351de8a01594a": {
+			"parent": "0eedb9279cb639fb",
+			"name": "Part_Pants",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/santa/geometry/male_reg_santa.wl2?/trousers.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"0eedb9279cb639fb": {
+			"parent": null,
+			"name": "OUTFIT_Vanilla_Unique_AgentSmith_M_Actor_v0",
+			"factory": "00EC23CD5ED3321D",
+			"blueprint": "00F08545F4143973",
+			"properties": {
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				},
+				"m_fLODScale": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -8.75443172454834,
+							"y": -0.06548400223255157,
+							"z": 0
+						}
+					}
+				},
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0017416135CF879C",
+						"flag": "5F"
+					}
+				},
+				"m_bUsePerVertexStiffness": {
+					"type": "bool",
+					"value": false
+				},
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"ea7286584719b6f3"
+					]
+				},
+				"m_bGlobalCollidersEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bUsePerVertexDamping": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bUseSkinningPosNormalConstrains": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bUseSkinningNegNormalConstrains": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fLODOffset": {
+					"type": "float32",
+					"value": 100
+				},
+				"m_bLimitTranslation": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fDamping": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"m_fWindConstant": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_eRootBone": {
+					"type": "BoneId.Enum",
+					"value": "PELVIS"
+				},
+				"m_bEnableAngularVelocityScale": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eBendConstrainType": {
+					"type": "EClothBendConstrainType",
+					"value": "eClothBendConstrainType_Stick"
+				},
+				"m_fBendStiffness": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"m_fShearStiffness": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"m_fFrequency": {
+					"type": "float32",
+					"value": 60
+				},
+				"m_nIterations": {
+					"type": "uint32",
+					"value": 2
+				},
+				"m_eStretchConstrainType": {
+					"type": "EClothStretchConstrainType",
+					"value": "eClothBendConstrainType_None"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"40bb3a5df2fbd1d1",
+						"a8ec1c46a9f02b70",
+						"3f2de5012612e24e",
+						"722f961b18e49b55",
+						"996351de8a01594a",
+						"608d477547b079fe",
+						"c864c095488542a9",
+						"b3668697ff4d0244",
+						"bd6b9b9f64a5bcc4",
+						"cf98a363252007a2",
+						"abcf028c9c81f840"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"40bb3a5df2fbd1d1": {
+			"parent": "0eedb9279cb639fb",
+			"name": "Part_Apron",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/santa/geometry/male_reg_santa.wl2?/cloth_down.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"feed65d8c2ff140a": {
+			"parent": "0eedb9279cb639fb",
+			"name": "base_male_eyeball",
+			"factory": "[assembly:/_pro/characters/assets/_base/pro_male_regular/materials/base_male_eyeball.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/_base/pro_male_regular/materials/base_male_eyeball.mi].pc_entityblueprint",
+			"properties": {
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"0eedb9279cb639fb"
+					]
+				},
+				"Texture2D_01_enab": {
+					"type": "bool",
+					"value": true
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/_base/pro_male_regular/textures/base_male_eyes.texture?/diffuse_green.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"EyeShader_01_IrisBrightness_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"EyeShader_01_IrisBrightness": {
+					"type": "float32",
+					"value": 0.4399999976158142
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "0eedb9279cb639fb"
+				}
+			}
+		}
+	},
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+
+	],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
+}
