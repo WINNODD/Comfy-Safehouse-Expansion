@@ -1,7 +1,8 @@
 {
     "id": "WINNODD.Y1DLCWeaponsForFreelancer",
     "name": "Comfy Safehouse Expansion",
-    "description": "Feeling lonely in your safehouse? This mod adds over 10 NPCs, including old friends and new faces! Plus, there are 60+ collectible weapons on the gear shelf and two crates of P2W weapons in the mission center. Collect all the weapons to unlock a special reward! Check out the Nexus mod page for more details!",
+    "updateCheck": "https://raw.githubusercontent.com/WINNODD/updater-comfy-safehouse-expansion/refs/heads/main/updater.json",
+	"description": "Feeling lonely in your safehouse? This mod adds over 10 NPCs, including old friends and new faces! Plus, there are 60+ collectible weapons on the gear shelf and two crates of P2W weapons in the mission center. Collect all the weapons to unlock a special reward! Check out the Nexus mod page for more details!",
     "authors": [
         "WINNODD"
     ],
