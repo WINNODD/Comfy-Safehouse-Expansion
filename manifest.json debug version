@@ -1,7 +1,7 @@
 {
 	"id": "WINNODD.Y1DLCWeaponsForFreelancer",
 	"name": "Comfy Safehouse Expansion",
-	"updateCheck": "https://raw.githubusercontent.com/WINNODD/updater-comfy-safehouse-expansion/refs/heads/main/updater.json",
+	"updateCheck": "https://raw.githubusercontent.com/WINNODD/updater-comfy-safehouse-expansion/refs/heads/main/updater-comfy-safehouse-expansion.json",
 	"description": "",
 	"authors": [
 		"WINNODD"
