@@ -2847,6 +2847,10 @@
 			"factory": "0065C766B156793F",
 			"blueprint": "0013B44A023B3A0B",
 			"properties": {
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
 				"m_Choices": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
@@ -3073,6 +3077,10 @@
 			"factory": "0065C766B156793F",
 			"blueprint": "0013B44A023B3A0B",
 			"properties": {
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
 				"m_Choices": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
@@ -3172,6 +3180,10 @@
 			"factory": "0065C766B156793F",
 			"blueprint": "0013B44A023B3A0B",
 			"properties": {
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
 				"m_Choices": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
@@ -3206,6 +3218,10 @@
 			"factory": "0065C766B156793F",
 			"blueprint": "0013B44A023B3A0B",
 			"properties": {
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
 				"m_Choices": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
