@@ -300,6 +300,11 @@
 					}
 				},
 				"m_fActTimeout": { "type": "float32", "value": -1 },
+				"m_bAlignPosition": { "type": "bool", "value": true },
+				"m_AlignRotation": {
+					"type": "ZActBehaviorEntity.ERotationAlignment",
+					"value": "RA_EXACT"
+				},
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "db190f68728010b5",
