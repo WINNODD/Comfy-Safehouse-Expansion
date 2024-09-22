@@ -24,7 +24,7 @@
 		},
 		"50c06ce433715ac9": {
 			"parent": "e8ed008afe470277",
-			"name": "CIVMALE07",
+			"name": "DumbassEntity",
 			"factory": "[modules:/zvoicevariationcomparatorentity.class].pc_entitytype",
 			"blueprint": "[modules:/zvoicevariationcomparatorentity.class].pc_entityblueprint",
 			"properties": {
@@ -39,7 +39,7 @@
 				}
 			},
 			"events": {
-				"OnFalse": { "PollActor": ["0660acc2d344d15f"] },
+				"OnFalse": { "Start": ["a1b6f69c939a5477"] },
 				"OnTrue": { "Start": ["a1b6f69c939a5477"] }
 			}
 		},
@@ -122,27 +122,6 @@
 			},
 			"events": { "OnFalse": { "SetTrue": ["8901d5367c8ce9c0"] } }
 		},
-		"a506a25526beebca": {
-			"parent": "e8ed008afe470277",
-			"name": "CIVMALE09",
-			"factory": "[modules:/zvoicevariationcomparatorentity.class].pc_entitytype",
-			"blueprint": "[modules:/zvoicevariationcomparatorentity.class].pc_entityblueprint",
-			"properties": {
-				"m_VoiceVariation": {
-					"type": "EActorVoiceVariation",
-					"value": "eAVV_CIVMALE09"
-				},
-				"m_rActor": {
-					"type": "SEntityTemplateReference",
-					"value": "5190a9d8936ee48e",
-					"postInit": true
-				}
-			},
-			"events": {
-				"OnFalse": { "PollActor": ["31cc9ba0a0ebf2d8"] },
-				"OnTrue": { "Start": ["692cf019b9fa2891"] }
-			}
-		},
 		"3dd8b4a7fa4aec8b": {
 			"parent": "c8e36d4105f5548d",
 			"name": "TimerConditional",
@@ -160,7 +139,7 @@
 		},
 		"2750fccb920bc250": {
 			"parent": "ab82851bbb7bb234",
-			"name": "CIVMALE07",
+			"name": "DumbassEntity",
 			"factory": "[modules:/zvoicevariationcomparatorentity.class].pc_entitytype",
 			"blueprint": "[modules:/zvoicevariationcomparatorentity.class].pc_entityblueprint",
 			"properties": {
@@ -175,7 +154,7 @@
 				}
 			},
 			"events": {
-				"OnFalse": { "PollActor": ["ea26f275132b8669"] },
+				"OnFalse": { "Start": ["d2799ca37208e18d"] },
 				"OnTrue": { "Start": ["d2799ca37208e18d"] }
 			}
 		},
@@ -228,27 +207,6 @@
 				}
 			}
 		},
-		"a6771deb1e90f686": {
-			"parent": "ab82851bbb7bb234",
-			"name": "AOL_ev077_supbye_civfem09",
-			"factory": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_pAudioEvent": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00201D2B8BF75057",
-						"flag": "5F"
-					}
-				},
-				"m_rActor": {
-					"type": "SEntityTemplateReference",
-					"value": "bc638b7a93d49c3c",
-					"postInit": true
-				}
-			},
-			"events": { "Completed": { "Done": ["eb77b4bb58666bb4"] } }
-		},
 		"30421326019e4e2f": {
 			"parent": "aa6b31cb3e12bdfc",
 			"name": "Crippling",
@@ -285,48 +243,6 @@
 					},
 					"postInit": true
 				}
-			}
-		},
-		"e65bfec95b203a99": {
-			"parent": "e8ed008afe470277",
-			"name": "AOL_ev071_supplier_civfem09",
-			"factory": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_pAudioEvent": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "003F826BB1B32C36",
-						"flag": "5F"
-					}
-				},
-				"m_rActor": {
-					"type": "SEntityTemplateReference",
-					"value": "5190a9d8936ee48e",
-					"postInit": true
-				}
-			},
-			"events": { "Completed": { "Done": ["e02786d38a166e8e"] } }
-		},
-		"4cd73c6542463935": {
-			"parent": "e8ed008afe470277",
-			"name": "CIVFEM10",
-			"factory": "[modules:/zvoicevariationcomparatorentity.class].pc_entitytype",
-			"blueprint": "[modules:/zvoicevariationcomparatorentity.class].pc_entityblueprint",
-			"properties": {
-				"m_VoiceVariation": {
-					"type": "EActorVoiceVariation",
-					"value": "eAVV_CIVFEM10"
-				},
-				"m_rActor": {
-					"type": "SEntityTemplateReference",
-					"value": "5190a9d8936ee48e",
-					"postInit": true
-				}
-			},
-			"events": {
-				"OnTrue": { "Start": ["d0b78e02f86c1771"] },
-				"OnFalse": { "Get": ["7e7ab7e60c6a2cac"] }
 			}
 		},
 		"5190a9d8936ee48e": {
@@ -421,52 +337,11 @@
 			},
 			"events": { "OnStart": { "PollActor": ["2750fccb920bc250"] } }
 		},
-		"d85cf1c603cf937d": {
-			"parent": "ab82851bbb7bb234",
-			"name": "AOL_ev078_supbye_civfem10",
-			"factory": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_pAudioEvent": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00201D2B8BF75057",
-						"flag": "5F"
-					}
-				},
-				"m_rActor": {
-					"type": "SEntityTemplateReference",
-					"value": "bc638b7a93d49c3c",
-					"postInit": true
-				}
-			},
-			"events": { "Completed": { "Done": ["eb77b4bb58666bb4"] } }
-		},
 		"5dc5a744b4ca29cd": {
 			"parent": "30421326019e4e2f",
 			"name": "HeroInventoryAction",
 			"factory": "[modules:/zheroinventoryaction.class].pc_entitytype",
 			"blueprint": "[modules:/zheroinventoryaction.class].pc_entityblueprint"
-		},
-		"55ace592096144e1": {
-			"parent": "e8ed008afe470277",
-			"name": "AOL_ev068_supplier_civmale08",
-			"factory": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_pAudioEvent": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "003F826BB1B32C36",
-						"flag": "5F"
-					}
-				},
-				"m_rActor": {
-					"type": "SEntityTemplateReference",
-					"value": "5190a9d8936ee48e"
-				}
-			},
-			"events": { "Completed": { "Done": ["e02786d38a166e8e"] } }
 		},
 		"6812e39c6b2b44fd": {
 			"parent": "5412ff56abd7c859",
@@ -534,63 +409,6 @@
 			},
 			"events": { "Completed": { "Done": ["eb77b4bb58666bb4"] } }
 		},
-		"7e7ab7e60c6a2cac": {
-			"parent": "e8ed008afe470277",
-			"name": "Fallback",
-			"factory": "[modules:/zactogendercondition.class].pc_entitytype",
-			"blueprint": "[modules:/zactogendercondition.class].pc_entityblueprint",
-			"properties": {
-				"m_rActor": {
-					"type": "SEntityTemplateReference",
-					"value": "5190a9d8936ee48e"
-				}
-			},
-			"events": {
-				"OnTrue": { "Start": ["a1b6f69c939a5477"] },
-				"OnFalse": { "Start": ["36bde44d118f691d"] }
-			}
-		},
-		"36bde44d118f691d": {
-			"parent": "e8ed008afe470277",
-			"name": "AOL_ev070_supplier_civfem06",
-			"factory": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_pAudioEvent": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "003F826BB1B32C36",
-						"flag": "5F"
-					}
-				},
-				"m_rActor": {
-					"type": "SEntityTemplateReference",
-					"value": "5190a9d8936ee48e"
-				}
-			},
-			"events": { "Completed": { "Done": ["e02786d38a166e8e"] } }
-		},
-		"94792a7a262f8ccf": {
-			"parent": "ab82851bbb7bb234",
-			"name": "CIVFEM06",
-			"factory": "[modules:/zvoicevariationcomparatorentity.class].pc_entitytype",
-			"blueprint": "[modules:/zvoicevariationcomparatorentity.class].pc_entityblueprint",
-			"properties": {
-				"m_VoiceVariation": {
-					"type": "EActorVoiceVariation",
-					"value": "eAVV_CIVFEM06"
-				},
-				"m_rActor": {
-					"type": "SEntityTemplateReference",
-					"value": "bc638b7a93d49c3c",
-					"postInit": true
-				}
-			},
-			"events": {
-				"OnFalse": { "PollActor": ["b5035acf982ba25b"] },
-				"OnTrue": { "Start": ["05fb06d0c59a5b40"] }
-			}
-		},
 		"41ebf7da505cdb1f": {
 			"parent": "ea274d3b30db53bd",
 			"name": "Vendor wants to say goodbye",
@@ -644,27 +462,6 @@
 				}
 			}
 		},
-		"b5035acf982ba25b": {
-			"parent": "ab82851bbb7bb234",
-			"name": "CIVFEM09",
-			"factory": "[modules:/zvoicevariationcomparatorentity.class].pc_entitytype",
-			"blueprint": "[modules:/zvoicevariationcomparatorentity.class].pc_entityblueprint",
-			"properties": {
-				"m_VoiceVariation": {
-					"type": "EActorVoiceVariation",
-					"value": "eAVV_CIVFEM09"
-				},
-				"m_rActor": {
-					"type": "SEntityTemplateReference",
-					"value": "bc638b7a93d49c3c",
-					"postInit": true
-				}
-			},
-			"events": {
-				"OnFalse": { "PollActor": ["0755ce3fae50d9f2"] },
-				"OnTrue": { "Start": ["a6771deb1e90f686"] }
-			}
-		},
 		"b190fbaa93fecc39": {
 			"parent": "c8e36d4105f5548d",
 			"name": "DramaSituationProxy",
@@ -701,27 +498,6 @@
 			},
 			"events": { "OnDone": { "Disable": ["ea274d3b30db53bd"] } }
 		},
-		"05fb06d0c59a5b40": {
-			"parent": "ab82851bbb7bb234",
-			"name": "AOL_ev076_supbye_civfem06",
-			"factory": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_pAudioEvent": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00201D2B8BF75057",
-						"flag": "5F"
-					}
-				},
-				"m_rActor": {
-					"type": "SEntityTemplateReference",
-					"value": "bc638b7a93d49c3c",
-					"postInit": true
-				}
-			},
-			"events": { "Completed": { "Done": ["eb77b4bb58666bb4"] } }
-		},
 		"6ddeedf735bdc0ba": {
 			"parent": "6fa6ab3f3153c20d",
 			"name": "Vendor is not saying goodbye",
@@ -736,27 +512,6 @@
 						"exposedEntity": "Playing"
 					}
 				}
-			}
-		},
-		"d09e256017014757": {
-			"parent": "ab82851bbb7bb234",
-			"name": "CIVMALE09",
-			"factory": "[modules:/zvoicevariationcomparatorentity.class].pc_entitytype",
-			"blueprint": "[modules:/zvoicevariationcomparatorentity.class].pc_entityblueprint",
-			"properties": {
-				"m_VoiceVariation": {
-					"type": "EActorVoiceVariation",
-					"value": "eAVV_CIVMALE09"
-				},
-				"m_rActor": {
-					"type": "SEntityTemplateReference",
-					"value": "bc638b7a93d49c3c",
-					"postInit": true
-				}
-			},
-			"events": {
-				"OnFalse": { "PollActor": ["94792a7a262f8ccf"] },
-				"OnTrue": { "Start": ["731e3209a76067e8"] }
 			}
 		},
 		"bc638b7a93d49c3c": {
@@ -844,26 +599,6 @@
 					"value": false
 				},
 				"m_bCameraSide": { "type": "bool", "value": false }
-			}
-		},
-		"ea26f275132b8669": {
-			"parent": "ab82851bbb7bb234",
-			"name": "CIVMALE08",
-			"factory": "[modules:/zvoicevariationcomparatorentity.class].pc_entitytype",
-			"blueprint": "[modules:/zvoicevariationcomparatorentity.class].pc_entityblueprint",
-			"properties": {
-				"m_rActor": {
-					"type": "SEntityTemplateReference",
-					"value": "bc638b7a93d49c3c"
-				},
-				"m_VoiceVariation": {
-					"type": "EActorVoiceVariation",
-					"value": "eAVV_CIVMALE08"
-				}
-			},
-			"events": {
-				"OnFalse": { "PollActor": ["d09e256017014757"] },
-				"OnTrue": { "Start": ["058360610f16d67c"] }
 			}
 		},
 		"a4cec84e36f694c0": {
@@ -975,26 +710,6 @@
 				}
 			}
 		},
-		"692cf019b9fa2891": {
-			"parent": "e8ed008afe470277",
-			"name": "AOL_ev069_supplier_civmale09",
-			"factory": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_pAudioEvent": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "003F826BB1B32C36",
-						"flag": "5F"
-					}
-				},
-				"m_rActor": {
-					"type": "SEntityTemplateReference",
-					"value": "5190a9d8936ee48e"
-				}
-			},
-			"events": { "Completed": { "Done": ["e02786d38a166e8e"] } }
-		},
 		"e8ed008afe470277": {
 			"parent": "aa6b31cb3e12bdfc",
 			"name": "Say hello",
@@ -1104,26 +819,6 @@
 				"Timeout": { "type": "int32", "value": 2000 }
 			}
 		},
-		"0660acc2d344d15f": {
-			"parent": "e8ed008afe470277",
-			"name": "CIVMALE08",
-			"factory": "[modules:/zvoicevariationcomparatorentity.class].pc_entitytype",
-			"blueprint": "[modules:/zvoicevariationcomparatorentity.class].pc_entityblueprint",
-			"properties": {
-				"m_rActor": {
-					"type": "SEntityTemplateReference",
-					"value": "5190a9d8936ee48e"
-				},
-				"m_VoiceVariation": {
-					"type": "EActorVoiceVariation",
-					"value": "eAVV_CIVMALE08"
-				}
-			},
-			"events": {
-				"OnFalse": { "PollActor": ["a506a25526beebca"] },
-				"OnTrue": { "Start": ["55ace592096144e1"] }
-			}
-		},
 		"acfaa45e4d661914": {
 			"parent": "c8e36d4105f5548d",
 			"name": "Vendor is not greeting",
@@ -1206,67 +901,11 @@
 				"Out": { "Triggered": ["aa6b31cb3e12bdfc"] }
 			}
 		},
-		"0755ce3fae50d9f2": {
-			"parent": "ab82851bbb7bb234",
-			"name": "CIVFEM10",
-			"factory": "[modules:/zvoicevariationcomparatorentity.class].pc_entitytype",
-			"blueprint": "[modules:/zvoicevariationcomparatorentity.class].pc_entityblueprint",
-			"properties": {
-				"m_rActor": {
-					"type": "SEntityTemplateReference",
-					"value": "bc638b7a93d49c3c"
-				},
-				"m_VoiceVariation": {
-					"type": "EActorVoiceVariation",
-					"value": "eAVV_CIVFEM10"
-				}
-			},
-			"events": {
-				"OnTrue": { "Start": ["d85cf1c603cf937d"] },
-				"OnFalse": { "Get": ["d8be678e8e50d37d"] }
-			}
-		},
-		"d8be678e8e50d37d": {
-			"parent": "ab82851bbb7bb234",
-			"name": "Fallback",
-			"factory": "[modules:/zactogendercondition.class].pc_entitytype",
-			"blueprint": "[modules:/zactogendercondition.class].pc_entityblueprint",
-			"properties": {
-				"m_rActor": {
-					"type": "SEntityTemplateReference",
-					"value": "bc638b7a93d49c3c"
-				}
-			},
-			"events": {
-				"OnTrue": { "Start": ["d2799ca37208e18d"] },
-				"OnFalse": { "Start": ["05fb06d0c59a5b40"] }
-			}
-		},
 		"cdbcc86127940763": {
 			"parent": "aa6b31cb3e12bdfc",
 			"name": "47_isInteracting",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
-		},
-		"d0b78e02f86c1771": {
-			"parent": "e8ed008afe470277",
-			"name": "AOL_ev072_supplier_civfem10",
-			"factory": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_pAudioEvent": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "003F826BB1B32C36",
-						"flag": "5F"
-					}
-				},
-				"m_rActor": {
-					"type": "SEntityTemplateReference",
-					"value": "5190a9d8936ee48e"
-				}
-			},
-			"events": { "Completed": { "Done": ["e02786d38a166e8e"] } }
 		},
 		"5412ff56abd7c859": {
 			"parent": "aa6b31cb3e12bdfc",
@@ -1284,86 +923,6 @@
 					"postInit": true
 				}
 			}
-		},
-		"58221e0a746ab988": {
-			"parent": "e8ed008afe470277",
-			"name": "CIVFEM09",
-			"factory": "[modules:/zvoicevariationcomparatorentity.class].pc_entitytype",
-			"blueprint": "[modules:/zvoicevariationcomparatorentity.class].pc_entityblueprint",
-			"properties": {
-				"m_rActor": {
-					"type": "SEntityTemplateReference",
-					"value": "5190a9d8936ee48e"
-				},
-				"m_VoiceVariation": {
-					"type": "EActorVoiceVariation",
-					"value": "eAVV_CIVFEM09"
-				}
-			},
-			"events": {
-				"OnFalse": { "PollActor": ["4cd73c6542463935"] },
-				"OnTrue": { "Start": ["e65bfec95b203a99"] }
-			}
-		},
-		"058360610f16d67c": {
-			"parent": "ab82851bbb7bb234",
-			"name": "AOL_ev074_supbye_civmale08",
-			"factory": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_pAudioEvent": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00201D2B8BF75057",
-						"flag": "5F"
-					}
-				},
-				"m_rActor": {
-					"type": "SEntityTemplateReference",
-					"value": "bc638b7a93d49c3c"
-				}
-			},
-			"events": { "Completed": { "Done": ["eb77b4bb58666bb4"] } }
-		},
-		"31cc9ba0a0ebf2d8": {
-			"parent": "e8ed008afe470277",
-			"name": "CIVFEM06",
-			"factory": "[modules:/zvoicevariationcomparatorentity.class].pc_entitytype",
-			"blueprint": "[modules:/zvoicevariationcomparatorentity.class].pc_entityblueprint",
-			"properties": {
-				"m_rActor": {
-					"type": "SEntityTemplateReference",
-					"value": "5190a9d8936ee48e"
-				},
-				"m_VoiceVariation": {
-					"type": "EActorVoiceVariation",
-					"value": "eAVV_CIVFEM06"
-				}
-			},
-			"events": {
-				"OnFalse": { "PollActor": ["58221e0a746ab988"] },
-				"OnTrue": { "Start": ["36bde44d118f691d"] }
-			}
-		},
-		"731e3209a76067e8": {
-			"parent": "ab82851bbb7bb234",
-			"name": "AOL_ev075_supbye_civmale09",
-			"factory": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_pAudioEvent": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00201D2B8BF75057",
-						"flag": "5F"
-					}
-				},
-				"m_rActor": {
-					"type": "SEntityTemplateReference",
-					"value": "bc638b7a93d49c3c"
-				}
-			},
-			"events": { "Completed": { "Done": ["eb77b4bb58666bb4"] } }
 		},
 		"e6cd42ef394c0f05": {
 			"parent": "aa6b31cb3e12bdfc",
@@ -1448,31 +1007,6 @@
 					"value": [
 						{
 							"ref": "a1b6f69c939a5477",
-							"externalScene": null,
-							"exposedEntity": "IsSpeaking"
-						},
-						{
-							"ref": "55ace592096144e1",
-							"externalScene": null,
-							"exposedEntity": "IsSpeaking"
-						},
-						{
-							"ref": "692cf019b9fa2891",
-							"externalScene": null,
-							"exposedEntity": "IsSpeaking"
-						},
-						{
-							"ref": "36bde44d118f691d",
-							"externalScene": null,
-							"exposedEntity": "IsSpeaking"
-						},
-						{
-							"ref": "e65bfec95b203a99",
-							"externalScene": null,
-							"exposedEntity": "IsSpeaking"
-						},
-						{
-							"ref": "d0b78e02f86c1771",
 							"externalScene": null,
 							"exposedEntity": "IsSpeaking"
 						}
