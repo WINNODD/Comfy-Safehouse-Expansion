@@ -12102,6 +12102,10 @@
 							"type": "bool",
 							"value": false
 						},
+						"m_bBlockDisguisePickup": {
+							"type": "bool",
+							"value": true
+						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "fffffffffffffffe",
@@ -12262,6 +12266,10 @@
 							"type": "bool",
 							"value": false
 						},
+						"m_bBlockDisguisePickup": {
+							"type": "bool",
+							"value": true
+						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "fffffffffffffffe",
@@ -12416,6 +12424,10 @@
 						"m_bStartEnabled": {
 							"type": "bool",
 							"value": false
+						},
+						"m_bBlockDisguisePickup": {
+							"type": "bool",
+							"value": true
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
@@ -12572,6 +12584,10 @@
 							"type": "bool",
 							"value": false
 						},
+						"m_bBlockDisguisePickup": {
+							"type": "bool",
+							"value": true
+						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "fffffffffffffffe",
@@ -12723,6 +12739,10 @@
 							"type": "bool",
 							"value": false
 						},
+						"m_bBlockDisguisePickup": {
+							"type": "bool",
+							"value": true
+						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "fffffffffffffffe",
@@ -12873,6 +12893,10 @@
 						"m_bStartEnabled": {
 							"type": "bool",
 							"value": false
+						},
+						"m_bBlockDisguisePickup": {
+							"type": "bool",
+							"value": true
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
@@ -13029,6 +13053,10 @@
 							"type": "bool",
 							"value": false
 						},
+						"m_bBlockDisguisePickup": {
+							"type": "bool",
+							"value": true
+						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "fffffffffffffffe",
@@ -13183,6 +13211,10 @@
 						"m_bStartEnabled": {
 							"type": "bool",
 							"value": false
+						},
+						"m_bBlockDisguisePickup": {
+							"type": "bool",
+							"value": true
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
@@ -13339,6 +13371,10 @@
 							"type": "bool",
 							"value": false
 						},
+						"m_bBlockDisguisePickup": {
+							"type": "bool",
+							"value": true
+						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "fffffffffffffffe",
@@ -13490,6 +13526,10 @@
 							"type": "bool",
 							"value": false
 						},
+						"m_bBlockDisguisePickup": {
+							"type": "bool",
+							"value": true
+						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "fffffffffffffffe",
@@ -13594,6 +13634,10 @@
 						"m_bStartEnabled": {
 							"type": "bool",
 							"value": false
+						},
+						"m_bBlockDisguisePickup": {
+							"type": "bool",
+							"value": true
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
@@ -13750,6 +13794,10 @@
 							"type": "bool",
 							"value": false
 						},
+						"m_bBlockDisguisePickup": {
+							"type": "bool",
+							"value": true
+						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "fffffffffffffffe",
@@ -13904,6 +13952,10 @@
 						"m_bStartEnabled": {
 							"type": "bool",
 							"value": false
+						},
+						"m_bBlockDisguisePickup": {
+							"type": "bool",
+							"value": true
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
@@ -14060,6 +14112,10 @@
 						"m_bStartEnabled": {
 							"type": "bool",
 							"value": false
+						},
+						"m_bBlockDisguisePickup": {
+							"type": "bool",
+							"value": true
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
