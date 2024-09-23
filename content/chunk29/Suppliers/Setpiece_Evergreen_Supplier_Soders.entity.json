@@ -163,9 +163,6 @@
 			"name": "EnableVendor",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_bFireOnLevelStart": { "type": "bool", "value": true }
-			},
 			"events": { "OnTrue": { "In": ["90cda015e3db1992"] } }
 		},
 		"f149809c3ed7a540": {
