@@ -11969,9 +11969,9 @@
 				"feede2a1ad33cb2a",
 				{
 					"parent": "feeda75649904273",
-					"name": "Helper_Evergreen_SupplierPackage_02_Diana",
-					"factory": "00F59AE650E2AD20",
-					"blueprint": "00ED485819A0FCBF",
+					"name": "Setpiece_Evergreen_Supplier_Diana",
+					"factory": "0052E8567791B13B",
+					"blueprint": "0049A0A0B3B86803",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -12124,9 +12124,9 @@
 				"feed4695696637cc",
 				{
 					"parent": "feeda75649904273",
-					"name": "Helper_Evergreen_SupplierPackage_01_Grey",
-					"factory": "0046190B780D0E65",
-					"blueprint": "00A71B1387A211C0",
+					"name": "Setpiece_Evergreen_Supplier_Grey",
+					"factory": "00ED2F42F63FBD12",
+					"blueprint": "00F89E5913671ED2",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -12288,9 +12288,9 @@
 				"feedddd5b584d1b7",
 				{
 					"parent": "feeda75649904273",
-					"name": "Helper_Evergreen_SupplierPackage_03_Olivia",
-					"factory": "003C0A8FFDA09F36",
-					"blueprint": "003DCF1BAE9C5D00",
+					"name": "Setpiece_Evergreen_Supplier_Olivia",
+					"factory": "0060D6534D1721C8",
+					"blueprint": "00D69D4A6FDA39FD",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -12447,9 +12447,9 @@
 				"feedd1fb8df36b24",
 				{
 					"parent": "feeda75649904273",
-					"name": "Helper_Evergreen_SupplierPackage_04_Constant",
-					"factory": "00F8716AAA073FF9",
-					"blueprint": "002F67878330BDFE",
+					"name": "Setpiece_Evergreen_Supplier_Constant",
+					"factory": "0081A277163662E9",
+					"blueprint": "00C20A98BE1FA492",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -12606,9 +12606,9 @@
 				"feed76942b4ab198",
 				{
 					"parent": "feeda75649904273",
-					"name": "Helper_Evergreen_SupplierPackage_05_Graves",
-					"factory": "006FDF6FBF5C744A",
-					"blueprint": "0042F3C45445BB53",
+					"name": "Setpiece_Evergreen_Supplier_Graves",
+					"factory": "004F95242F4C08F1",
+					"blueprint": "002807D94809E941",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -12761,9 +12761,9 @@
 				"feed6d0aee78ad5a",
 				{
 					"parent": "feeda75649904273",
-					"name": "Helper_Evergreen_SupplierPackage_06_Soders",
-					"factory": "000A62F3467E4E93",
-					"blueprint": "00F4FDEAB82EFEA5",
+					"name": "Setpiece_Evergreen_Supplier_Soders",
+					"factory": "00FA2F6BE3D25432",
+					"blueprint": "00F2CDA8029574DA",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -12916,9 +12916,9 @@
 				"feed612b3a6c21ca",
 				{
 					"parent": "feeda75649904273",
-					"name": "Helper_Evergreen_SupplierPackage_07_Rolf",
-					"factory": "0082EAE77E3644EA",
-					"blueprint": "00C66220E905DFFB",
+					"name": "Setpiece_Evergreen_Supplier_Rolf",
+					"factory": "00CCBAED885E6DF1",
+					"blueprint": "00FF3CBF365A1D26",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -13075,9 +13075,9 @@
 				"feed7567dcde4ba2",
 				{
 					"parent": "feeda75649904273",
-					"name": "Helper_Evergreen_SupplierPackage_08_Smith",
-					"factory": "00C2EBA43FC01C4C",
-					"blueprint": "00940F7DA5D0C086",
+					"name": "Setpiece_Evergreen_Supplier_Smith",
+					"factory": "00F412319CF847C0",
+					"blueprint": "00F9AE5609958D7F",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -13234,9 +13234,9 @@
 				"feedeaef9cb88c43",
 				{
 					"parent": "feeda75649904273",
-					"name": "Helper_Evergreen_SupplierPackage_09_Orson",
-					"factory": "00FEB2784466355B",
-					"blueprint": "00D3500BF0817329",
+					"name": "Setpiece_Evergreen_Supplier_Orson",
+					"factory": "009155D31D53146D",
+					"blueprint": "0072845433DA8FAA",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -13393,9 +13393,9 @@
 				"feed100d27a80ad3",
 				{
 					"parent": "feeda75649904273",
-					"name": "Helper_Evergreen_SupplierPackage_10_Knight",
-					"factory": "00388DB4FA47FABF",
-					"blueprint": "0044B1381E5714F7",
+					"name": "Setpiece_Evergreen_Supplier_Knight",
+					"factory": "00A2C9F23CDDECE7",
+					"blueprint": "002CC1BE83FA2DDB",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -13548,9 +13548,9 @@
 				"feed59b25517fc1e",
 				{
 					"parent": "feeda75649904273",
-					"name": "Helper_Evergreen_SupplierPackage_11_Stone",
-					"factory": "0014A4E9E1DC1922",
-					"blueprint": "00FF465A236FF5AF",
+					"name": "Setpiece_Evergreen_Supplier_Stone",
+					"factory": "0091C32CADB46DEA",
+					"blueprint": "00FDA2C83456661D",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -13657,9 +13657,9 @@
 				"feed2d0cc7971fcf",
 				{
 					"parent": "feeda75649904273",
-					"name": "Helper_Evergreen_SupplierPackage_12_Royce",
-					"factory": "004C9C49F2F9CE40",
-					"blueprint": "008510F4CB372168",
+					"name": "Setpiece_Evergreen_Supplier_Royce",
+					"factory": "00EC4BCCBD74A20E",
+					"blueprint": "008661C294741DB0",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -13816,9 +13816,9 @@
 				"feed1ce55685f745",
 				{
 					"parent": "feeda75649904273",
-					"name": "Helper_Evergreen_SupplierPackage_13_Vetrova",
-					"factory": "003300F4F5C39896",
-					"blueprint": "006A5B456238C971",
+					"name": "Setpiece_Evergreen_Supplier_Vetrova",
+					"factory": "00A3B59E896051F5",
+					"blueprint": "00B2DE0D0AD0F03D",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -13975,9 +13975,9 @@
 				"feedfb9b61b248db",
 				{
 					"parent": "feeda75649904273",
-					"name": "Helper_Evergreen_SupplierPackage_14_47",
-					"factory": "004A130709E0C992",
-					"blueprint": "00DEC26F7C82FB02",
+					"name": "Setpiece_Evergreen_Supplier_47",
+					"factory": "0066666EBD9EDF3E",
+					"blueprint": "00929302063FBFCE",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",

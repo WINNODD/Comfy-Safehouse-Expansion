@@ -1063,16 +1063,6 @@
 						"originalEntity": "90cda015e3db1992"
 					}
 				]
-			},
-			"exposedEntities": {
-				"PriorityNode": {
-					"isArray": false,
-					"refersTo": ["f068007a3272a8b8"]
-				},
-				"EnableVendor": {
-					"isArray": false,
-					"refersTo": ["fb5dd4d59b5457d2"]
-				}
 			}
 		},
 		"cafe610b83e25c05": {

@@ -334,8 +334,7 @@
 			"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
 			"events": {
 				"Out01": { "Enable": ["cadfa3d10a42f25d"] },
-				"Out02": { "Set": ["bfc021574703d396"] },
-				"Out03": { "SetTrue": ["a4cec84e36f694c0"] }
+				"Out02": { "Set": ["bfc021574703d396"] }
 			}
 		},
 		"d2799ca37208e18d": {
@@ -551,19 +550,6 @@
 				"m_bCameraSide": { "type": "bool", "value": false }
 			}
 		},
-		"a4cec84e36f694c0": {
-			"parent": "90cda015e3db1992",
-			"name": "ValueBool_Set",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rValueEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "99fbd65bd71c46d0",
-					"postInit": true
-				}
-			}
-		},
 		"fcb2435664fe6dfe": {
 			"parent": "ab82851bbb7bb234",
 			"name": "ActorProviderWaypoint",
@@ -741,22 +727,6 @@
 				}
 			}
 		},
-		"99fbd65bd71c46d0": {
-			"parent": "90cda015e3db1992",
-			"name": "disable outfit pickup",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_entityproperty.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_entityproperty.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_sPropertyName": {
-					"type": "ZString",
-					"value": "m_bBlockDisguisePickup"
-				},
-				"m_rEntity": {
-					"type": "SEntityTemplateReference",
-					"value": null
-				}
-			}
-		},
 		"90cda015e3db1992": {
 			"parent": "aa6b31cb3e12bdfc",
 			"name": "Enable and modify actor",
@@ -778,10 +748,6 @@
 					{
 						"originalProperty": "m_rActor",
 						"originalEntity": "cadfa3d10a42f25d"
-					},
-					{
-						"originalProperty": "m_rEntity",
-						"originalEntity": "99fbd65bd71c46d0"
 					}
 				]
 			}
@@ -1097,16 +1063,6 @@
 						"originalEntity": "90cda015e3db1992"
 					}
 				]
-			},
-			"exposedEntities": {
-				"PriorityNode": {
-					"isArray": false,
-					"refersTo": ["f068007a3272a8b8"]
-				},
-				"EnableVendor": {
-					"isArray": false,
-					"refersTo": ["fb5dd4d59b5457d2"]
-				}
 			}
 		},
 		"cafe78386999b6e4": {
