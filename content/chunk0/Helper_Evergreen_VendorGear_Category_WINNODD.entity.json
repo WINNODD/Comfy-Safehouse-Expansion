@@ -1,0 +1,762 @@
+{
+	"tempHash": "002505540A10B4B9",
+	"tbluHash": "009667B231F9056A",
+	"rootEntity": "32824cbb3e837423",
+	"entities": {
+		"18b8bfa31cd1cea8": {
+			"parent": "32824cbb3e837423",
+			"name": "Reward Crate",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_bValue": { "type": "bool", "value": false }
+			}
+		},
+		"8d44c9d252705469": {
+			"parent": "57bae50f23256f3e",
+			"name": "Rank",
+			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_basic.entitytemplate].pc_entityblueprint"
+		},
+		"6d72fd264c5bef93": {
+			"parent": "57bae50f23256f3e",
+			"name": "Hardcore receiver",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_bool.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_bool.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "b3fff0a55bb6ea72",
+					"postInit": true
+				}
+			},
+			"events": {
+				"EventReceived": { "SetValue": ["1397a3e650287fdd"] }
+			}
+		},
+		"4a588b56130aaff9": {
+			"parent": "57bae50f23256f3e",
+			"name": "Finalize rank",
+			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_evaluation_poll.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_evaluation_poll.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueInt": {
+					"type": "SEntityTemplateReference",
+					"value": "8d44c9d252705469"
+				},
+				"m_eEvaluation": {
+					"type": "ZValueInt_Evaluation.EEvaluationType",
+					"value": "HIGHER"
+				}
+			},
+			"events": { "PollTrue": { "Poll": ["7aea893390f821dd"] } },
+			"outputCopying": {
+				"PollFalse": {
+					"Rank": [
+						{
+							"ref": "57bae50f23256f3e",
+							"value": { "type": "int32", "value": 0 }
+						}
+					]
+				}
+			}
+		},
+		"e139383c5b707c95": {
+			"parent": "febcda575f8a9666",
+			"name": "Pick or unpick",
+			"factory": "[modules:/zrandomselector.class].pc_entitytype",
+			"blueprint": "[modules:/zrandomselector.class].pc_entityblueprint",
+			"properties": {
+				"m_Choices": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_Seed": {
+					"type": "SEntityTemplateReference",
+					"value": null
+				}
+			},
+			"events": {
+				"OnPickDone": { "In": ["df3e6e20bee34415"] },
+				"OnPickFailed": { "In": ["e8000d864fc4b5e7"] }
+			}
+		},
+		"1a353498e8e75d08": {
+			"parent": "04ffc2341e5e6486",
+			"name": "Set receiving",
+			"factory": "[modules:/zeventtransmitterentity_bool.class].pc_entitytype",
+			"blueprint": "[modules:/zeventtransmitterentity_bool.class].pc_entityblueprint",
+			"properties": {
+				"m_Receivers": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				}
+			}
+		},
+		"6ec9995a2323293f": {
+			"parent": "febcda575f8a9666",
+			"name": "EventToken_Evergreen_Gear_Unpicking",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_gear_unpicking.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_gear_unpicking.entitytemplate].pc_entityblueprint"
+		},
+		"80f1cc95b3c990d7": {
+			"parent": "febcda575f8a9666",
+			"name": "Automatic repick",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_changed.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_changed.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "19ade8df3a951aa8",
+					"postInit": true
+				}
+			}
+		},
+		"19ade8df3a951aa8": {
+			"parent": "32824cbb3e837423",
+			"name": "Automatic repick",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint",
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
+		},
+		"b568d4b48f6284f8": {
+			"parent": "57bae50f23256f3e",
+			"name": "Update rank",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "18b8bfa31cd1cea8"
+				}
+			},
+			"events": {
+				"PollTrue": { "Get": ["9f1955da0a486600"] },
+				"PollFalse": { "Get": ["081217742b4facc6"] }
+			}
+		},
+		"eae2d6c043840324": {
+			"parent": "febcda575f8a9666",
+			"name": "Rank counter",
+			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_stepcount.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_stepcount.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueInt": {
+					"type": "SEntityTemplateReference",
+					"value": "a27a1206ae5720f0",
+					"postInit": true
+				}
+			}
+		},
+		"b08a995bb298d839": {
+			"parent": "febcda575f8a9666",
+			"name": "Transmit unpicking",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_bool.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_bool.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "6ec9995a2323293f"
+				}
+			}
+		},
+		"04a8ed0ea6ef61a3": {
+			"parent": "febcda575f8a9666",
+			"name": "Calculate and transmit rank and pick",
+			"factory": "[modules:/zsignalforkentity_void.class].pc_entitytype",
+			"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
+			"events": {
+				"Out01": { "SetTrue": ["c30eff50f684ed18"] },
+				"Out02": { "Calculate": ["57bae50f23256f3e"] },
+				"Out03": { "SetFalse": ["c30eff50f684ed18"] },
+				"Out04": {
+					"Enable": ["df3e6e20bee34415", "e8000d864fc4b5e7"]
+				},
+				"Out05": { "Pick": ["e139383c5b707c95"] }
+			}
+		},
+		"e24a7720921ecaa0": {
+			"parent": "57bae50f23256f3e",
+			"name": "Calculate and transmit rank",
+			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValue2": {
+					"type": "SEntityTemplateReference",
+					"value": "8d44c9d252705469"
+				},
+				"m_rResult": {
+					"type": "SEntityTemplateReference",
+					"value": "8d44c9d252705469"
+				},
+				"m_rValue1": {
+					"type": "SEntityTemplateReference",
+					"value": "76ae81ab41a01202",
+					"postInit": true
+				}
+			},
+			"events": { "Done": { "Get": ["4f66a0fd5a0783c2"] } }
+		},
+		"9f1955da0a486600": {
+			"parent": "57bae50f23256f3e",
+			"name": "Update rank by reward level",
+			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_poll.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_poll.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "c9a96e090ddfc96e",
+					"postInit": true
+				}
+			},
+			"events": { "GetValue": { "In": ["cd62c6f042fd07ff"] } }
+		},
+		"1397a3e650287fdd": {
+			"parent": "57bae50f23256f3e",
+			"name": "Hardcore",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+		},
+		"6df2f50a14cdc585": {
+			"parent": "04ffc2341e5e6486",
+			"name": "Force active",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_changed.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_changed.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "ff69d7e28565d302",
+					"postInit": true
+				}
+			}
+		},
+		"ff69d7e28565d302": {
+			"parent": "32824cbb3e837423",
+			"name": "Force active",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint"
+		},
+		"209468269cc96390": {
+			"parent": "57bae50f23256f3e",
+			"name": "Difficulty",
+			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_basic.entitytemplate].pc_entityblueprint"
+		},
+		"f9c66cf353133ae3": {
+			"parent": "febcda575f8a9666",
+			"name": "EventToken_Evergreen_SelectableItem_Rank",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_selectableitem_rank.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_selectableitem_rank.entitytemplate].pc_entityblueprint"
+		},
+		"c9a96e090ddfc96e": {
+			"parent": "57bae50f23256f3e",
+			"name": "Reward level",
+			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_basic.entitytemplate].pc_entityblueprint"
+		},
+		"f4c53d17702a643f": {
+			"parent": "febcda575f8a9666",
+			"name": "Unpick",
+			"factory": "[modules:/zsignalforkentity_void.class].pc_entitytype",
+			"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
+			"events": {
+				"Out01": { "TransmitTrue": ["b08a995bb298d839"] },
+				"Out03": { "TransmitFalse": ["b08a995bb298d839"] },
+				"Out02": { "Pick": ["e139383c5b707c95"] }
+			}
+		},
+		"05f0b137c28ec0e4": {
+			"parent": "57bae50f23256f3e",
+			"name": "Reward level receiver",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_int32.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_int32.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "510e45d7a452c9fc",
+					"postInit": true
+				}
+			},
+			"events": {
+				"EventReceived": { "SetValue": ["c9a96e090ddfc96e"] }
+			}
+		},
+		"cd62c6f042fd07ff": {
+			"parent": "57bae50f23256f3e",
+			"name": "Update rank 2",
+			"factory": "[modules:/zsignalforkentity_int.class].pc_entitytype",
+			"blueprint": "[modules:/zsignalforkentity_int.class].pc_entityblueprint",
+			"events": {
+				"Out01": { "SetValue": ["8d44c9d252705469"] },
+				"Out02": { "Variant": ["01e0ba5df48a544f"] }
+			}
+		},
+		"002ebeff5c1b1ad6": {
+			"parent": "32824cbb3e837423",
+			"name": "Active",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+		},
+		"df3e6e20bee34415": {
+			"parent": "febcda575f8a9666",
+			"name": "OnPickDone",
+			"factory": "[modules:/zsignalgateentity_void.class].pc_entitytype",
+			"blueprint": "[modules:/zsignalgateentity_void.class].pc_entityblueprint",
+			"properties": {
+				"m_bEnabled": { "type": "bool", "value": false }
+			},
+			"events": {
+				"Out": {
+					"Disable": ["df3e6e20bee34415", "e8000d864fc4b5e7"]
+				}
+			},
+			"outputCopying": {
+				"Out": { "OnPickDone": ["febcda575f8a9666"] }
+			}
+		},
+		"e8000d864fc4b5e7": {
+			"parent": "febcda575f8a9666",
+			"name": "OnPickFailed",
+			"factory": "[modules:/zsignalgateentity_void.class].pc_entitytype",
+			"blueprint": "[modules:/zsignalgateentity_void.class].pc_entityblueprint",
+			"properties": {
+				"m_bEnabled": { "type": "bool", "value": false }
+			},
+			"events": { "Out": { "Poll": ["658ae4675fe976ea"] } }
+		},
+		"510e45d7a452c9fc": {
+			"parent": "57bae50f23256f3e",
+			"name": "EventToken_Evergreen_RewardCrate_Level",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_rewardcrate_level.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_rewardcrate_level.entitytemplate].pc_entityblueprint"
+		},
+		"829e04bb9c52afc9": {
+			"parent": "febcda575f8a9666",
+			"name": "Decrement and transmit rank and pick",
+			"factory": "[modules:/zsignalforkentity_void.class].pc_entitytype",
+			"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
+			"events": {
+				"Out01": { "SetTrue": ["c30eff50f684ed18"] },
+				"Out03": { "SetFalse": ["c30eff50f684ed18"] },
+				"Out02": { "Decrement": ["eae2d6c043840324"] },
+				"Out04": { "Pick": ["e139383c5b707c95"] }
+			}
+		},
+		"203468717a9500f6": {
+			"parent": "febcda575f8a9666",
+			"name": "Unpick and pick",
+			"factory": "[modules:/zsignalforkentity_void.class].pc_entitytype",
+			"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
+			"events": {
+				"Out01": { "In": ["f4c53d17702a643f"] },
+				"Out02": { "In": ["04a8ed0ea6ef61a3"] }
+			}
+		},
+		"76ae81ab41a01202": {
+			"parent": "57bae50f23256f3e",
+			"name": "Maximum difficulty",
+			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entityblueprint",
+			"properties": { "m_nValue": { "type": "int32", "value": 4 } }
+		},
+		"7e9d15f09de0cce7": {
+			"parent": "febcda575f8a9666",
+			"name": "Transmit rank",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "f9c66cf353133ae3"
+				}
+			}
+		},
+		"4f66a0fd5a0783c2": {
+			"parent": "57bae50f23256f3e",
+			"name": "Transmit calculated rank",
+			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_poll.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_poll.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "8d44c9d252705469"
+				}
+			},
+			"outputCopying": {
+				"GetValue": { "Rank": ["57bae50f23256f3e"] }
+			}
+		},
+		"2f671eb59634dcde": {
+			"parent": "04ffc2341e5e6486",
+			"name": "Active or force active",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_eEvaluation": {
+					"type": "ZValueBool_Operation_Signal.EEvaluationType",
+					"value": "ANY"
+				},
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["6df2f50a14cdc585", "3c5f74ad13c01eb4"],
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnValue": { "TransmitEvent": ["1a353498e8e75d08"] }
+			}
+		},
+		"289150a82491d958": {
+			"parent": "febcda575f8a9666",
+			"name": "Picked and automatic repick",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["d75ce31c2ab8ec76", "80f1cc95b3c990d7"],
+					"postInit": true
+				}
+			}
+		},
+		"6a0064f8a4084b07": {
+			"parent": "febcda575f8a9666",
+			"name": "Unpick if picked and pick",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "289150a82491d958"
+				}
+			},
+			"events": {
+				"PollTrue": { "In": ["203468717a9500f6"] },
+				"PollFalse": {
+					"SetTrue": ["d75ce31c2ab8ec76"],
+					"In": ["04a8ed0ea6ef61a3"]
+				}
+			}
+		},
+		"c30eff50f684ed18": {
+			"parent": "febcda575f8a9666",
+			"name": "Force active",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "ff69d7e28565d302"
+				}
+			}
+		},
+		"7aea893390f821dd": {
+			"parent": "57bae50f23256f3e",
+			"name": "Finalize rank 2",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "1397a3e650287fdd"
+				}
+			},
+			"events": {
+				"PollFalse": { "Get": ["4f66a0fd5a0783c2"] },
+				"PollTrue": { "Add": ["e24a7720921ecaa0"] }
+			}
+		},
+		"a27a1206ae5720f0": {
+			"parent": "febcda575f8a9666",
+			"name": "Rank",
+			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_basic.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_bSetValueAlwaysTriggerChangedEvent": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"events": {
+				"OnValue": { "TransmitEvent": ["7e9d15f09de0cce7"] }
+			}
+		},
+		"b3fff0a55bb6ea72": {
+			"parent": "57bae50f23256f3e",
+			"name": "EventToken_Evergreen_Difficulty_Hardcore",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_difficulty_hardcore.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_difficulty_hardcore.entitytemplate].pc_entityblueprint"
+		},
+		"d75ce31c2ab8ec76": {
+			"parent": "febcda575f8a9666",
+			"name": "Picked",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+		},
+		"081217742b4facc6": {
+			"parent": "57bae50f23256f3e",
+			"name": "Update rank by difficulty",
+			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_poll.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_poll.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "209468269cc96390"
+				}
+			},
+			"events": { "GetValue": { "In": ["cd62c6f042fd07ff"] } }
+		},
+		"658ae4675fe976ea": {
+			"parent": "febcda575f8a9666",
+			"name": "Decrement and retry or fail",
+			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_evaluation_poll.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_evaluation_poll.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_eEvaluation": {
+					"type": "ZValueInt_Evaluation.EEvaluationType",
+					"value": "HIGHER"
+				},
+				"m_rValueInt": {
+					"type": "SEntityTemplateReference",
+					"value": "a27a1206ae5720f0"
+				},
+				"m_nCompareTo": { "type": "int32", "value": 1 }
+			},
+			"events": {
+				"PollTrue": { "In": ["829e04bb9c52afc9"] },
+				"PollFalse": {
+					"Disable": ["e8000d864fc4b5e7", "df3e6e20bee34415"]
+				}
+			},
+			"outputCopying": {
+				"PollFalse": { "OnPickFailed": ["febcda575f8a9666"] }
+			}
+		},
+		"6ccc6f965785ddda": {
+			"parent": "57bae50f23256f3e",
+			"name": "EventToken_Evergreen_Difficulty",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_difficulty.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_difficulty.entitytemplate].pc_entityblueprint"
+		},
+		"3c5f74ad13c01eb4": {
+			"parent": "04ffc2341e5e6486",
+			"name": "Active",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_changed.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_changed.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "002ebeff5c1b1ad6"
+				}
+			}
+		},
+		"04ffc2341e5e6486": {
+			"parent": "32824cbb3e837423",
+			"name": "Receiving manager",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {
+				"Active": {
+					"type": "SEntityTemplateReference",
+					"value": "002ebeff5c1b1ad6"
+				},
+				"ForceActive": {
+					"type": "SEntityTemplateReference",
+					"value": "ff69d7e28565d302"
+				},
+				"m_Receivers": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				}
+			},
+			"propertyAliases": {
+				"Active": [
+					{
+						"originalProperty": "m_rValueEntity",
+						"originalEntity": "3c5f74ad13c01eb4"
+					}
+				],
+				"ForceActive": [
+					{
+						"originalProperty": "m_rValueEntity",
+						"originalEntity": "6df2f50a14cdc585"
+					}
+				],
+				"m_Receivers": [
+					{
+						"originalProperty": "m_Receivers",
+						"originalEntity": "1a353498e8e75d08"
+					}
+				]
+			}
+		},
+		"01e0ba5df48a544f": {
+			"parent": "57bae50f23256f3e",
+			"name": "Finalize rank variant",
+			"factory": "[modules:/zhm5variantconverterentity_void.class].pc_entitytype",
+			"blueprint": "[modules:/zhm5variantconverterentity_void.class].pc_entityblueprint",
+			"events": { "Value": { "Poll": ["4a588b56130aaff9"] } }
+		},
+		"988c352f2c4d1d00": {
+			"parent": "57bae50f23256f3e",
+			"name": "Difficulty receiver",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_int32.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_int32.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "6ccc6f965785ddda"
+				}
+			},
+			"events": {
+				"EventReceived": { "SetValue": ["209468269cc96390"] }
+			}
+		},
+		"57bae50f23256f3e": {
+			"parent": "febcda575f8a9666",
+			"name": "Rank calculator",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {
+				"RewardCrate": {
+					"type": "SEntityTemplateReference",
+					"value": "18b8bfa31cd1cea8"
+				}
+			},
+			"events": { "Rank": { "SetValue": ["a27a1206ae5720f0"] } },
+			"inputCopying": {
+				"Calculate": { "Poll": ["b568d4b48f6284f8"] }
+			},
+			"propertyAliases": {
+				"RewardCrate": [
+					{
+						"originalProperty": "m_rValueEntity",
+						"originalEntity": "b568d4b48f6284f8"
+					}
+				]
+			}
+		},
+		"febcda575f8a9666": {
+			"parent": "32824cbb3e837423",
+			"name": "Picker",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {
+				"AutomaticRepick": {
+					"type": "SEntityTemplateReference",
+					"value": "19ade8df3a951aa8"
+				},
+				"RewardCrate": {
+					"type": "SEntityTemplateReference",
+					"value": "18b8bfa31cd1cea8"
+				},
+				"ForceActive": {
+					"type": "SEntityTemplateReference",
+					"value": "ff69d7e28565d302"
+				},
+				"m_Choices": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_Seed": {
+					"type": "SEntityTemplateReference",
+					"value": null
+				}
+			},
+			"inputCopying": {
+				"Unpick": { "In": ["f4c53d17702a643f"] },
+				"Pick": { "Poll": ["6a0064f8a4084b07"] }
+			},
+			"outputCopying": {
+				"OnPickDone": { "OnPickDone": ["32824cbb3e837423"] },
+				"OnPickFailed": { "OnPickFailed": ["32824cbb3e837423"] }
+			},
+			"propertyAliases": {
+				"AutomaticRepick": [
+					{
+						"originalProperty": "m_rValueEntity",
+						"originalEntity": "80f1cc95b3c990d7"
+					}
+				],
+				"ForceActive": [
+					{
+						"originalProperty": "m_rValueEntity",
+						"originalEntity": "c30eff50f684ed18"
+					}
+				],
+				"RewardCrate": [
+					{
+						"originalProperty": "RewardCrate",
+						"originalEntity": "57bae50f23256f3e"
+					}
+				],
+				"m_Choices": [
+					{
+						"originalProperty": "m_Choices",
+						"originalEntity": "e139383c5b707c95"
+					}
+				],
+				"m_Seed": [
+					{
+						"originalProperty": "m_Seed",
+						"originalEntity": "e139383c5b707c95"
+					}
+				]
+			}
+		},
+		"32824cbb3e837423": {
+			"parent": null,
+			"name": "Helper_Evergreen_VendorGear_Category",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"UnpickBeforeRepick": { "type": "bool", "value": true }
+			},
+			"inputCopying": {
+				"SetActive": { "SetValue": ["002ebeff5c1b1ad6"] },
+				"Unpick": { "Unpick": ["febcda575f8a9666"] },
+				"Pick": { "Pick": ["febcda575f8a9666"] }
+			},
+			"propertyAliases": {
+				"RewardCrate": [
+					{
+						"originalProperty": "m_bValue",
+						"originalEntity": "18b8bfa31cd1cea8"
+					}
+				],
+				"UnpickBeforeRepick": [
+					{
+						"originalProperty": "m_bValue",
+						"originalEntity": "19ade8df3a951aa8"
+					}
+				],
+				"m_Choices": [
+					{
+						"originalProperty": "m_Receivers",
+						"originalEntity": "04ffc2341e5e6486"
+					},
+					{
+						"originalProperty": "m_Choices",
+						"originalEntity": "febcda575f8a9666"
+					}
+				],
+				"m_Seed": [
+					{
+						"originalProperty": "m_Seed",
+						"originalEntity": "febcda575f8a9666"
+					}
+				]
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
