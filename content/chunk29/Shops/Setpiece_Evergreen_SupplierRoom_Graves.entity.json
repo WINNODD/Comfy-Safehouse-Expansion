@@ -2691,8 +2691,8 @@
 		"3c4c36b15e937673": {
 			"parent": "4d661fa986a84d18",
 			"name": "Big Guns",
-			"factory": "0065C766B156793F",
-			"blueprint": "0013B44A023B3A0B",
+			"factory": "002505540A10B4B9",
+			"blueprint": "009667B231F9056A",
 			"properties": {
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
@@ -2933,8 +2933,8 @@
 		"ffdc469af6b2b204": {
 			"parent": "4d661fa986a84d18",
 			"name": "Small Guns",
-			"factory": "0065C766B156793F",
-			"blueprint": "0013B44A023B3A0B",
+			"factory": "002505540A10B4B9",
+			"blueprint": "009667B231F9056A",
 			"properties": {
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",

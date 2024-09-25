@@ -2545,8 +2545,8 @@
 		"ffdc469af6b2b204": {
 			"parent": "4d661fa986a84d18",
 			"name": "Pistols",
-			"factory": "[assembly:/_pro/design/gamecore/helpers_evergreen.template?/helper_evergreen_vendorgear_category.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/helpers_evergreen.template?/helper_evergreen_vendorgear_category.entitytemplate].pc_entityblueprint",
+			"factory": "002505540A10B4B9",
+			"blueprint": "009667B231F9056A",
 			"properties": {
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
@@ -2754,8 +2754,8 @@
 		"cafee304c08776de": {
 			"parent": "4d661fa986a84d18",
 			"name": "Duckies",
-			"factory": "0065C766B156793F",
-			"blueprint": "0013B44A023B3A0B",
+			"factory": "002505540A10B4B9",
+			"blueprint": "009667B231F9056A",
 			"properties": {
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
@@ -3352,8 +3352,8 @@
 		"cafee1b397a8916c": {
 			"parent": "4d661fa986a84d18",
 			"name": "LethalExplosive",
-			"factory": "0065C766B156793F",
-			"blueprint": "0013B44A023B3A0B",
+			"factory": "002505540A10B4B9",
+			"blueprint": "009667B231F9056A",
 			"properties": {
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",

@@ -2637,8 +2637,8 @@
 		"d7fdd9142b0d3725": {
 			"parent": "4d661fa986a84d18",
 			"name": "Tools",
-			"factory": "0065C766B156793F",
-			"blueprint": "0013B44A023B3A0B",
+			"factory": "002505540A10B4B9",
+			"blueprint": "009667B231F9056A",
 			"properties": {
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
@@ -2806,8 +2806,8 @@
 		"cafe5d9dd01ce6f5": {
 			"parent": "4d661fa986a84d18",
 			"name": "Consumables",
-			"factory": "0065C766B156793F",
-			"blueprint": "0013B44A023B3A0B",
+			"factory": "002505540A10B4B9",
+			"blueprint": "009667B231F9056A",
 			"properties": {
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",

@@ -2390,8 +2390,8 @@
 		"24201011b4f6b949": {
 			"parent": "4d661fa986a84d18",
 			"name": "Sniper Rifles Sieger Cool Skin",
-			"factory": "0065C766B156793F",
-			"blueprint": "0013B44A023B3A0B",
+			"factory": "002505540A10B4B9",
+			"blueprint": "009667B231F9056A",
 			"properties": {
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
@@ -2885,8 +2885,8 @@
 		"feed004481e2212a": {
 			"parent": "4d661fa986a84d18",
 			"name": "Sniper Rifles Sieger Not That Cool Skin",
-			"factory": "0065C766B156793F",
-			"blueprint": "0013B44A023B3A0B",
+			"factory": "002505540A10B4B9",
+			"blueprint": "009667B231F9056A",
 			"properties": {
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",

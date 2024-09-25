@@ -2954,8 +2954,8 @@
 		"ffdc469af6b2b204": {
 			"parent": "4d661fa986a84d18",
 			"name": "Pistols",
-			"factory": "0065C766B156793F",
-			"blueprint": "0013B44A023B3A0B",
+			"factory": "002505540A10B4B9",
+			"blueprint": "009667B231F9056A",
 			"properties": {
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
@@ -3092,8 +3092,8 @@
 		"1dbb3051aa11cdac": {
 			"parent": "4d661fa986a84d18",
 			"name": "Melee Katana",
-			"factory": "0065C766B156793F",
-			"blueprint": "0013B44A023B3A0B",
+			"factory": "002505540A10B4B9",
+			"blueprint": "009667B231F9056A",
 			"properties": {
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
@@ -3237,8 +3237,8 @@
 		"feede33525b6be5a": {
 			"parent": "4d661fa986a84d18",
 			"name": "Melee Small Lethal",
-			"factory": "0065C766B156793F",
-			"blueprint": "0013B44A023B3A0B",
+			"factory": "002505540A10B4B9",
+			"blueprint": "009667B231F9056A",
 			"properties": {
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
