@@ -319,14 +319,11 @@
 			}
 		},
 		"8fdbf3b72b364b7a": {
-			"parent": "90cda015e3db1992",
+			"parent": "aa6b31cb3e12bdfc",
 			"name": "SignalFork_Void",
 			"factory": "[modules:/zsignalforkentity_void.class].pc_entitytype",
 			"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
-			"events": {
-				"Out01": { "Enable": ["cadfa3d10a42f25d"] },
-				"Out02": { "Set": ["bfc021574703d396"] }
-			}
+			"events": { "Out02": { "Set": ["bfc021574703d396"] } }
 		},
 		"d2799ca37208e18d": {
 			"parent": "ab82851bbb7bb234",
@@ -566,7 +563,7 @@
 			}
 		},
 		"bfc021574703d396": {
-			"parent": "90cda015e3db1992",
+			"parent": "aa6b31cb3e12bdfc",
 			"name": "AIModifierActor",
 			"factory": "[modules:/zaimodifieractor.class].pc_entitytype",
 			"blueprint": "[modules:/zaimodifieractor.class].pc_entityblueprint",
@@ -630,16 +627,10 @@
 			"events": { "OnStart": { "PollActor": ["50c06ce433715ac9"] } }
 		},
 		"cadfa3d10a42f25d": {
-			"parent": "90cda015e3db1992",
+			"parent": "aa6b31cb3e12bdfc",
 			"name": "ActorProxy",
 			"factory": "[modules:/zactorproxyentity.class].pc_entitytype",
-			"blueprint": "[modules:/zactorproxyentity.class].pc_entityblueprint",
-			"properties": {
-				"m_rActor": {
-					"type": "SEntityTemplateReference",
-					"value": null
-				}
-			}
+			"blueprint": "[modules:/zactorproxyentity.class].pc_entityblueprint"
 		},
 		"e8ed008afe470277": {
 			"parent": "aa6b31cb3e12bdfc",
@@ -707,31 +698,6 @@
 					"value": "aa6b31cb3e12bdfc",
 					"postInit": true
 				}
-			}
-		},
-		"90cda015e3db1992": {
-			"parent": "aa6b31cb3e12bdfc",
-			"name": "Enable and modify actor",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {
-				"m_rActorProvider": {
-					"type": "SEntityTemplateReference",
-					"value": null
-				}
-			},
-			"inputCopying": { "In": { "In": ["8fdbf3b72b364b7a"] } },
-			"propertyAliases": {
-				"m_rActorProvider": [
-					{
-						"originalProperty": "m_pActor",
-						"originalEntity": "bfc021574703d396"
-					},
-					{
-						"originalProperty": "m_rActor",
-						"originalEntity": "cadfa3d10a42f25d"
-					}
-				]
 			}
 		},
 		"8901d5367c8ce9c0": {
@@ -992,7 +958,10 @@
 					"Disable": ["8000e6efcedde289"],
 					"SetFalse": ["cdbcc86127940763"]
 				},
-				"SetTrue": { "In": ["90cda015e3db1992"] },
+				"SetTrue": {
+					"In": ["8fdbf3b72b364b7a"],
+					"Enable": ["cadfa3d10a42f25d"]
+				},
 				"SetBusy": { "SetTrue": ["cafe610b83e25c05"] }
 			},
 			"propertyAliases": {
@@ -1010,8 +979,12 @@
 						"originalEntity": "8000e6efcedde289"
 					},
 					{
-						"originalProperty": "m_rActorProvider",
-						"originalEntity": "90cda015e3db1992"
+						"originalProperty": "m_rActor",
+						"originalEntity": "cadfa3d10a42f25d"
+					},
+					{
+						"originalProperty": "m_pActor",
+						"originalEntity": "bfc021574703d396"
 					}
 				],
 				"m_rPromptDescriptionTextResource": [
