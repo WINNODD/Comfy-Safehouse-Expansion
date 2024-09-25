@@ -95,12 +95,7 @@
 			"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
 			"events": {
 				"Out02": {
-					"Pick": [
-						"3cb06d28214eab0f",
-						"8413ee12ffb55ca9",
-						"1dbb3051aa11cdac",
-						"a0cf7c7732f335b6"
-					]
+					"Pick": ["8413ee12ffb55ca9", "1dbb3051aa11cdac"]
 				},
 				"Out01": {
 					"SetActive": [
@@ -109,15 +104,7 @@
 							"value": { "type": "bool", "value": true }
 						},
 						{
-							"ref": "a0cf7c7732f335b6",
-							"value": { "type": "bool", "value": true }
-						},
-						{
 							"ref": "1dbb3051aa11cdac",
-							"value": { "type": "bool", "value": true }
-						},
-						{
-							"ref": "3cb06d28214eab0f",
 							"value": { "type": "bool", "value": true }
 						}
 					]
@@ -129,15 +116,7 @@
 							"value": { "type": "bool", "value": false }
 						},
 						{
-							"ref": "a0cf7c7732f335b6",
-							"value": { "type": "bool", "value": false }
-						},
-						{
 							"ref": "1dbb3051aa11cdac",
-							"value": { "type": "bool", "value": false }
-						},
-						{
-							"ref": "3cb06d28214eab0f",
 							"value": { "type": "bool", "value": false }
 						}
 					]
@@ -183,7 +162,7 @@
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"0496a89bba9f1fa6": {
-			"parent": "a0cf7c7732f335b6",
+			"parent": "1dbb3051aa11cdac",
 			"name": "Helper_Evergreen_SelectableItem_Scimitar",
 			"factory": "00D0FB8AFD9D40C6",
 			"blueprint": "00578567E9BB670C",
@@ -207,7 +186,7 @@
 				"m_bVisible": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "a0cf7c7732f335b6",
+					"value": "1dbb3051aa11cdac",
 					"postInit": true
 				}
 			},
@@ -247,7 +226,7 @@
 			"events": { "OnDone": { "SetTrue": ["246cf362c3cb4b7e"] } }
 		},
 		"06aaa47158b11b90": {
-			"parent": "a0cf7c7732f335b6",
+			"parent": "1dbb3051aa11cdac",
 			"name": "Helper_Evergreen_SelectableItem_MacheteJungle",
 			"factory": "0016D175CD6D6A8C",
 			"blueprint": "00D6516C98CEC697",
@@ -275,7 +254,7 @@
 				"m_bVisible": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "a0cf7c7732f335b6",
+					"value": "1dbb3051aa11cdac",
 					"postInit": true
 				}
 			},
@@ -696,43 +675,8 @@
 				}
 			}
 		},
-		"463486ee45ea740f": {
-			"parent": "3cb06d28214eab0f",
-			"name": "Helper_Evergreen_SelectableItem_AmputationKnife",
-			"factory": "000F9717F51655F6",
-			"blueprint": "0065E5D12156FC68",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -90.0,
-							"y": -0.004125296253035899,
-							"z": 179.97610766103642
-						},
-						"position": {
-							"x": -0.1300009936094284,
-							"y": 0.0,
-							"z": 0.009999999776482582
-						}
-					}
-				},
-				"Supplier": { "type": "bool", "value": true },
-				"m_bVisibleInBoxReflection": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "3cb06d28214eab0f",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
-		},
 		"b090d302df7465d3": {
-			"parent": "3cb06d28214eab0f",
+			"parent": "8413ee12ffb55ca9",
 			"name": "Helper_Evergreen_SelectableItem_CircumcisionKnife",
 			"factory": "00AFAFECF1FBCCA9",
 			"blueprint": "007266E026432D0C",
@@ -760,7 +704,7 @@
 				"m_bVisible": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3cb06d28214eab0f",
+					"value": "8413ee12ffb55ca9",
 					"postInit": true
 				}
 			},
@@ -952,19 +896,15 @@
 				"m_entries": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-						"463486ee45ea740f",
 						"87b1b9d6524fd915",
 						"b090d302df7465d3",
 						"14115ab2f3ec29bb",
 						"ca547f6aff67f7cc",
 						"152550224ce34ae4",
-						"fb0413ae2273e2e4",
 						"abcc138583cd9a3d",
 						"5f6891b07b62f4f0",
 						"806b213766ddfc96",
-						"cb50cfed04df1ccb",
 						"def4e2e4b0d8acd1",
-						"ed3d3f1e30587100",
 						"0496a89bba9f1fa6",
 						"06aaa47158b11b90",
 						"5b69f8542078fbb1",
@@ -1379,7 +1319,7 @@
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"14115ab2f3ec29bb": {
-			"parent": "3cb06d28214eab0f",
+			"parent": "8413ee12ffb55ca9",
 			"name": "Helper_Evergreen_SelectableItem_EiffelTowerKnife",
 			"factory": "00CDB489F83CB3CB",
 			"blueprint": "00A849A354C7F3FC",
@@ -1407,7 +1347,7 @@
 				"m_bVisible": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3cb06d28214eab0f",
+					"value": "8413ee12ffb55ca9",
 					"postInit": true
 				}
 			},
@@ -1514,19 +1454,15 @@
 				"m_entries": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-						"463486ee45ea740f",
 						"87b1b9d6524fd915",
 						"b090d302df7465d3",
 						"14115ab2f3ec29bb",
 						"ca547f6aff67f7cc",
 						"152550224ce34ae4",
-						"fb0413ae2273e2e4",
 						"abcc138583cd9a3d",
 						"5f6891b07b62f4f0",
 						"806b213766ddfc96",
-						"cb50cfed04df1ccb",
 						"def4e2e4b0d8acd1",
-						"ed3d3f1e30587100",
 						"0496a89bba9f1fa6",
 						"06aaa47158b11b90",
 						"5b69f8542078fbb1",
@@ -2017,41 +1953,6 @@
 				}
 			}
 		},
-		"fb0413ae2273e2e4": {
-			"parent": "1dbb3051aa11cdac",
-			"name": "Helper_Evergreen_SelectableItem_SappersAxe",
-			"factory": "00CB4D14847583B5",
-			"blueprint": "00D4A66837A27D76",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -90.0,
-							"y": -0.004125296253035899,
-							"z": 179.97610766103642
-						},
-						"position": {
-							"x": -0.4099999964237213,
-							"y": 0.0,
-							"z": 0.0
-						}
-					}
-				},
-				"Supplier": { "type": "bool", "value": true },
-				"m_bVisibleInBoxReflection": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "1dbb3051aa11cdac",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
-		},
 		"f44ae5b2e180715a": {
 			"parent": "8413ee12ffb55ca9",
 			"name": "Helper_Evergreen_SelectableItem_SacrificialKnife",
@@ -2290,37 +2191,6 @@
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
-		"cb50cfed04df1ccb": {
-			"parent": "a0cf7c7732f335b6",
-			"name": "Helper_Evergreen_SelectableItem_Saber",
-			"factory": "007EC5AF0DF6F620",
-			"blueprint": "00FD4C93F95EFF0E",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -90.0, "y": 0.0, "z": -180.0 },
-						"position": {
-							"x": -0.20000100135803223,
-							"y": 0.0,
-							"z": 0.0
-						}
-					}
-				},
-				"Supplier": { "type": "bool", "value": true },
-				"m_bVisibleInBoxReflection": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "a0cf7c7732f335b6",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
-		},
 		"c22dc31c48b45db6": {
 			"parent": "bca67511a0eb904e",
 			"name": "Active",
@@ -2505,7 +2375,7 @@
 			}
 		},
 		"87b1b9d6524fd915": {
-			"parent": "3cb06d28214eab0f",
+			"parent": "8413ee12ffb55ca9",
 			"name": "Helper_Evergreen_SelectableItem_Janbiya",
 			"factory": "00473A6B85DD7492",
 			"blueprint": "008C375F6467DB27",
@@ -2533,7 +2403,7 @@
 				"m_bVisible": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3cb06d28214eab0f",
+					"value": "8413ee12ffb55ca9",
 					"postInit": true
 				}
 			},
@@ -2865,37 +2735,6 @@
 				]
 			}
 		},
-		"ed3d3f1e30587100": {
-			"parent": "a0cf7c7732f335b6",
-			"name": "Helper_Evergreen_SelectableItem_RustyPirateSaber",
-			"factory": "00E029432BD5685A",
-			"blueprint": "009FA164CD4DDF64",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -90.0, "y": 0.0, "z": -180.0 },
-						"position": {
-							"x": -0.20000100135803223,
-							"y": 0.0,
-							"z": 0.0
-						}
-					}
-				},
-				"Supplier": { "type": "bool", "value": true },
-				"m_bVisibleInBoxReflection": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "a0cf7c7732f335b6",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
-		},
 		"fe8d7cd3f3530eb0": {
 			"parent": "bca67511a0eb904e",
 			"name": "2DAE_Vendor_UI",
@@ -3040,7 +2879,7 @@
 			}
 		},
 		"def4e2e4b0d8acd1": {
-			"parent": "a0cf7c7732f335b6",
+			"parent": "1dbb3051aa11cdac",
 			"name": "Helper_Evergreen_SelectableItem_Machete",
 			"factory": "0093018C35DA286F",
 			"blueprint": "002E55D62DA9BFE8",
@@ -3068,7 +2907,7 @@
 				"m_bVisible": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "a0cf7c7732f335b6",
+					"value": "1dbb3051aa11cdac",
 					"postInit": true
 				}
 			},
@@ -3142,7 +2981,7 @@
 			}
 		},
 		"ca547f6aff67f7cc": {
-			"parent": "3cb06d28214eab0f",
+			"parent": "8413ee12ffb55ca9",
 			"name": "Helper_Evergreen_SelectableItem_KukriKnife",
 			"factory": "00EE615BE1CFE337",
 			"blueprint": "0068E19BD9626779",
@@ -3170,50 +3009,11 @@
 				"m_bVisible": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3cb06d28214eab0f",
+					"value": "8413ee12ffb55ca9",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
-		},
-		"a0cf7c7732f335b6": {
-			"parent": "4d661fa986a84d18",
-			"name": "Melee Mid",
-			"factory": "0065C766B156793F",
-			"blueprint": "0013B44A023B3A0B",
-			"properties": {
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_Choices": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ed3d3f1e30587100",
-						"06aaa47158b11b90",
-						"def4e2e4b0d8acd1",
-						"cb50cfed04df1ccb",
-						"0496a89bba9f1fa6"
-					]
-				},
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": -90, "z": 0 },
-						"position": { "x": -0.8, "y": 0, "z": -0.8 }
-					}
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_Seed": {
-					"type": "SEntityTemplateReference",
-					"value": null
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "22edf43d9609168f",
-					"postInit": true
-				}
-			}
 		},
 		"f0f42d8add64dfeb": {
 			"parent": "94942b43238078d1",
@@ -3311,45 +3111,6 @@
 				}
 			}
 		},
-		"3cb06d28214eab0f": {
-			"parent": "4d661fa986a84d18",
-			"name": "Knife 1",
-			"factory": "0065C766B156793F",
-			"blueprint": "0013B44A023B3A0B",
-			"properties": {
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_Choices": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"b090d302df7465d3",
-						"14115ab2f3ec29bb",
-						"463486ee45ea740f",
-						"87b1b9d6524fd915",
-						"ca547f6aff67f7cc"
-					]
-				},
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": -90, "z": 0 },
-						"position": { "x": -0.3, "y": 0, "z": -0.7 }
-					}
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_Seed": {
-					"type": "SEntityTemplateReference",
-					"value": null
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "22edf43d9609168f",
-					"postInit": true
-				}
-			}
-		},
 		"1dbb3051aa11cdac": {
 			"parent": "4d661fa986a84d18",
 			"name": "Melee Big",
@@ -3367,7 +3128,9 @@
 						"abcc138583cd9a3d",
 						"806b213766ddfc96",
 						"152550224ce34ae4",
-						"fb0413ae2273e2e4"
+						"06aaa47158b11b90",
+						"def4e2e4b0d8acd1",
+						"0496a89bba9f1fa6"
 					]
 				},
 				"m_mTransform": {
@@ -3406,14 +3169,6 @@
 					{
 						"originalProperty": "m_Seed",
 						"originalEntity": "1dbb3051aa11cdac"
-					},
-					{
-						"originalProperty": "m_Seed",
-						"originalEntity": "a0cf7c7732f335b6"
-					},
-					{
-						"originalProperty": "m_Seed",
-						"originalEntity": "3cb06d28214eab0f"
 					},
 					{
 						"originalProperty": "m_Seed",
@@ -3483,7 +3238,11 @@
 						"f34ea80f25bbbb8c",
 						"f44ae5b2e180715a",
 						"25924b272dbfe61d",
-						"5b69f8542078fbb1"
+						"5b69f8542078fbb1",
+						"b090d302df7465d3",
+						"14115ab2f3ec29bb",
+						"87b1b9d6524fd915",
+						"ca547f6aff67f7cc"
 					]
 				},
 				"m_mTransform": {

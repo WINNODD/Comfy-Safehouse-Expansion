@@ -12463,6 +12463,34 @@
 							"value": "feedaa1a63c74e1e",
 							"postInit": true
 						},
+						"m_rPromptDescriptionTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "002F0AD948662BE8",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_47": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "001DEA393D908EA2",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_Hello": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00072856B28F8B5F",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_Goodbye": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00F6CDEAB44DCDDC",
+								"flag": "5F"
+							}
+						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "fffffffffffffffe",

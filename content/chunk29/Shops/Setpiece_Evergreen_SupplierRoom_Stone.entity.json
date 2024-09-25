@@ -91,18 +91,10 @@
 			"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
 			"events": {
 				"Out02": {
-					"Pick": [
-						"24201011b4f6b949",
-						"feed8fdea8de8be0",
-						"feed004481e2212a"
-					]
+					"Pick": ["24201011b4f6b949", "feed004481e2212a"]
 				},
 				"Out01": {
 					"SetActive": [
-						{
-							"ref": "feed8fdea8de8be0",
-							"value": { "type": "bool", "value": true }
-						},
 						{
 							"ref": "24201011b4f6b949",
 							"value": { "type": "bool", "value": true }
@@ -115,10 +107,6 @@
 				},
 				"Out03": {
 					"SetActive": [
-						{
-							"ref": "feed8fdea8de8be0",
-							"value": { "type": "bool", "value": false }
-						},
 						{
 							"ref": "24201011b4f6b949",
 							"value": { "type": "bool", "value": false }
@@ -2415,7 +2403,9 @@
 						"e4985f154db50ee8",
 						"59a6b3387d33f98d",
 						"feed8d764c2b0cdb",
-						"feed510620394a83"
+						"feed510620394a83",
+						"feed111ddec3bd86",
+						"feed8ddbdbfb7d0f"
 					]
 				},
 				"m_mTransform": {
@@ -2718,10 +2708,6 @@
 					},
 					{
 						"originalProperty": "m_Seed",
-						"originalEntity": "feed8fdea8de8be0"
-					},
-					{
-						"originalProperty": "m_Seed",
 						"originalEntity": "feed004481e2212a"
 					}
 				]
@@ -2834,46 +2820,8 @@
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
-		"feed8fdea8de8be0": {
-			"parent": "4d661fa986a84d18",
-			"name": "Sniper Rifles Hackl",
-			"factory": "0065C766B156793F",
-			"blueprint": "0013B44A023B3A0B",
-			"properties": {
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_Choices": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedc08d7bc9bfc4",
-						"feeda3b45e7361e4",
-						"feed111ddec3bd86",
-						"feed8ddbdbfb7d0f"
-					]
-				},
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": -0.05, "y": 0, "z": -0.1 }
-					}
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_Seed": {
-					"type": "SEntityTemplateReference",
-					"value": null
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "22edf43d9609168f",
-					"postInit": true
-				}
-			}
-		},
 		"feedc08d7bc9bfc4": {
-			"parent": "feed8fdea8de8be0",
+			"parent": "feed004481e2212a",
 			"name": "Helper_Evergreen_SelectableItem_HacklLeviathanSniperRifleCovert",
 			"factory": "003B7BE0981D649D",
 			"blueprint": "001C7CF8C06E1BDA",
@@ -2897,14 +2845,14 @@
 				"m_bVisible": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feed8fdea8de8be0",
+					"value": "feed004481e2212a",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feeda3b45e7361e4": {
-			"parent": "feed8fdea8de8be0",
+			"parent": "feed004481e2212a",
 			"name": "Helper_Evergreen_SelectableItem_HacklLeviathanSniperRifleCovertDucky",
 			"factory": "00F32755ADB1229D",
 			"blueprint": "007DF7B9811506A8",
@@ -2928,7 +2876,7 @@
 				"m_bVisible": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feed8fdea8de8be0",
+					"value": "feed004481e2212a",
 					"postInit": true
 				}
 			},
@@ -2951,7 +2899,9 @@
 						"feed00c12348ed38",
 						"feed88e18eb78122",
 						"feede6df40e4107d",
-						"feedf1e9c18e574f"
+						"feedf1e9c18e574f",
+						"feedc08d7bc9bfc4",
+						"feeda3b45e7361e4"
 					]
 				},
 				"m_mTransform": {
@@ -3098,7 +3048,7 @@
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feed111ddec3bd86": {
-			"parent": "feed8fdea8de8be0",
+			"parent": "24201011b4f6b949",
 			"name": "Helper_Evergreen_SelectableItem_Sieger300Ghost",
 			"factory": "0086CE09E5561ACC",
 			"blueprint": "00895C3C6D02E2C6",
@@ -3122,7 +3072,7 @@
 				"m_bVisible": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feed8fdea8de8be0",
+					"value": "24201011b4f6b949",
 					"postInit": true
 				}
 			},
@@ -3160,7 +3110,7 @@
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feed8ddbdbfb7d0f": {
-			"parent": "feed8fdea8de8be0",
+			"parent": "24201011b4f6b949",
 			"name": "Helper_Evergreen_SelectableItem_Sieger300WhiteNinja",
 			"factory": "001345AF6F671120",
 			"blueprint": "0018EE3B87AEAAC4",
@@ -3184,7 +3134,7 @@
 				"m_bVisible": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feed8fdea8de8be0",
+					"value": "24201011b4f6b949",
 					"postInit": true
 				}
 			},

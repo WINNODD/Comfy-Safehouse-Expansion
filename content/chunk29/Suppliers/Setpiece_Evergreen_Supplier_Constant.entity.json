@@ -53,13 +53,6 @@
 					"type": "ZGuid",
 					"value": "4799bd11-d4e2-4e4f-ab68-5b8680a43f5e"
 				},
-				"m_rPromptDescriptionTextResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "002F0AD948662BE8",
-						"flag": "5F"
-					}
-				},
 				"m_rPromptTextResource": {
 					"type": "ZRuntimeResourceID",
 					"value": {
@@ -73,27 +66,17 @@
 				},
 				"BusyConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["5412ff56abd7c859", "cafe610b83e25c05"],
+					"value": ["cafe610b83e25c05"],
 					"postInit": true
 				},
 				"m_aEnableConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["be12e06dde77e509", "fb5dd4d59b5457d2"],
+					"value": ["be12e06dde77e509"],
 					"postInit": true
 				},
 				"m_aStartConditions": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": ["6fa6ab3f3153c20d"],
-					"postInit": true
-				},
-				"evergreenAllGearCollected": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [],
-					"postInit": true
-				},
-				"m_pActor": {
-					"type": "SEntityTemplateReference",
-					"value": null,
 					"postInit": true
 				}
 			},
@@ -106,6 +89,14 @@
 					"Signal": ["b5489cf46671c736"],
 					"SetFalse": ["be12e06dde77e509"]
 				}
+			},
+			"propertyAliases": {
+				"m_pAudioEvent": [
+					{
+						"originalProperty": "m_pAudioEvent",
+						"originalEntity": "c34f2f650b5e269f"
+					}
+				]
 			}
 		},
 		"6f6b9fcb92f1f588": {
@@ -157,13 +148,6 @@
 				"OnFalse": { "Start": ["d2799ca37208e18d"] },
 				"OnTrue": { "Start": ["d2799ca37208e18d"] }
 			}
-		},
-		"fb5dd4d59b5457d2": {
-			"parent": "aa6b31cb3e12bdfc",
-			"name": "EnableVendor",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
-			"events": { "OnTrue": { "In": ["90cda015e3db1992"] } }
 		},
 		"f149809c3ed7a540": {
 			"parent": "c8e36d4105f5548d",
@@ -260,13 +244,6 @@
 			"factory": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entityblueprint",
 			"properties": {
-				"m_pAudioEvent": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "001DEA393D908EA2",
-						"flag": "5F"
-					}
-				},
 				"m_rActor": {
 					"type": "SEntityTemplateReference",
 					"value": {
@@ -343,13 +320,6 @@
 			"factory": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entityblueprint",
 			"properties": {
-				"m_pAudioEvent": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00F6CDEAB44DCDDC",
-						"flag": "5F"
-					}
-				},
 				"m_rActor": {
 					"type": "SEntityTemplateReference",
 					"value": "bc638b7a93d49c3c",
@@ -438,14 +408,17 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": ["bc638b7a93d49c3c"],
 					"postInit": true
-				},
-				"m_aEnableConditions": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["fb5dd4d59b5457d2"],
-					"postInit": true
 				}
 			},
-			"events": { "OnDone": { "Disable": ["ea274d3b30db53bd"] } }
+			"events": { "OnDone": { "Disable": ["ea274d3b30db53bd"] } },
+			"propertyAliases": {
+				"m_pAudioEvent": [
+					{
+						"originalProperty": "m_pAudioEvent",
+						"originalEntity": "d2799ca37208e18d"
+					}
+				]
+			}
 		},
 		"6ddeedf735bdc0ba": {
 			"parent": "6fa6ab3f3153c20d",
@@ -606,13 +579,6 @@
 			"factory": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entityblueprint",
 			"properties": {
-				"m_pAudioEvent": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00072856B28F8B5F",
-						"flag": "5F"
-					}
-				},
 				"m_rActor": {
 					"type": "SEntityTemplateReference",
 					"value": "5190a9d8936ee48e"
@@ -633,23 +599,6 @@
 				}
 			},
 			"events": { "OnStart": { "PollActor": ["50c06ce433715ac9"] } }
-		},
-		"271ab15b116359c8": {
-			"parent": "5412ff56abd7c859",
-			"name": "Vendor approaching male act",
-			"factory": "00F7C4EF9331E699",
-			"blueprint": "0002815AAAC4A6A8",
-			"properties": {
-				"m_fConditionValidDistance": {
-					"type": "float32",
-					"value": 0.5
-				},
-				"m_rActBehavior": {
-					"type": "SEntityTemplateReference",
-					"value": "2cade208e2d9812a",
-					"postInit": true
-				}
-			}
 		},
 		"cadfa3d10a42f25d": {
 			"parent": "90cda015e3db1992",
@@ -674,10 +623,6 @@
 					"value": ["ab82851bbb7bb234"]
 				},
 				"m_nCooldown": { "type": "float32", "value": 30 },
-				"m_aEnableConditions": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["fb5dd4d59b5457d2"]
-				},
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": ["5190a9d8936ee48e"],
@@ -694,6 +639,14 @@
 					"Disable": ["8000e6efcedde289"],
 					"greeted": ["9c92ced2ade2e4d6"]
 				}
+			},
+			"propertyAliases": {
+				"m_pAudioEvent": [
+					{
+						"originalProperty": "m_pAudioEvent",
+						"originalEntity": "a1b6f69c939a5477"
+					}
+				]
 			}
 		},
 		"2cade208e2d9812a": {
@@ -836,13 +789,7 @@
 			"parent": "e6cd42ef394c0f05",
 			"name": "Role",
 			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rActorProvider": {
-					"type": "SEntityTemplateReference",
-					"value": null
-				}
-			}
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint"
 		},
 		"321301c861a94250": {
 			"parent": "8000e6efcedde289",
@@ -871,23 +818,6 @@
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
 		},
-		"5412ff56abd7c859": {
-			"parent": "aa6b31cb3e12bdfc",
-			"name": "Vendor approaching neither act",
-			"factory": "[assembly:/_pro/design/actor/spsystem.template?/enableconditions.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/enableconditions.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_eEvaluation": {
-					"type": "ZValueBool_Operation_Signal.EEvaluationType",
-					"value": "NONE"
-				},
-				"m_aValues": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["271ab15b116359c8"],
-					"postInit": true
-				}
-			}
-		},
 		"e6cd42ef394c0f05": {
 			"parent": "aa6b31cb3e12bdfc",
 			"name": "Idle",
@@ -897,14 +827,6 @@
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": ["e8ed008afe470277"]
-				},
-				"m_aEnableConditions": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["fb5dd4d59b5457d2"]
-				},
-				"m_rActorProvider": {
-					"type": "SEntityTemplateReference",
-					"value": null
 				},
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -1041,7 +963,7 @@
 					"Disable": ["8000e6efcedde289"],
 					"SetFalse": ["cdbcc86127940763"]
 				},
-				"SetTrue": { "SetTrue": ["fb5dd4d59b5457d2"] },
+				"SetTrue": { "In": ["90cda015e3db1992"] },
 				"SetBusy": { "SetTrue": ["cafe610b83e25c05"] }
 			},
 			"propertyAliases": {
@@ -1061,6 +983,30 @@
 					{
 						"originalProperty": "m_rActorProvider",
 						"originalEntity": "90cda015e3db1992"
+					}
+				],
+				"m_rPromptDescriptionTextResource": [
+					{
+						"originalProperty": "m_rPromptDescriptionTextResource",
+						"originalEntity": "c8e36d4105f5548d"
+					}
+				],
+				"m_pAudioEvent_47": [
+					{
+						"originalProperty": "m_pAudioEvent",
+						"originalEntity": "c8e36d4105f5548d"
+					}
+				],
+				"m_pAudioEvent_Hello": [
+					{
+						"originalProperty": "m_pAudioEvent",
+						"originalEntity": "e8ed008afe470277"
+					}
+				],
+				"m_pAudioEvent_Goodbye": [
+					{
+						"originalProperty": "m_pAudioEvent",
+						"originalEntity": "ab82851bbb7bb234"
 					}
 				]
 			}

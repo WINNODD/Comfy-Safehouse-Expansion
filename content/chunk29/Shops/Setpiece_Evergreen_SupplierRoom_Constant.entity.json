@@ -60,25 +60,12 @@
 			"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
 			"events": {
 				"Out02": {
-					"Pick": [
-						"d7fdd9142b0d3725",
-						"1dbb3051aa11cdac",
-						"feed22b076a55129",
-						"cafe5d9dd01ce6f5"
-					]
+					"Pick": ["d7fdd9142b0d3725", "cafe5d9dd01ce6f5"]
 				},
 				"Out01": {
 					"SetActive": [
 						{
 							"ref": "d7fdd9142b0d3725",
-							"value": { "type": "bool", "value": true }
-						},
-						{
-							"ref": "1dbb3051aa11cdac",
-							"value": { "type": "bool", "value": true }
-						},
-						{
-							"ref": "feed22b076a55129",
 							"value": { "type": "bool", "value": true }
 						},
 						{
@@ -91,14 +78,6 @@
 					"SetActive": [
 						{
 							"ref": "d7fdd9142b0d3725",
-							"value": { "type": "bool", "value": false }
-						},
-						{
-							"ref": "1dbb3051aa11cdac",
-							"value": { "type": "bool", "value": false }
-						},
-						{
-							"ref": "feed22b076a55129",
 							"value": { "type": "bool", "value": false }
 						},
 						{
@@ -1365,7 +1344,7 @@
 			}
 		},
 		"cdd2ab745dd91a37": {
-			"parent": "1dbb3051aa11cdac",
+			"parent": "d7fdd9142b0d3725",
 			"name": "Helper_Evergreen_SelectableItem_ClawHammer",
 			"factory": "003F60A8049D46EE",
 			"blueprint": "009EC9AAEC182C7C",
@@ -1389,7 +1368,7 @@
 				"m_bVisible": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "1dbb3051aa11cdac",
+					"value": "d7fdd9142b0d3725",
 					"postInit": true
 				}
 			},
@@ -2667,46 +2646,17 @@
 				},
 				"m_Choices": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["1a62e83a0642c64b"]
+					"value": [
+						"1a62e83a0642c64b",
+						"feedb0f9cda31a31",
+						"cdd2ab745dd91a37"
+					]
 				},
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 90, "z": 0 },
 						"position": { "x": 0.6, "y": 0, "z": -0.6 }
-					}
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_Seed": {
-					"type": "SEntityTemplateReference",
-					"value": null
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "22edf43d9609168f",
-					"postInit": true
-				}
-			}
-		},
-		"1dbb3051aa11cdac": {
-			"parent": "4d661fa986a84d18",
-			"name": "Melee Claw Hammer",
-			"factory": "0065C766B156793F",
-			"blueprint": "0013B44A023B3A0B",
-			"properties": {
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_Choices": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cdd2ab745dd91a37"]
-				},
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": -90, "z": 0 },
-						"position": { "x": -0.6, "y": 0, "z": -0.75 }
 					}
 				},
 				"m_bVisible": { "type": "bool", "value": true },
@@ -2735,14 +2685,6 @@
 			"inputCopying": { "Pick": { "Signal": ["4df5907452ac8d84"] } },
 			"propertyAliases": {
 				"m_Seed": [
-					{
-						"originalProperty": "m_Seed",
-						"originalEntity": "1dbb3051aa11cdac"
-					},
-					{
-						"originalProperty": "m_Seed",
-						"originalEntity": "feed22b076a55129"
-					},
 					{
 						"originalProperty": "m_Seed",
 						"originalEntity": "d7fdd9142b0d3725"
@@ -2799,41 +2741,8 @@
 				]
 			}
 		},
-		"feed22b076a55129": {
-			"parent": "4d661fa986a84d18",
-			"name": "Melee Hobby Knife",
-			"factory": "0065C766B156793F",
-			"blueprint": "0013B44A023B3A0B",
-			"properties": {
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_Choices": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feedb0f9cda31a31"]
-				},
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": -90, "z": 0 },
-						"position": { "x": -0.25, "y": 0, "z": -0.75 }
-					}
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_Seed": {
-					"type": "SEntityTemplateReference",
-					"value": null
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "22edf43d9609168f",
-					"postInit": true
-				}
-			}
-		},
 		"feedb0f9cda31a31": {
-			"parent": "feed22b076a55129",
+			"parent": "d7fdd9142b0d3725",
 			"name": "Helper_Evergreen_SelectableItem_HobbyKnife",
 			"factory": "007E04581A85F379",
 			"blueprint": "00B160927B49B0F8",
@@ -2861,7 +2770,7 @@
 				"m_bVisible": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feed22b076a55129",
+					"value": "d7fdd9142b0d3725",
 					"postInit": true
 				}
 			},
