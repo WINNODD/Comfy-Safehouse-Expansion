@@ -271,6 +271,10 @@
 								"flag": "5F"
 							}
 						},
+						"m_rDefaultVoiceVariations": {
+							"type": "TArray<EActorVoiceVariation>",
+							"value": ["eAVV_CIVFEM05"]
+						},
 						"m_rDescriptionTextResource": {
 							"type": "ZRuntimeResourceID",
 							"value": {
@@ -342,6 +346,10 @@
 								"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/actor_hero.sweetmenutext?/actor_hero_character_stone.sweetline].pc_sweetline",
 								"flag": "5F"
 							}
+						},
+						"m_rDefaultVoiceVariations": {
+							"type": "TArray<EActorVoiceVariation>",
+							"value": ["eAVV_ET_FABA"]
 						},
 						"m_rDescriptionTextResource": {
 							"type": "ZRuntimeResourceID",
@@ -424,6 +432,10 @@
 						"m_bIsHitmanSuit": {
 							"type": "bool",
 							"value": true
+						},
+						"m_rDefaultVoiceVariations": {
+							"type": "TArray<EActorVoiceVariation>",
+							"value": ["eAVV_Undefined"]
 						},
 						"m_aCharSets": {
 							"type": "TArray<SEntityTemplateReference>",
@@ -737,6 +749,10 @@
 							"value": false
 						},
 						"m_nArmorRating": { "type": "int32", "value": 9 },
+						"m_rDefaultVoiceVariations": {
+							"type": "TArray<EActorVoiceVariation>",
+							"value": ["eAVV_WS_NEWMAN"]
+						},
 						"m_aCharSets": {
 							"type": "TArray<SEntityTemplateReference>",
 							"value": ["feed4e1cf1239d64"],
@@ -837,7 +853,7 @@
 						},
 						"m_rDefaultVoiceVariations": {
 							"type": "TArray<EActorVoiceVariation>",
-							"value": ["eAVV_CIVMALE01"]
+							"value": ["eAVV_BDYGRD06"]
 						},
 						"m_aCharSets": {
 							"type": "TArray<SEntityTemplateReference>",
@@ -1028,7 +1044,7 @@
 						},
 						"m_rDefaultVoiceVariations": {
 							"type": "TArray<EActorVoiceVariation>",
-							"value": ["eAVV_CONSTANT"]
+							"value": ["eAVV_JANUS"]
 						},
 						"m_aAnimationSets": {
 							"type": "TArray<SEntityTemplateReference>",
@@ -1116,7 +1132,7 @@
 						},
 						"m_rDefaultVoiceVariations": {
 							"type": "TArray<EActorVoiceVariation>",
-							"value": ["eAVV_JOB_CASTLESTFEM05"]
+							"value": ["eAVV_LJUDMILAVETROVA"]
 						},
 						"m_eOutfitType": {
 							"type": "EOutfitType",
@@ -1312,12 +1328,7 @@
 						},
 						"m_rDefaultVoiceVariations": {
 							"type": "TArray<EActorVoiceVariation>",
-							"value": [
-								"eAVV_YACHTCREW01",
-								"eAVV_YACHTCREW02",
-								"eAVV_YACHTCREW03",
-								"eAVV_YACHTCREW04"
-							]
+							"value": ["eAVV_CIVFEMES02"]
 						},
 						"m_bIsFemale": { "type": "bool", "value": true }
 					}

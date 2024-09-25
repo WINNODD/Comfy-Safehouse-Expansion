@@ -11970,8 +11970,8 @@
 				{
 					"parent": "feeda75649904273",
 					"name": "Setpiece_Evergreen_Supplier_Diana",
-					"factory": "0052E8567791B13B",
-					"blueprint": "0049A0A0B3B86803",
+					"factory": "0081A277163662E9",
+					"blueprint": "00C20A98BE1FA492",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -11984,6 +11984,34 @@
 							"type": "SEntityTemplateReference",
 							"value": "feedb1a30f22a577",
 							"postInit": true
+						},
+						"m_rPromptDescriptionTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "006BF9EB20B864CF",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_47": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "0068689933C229D2",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_Hello": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "008483EE358BDE11",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_Goodbye": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00997470AFF4521E",
+								"flag": "5F"
+							}
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
@@ -12125,8 +12153,8 @@
 				{
 					"parent": "feeda75649904273",
 					"name": "Setpiece_Evergreen_Supplier_Grey",
-					"factory": "00ED2F42F63FBD12",
-					"blueprint": "00F89E5913671ED2",
+					"factory": "0081A277163662E9",
+					"blueprint": "00C20A98BE1FA492",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -12139,6 +12167,34 @@
 							"type": "SEntityTemplateReference",
 							"value": "feed7b75fe5b5dc1",
 							"postInit": true
+						},
+						"m_rPromptDescriptionTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "007EDCFBF26DFDDF",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_47": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "0041C459986E71E2",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_Hello": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00946DFFE282E5DC",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_Goodbye": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00A7E5F2D038E1AC",
+								"flag": "5F"
+							}
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
@@ -12252,7 +12308,7 @@
 						"m_nWeaponIndex": { "type": "int32", "value": 0 },
 						"m_eRequiredVoiceVariation": {
 							"type": "EActorVoiceVariation",
-							"value": "eAVV_CIVMALE01"
+							"value": "eAVV_WS_NEWMAN"
 						},
 						"m_InventoryItemKeys": {
 							"type": "TArray<SEntityTemplateReference>",
@@ -12289,8 +12345,8 @@
 				{
 					"parent": "feeda75649904273",
 					"name": "Setpiece_Evergreen_Supplier_Olivia",
-					"factory": "0060D6534D1721C8",
-					"blueprint": "00D69D4A6FDA39FD",
+					"factory": "0081A277163662E9",
+					"blueprint": "00C20A98BE1FA492",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -12303,6 +12359,34 @@
 							"type": "SEntityTemplateReference",
 							"value": "feedb89c156a7396",
 							"postInit": true
+						},
+						"m_rPromptDescriptionTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00B0EE7851E8AAF3",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_47": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00CEFD756C30AA55",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_Hello": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00887C26BB22AFFD",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_Goodbye": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "005ACAEAE8643E2E",
+								"flag": "5F"
+							}
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
@@ -12411,7 +12495,7 @@
 						},
 						"m_eRequiredVoiceVariation": {
 							"type": "EActorVoiceVariation",
-							"value": "eAVV_CIVFEM01"
+							"value": "eAVV_CIVFEMES02"
 						},
 						"m_InventoryItemKeys": {
 							"type": "TArray<SEntityTemplateReference>",
@@ -12635,8 +12719,8 @@
 				{
 					"parent": "feeda75649904273",
 					"name": "Setpiece_Evergreen_Supplier_Graves",
-					"factory": "004F95242F4C08F1",
-					"blueprint": "002807D94809E941",
+					"factory": "0081A277163662E9",
+					"blueprint": "00C20A98BE1FA492",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -12649,6 +12733,34 @@
 							"type": "SEntityTemplateReference",
 							"value": "feed35a7d75aaa3f",
 							"postInit": true
+						},
+						"m_rPromptDescriptionTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "001B625437B6BD40",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_47": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "005CF21614229A6F",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_Hello": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "005E0236180C4C17",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_Goodbye": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/localization/hitman6/conversations/elegant/llama/44000_elusive/44000_jockeyclub/44000_jockeyclub_story/dr444522_postrestmeeting03.sweetdialog].pc_dialogevent",
+								"flag": "5F"
+							}
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
@@ -12790,8 +12902,8 @@
 				{
 					"parent": "feeda75649904273",
 					"name": "Setpiece_Evergreen_Supplier_Soders",
-					"factory": "00FA2F6BE3D25432",
-					"blueprint": "00F2CDA8029574DA",
+					"factory": "0081A277163662E9",
+					"blueprint": "00C20A98BE1FA492",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -12804,6 +12916,34 @@
 							"type": "SEntityTemplateReference",
 							"value": "feed1679d37f6071",
 							"postInit": true
+						},
+						"m_rPromptDescriptionTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00A83BE4B59206B7",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_47": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00329ECB09C2E9E7",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_Hello": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "008483EE358BDE11",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_Goodbye": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "004676EE11A37627",
+								"flag": "5F"
+							}
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
@@ -12908,7 +13048,7 @@
 						},
 						"m_eRequiredVoiceVariation": {
 							"type": "EActorVoiceVariation",
-							"value": "eAVV_CIVMALE01"
+							"value": "eAVV_JANUS"
 						},
 						"m_InventoryItemKeys": {
 							"type": "TArray<SEntityTemplateReference>",
@@ -12945,8 +13085,8 @@
 				{
 					"parent": "feeda75649904273",
 					"name": "Setpiece_Evergreen_Supplier_Rolf",
-					"factory": "00CCBAED885E6DF1",
-					"blueprint": "00FF3CBF365A1D26",
+					"factory": "0081A277163662E9",
+					"blueprint": "00C20A98BE1FA492",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -12959,6 +13099,34 @@
 							"type": "SEntityTemplateReference",
 							"value": "feedb1b258fc40dc",
 							"postInit": true
+						},
+						"m_rPromptDescriptionTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00BCCD564915D574",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_47": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00B4675F25CD2850",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_Hello": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "0093469C3D3D965E",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_Goodbye": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00A522379CA079FD",
+								"flag": "5F"
+							}
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
@@ -13104,8 +13272,8 @@
 				{
 					"parent": "feeda75649904273",
 					"name": "Setpiece_Evergreen_Supplier_Smith",
-					"factory": "00F412319CF847C0",
-					"blueprint": "00F9AE5609958D7F",
+					"factory": "0081A277163662E9",
+					"blueprint": "00C20A98BE1FA492",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -13118,6 +13286,34 @@
 							"type": "SEntityTemplateReference",
 							"value": "feed7fd86a3c73dd",
 							"postInit": true
+						},
+						"m_rPromptDescriptionTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "0048EDC3CD4FD6C1",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_47": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00C80DD45E57B64A",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_Hello": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "008E1F0030851250",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_Goodbye": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "007965C97B6CEB7C",
+								"flag": "5F"
+							}
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
@@ -13263,8 +13459,8 @@
 				{
 					"parent": "feeda75649904273",
 					"name": "Setpiece_Evergreen_Supplier_Orson",
-					"factory": "009155D31D53146D",
-					"blueprint": "0072845433DA8FAA",
+					"factory": "0081A277163662E9",
+					"blueprint": "00C20A98BE1FA492",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -13277,6 +13473,34 @@
 							"type": "SEntityTemplateReference",
 							"value": "feed1c05d4a0ba8b",
 							"postInit": true
+						},
+						"m_rPromptDescriptionTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00DAF1CBF6D9D24B",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_47": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/localization/hitman6/conversations/elegant/llama/44000_story/dr44036_black47jointour.sweetdialog?/dr44036_black47jointour_47_005.sweetdialogitem].pc_dialogevent",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_Hello": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31028_reynardundress.sweetdialog?/dr31028_reynardundress_orson_001.sweetdialogitem].pc_dialogevent",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_Goodbye": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31009_reynardendblackmail.sweetdialog?/dr31009_reynardendblackmail_orson_005.sweetdialogitem].pc_dialogevent",
+								"flag": "5F"
+							}
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
@@ -13422,8 +13646,8 @@
 				{
 					"parent": "feeda75649904273",
 					"name": "Setpiece_Evergreen_Supplier_Knight",
-					"factory": "00A2C9F23CDDECE7",
-					"blueprint": "002CC1BE83FA2DDB",
+					"factory": "0081A277163662E9",
+					"blueprint": "00C20A98BE1FA492",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -13436,6 +13660,34 @@
 							"type": "SEntityTemplateReference",
 							"value": "feedeffcf36bbb40",
 							"postInit": true
+						},
+						"m_rPromptDescriptionTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00E29099901BF14D",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_47": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00F277ACBF038325",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_Hello": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "003F826BB1B32C36",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_Goodbye": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00201D2B8BF75057",
+								"flag": "5F"
+							}
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
@@ -13544,7 +13796,7 @@
 						},
 						"m_eRequiredVoiceVariation": {
 							"type": "EActorVoiceVariation",
-							"value": "eAVV_CIVFEM01"
+							"value": "eAVV_CIVFEM05"
 						},
 						"m_eGlowOverride": {
 							"type": "ERenderGlowTypes",
@@ -13577,8 +13829,8 @@
 				{
 					"parent": "feeda75649904273",
 					"name": "Setpiece_Evergreen_Supplier_Stone",
-					"factory": "0091C32CADB46DEA",
-					"blueprint": "00FDA2C83456661D",
+					"factory": "0081A277163662E9",
+					"blueprint": "00C20A98BE1FA492",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -13591,6 +13843,34 @@
 							"type": "SEntityTemplateReference",
 							"value": "feedba284a61f6b7",
 							"postInit": true
+						},
+						"m_rPromptDescriptionTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "001772CF0229F8A6",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_47": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "004EF51723FFA0D4",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_Hello": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00C375769B1237AF",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_Goodbye": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00BD10D50ABC62C3",
+								"flag": "5F"
+							}
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
@@ -13653,7 +13933,7 @@
 						},
 						"m_eRequiredVoiceVariation": {
 							"type": "EActorVoiceVariation",
-							"value": "eAVV_CIVMALE01"
+							"value": "eAVV_ET_FABA"
 						},
 						"m_eGlowOverride": {
 							"type": "ERenderGlowTypes",
@@ -13686,8 +13966,8 @@
 				{
 					"parent": "feeda75649904273",
 					"name": "Setpiece_Evergreen_Supplier_Royce",
-					"factory": "00EC4BCCBD74A20E",
-					"blueprint": "008661C294741DB0",
+					"factory": "0081A277163662E9",
+					"blueprint": "00C20A98BE1FA492",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -13700,6 +13980,34 @@
 							"type": "SEntityTemplateReference",
 							"value": "feedadab0e2e35af",
 							"postInit": true
+						},
+						"m_rPromptDescriptionTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "008783CD14A77838",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_47": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "008F51636AE225AC",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_Hello": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00D9E4693E9F441C",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_Goodbye": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00BDC8114EEA8628",
+								"flag": "5F"
+							}
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
@@ -13845,8 +14153,8 @@
 				{
 					"parent": "feeda75649904273",
 					"name": "Setpiece_Evergreen_Supplier_Vetrova",
-					"factory": "00A3B59E896051F5",
-					"blueprint": "00B2DE0D0AD0F03D",
+					"factory": "0081A277163662E9",
+					"blueprint": "00C20A98BE1FA492",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -13859,6 +14167,34 @@
 							"type": "SEntityTemplateReference",
 							"value": "feed50b1c86ebef9",
 							"postInit": true
+						},
+						"m_rPromptDescriptionTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00C8276A0D24E422",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_47": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00C4D4C14DF26A52",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_Hello": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00A7FB65C69C334B",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_Goodbye": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "0066E183B1114E02",
+								"flag": "5F"
+							}
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
@@ -14004,8 +14340,8 @@
 				{
 					"parent": "feeda75649904273",
 					"name": "Setpiece_Evergreen_Supplier_47",
-					"factory": "0066666EBD9EDF3E",
-					"blueprint": "00929302063FBFCE",
+					"factory": "0081A277163662E9",
+					"blueprint": "00C20A98BE1FA492",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -14018,6 +14354,34 @@
 							"type": "SEntityTemplateReference",
 							"value": "feedc7bdc5ee3942",
 							"postInit": true
+						},
+						"m_rPromptDescriptionTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00B2D8FB4B2B1AF5",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_47": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00526D3AE5C01F14",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_Hello": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "007D7BD3E9CEE479",
+								"flag": "5F"
+							}
+						},
+						"m_pAudioEvent_Goodbye": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "0030FDC6896FD335",
+								"flag": "5F"
+							}
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
@@ -14131,7 +14495,7 @@
 						"m_nWeaponIndex": { "type": "int32", "value": 0 },
 						"m_eRequiredVoiceVariation": {
 							"type": "EActorVoiceVariation",
-							"value": "eAVV_CIVMALE01"
+							"value": "eAVV_Undefined"
 						},
 						"m_eGlowOverride": {
 							"type": "ERenderGlowTypes",
