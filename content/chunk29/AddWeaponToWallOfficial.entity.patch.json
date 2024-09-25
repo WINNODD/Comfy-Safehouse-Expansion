@@ -12126,10 +12126,6 @@
 							"type": "ERenderGlowTypes",
 							"value": "ERENDERGLOWTYPE_NONE"
 						},
-						"m_bStartEnabled": {
-							"type": "bool",
-							"value": false
-						},
 						"m_bBlockDisguisePickup": {
 							"type": "bool",
 							"value": true
@@ -12318,10 +12314,6 @@
 							"type": "ERenderGlowTypes",
 							"value": "ERENDERGLOWTYPE_NONE"
 						},
-						"m_bStartEnabled": {
-							"type": "bool",
-							"value": false
-						},
 						"m_bBlockDisguisePickup": {
 							"type": "bool",
 							"value": true
@@ -12504,10 +12496,6 @@
 						"m_eGlowOverride": {
 							"type": "ERenderGlowTypes",
 							"value": "ERENDERGLOWTYPE_NONE"
-						},
-						"m_bStartEnabled": {
-							"type": "bool",
-							"value": false
 						},
 						"m_bBlockDisguisePickup": {
 							"type": "bool",
@@ -12692,10 +12680,6 @@
 							"type": "ERenderGlowTypes",
 							"value": "ERENDERGLOWTYPE_NONE"
 						},
-						"m_bStartEnabled": {
-							"type": "bool",
-							"value": false
-						},
 						"m_bBlockDisguisePickup": {
 							"type": "bool",
 							"value": true
@@ -12875,10 +12859,6 @@
 							"type": "ERenderGlowTypes",
 							"value": "ERENDERGLOWTYPE_NONE"
 						},
-						"m_bStartEnabled": {
-							"type": "bool",
-							"value": false
-						},
 						"m_bBlockDisguisePickup": {
 							"type": "bool",
 							"value": true
@@ -13057,10 +13037,6 @@
 						"m_eGlowOverride": {
 							"type": "ERenderGlowTypes",
 							"value": "ERENDERGLOWTYPE_NONE"
-						},
-						"m_bStartEnabled": {
-							"type": "bool",
-							"value": false
 						},
 						"m_bBlockDisguisePickup": {
 							"type": "bool",
@@ -13245,10 +13221,6 @@
 							"type": "ERenderGlowTypes",
 							"value": "ERENDERGLOWTYPE_NONE"
 						},
-						"m_bStartEnabled": {
-							"type": "bool",
-							"value": false
-						},
 						"m_bBlockDisguisePickup": {
 							"type": "bool",
 							"value": true
@@ -13431,10 +13403,6 @@
 						"m_eGlowOverride": {
 							"type": "ERenderGlowTypes",
 							"value": "ERENDERGLOWTYPE_NONE"
-						},
-						"m_bStartEnabled": {
-							"type": "bool",
-							"value": false
 						},
 						"m_bBlockDisguisePickup": {
 							"type": "bool",
@@ -13619,10 +13587,6 @@
 							"type": "ERenderGlowTypes",
 							"value": "ERENDERGLOWTYPE_NONE"
 						},
-						"m_bStartEnabled": {
-							"type": "bool",
-							"value": false
-						},
 						"m_bBlockDisguisePickup": {
 							"type": "bool",
 							"value": true
@@ -13802,10 +13766,6 @@
 							"type": "ERenderGlowTypes",
 							"value": "ERENDERGLOWTYPE_NONE"
 						},
-						"m_bStartEnabled": {
-							"type": "bool",
-							"value": false
-						},
 						"m_bBlockDisguisePickup": {
 							"type": "bool",
 							"value": true
@@ -13938,10 +13898,6 @@
 						"m_eGlowOverride": {
 							"type": "ERenderGlowTypes",
 							"value": "ERENDERGLOWTYPE_NONE"
-						},
-						"m_bStartEnabled": {
-							"type": "bool",
-							"value": false
 						},
 						"m_bBlockDisguisePickup": {
 							"type": "bool",
@@ -14126,10 +14082,6 @@
 							"type": "ERenderGlowTypes",
 							"value": "ERENDERGLOWTYPE_NONE"
 						},
-						"m_bStartEnabled": {
-							"type": "bool",
-							"value": false
-						},
 						"m_bBlockDisguisePickup": {
 							"type": "bool",
 							"value": true
@@ -14312,10 +14264,6 @@
 						"m_eGlowOverride": {
 							"type": "ERenderGlowTypes",
 							"value": "ERENDERGLOWTYPE_NONE"
-						},
-						"m_bStartEnabled": {
-							"type": "bool",
-							"value": false
 						},
 						"m_bBlockDisguisePickup": {
 							"type": "bool",
@@ -14500,10 +14448,6 @@
 						"m_eGlowOverride": {
 							"type": "ERenderGlowTypes",
 							"value": "ERENDERGLOWTYPE_NONE"
-						},
-						"m_bStartEnabled": {
-							"type": "bool",
-							"value": false
 						},
 						"m_bBlockDisguisePickup": {
 							"type": "bool",

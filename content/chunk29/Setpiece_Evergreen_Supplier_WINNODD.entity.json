@@ -318,13 +318,6 @@
 				}
 			}
 		},
-		"8fdbf3b72b364b7a": {
-			"parent": "aa6b31cb3e12bdfc",
-			"name": "SignalFork_Void",
-			"factory": "[modules:/zsignalforkentity_void.class].pc_entitytype",
-			"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
-			"events": { "Out02": { "Set": ["bfc021574703d396"] } }
-		},
 		"d2799ca37208e18d": {
 			"parent": "ab82851bbb7bb234",
 			"name": "AOL_ev073_supbye_civmale07",
@@ -625,12 +618,6 @@
 				}
 			},
 			"events": { "OnStart": { "PollActor": ["50c06ce433715ac9"] } }
-		},
-		"cadfa3d10a42f25d": {
-			"parent": "aa6b31cb3e12bdfc",
-			"name": "ActorProxy",
-			"factory": "[modules:/zactorproxyentity.class].pc_entitytype",
-			"blueprint": "[modules:/zactorproxyentity.class].pc_entityblueprint"
 		},
 		"e8ed008afe470277": {
 			"parent": "aa6b31cb3e12bdfc",
@@ -958,10 +945,7 @@
 					"Disable": ["8000e6efcedde289"],
 					"SetFalse": ["cdbcc86127940763"]
 				},
-				"SetTrue": {
-					"In": ["8fdbf3b72b364b7a"],
-					"Enable": ["cadfa3d10a42f25d"]
-				},
+				"SetTrue": { "Set": ["bfc021574703d396"] },
 				"SetBusy": { "SetTrue": ["cafe610b83e25c05"] }
 			},
 			"propertyAliases": {
@@ -977,10 +961,6 @@
 					{
 						"originalProperty": "m_rActor",
 						"originalEntity": "8000e6efcedde289"
-					},
-					{
-						"originalProperty": "m_rActor",
-						"originalEntity": "cadfa3d10a42f25d"
 					},
 					{
 						"originalProperty": "m_pActor",
