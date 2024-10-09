@@ -12,7 +12,8 @@
         "ConsoleCmd OnlineResources_Disable 1"
     ],
     "contentFolders": [
-        "content"
+        "DebugNewLayout",
+		"content"
     ],
     "dependencies": [{
             "runtimeID": "00A503879BFEDE91",

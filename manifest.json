@@ -11,9 +11,6 @@
 	"thumbs": [
 		"ConsoleCmd OnlineResources_Disable 1"
 	],
-	"contentFolders": [
-		"content"
-	],
 	"dependencies": [
 		{
 			"runtimeID": "00A503879BFEDE91",
@@ -258,12 +255,25 @@
 	],
 	"options": [
 		{
+			"name": "Debug Show Default Layout",
+			"tooltip": "This option will make no difference if you deployed once before swapped to debug manifest.json",
+			"group": "Debug",
+			"type": "select",
+			"enabledByDefault": true,
+			"contentFolders": [
+				"DebugNewLayout",
+				"content"
+			]
+		},
+		{
 			"name": "Debug Show Old Layout",
 			"tooltip": "There used to be so many more weapons on the wall, but the way Io's server handling with items stored in safehouse is preventing me to actually add them. If you toggle this, the game will dicconnect when exiting safehouse with enough weapons collected, then freeze you out from any online gameplay for about an hour. Therefore if you're curious on how the old layout looks like, use it on peacock instead of official server.",
 			"group": "Debug",
-			"type": "checkbox",
+			"type": "select",
+			"enabledByDefault": false,
 			"contentFolders": [
-				"DebugOldLayout"
+				"DebugOldLayout",
+				"content"
 			]
 		},
 		{
