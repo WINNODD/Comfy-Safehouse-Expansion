@@ -2094,12 +2094,6 @@
 							{
 								"AddItemAfter": [
 									"9acb859725e71bcb",
-									"feedea8090e54fd9"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"9acb859725e71bcb",
 									"feed18b0f2c8b7f8"
 								]
 							},
@@ -2835,18 +2829,6 @@
 							{
 								"AddItemAfter": [
 									"94361fe1a68f83e0",
-									"feeddcee08324753"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"94361fe1a68f83e0",
-									"feed04426c84f6e8"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"94361fe1a68f83e0",
 									"feed384c371cd225"
 								]
 							},
@@ -2938,12 +2920,6 @@
 								"AddItemAfter": [
 									"94361fe1a68f83e0",
 									"feed3d07e649c05f"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"94361fe1a68f83e0",
-									"feedbf9ddcd6bc23"
 								]
 							}
 						]
@@ -4091,24 +4067,6 @@
 								"AddItemAfter": [
 									"0eb69d641c22a90e",
 									"fb06ad7c565c7021"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"0eb69d641c22a90e",
-									"feed97ad5b293da5"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"0eb69d641c22a90e",
-									"feed8b7a4fa637b0"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"0eb69d641c22a90e",
-									"feed3d6e470a57b1"
 								]
 							}
 						]
@@ -5980,115 +5938,6 @@
 		},
 		{
 			"AddEntity": [
-				"feed3d6e470a57b1",
-				{
-					"parent": "911ecfd5cf432fac",
-					"name": "Helper_Evergreen_SelectableItem_ICA19WhiteTrinity",
-					"factory": "009C56A0C447FAB4",
-					"blueprint": "001F7E82C3F70838",
-					"properties": {
-						"m_mTransform": {
-							"type": "SMatrix43",
-							"value": {
-								"rotation": { "x": -90, "y": 90, "z": 0 },
-								"position": {
-									"x": 1.0365300178527832,
-									"y": 0.039893001317977905,
-									"z": 2.9038469791412354
-								}
-							}
-						},
-						"GearWall": { "type": "bool", "value": true },
-						"m_eRoomBehaviour": {
-							"type": "ZSpatialEntity.ERoomBehaviour",
-							"value": "ROOM_DYNAMIC"
-						},
-						"m_eidParent": {
-							"type": "SEntityTemplateReference",
-							"value": "911ecfd5cf432fac",
-							"postInit": true
-						}
-					},
-					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"feed8b7a4fa637b0",
-				{
-					"parent": "911ecfd5cf432fac",
-					"name": "Helper_Evergreen_SelectableItem_ICA19RedTrinity",
-					"factory": "00A38F98AF37995D",
-					"blueprint": "00CEBB2696C9C04D",
-					"properties": {
-						"m_mTransform": {
-							"type": "SMatrix43",
-							"value": {
-								"rotation": { "x": -90, "y": 90, "z": 0 },
-								"position": {
-									"x": 1.0365300178527832,
-									"y": 0.039893001317977905,
-									"z": 3.2697110176086426
-								}
-							}
-						},
-						"GearWall": { "type": "bool", "value": true },
-						"m_eRoomBehaviour": {
-							"type": "ZSpatialEntity.ERoomBehaviour",
-							"value": "ROOM_DYNAMIC"
-						},
-						"m_eidParent": {
-							"type": "SEntityTemplateReference",
-							"value": "911ecfd5cf432fac",
-							"postInit": true
-						}
-					},
-					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"feed97ad5b293da5",
-				{
-					"parent": "911ecfd5cf432fac",
-					"name": "Helper_Evergreen_SelectableItem_ICA19BlackTrinity",
-					"factory": "005B19B8C6CEAD09",
-					"blueprint": "00818656CD7E57FC",
-					"properties": {
-						"m_mTransform": {
-							"type": "SMatrix43",
-							"value": {
-								"rotation": {
-									"x": -90.00000341509478,
-									"y": 90,
-									"z": 0
-								},
-								"position": {
-									"x": -1.16058349609375,
-									"y": 0.03306421637535095,
-									"z": 3.2697105407714844
-								}
-							}
-						},
-						"GearWall": { "type": "bool", "value": true },
-						"m_eRoomBehaviour": {
-							"type": "ZSpatialEntity.ERoomBehaviour",
-							"value": "ROOM_DYNAMIC"
-						},
-						"m_eidParent": {
-							"type": "SEntityTemplateReference",
-							"value": "911ecfd5cf432fac",
-							"postInit": true
-						}
-					},
-					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-				}
-			]
-		},
-		{
-			"AddEntity": [
 				"feed032c95093241",
 				{
 					"parent": "cb695646a9f47498",
@@ -6587,45 +6436,6 @@
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "33027e94a6ff95a6",
-							"postInit": true
-						}
-					},
-					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"feedbf9ddcd6bc23",
-				{
-					"parent": "129caf96cdc5cd90",
-					"name": "Helper_Evergreen_SelectableItem_PenicillinCane",
-					"factory": "00B25542D6651EF8",
-					"blueprint": "00F42875E4F1D77B",
-					"properties": {
-						"m_mTransform": {
-							"type": "SMatrix43",
-							"value": {
-								"rotation": {
-									"x": -90.02794230334479,
-									"y": -89.99997478836636,
-									"z": 0.0
-								},
-								"position": {
-									"x": 0.9187164306640624,
-									"y": 0.00015285611152648926,
-									"z": 1.7338504791259766
-								}
-							}
-						},
-						"GearWall": { "type": "bool", "value": true },
-						"m_eRoomBehaviour": {
-							"type": "ZSpatialEntity.ERoomBehaviour",
-							"value": "ROOM_DYNAMIC"
-						},
-						"m_eidParent": {
-							"type": "SEntityTemplateReference",
-							"value": "129caf96cdc5cd90",
 							"postInit": true
 						}
 					},
@@ -8189,40 +7999,6 @@
 		},
 		{
 			"AddEntity": [
-				"feedea8090e54fd9",
-				{
-					"parent": "e3c602b2257207a3",
-					"name": "Helper_Evergreen_SelectableItem_Vinyl",
-					"factory": "003A7D8F029F5D1D",
-					"blueprint": "00E1F9AC01A000A0",
-					"properties": {
-						"m_mTransform": {
-							"type": "SMatrix43",
-							"value": {
-								"rotation": { "x": 0, "y": 0, "z": 0 },
-								"position": {
-									"x": 0.8,
-									"y": 0.05,
-									"z": 1.33
-								}
-							}
-						},
-						"GearWall": { "type": "bool", "value": true },
-						"m_eRoomBehaviour": {
-							"type": "ZSpatialEntity.ERoomBehaviour",
-							"value": "ROOM_DYNAMIC"
-						},
-						"m_eidParent": {
-							"type": "SEntityTemplateReference",
-							"value": "e3c602b2257207a3"
-						}
-					},
-					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-				}
-			]
-		},
-		{
-			"AddEntity": [
 				"feed384c371cd225",
 				{
 					"parent": "129caf96cdc5cd90",
@@ -8242,84 +8018,6 @@
 									"x": -0.605,
 									"y": -0.016661211848258972,
 									"z": 2.9
-								}
-							}
-						},
-						"GearWall": { "type": "bool", "value": true },
-						"m_eRoomBehaviour": {
-							"type": "ZSpatialEntity.ERoomBehaviour",
-							"value": "ROOM_DYNAMIC"
-						},
-						"m_eidParent": {
-							"type": "SEntityTemplateReference",
-							"value": "129caf96cdc5cd90",
-							"postInit": true
-						}
-					},
-					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"feeddcee08324753",
-				{
-					"parent": "129caf96cdc5cd90",
-					"name": "Helper_Evergreen_SelectableItem_PenicillinBelt",
-					"factory": "006C12EE01B23FE4",
-					"blueprint": "00785FCF88ACCA38",
-					"properties": {
-						"m_mTransform": {
-							"type": "SMatrix43",
-							"value": {
-								"rotation": {
-									"x": -157.6956201111245,
-									"y": -89.96613746990957,
-									"z": 22.34432378974866
-								},
-								"position": {
-									"x": -1.15,
-									"y": 0,
-									"z": 2.84
-								}
-							}
-						},
-						"GearWall": { "type": "bool", "value": true },
-						"m_eRoomBehaviour": {
-							"type": "ZSpatialEntity.ERoomBehaviour",
-							"value": "ROOM_DYNAMIC"
-						},
-						"m_eidParent": {
-							"type": "SEntityTemplateReference",
-							"value": "129caf96cdc5cd90",
-							"postInit": true
-						}
-					},
-					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"feed04426c84f6e8",
-				{
-					"parent": "129caf96cdc5cd90",
-					"name": "Helper_Evergreen_SelectableItem_PenicillinKettlebell",
-					"factory": "00045EFD53F9A6F7",
-					"blueprint": "00028DBD0323331F",
-					"properties": {
-						"m_mTransform": {
-							"type": "SMatrix43",
-							"value": {
-								"rotation": {
-									"x": -0.027976467624750707,
-									"y": -0.06255725479980265,
-									"z": -0.000015272776610852462
-								},
-								"position": {
-									"x": 0.02,
-									"y": -0.004972055554389954,
-									"z": 3.09
 								}
 							}
 						},
@@ -8754,21 +8452,6 @@
 									"exposedEntity": "Owned"
 								},
 								{
-									"ref": "feeddcee08324753",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "feedbf9ddcd6bc23",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "feed04426c84f6e8",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
 									"ref": "769465b5ee008e9d",
 									"externalScene": null,
 									"exposedEntity": "Owned"
@@ -8931,11 +8614,6 @@
 									"ref": "feed18f8bc81ccb6",
 									"externalScene": null,
 									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "feedea8090e54fd9",
-									"externalScene": null,
-									"exposedEntity": "Owned"
 								}
 							],
 							"postInit": true
@@ -9037,11 +8715,6 @@
 									"exposedEntity": "Owned"
 								},
 								{
-									"ref": "feed97ad5b293da5",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
 									"ref": "5346c29af5f763d7",
 									"externalScene": null,
 									"exposedEntity": "Owned"
@@ -9077,22 +8750,12 @@
 									"exposedEntity": "Owned"
 								},
 								{
-									"ref": "feed8b7a4fa637b0",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
 									"ref": "70c37c1632bddb6e",
 									"externalScene": null,
 									"exposedEntity": "Owned"
 								},
 								{
 									"ref": "242af15172c5e799",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "feed3d6e470a57b1",
 									"externalScene": null,
 									"exposedEntity": "Owned"
 								},
