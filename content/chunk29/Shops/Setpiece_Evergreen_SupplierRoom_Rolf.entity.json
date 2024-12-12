@@ -3639,9 +3639,9 @@
 		},
 		"cafe6a4c417e91f0": {
 			"parent": "1dbb3051aa11cdac",
-			"name": "Helper_Evergreen_SelectableItem_Vinyl",
-			"factory": "003A7D8F029F5D1D",
-			"blueprint": "00E1F9AC01A000A0",
+			"name": "Helper_Evergreen_SelectableItem_TheClubBoom12VinylSampler",
+			"factory": "00211CBAA87398CC",
+			"blueprint": "00CFCC1F60A291BA",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",

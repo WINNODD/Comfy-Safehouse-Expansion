@@ -3789,9 +3789,9 @@
 		},
 		"cafe372e6c4e3260": {
 			"parent": "1dbb3051aa11cdac",
-			"name": "Helper_Evergreen_SelectableItem_PenicillinKettlebell",
-			"factory": "00045EFD53F9A6F7",
-			"blueprint": "00028DBD0323331F",
+			"name": "Helper_Evergreen_SelectableItem_TheDisruptorKettlebell",
+			"factory": "006D15418A2F1627",
+			"blueprint": "006DFF20AE41E7FB",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -3816,9 +3816,9 @@
 		},
 		"cafe34fdf90daf27": {
 			"parent": "1dbb3051aa11cdac",
-			"name": "Helper_Evergreen_SelectableItem_PenicillinBelt",
-			"factory": "006C12EE01B23FE4",
-			"blueprint": "00785FCF88ACCA38",
+			"name": "Helper_Evergreen_SelectableItem_TheDisruptorResistanceBand",
+			"factory": "008DBE1E1D0A9870",
+			"blueprint": "003B291DE03C9B76",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",

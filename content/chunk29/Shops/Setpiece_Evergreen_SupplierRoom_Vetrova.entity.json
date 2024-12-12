@@ -3256,9 +3256,9 @@
 		},
 		"cafe9412564f956a": {
 			"parent": "1dbb3051aa11cdac",
-			"name": "Helper_Evergreen_SelectableItem_PenicillinCane",
-			"factory": "00B25542D6651EF8",
-			"blueprint": "00F42875E4F1D77B",
+			"name": "Helper_Evergreen_SelectableItem_TheDisruptorCane",
+			"factory": "003C1932BBBC9D1E",
+			"blueprint": "00F438931E143B55",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
