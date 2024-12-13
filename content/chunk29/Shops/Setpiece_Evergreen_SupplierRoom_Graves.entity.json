@@ -899,7 +899,8 @@
 						"9db19c47309ac4fd",
 						"feeda0fbe3e2224c",
 						"cafe27a43cf29e38",
-						"cafe75680ec4647d"
+						"cafe75680ec4647d",
+						"cafee6f1374a6a29"
 					],
 					"postInit": true
 				}
@@ -1388,7 +1389,8 @@
 						"9db19c47309ac4fd",
 						"feeda0fbe3e2224c",
 						"cafe27a43cf29e38",
-						"cafe75680ec4647d"
+						"cafe75680ec4647d",
+						"cafee6f1374a6a29"
 					],
 					"postInit": true
 				}
@@ -2708,7 +2710,8 @@
 						"bd99e5e8e9f1fd60",
 						"011159b196e22a0c",
 						"cafe27a43cf29e38",
-						"cafe75680ec4647d"
+						"cafe75680ec4647d",
+						"cafee6f1374a6a29"
 					]
 				},
 				"m_mTransform": {
@@ -3246,6 +3249,37 @@
 							"x": 0.038001999258995056,
 							"y": 0,
 							"z": 0
+						}
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "3c4c36b15e937673",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafee6f1374a6a29": {
+			"parent": "3c4c36b15e937673",
+			"name": "Helper_Evergreen_SelectableItem_TheSplitterSMG",
+			"factory": "00C398105D336DDF",
+			"blueprint": "002D7E1F73007DCC",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -90, "y": 0, "z": -180 },
+						"position": {
+							"x": -0.09193801879882812,
+							"y": 0,
+							"z": 0.03917801007628441
 						}
 					}
 				},
