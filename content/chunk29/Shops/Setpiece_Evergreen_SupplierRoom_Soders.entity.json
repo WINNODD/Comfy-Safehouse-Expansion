@@ -869,41 +869,6 @@
 				}
 			}
 		},
-		"16b7e6864921a485": {
-			"parent": "1dbb3051aa11cdac",
-			"name": "Helper_Evergreen_SelectableItem_WhiteKatana",
-			"factory": "00D77F993FE710C0",
-			"blueprint": "001D08BE720495A7",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -90,
-							"y": -0.004125296253035899,
-							"z": 179.97610766103642
-						},
-						"position": {
-							"x": -0.14000099897384644,
-							"y": 0,
-							"z": 0
-						}
-					}
-				},
-				"Supplier": { "type": "bool", "value": true },
-				"m_bVisibleInBoxReflection": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "1dbb3051aa11cdac",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
-		},
 		"3843769065110f21": {
 			"parent": "22edf43d9609168f",
 			"name": "Crippling",
@@ -943,8 +908,6 @@
 						"a58930a78d135a51",
 						"9fbc93bf359ebe65",
 						"0942d3dbeb3d4917",
-						"fa52342b6f6e8dfb",
-						"16b7e6864921a485",
 						"abcc138583cd9a3d",
 						"ef38fb18bc2a3c1d",
 						"1c305815de9dae51",
@@ -1531,8 +1494,6 @@
 						"a58930a78d135a51",
 						"9fbc93bf359ebe65",
 						"0942d3dbeb3d4917",
-						"fa52342b6f6e8dfb",
-						"16b7e6864921a485",
 						"abcc138583cd9a3d",
 						"ef38fb18bc2a3c1d",
 						"1c305815de9dae51",
@@ -2050,41 +2011,6 @@
 					"value": null
 				}
 			}
-		},
-		"fa52342b6f6e8dfb": {
-			"parent": "1dbb3051aa11cdac",
-			"name": "Helper_Evergreen_SelectableItem_KatanaNeon",
-			"factory": "006C4A7E25659D31",
-			"blueprint": "000D1A577A754C39",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -90,
-							"y": -0.004125296253035899,
-							"z": 179.97610766103642
-						},
-						"position": {
-							"x": -0.14000099897384644,
-							"y": 0,
-							"z": 0
-						}
-					}
-				},
-				"Supplier": { "type": "bool", "value": true },
-				"m_bVisibleInBoxReflection": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "1dbb3051aa11cdac",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"ed16023fa74f525f": {
 			"parent": "c94aa6e4d76f6a2d",
@@ -3103,8 +3029,6 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
 						"ef38fb18bc2a3c1d",
-						"16b7e6864921a485",
-						"fa52342b6f6e8dfb",
 						"abcc138583cd9a3d",
 						"0942d3dbeb3d4917",
 						"9fbc93bf359ebe65"

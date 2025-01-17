@@ -1,1 +1,1582 @@
-{"tempHash":"00DA49E74098BE3C","tbluHash":"0051CD61E18ED37B","patch":[{"SubEntityOperation":["f0b440e39832ef5e",{"SetName":"Helper_Evergreen_SelectableItem_Jaeger7SnowFox"}]},{"SubEntityOperation":["f0b440e39832ef5e",{"SetFactory":"00F9824B7677C770"}]},{"SubEntityOperation":["f0b440e39832ef5e",{"SetBlueprint":"001823A88927E54A"}]},{"SubEntityOperation":["f0b440e39832ef5e",{"SetPropertyValue":{"property_name":"m_mTransform","value":{"rotation":{"x":-0.0,"y":0.0,"z":-0.0},"position":{"x":-0.1573539972305298,"y":-0.02937299944460392,"z":0.0}}}}]},{"SubEntityOperation":["1d2aabf164c7ce76",{"SetName":"Helper_Evergreen_SelectableItem_Sieger300RudeRuby"}]},{"SubEntityOperation":["1d2aabf164c7ce76",{"SetFactory":"00C86F3453E95649"}]},{"SubEntityOperation":["1d2aabf164c7ce76",{"SetBlueprint":"006D83F84D41F5C7"}]},{"SubEntityOperation":["1d2aabf164c7ce76",{"SetPropertyValue":{"property_name":"m_mTransform","value":{"rotation":{"x":-0.0,"y":0.0,"z":-0.0},"position":{"x":0.09826300293207169,"y":-0.03152500092983246,"z":0.0}}}}]},{"SubEntityOperation":["3f69db5b4f7af41f",{"SetName":"Helper_Evergreen_SelectableItem_TreasureKnife"}]},{"SubEntityOperation":["3f69db5b4f7af41f",{"SetFactory":"00CD3B34B1A34873"}]},{"SubEntityOperation":["3f69db5b4f7af41f",{"SetBlueprint":"004FA3BE5C9DFED2"}]},{"SubEntityOperation":["3f69db5b4f7af41f",{"SetPropertyValue":{"property_name":"m_mTransform","value":{"rotation":{"x":-0.0,"y":0.0,"z":-0.0},"position":{"x":-0.04,"y":-0.04,"z":0.02}}}}]},{"SubEntityOperation":["8785fe8be5c2afd1",{"SetName":"Helper_Evergreen_SelectableItem_ShashkaA33Gold"}]},{"SubEntityOperation":["8785fe8be5c2afd1",{"SetFactory":"00F1D3CEB44304CD"}]},{"SubEntityOperation":["8785fe8be5c2afd1",{"SetBlueprint":"0037B83BC8296577"}]},{"SubEntityOperation":["adc734d5fe4fc400",{"SetName":"Helper_Evergreen_SelectableItem_Sieger300Ice"}]},{"SubEntityOperation":["adc734d5fe4fc400",{"SetFactory":"0025974C7DB937F7"}]},{"SubEntityOperation":["adc734d5fe4fc400",{"SetBlueprint":"00023C4644DB751B"}]},{"SubEntityOperation":["adc734d5fe4fc400",{"SetPropertyValue":{"property_name":"m_mTransform","value":{"rotation":{"x":-0.0,"y":0.0,"z":-0.0},"position":{"x":0.07034700363874435,"y":-0.03215000033378601,"z":0.0}}}}]},{"SubEntityOperation":["733f3f9fe952d911",{"SetName":"Helper_Evergreen_SelectableItem_ICASMGRaptorCovertRudeRuby"}]},{"SubEntityOperation":["733f3f9fe952d911",{"SetFactory":"00D89D785BF383A4"}]},{"SubEntityOperation":["733f3f9fe952d911",{"SetBlueprint":"0027458CEB5CACE5"}]},{"SubEntityOperation":["733f3f9fe952d911",{"SetPropertyValue":{"property_name":"m_mTransform","value":{"rotation":{"x":-0.0,"y":0.0,"z":-0.0},"position":{"x":-0.016581999137997627,"y":-0.01132300030440092,"z":0.0}}}}]},{"SubEntityOperation":["fa4fd364753619e1",{"SetName":"Helper_Evergreen_SelectableItem_CombatKnife"}]},{"SubEntityOperation":["fa4fd364753619e1",{"SetFactory":"00EA55C26F83DD25"}]},{"SubEntityOperation":["fa4fd364753619e1",{"SetBlueprint":"00D41AE955EEB2EE"}]},{"SubEntityOperation":["ca5ca0b22710357c",{"SetName":"Helper_Evergreen_SelectableItem_Piton"}]},{"SubEntityOperation":["ca5ca0b22710357c",{"SetFactory":"00E788C0F16E4A8D"}]},{"SubEntityOperation":["ca5ca0b22710357c",{"SetBlueprint":"00264DA580038F71"}]},{"SubEntityOperation":["ca5ca0b22710357c",{"SetPropertyValue":{"property_name":"m_mTransform","value":{"rotation":{"x":-0.0,"y":0.0,"z":-0.0},"position":{"x":-0.060676999390125275,"y":-0.07652200013399124,"z":0.0}}}}]},{"SubEntityOperation":["78fa793a7a31e042",{"SetName":"Helper_Evergreen_SelectableItem_CrowbarHolidayPresent"}]},{"SubEntityOperation":["78fa793a7a31e042",{"SetFactory":"00E579DD7D307A82"}]},{"SubEntityOperation":["78fa793a7a31e042",{"SetBlueprint":"0054FD7632F188A8"}]},{"SubEntityOperation":["8a3208d42e77da90",{"SetName":"Helper_Evergreen_SelectableItem_XmasStar"}]},{"SubEntityOperation":["8a3208d42e77da90",{"SetFactory":"00CDEF6BC6A47E47"}]},{"SubEntityOperation":["8a3208d42e77da90",{"SetBlueprint":"00AC29A7C5F0217A"}]},{"SubEntityOperation":["8a3208d42e77da90",{"SetPropertyValue":{"property_name":"m_mTransform","value":{"rotation":{"x":-0.0,"y":0.0,"z":-0.0},"position":{"x":0.015988999977707863,"y":-0.05995199829339981,"z":0.0}}}}]},{"SubEntityOperation":["cd7f20f17432bea6",{"SetName":"Helper_Evergreen_SelectableItem_Coin_RFID"}]},{"SubEntityOperation":["cd7f20f17432bea6",{"SetFactory":"007600AD81686CB2"}]},{"SubEntityOperation":["cd7f20f17432bea6",{"SetBlueprint":"00D17004FBD57C71"}]},{"SubEntityOperation":["cd7f20f17432bea6",{"SetPropertyValue":{"property_name":"m_mTransform","value":{"rotation":{"x":-0.0,"y":0.0,"z":0.0},"position":{"x":0.05,"y":-0.05,"z":0.05}}}}]},{"SubEntityOperation":["9b8aa3bdde01ab61",{"SetName":"Helper_Evergreen_SelectableItem_FirePokerHolidayPresent"}]},{"SubEntityOperation":["9b8aa3bdde01ab61",{"SetFactory":"00B7A2CE1DC2C073"}]},{"SubEntityOperation":["9b8aa3bdde01ab61",{"SetBlueprint":"0042E20AAEF871C0"}]},{"SubEntityOperation":["33463dce319df431",{"PatchArrayPropertyValue":["m_entries",[{"AddItemAfter":["760232761b1c056b","cafeafff028fd48c"]},{"AddItemAfter":["760232761b1c056b","cafeaf85780529fb"]},{"AddItemAfter":["760232761b1c056b","cafe1d35c4b8b40b"]},{"AddItemAfter":["760232761b1c056b","cafe4772ab327402"]},{"AddItemAfter":["760232761b1c056b","cafe0e5d2fd6350e"]},{"AddItemAfter":["760232761b1c056b","cafe3c2ade9eecc0"]},{"AddItemAfter":["760232761b1c056b","cafe5210b2ee37a7"]},{"AddItemAfter":["760232761b1c056b","cafefd780ceb834d"]},{"AddItemAfter":["760232761b1c056b","cafe721b1663c964"]},{"AddItemAfter":["760232761b1c056b","cafe2e7802ec8a47"]},{"AddItemAfter":["760232761b1c056b","cafe599b00ce503f"]},{"AddItemAfter":["760232761b1c056b","cafef09c75b5ef54"]},{"AddItemAfter":["760232761b1c056b","cafec44d9b3e5789"]},{"AddItemAfter":["760232761b1c056b","cafe41234a747e55"]},{"AddItemAfter":["760232761b1c056b","cafe2f06271b0c57"]},{"AddItemAfter":["760232761b1c056b","cafe88ebb8e7aba1"]},{"AddItemAfter":["760232761b1c056b","cafe7b895931f7da"]}]]}]},{"SubEntityOperation":["0ca006ac73fc1f4a",{"SetName":"Helper_Evergreen_SelectableItem_ICA19Flowerballer"}]},{"SubEntityOperation":["0ca006ac73fc1f4a",{"SetFactory":"00D5C128B0BC3CCD"}]},{"SubEntityOperation":["0ca006ac73fc1f4a",{"SetBlueprint":"008B0981275F96EE"}]},{"SubEntityOperation":["0ca006ac73fc1f4a",{"SetPropertyValue":{"property_name":"m_mTransform","value":{"rotation":{"x":-0.0,"y":0.0,"z":-90.0},"position":{"x":-0.07010400295257568,"y":-0.0442809984087944,"z":0.0}}}}]},{"SubEntityOperation":["f026a38e91de578d",{"SetName":"Helper_Evergreen_SelectableItem_Druzhina34ICA"}]},{"SubEntityOperation":["f026a38e91de578d",{"SetFactory":"004C0C35DC84B134"}]},{"SubEntityOperation":["f026a38e91de578d",{"SetBlueprint":"00FF45E0CA0B848B"}]},{"SubEntityOperation":["f026a38e91de578d",{"SetPropertyValue":{"property_name":"m_mTransform","value":{"rotation":{"x":-0.0,"y":0.0,"z":-0.0},"position":{"x":-0.19364500045776367,"y":-0.053711000829935074,"z":0.0}}}}]},{"SubEntityOperation":["92e7d4310d3e9b3c",{"SetName":"Helper_Evergreen_SelectableItem_ICASMGRaptorCovertWhite"}]},{"SubEntityOperation":["92e7d4310d3e9b3c",{"SetFactory":"00A0D0F644D94411"}]},{"SubEntityOperation":["92e7d4310d3e9b3c",{"SetBlueprint":"00E260DA2CB9C75E"}]},{"SubEntityOperation":["92e7d4310d3e9b3c",{"SetPropertyValue":{"property_name":"m_mTransform","value":{"rotation":{"x":-0.0,"y":0.0,"z":-0.0},"position":{"x":-0.016581999137997627,"y":-0.01132300030440092,"z":0.0}}}}]},{"SubEntityOperation":["703539076c10ce14",{"SetName":"Helper_Evergreen_SelectableItem_ShovelWrapped"}]},{"SubEntityOperation":["703539076c10ce14",{"SetFactory":"00F7F3161AB374E1"}]},{"SubEntityOperation":["703539076c10ce14",{"SetBlueprint":"000D94235C61FEA2"}]},{"SubEntityOperation":["703539076c10ce14",{"SetPropertyValue":{"property_name":"m_mTransform","value":{"rotation":{"x":-0.0,"y":0.0,"z":-0.0},"position":{"x":0.08,"y":-0.05,"z":0.0}}}}]},{"SubEntityOperation":["bc13a0d5f4f25990",{"SetName":"Helper_Evergreen_SelectableItem_Custom5mmDucky"}]},{"SubEntityOperation":["bc13a0d5f4f25990",{"SetFactory":"00D7BADE40689F0B"}]},{"SubEntityOperation":["bc13a0d5f4f25990",{"SetBlueprint":"00F2E32E5005CBC2"}]},{"SubEntityOperation":["bc13a0d5f4f25990",{"SetPropertyValue":{"property_name":"m_mTransform","value":{"rotation":{"x":-0.0,"y":0.0,"z":-90.0},"position":{"x":-0.014112000353634356,"y":-0.0487699992954731,"z":0.0}}}}]},{"SubEntityOperation":["6ce957cd67c4a5f1",{"SetName":"Helper_Evergreen_SelectableItem_LockpickClassic"}]},{"SubEntityOperation":["6ce957cd67c4a5f1",{"SetFactory":"003391A6F9073CC9"}]},{"SubEntityOperation":["6ce957cd67c4a5f1",{"SetBlueprint":"00B68C75750B76C0"}]},{"SubEntityOperation":["6ce957cd67c4a5f1",{"SetPropertyValue":{"property_name":"m_mTransform","value":{"rotation":{"x":-0.0,"y":0.0,"z":180.0},"position":{"x":-0.01,"y":-0.05,"z":0.0}}}}]},{"SubEntityOperation":["6945c0c2f051d836",{"SetName":"Helper_Evergreen_SelectableItem_KatanaNeon"}]},{"SubEntityOperation":["6945c0c2f051d836",{"SetFactory":"006C4A7E25659D31"}]},{"SubEntityOperation":["6945c0c2f051d836",{"SetBlueprint":"000D1A577A754C39"}]},{"SubEntityOperation":["1a47319a11d29add",{"SetName":"Helper_Evergreen_SelectableItem_FireAxeHoliday"}]},{"SubEntityOperation":["1a47319a11d29add",{"SetFactory":"006E31BAA7B9B158"}]},{"SubEntityOperation":["1a47319a11d29add",{"SetBlueprint":"00B9FE44D51352D3"}]},{"SubEntityOperation":["fe1903297029dd9e",{"SetName":"Helper_Evergreen_SelectableItem_StrikerV3"}]},{"SubEntityOperation":["fe1903297029dd9e",{"SetFactory":"0026008DC9A035BE"}]},{"SubEntityOperation":["fe1903297029dd9e",{"SetBlueprint":"00C48E15137D6CC6"}]},{"SubEntityOperation":["fe1903297029dd9e",{"SetPropertyValue":{"property_name":"m_mTransform","value":{"rotation":{"x":-0.0,"y":0.0,"z":-90.0},"position":{"x":-0.02280299924314022,"y":-0.04677199944853783,"z":0.0}}}}]},{"SubEntityOperation":["b88faa4390bf1b84",{"SetName":"Helper_Evergreen_SelectableItem_BaseballBatClown"}]},{"SubEntityOperation":["b88faa4390bf1b84",{"SetFactory":"00EFEB70C3C142EC"}]},{"SubEntityOperation":["b88faa4390bf1b84",{"SetBlueprint":"0071AB9859C51A7B"}]},{"SubEntityOperation":["760232761b1c056b",{"SetName":"Helper_Evergreen_SelectableItem_Krugermeier22Dark"}]},{"SubEntityOperation":["760232761b1c056b",{"SetFactory":"00D350E1E011757B"}]},{"SubEntityOperation":["760232761b1c056b",{"SetBlueprint":"00F30A01F5DF1C02"}]},{"SubEntityOperation":["760232761b1c056b",{"SetPropertyValue":{"property_name":"m_mTransform","value":{"rotation":{"x":-0.0,"y":0.0,"z":-90.0},"position":{"x":-0.040904998779296875,"y":-0.04262800142168999,"z":0.0}}}}]},{"SubEntityOperation":["0c411bab5cc1e701",{"SetName":"Helper_Evergreen_SelectableItem_ICA19Iceballer"}]},{"SubEntityOperation":["0c411bab5cc1e701",{"SetFactory":"00D5C889C0C0DBB7"}]},{"SubEntityOperation":["0c411bab5cc1e701",{"SetBlueprint":"00BDAFD25896DEBA"}]},{"SubEntityOperation":["0c411bab5cc1e701",{"SetPropertyValue":{"property_name":"m_mTransform","value":{"rotation":{"x":-0.0,"y":0.0,"z":-90.0},"position":{"x":-0.0018050000071525576,"y":-0.042059000581502914,"z":0.0}}}}]},{"SubEntityOperation":["cc16552fba475213",{"SetName":"Helper_Evergreen_SelectableItem_SkyScraperModel"}]},{"SubEntityOperation":["cc16552fba475213",{"SetFactory":"00DF42C3CB934F1E"}]},{"SubEntityOperation":["cc16552fba475213",{"SetBlueprint":"00E9FBB0F8BD47FC"}]},{"SubEntityOperation":["cc16552fba475213",{"SetPropertyValue":{"property_name":"m_mTransform","value":{"rotation":{"x":-0.0,"y":0.0,"z":90.0},"position":{"x":-0.25,"y":-0.03,"z":0.03}}}}]},{"SubEntityOperation":["b111889df1025f44",{"SetName":"Helper_Evergreen_SelectableItem_HacklLeviathanSniperRifleCovertDucky"}]},{"SubEntityOperation":["b111889df1025f44",{"SetFactory":"00F32755ADB1229D"}]},{"SubEntityOperation":["b111889df1025f44",{"SetBlueprint":"007DF7B9811506A8"}]},{"SubEntityOperation":["b111889df1025f44",{"SetPropertyValue":{"property_name":"m_mTransform","value":{"rotation":{"x":-0.0,"y":0.0,"z":-0.0},"position":{"x":-0.021348999813199043,"y":-0.04134099930524826,"z":0.0}}}}]},{"SubEntityOperation":["eaf345f04ced6262",{"SetName":"Helper_Evergreen_SelectableItem_FiberWireClassic"}]},{"SubEntityOperation":["eaf345f04ced6262",{"SetFactory":"005097B40A891546"}]},{"SubEntityOperation":["eaf345f04ced6262",{"SetBlueprint":"00FD1FE1673592FD"}]},{"SubEntityOperation":["eaf345f04ced6262",{"SetPropertyValue":{"property_name":"m_mTransform","value":{"rotation":{"x":-0.0,"y":0.0,"z":-0.0},"position":{"x":0.015879999846220016,"y":-0.040112998336553574,"z":0.0}}}}]},{"SubEntityOperation":["2791a5f85bb3656e",{"PatchArrayPropertyValue":["m_Choices",[{"AddItemAfter":["0ca006ac73fc1f4a","cafeafff028fd48c"]},{"AddItemAfter":["0ca006ac73fc1f4a","cafeaf85780529fb"]},{"AddItemAfter":["0ca006ac73fc1f4a","cafe1d35c4b8b40b"]},{"AddItemAfter":["0ca006ac73fc1f4a","cafe4772ab327402"]},{"AddItemAfter":["0ca006ac73fc1f4a","cafe0e5d2fd6350e"]},{"AddItemAfter":["0ca006ac73fc1f4a","cafe3c2ade9eecc0"]},{"AddItemAfter":["0ca006ac73fc1f4a","cafe5210b2ee37a7"]},{"AddItemAfter":["0ca006ac73fc1f4a","cafefd780ceb834d"]},{"AddItemAfter":["0ca006ac73fc1f4a","cafe721b1663c964"]},{"AddItemAfter":["0ca006ac73fc1f4a","cafe2e7802ec8a47"]},{"AddItemAfter":["0ca006ac73fc1f4a","cafe599b00ce503f"]},{"AddItemAfter":["0ca006ac73fc1f4a","cafef09c75b5ef54"]},{"AddItemAfter":["0ca006ac73fc1f4a","cafec44d9b3e5789"]},{"AddItemAfter":["0ca006ac73fc1f4a","cafe41234a747e55"]},{"AddItemAfter":["0ca006ac73fc1f4a","cafe2f06271b0c57"]},{"AddItemAfter":["0ca006ac73fc1f4a","cafe88ebb8e7aba1"]},{"AddItemAfter":["0ca006ac73fc1f4a","cafe7b895931f7da"]}]]}]},{"AddEntity":["cafe88ebb8e7aba1",{"parent":"2791a5f85bb3656e","name":"Helper_Evergreen_SelectableItem_AsylumTranquilizer","factory":"00582E55A1995672","blueprint":"003D1A07E9140323","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-0.0,"y":0.0,"z":-90.0},"position":{"x":-0.11,"y":-0.07416100054979324,"z":0.0}}},"RewardCrate":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"2791a5f85bb3656e","postInit":true}},"subsets":{"AudioEmitters":["90f1253cbbc43c10"]}}]},{"AddEntity":["cafe2f06271b0c57",{"parent":"2791a5f85bb3656e","name":"Helper_Evergreen_SelectableItem_BartoliHuntingShotgunDeluxe","factory":"00347F57D2CD25E3","blueprint":"0020B5A31B2C5DF8","properties":{"RewardCrate":{"type":"bool","value":true},"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-0.0,"y":0.0,"z":-0.0},"position":{"x":-0.15700100362300873,"y":-0.05502299964427948,"z":0.0}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"2791a5f85bb3656e","postInit":true}},"subsets":{"AudioEmitters":["90f1253cbbc43c10"]}}]},{"AddEntity":["cafe599b00ce503f",{"parent":"2791a5f85bb3656e","name":"Helper_Evergreen_SelectableItem_GluttonySawedOffBartoli12G","factory":"008639E7480B66D2","blueprint":"008E448F2BB29FD4","properties":{"RewardCrate":{"type":"bool","value":true},"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-0.0,"y":0.0,"z":-0.0},"position":{"x":-0.04957899823784828,"y":-0.01749899983406067,"z":0.0}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"2791a5f85bb3656e","postInit":true}},"subsets":{"AudioEmitters":["90f1253cbbc43c10"]}}]},{"AddEntity":["cafe721b1663c964",{"parent":"2791a5f85bb3656e","name":"Helper_Evergreen_SelectableItem_GreedCane","factory":"0052D3B2364B6BF4","blueprint":"0024AC0FCC90A225","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-0.0,"y":0.0,"z":-0.0},"position":{"x":-0.07161100208759308,"y":-0.08665499836206436,"z":0.0}}},"RewardCrate":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"2791a5f85bb3656e","postInit":true}},"subsets":{"AudioEmitters":["90f1253cbbc43c10"]}}]},{"AddEntity":["cafe0e5d2fd6350e",{"parent":"2791a5f85bb3656e","name":"Helper_Evergreen_SelectableItem_PrideSaber","factory":"00AD0725BAA2E911","blueprint":"004B0E9877440C6F","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-0.0,"y":0.0,"z":-0.0},"position":{"x":-0.1798889935016632,"y":-0.06694599986076355,"z":0.0}}},"RewardCrate":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"2791a5f85bb3656e","postInit":true}},"subsets":{"AudioEmitters":["90f1253cbbc43c10"]}}]},{"AddEntity":["cafe4772ab327402",{"parent":"2791a5f85bb3656e","name":"Helper_Evergreen_SelectableItem_ShashkaA33Wrath","factory":"000C96E238EF26F9","blueprint":"001221BB48FF10E6","properties":{"RewardCrate":{"type":"bool","value":true},"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-0.0,"y":0.0,"z":-0.0},"position":{"x":-0.03159099817276001,"y":-0.011505000293254852,"z":0.0}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"2791a5f85bb3656e","postInit":true}},"subsets":{"AudioEmitters":["90f1253cbbc43c10"]}}]},{"AddEntity":["cafe2e7802ec8a47",{"parent":"2791a5f85bb3656e","name":"Helper_Evergreen_SelectableItem_GoldenDragon","factory":"00A78C2D0FEDB708","blueprint":"00C2A1FC3C469E36","properties":{"RewardCrate":{"type":"bool","value":true},"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-0.0,"y":0.0,"z":-0.0},"position":{"x":-0.06811600178480148,"y":-0.0,"z":0.0}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"2791a5f85bb3656e","postInit":true}},"subsets":{"AudioEmitters":["90f1253cbbc43c10"]}}]},{"AddEntity":["cafe3c2ade9eecc0",{"parent":"2791a5f85bb3656e","name":"Helper_Evergreen_SelectableItem_Majestic","factory":"00D27BC0E50949AE","blueprint":"00D95B9CF9AA980F","properties":{"RewardCrate":{"type":"bool","value":true},"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-0.0,"y":0.0,"z":-0.0},"position":{"x":-0.06811600178480148,"y":-0.02,"z":0.0}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"2791a5f85bb3656e","postInit":true}},"subsets":{"AudioEmitters":["90f1253cbbc43c10"]}}]},{"AddEntity":["cafe7b895931f7da",{"parent":"2791a5f85bb3656e","name":"Helper_Evergreen_SelectableItem_AsylumFiberWire","factory":"00BCBD4B227BD645","blueprint":"00F4F706725AEE11","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-0.0,"y":0.0,"z":-0.0},"position":{"x":0.075,"y":-0.04,"z":0.0}}},"RewardCrate":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"2791a5f85bb3656e","postInit":true}},"subsets":{"AudioEmitters":["90f1253cbbc43c10"]}}]},{"AddEntity":["cafeaf85780529fb",{"parent":"2791a5f85bb3656e","name":"Helper_Evergreen_SelectableItem_Sieger300WhiteNinja","factory":"001345AF6F671120","blueprint":"0018EE3B87AEAAC4","properties":{"RewardCrate":{"type":"bool","value":true},"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-0.0,"y":0.0,"z":-0.0},"position":{"x":0.07034700363874435,"y":-0.03215000033378601,"z":0.0}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"2791a5f85bb3656e","postInit":true}},"subsets":{"AudioEmitters":["90f1253cbbc43c10"]}}]},{"AddEntity":["cafefd780ceb834d",{"parent":"2791a5f85bb3656e","name":"Helper_Evergreen_SelectableItem_Jaeger7TuataraEnvy","factory":"008992B36217DF5E","blueprint":"00552000A1447098","properties":{"RewardCrate":{"type":"bool","value":true},"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-0.0,"y":0.0,"z":-0.0},"position":{"x":-0.1573539972305298,"y":-0.02937299944460392,"z":0.0}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"2791a5f85bb3656e","postInit":true}},"subsets":{"AudioEmitters":["90f1253cbbc43c10"]}}]},{"AddEntity":["cafef09c75b5ef54",{"parent":"2791a5f85bb3656e","name":"Helper_Evergreen_SelectableItem_EnvyKnife","factory":"00DAE97E76BD6116","blueprint":"00B53F006BCD14FC","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-0.0,"y":0.0,"z":-0.0},"position":{"x":-0.03,"y":-0.01,"z":0.01}}},"RewardCrate":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"2791a5f85bb3656e","postInit":true}},"subsets":{"AudioEmitters":["90f1253cbbc43c10"]}}]},{"AddEntity":["cafeafff028fd48c",{"parent":"2791a5f85bb3656e","name":"Helper_Evergreen_SelectableItem_WhiteKatana","factory":"00D77F993FE710C0","blueprint":"001D08BE720495A7","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-0.0,"y":0.0,"z":-0.0},"position":{"x":-0.25095799565315247,"y":-0.07827100157737732,"z":0.02}}},"RewardCrate":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"2791a5f85bb3656e","postInit":true}},"subsets":{"AudioEmitters":["90f1253cbbc43c10"]}}]},{"AddEntity":["cafec44d9b3e5789",{"parent":"2791a5f85bb3656e","name":"Helper_Evergreen_SelectableItem_DAKX2CovertSloth","factory":"00C0CC82014D7EBC","blueprint":"007EAEF8FED6421D","properties":{"RewardCrate":{"type":"bool","value":true},"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-0.0,"y":0.0,"z":0.0},"position":{"x":-0.1,"y":0,"z":0.0}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"2791a5f85bb3656e","postInit":true}},"subsets":{"AudioEmitters":["90f1253cbbc43c10"]}}]},{"AddEntity":["cafe41234a747e55",{"parent":"2791a5f85bb3656e","name":"Helper_Evergreen_SelectableItem_DAKGoldCovert","factory":"0035A8828A5F18C0","blueprint":"00DC1280A7B1E28A","properties":{"RewardCrate":{"type":"bool","value":true},"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-0.0,"y":0.0,"z":-0.0},"position":{"x":0.014503000304102898,"y":-0.0,"z":0.0}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"2791a5f85bb3656e","postInit":true}},"subsets":{"AudioEmitters":["90f1253cbbc43c10"]}}]},{"AddEntity":["cafe1d35c4b8b40b",{"parent":"2791a5f85bb3656e","name":"Helper_Evergreen_SelectableItem_Sieger300Redeemer","factory":"002A4FF86054718E","blueprint":"0083F24AF5D08773","properties":{"RewardCrate":{"type":"bool","value":true},"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-0.0,"y":0.0,"z":-0.0},"position":{"x":0.09826300293207169,"y":-0.03152500092983246,"z":0.0}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"2791a5f85bb3656e","postInit":true}},"subsets":{"AudioEmitters":["90f1253cbbc43c10"]}}]},{"AddEntity":["cafe5210b2ee37a7",{"parent":"2791a5f85bb3656e","name":"Helper_Evergreen_SelectableItem_LustBlinder","factory":"005A50F9230AE5A4","blueprint":"007A4529F18B516D","properties":{"RewardCrate":{"type":"bool","value":true},"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-0.0,"y":0.0,"z":-90.0},"position":{"x":-0.06,"y":-0.03353700041770935,"z":0.1}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"2791a5f85bb3656e","postInit":true}},"subsets":{"AudioEmitters":["90f1253cbbc43c10"]}}]}],"patchVersion":6}
+{
+	"tempHash": "00DA49E74098BE3C",
+	"tbluHash": "0051CD61E18ED37B",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"f0b440e39832ef5e",
+				{
+					"SetName": "Helper_Evergreen_SelectableItem_Jaeger7SnowFox"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f0b440e39832ef5e",
+				{ "SetFactory": "00F9824B7677C770" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f0b440e39832ef5e",
+				{ "SetBlueprint": "001823A88927E54A" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f0b440e39832ef5e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+							"position": {
+								"x": -0.1573539972305298,
+								"y": -0.02937299944460392,
+								"z": 0.0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1d2aabf164c7ce76",
+				{
+					"SetName": "Helper_Evergreen_SelectableItem_Sieger300RudeRuby"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1d2aabf164c7ce76",
+				{ "SetFactory": "00C86F3453E95649" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1d2aabf164c7ce76",
+				{ "SetBlueprint": "006D83F84D41F5C7" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1d2aabf164c7ce76",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+							"position": {
+								"x": 0.09826300293207169,
+								"y": -0.03152500092983246,
+								"z": 0.0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3f69db5b4f7af41f",
+				{
+					"SetName": "Helper_Evergreen_SelectableItem_TreasureKnife"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3f69db5b4f7af41f",
+				{ "SetFactory": "00CD3B34B1A34873" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3f69db5b4f7af41f",
+				{ "SetBlueprint": "004FA3BE5C9DFED2" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3f69db5b4f7af41f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+							"position": {
+								"x": -0.04,
+								"y": -0.04,
+								"z": 0.02
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8785fe8be5c2afd1",
+				{
+					"SetName": "Helper_Evergreen_SelectableItem_ShashkaA33Gold"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8785fe8be5c2afd1",
+				{ "SetFactory": "00F1D3CEB44304CD" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8785fe8be5c2afd1",
+				{ "SetBlueprint": "0037B83BC8296577" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"adc734d5fe4fc400",
+				{
+					"SetName": "Helper_Evergreen_SelectableItem_Sieger300Ice"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"adc734d5fe4fc400",
+				{ "SetFactory": "0025974C7DB937F7" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"adc734d5fe4fc400",
+				{ "SetBlueprint": "00023C4644DB751B" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"adc734d5fe4fc400",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+							"position": {
+								"x": 0.07034700363874435,
+								"y": -0.03215000033378601,
+								"z": 0.0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"733f3f9fe952d911",
+				{
+					"SetName": "Helper_Evergreen_SelectableItem_ICASMGRaptorCovertRudeRuby"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"733f3f9fe952d911",
+				{ "SetFactory": "00D89D785BF383A4" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"733f3f9fe952d911",
+				{ "SetBlueprint": "0027458CEB5CACE5" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"733f3f9fe952d911",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+							"position": {
+								"x": -0.016581999137997627,
+								"y": -0.01132300030440092,
+								"z": 0.0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fa4fd364753619e1",
+				{
+					"SetName": "Helper_Evergreen_SelectableItem_CombatKnife"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fa4fd364753619e1",
+				{ "SetFactory": "00EA55C26F83DD25" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fa4fd364753619e1",
+				{ "SetBlueprint": "00D41AE955EEB2EE" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ca5ca0b22710357c",
+				{ "SetName": "Helper_Evergreen_SelectableItem_Piton" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ca5ca0b22710357c",
+				{ "SetFactory": "00E788C0F16E4A8D" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ca5ca0b22710357c",
+				{ "SetBlueprint": "00264DA580038F71" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ca5ca0b22710357c",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+							"position": {
+								"x": -0.060676999390125275,
+								"y": -0.07652200013399124,
+								"z": 0.0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"78fa793a7a31e042",
+				{
+					"SetName": "Helper_Evergreen_SelectableItem_CrowbarHolidayPresent"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"78fa793a7a31e042",
+				{ "SetFactory": "00E579DD7D307A82" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"78fa793a7a31e042",
+				{ "SetBlueprint": "0054FD7632F188A8" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8a3208d42e77da90",
+				{ "SetName": "Helper_Evergreen_SelectableItem_GreedCane" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8a3208d42e77da90",
+				{ "SetFactory": "0052D3B2364B6BF4" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8a3208d42e77da90",
+				{ "SetBlueprint": "0024AC0FCC90A225" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8a3208d42e77da90",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+							"position": {
+								"x": -0.07161100208759308,
+								"y": -0.08665499836206436,
+								"z": 0.0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"cd7f20f17432bea6",
+				{ "SetName": "Helper_Evergreen_SelectableItem_Coin_RFID" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"cd7f20f17432bea6",
+				{ "SetFactory": "007600AD81686CB2" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"cd7f20f17432bea6",
+				{ "SetBlueprint": "00D17004FBD57C71" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"cd7f20f17432bea6",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": -0.0, "y": 0.0, "z": 0.0 },
+							"position": {
+								"x": 0.05,
+								"y": -0.05,
+								"z": 0.05
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9b8aa3bdde01ab61",
+				{
+					"SetName": "Helper_Evergreen_SelectableItem_FirePokerHolidayPresent"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9b8aa3bdde01ab61",
+				{ "SetFactory": "00B7A2CE1DC2C073" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9b8aa3bdde01ab61",
+				{ "SetBlueprint": "0042E20AAEF871C0" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"33463dce319df431",
+				{
+					"PatchArrayPropertyValue": [
+						"m_entries",
+						[
+							{
+								"AddItemAfter": [
+									"760232761b1c056b",
+									"cafeaf85780529fb"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"760232761b1c056b",
+									"cafe1d35c4b8b40b"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"760232761b1c056b",
+									"cafe4772ab327402"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"760232761b1c056b",
+									"cafe3c2ade9eecc0"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"760232761b1c056b",
+									"cafe5210b2ee37a7"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"760232761b1c056b",
+									"cafefd780ceb834d"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"760232761b1c056b",
+									"cafe2e7802ec8a47"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"760232761b1c056b",
+									"cafe599b00ce503f"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"760232761b1c056b",
+									"cafec44d9b3e5789"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"760232761b1c056b",
+									"cafe41234a747e55"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"760232761b1c056b",
+									"cafe2f06271b0c57"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"760232761b1c056b",
+									"cafe88ebb8e7aba1"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"760232761b1c056b",
+									"cafe7b895931f7da"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0ca006ac73fc1f4a",
+				{
+					"SetName": "Helper_Evergreen_SelectableItem_ICA19Flowerballer"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0ca006ac73fc1f4a",
+				{ "SetFactory": "00D5C128B0BC3CCD" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0ca006ac73fc1f4a",
+				{ "SetBlueprint": "008B0981275F96EE" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0ca006ac73fc1f4a",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -90.0
+							},
+							"position": {
+								"x": -0.07010400295257568,
+								"y": -0.0442809984087944,
+								"z": 0.0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f026a38e91de578d",
+				{
+					"SetName": "Helper_Evergreen_SelectableItem_Druzhina34ICA"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f026a38e91de578d",
+				{ "SetFactory": "004C0C35DC84B134" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f026a38e91de578d",
+				{ "SetBlueprint": "00FF45E0CA0B848B" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f026a38e91de578d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+							"position": {
+								"x": -0.19364500045776367,
+								"y": -0.053711000829935074,
+								"z": 0.0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"92e7d4310d3e9b3c",
+				{
+					"SetName": "Helper_Evergreen_SelectableItem_ICASMGRaptorCovertWhite"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"92e7d4310d3e9b3c",
+				{ "SetFactory": "00A0D0F644D94411" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"92e7d4310d3e9b3c",
+				{ "SetBlueprint": "00E260DA2CB9C75E" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"92e7d4310d3e9b3c",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+							"position": {
+								"x": -0.016581999137997627,
+								"y": -0.01132300030440092,
+								"z": 0.0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"703539076c10ce14",
+				{
+					"SetName": "Helper_Evergreen_SelectableItem_ShovelWrapped"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"703539076c10ce14",
+				{ "SetFactory": "00F7F3161AB374E1" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"703539076c10ce14",
+				{ "SetBlueprint": "000D94235C61FEA2" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"703539076c10ce14",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+							"position": { "x": 0.08, "y": -0.05, "z": 0.0 }
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"bc13a0d5f4f25990",
+				{
+					"SetName": "Helper_Evergreen_SelectableItem_Custom5mmDucky"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"bc13a0d5f4f25990",
+				{ "SetFactory": "00D7BADE40689F0B" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"bc13a0d5f4f25990",
+				{ "SetBlueprint": "00F2E32E5005CBC2" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"bc13a0d5f4f25990",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -90.0
+							},
+							"position": {
+								"x": -0.014112000353634356,
+								"y": -0.0487699992954731,
+								"z": 0.0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6ce957cd67c4a5f1",
+				{
+					"SetName": "Helper_Evergreen_SelectableItem_LockpickClassic"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6ce957cd67c4a5f1",
+				{ "SetFactory": "003391A6F9073CC9" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6ce957cd67c4a5f1",
+				{ "SetBlueprint": "00B68C75750B76C0" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6ce957cd67c4a5f1",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": 180.0
+							},
+							"position": {
+								"x": -0.01,
+								"y": -0.05,
+								"z": 0.0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6945c0c2f051d836",
+				{ "SetName": "Helper_Evergreen_SelectableItem_PrideSaber" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6945c0c2f051d836",
+				{ "SetFactory": "00AD0725BAA2E911" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6945c0c2f051d836",
+				{ "SetBlueprint": "004B0E9877440C6F" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6945c0c2f051d836",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+							"position": {
+								"x": -0.1798889935016632,
+								"y": -0.06694599986076355,
+								"z": 0.0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1a47319a11d29add",
+				{
+					"SetName": "Helper_Evergreen_SelectableItem_FireAxeHoliday"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1a47319a11d29add",
+				{ "SetFactory": "006E31BAA7B9B158" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1a47319a11d29add",
+				{ "SetBlueprint": "00B9FE44D51352D3" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fe1903297029dd9e",
+				{ "SetName": "Helper_Evergreen_SelectableItem_StrikerV3" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fe1903297029dd9e",
+				{ "SetFactory": "0026008DC9A035BE" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fe1903297029dd9e",
+				{ "SetBlueprint": "00C48E15137D6CC6" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fe1903297029dd9e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -90.0
+							},
+							"position": {
+								"x": -0.02280299924314022,
+								"y": -0.04677199944853783,
+								"z": 0.0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b88faa4390bf1b84",
+				{ "SetName": "Helper_Evergreen_SelectableItem_EnvyKnife" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b88faa4390bf1b84",
+				{ "SetFactory": "00DAE97E76BD6116" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b88faa4390bf1b84",
+				{ "SetBlueprint": "00B53F006BCD14FC" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b88faa4390bf1b84",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+							"position": {
+								"x": -0.03,
+								"y": -0.01,
+								"z": 0.01
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"760232761b1c056b",
+				{
+					"SetName": "Helper_Evergreen_SelectableItem_Krugermeier22Dark"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"760232761b1c056b",
+				{ "SetFactory": "00D350E1E011757B" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"760232761b1c056b",
+				{ "SetBlueprint": "00F30A01F5DF1C02" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"760232761b1c056b",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -90.0
+							},
+							"position": {
+								"x": -0.040904998779296875,
+								"y": -0.04262800142168999,
+								"z": 0.0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0c411bab5cc1e701",
+				{
+					"SetName": "Helper_Evergreen_SelectableItem_ICA19Iceballer"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0c411bab5cc1e701",
+				{ "SetFactory": "00D5C889C0C0DBB7" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0c411bab5cc1e701",
+				{ "SetBlueprint": "00BDAFD25896DEBA" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0c411bab5cc1e701",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -90.0
+							},
+							"position": {
+								"x": -0.0018050000071525576,
+								"y": -0.042059000581502914,
+								"z": 0.0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"cc16552fba475213",
+				{
+					"SetName": "Helper_Evergreen_SelectableItem_SkyScraperModel"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"cc16552fba475213",
+				{ "SetFactory": "00DF42C3CB934F1E" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"cc16552fba475213",
+				{ "SetBlueprint": "00E9FBB0F8BD47FC" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"cc16552fba475213",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+							"position": {
+								"x": -0.25,
+								"y": -0.03,
+								"z": 0.03
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b111889df1025f44",
+				{
+					"SetName": "Helper_Evergreen_SelectableItem_HacklLeviathanSniperRifleCovertDucky"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b111889df1025f44",
+				{ "SetFactory": "00F32755ADB1229D" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b111889df1025f44",
+				{ "SetBlueprint": "007DF7B9811506A8" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b111889df1025f44",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+							"position": {
+								"x": -0.021348999813199043,
+								"y": -0.04134099930524826,
+								"z": 0.0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"eaf345f04ced6262",
+				{
+					"SetName": "Helper_Evergreen_SelectableItem_FiberWireClassic"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"eaf345f04ced6262",
+				{ "SetFactory": "005097B40A891546" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"eaf345f04ced6262",
+				{ "SetBlueprint": "00FD1FE1673592FD" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"eaf345f04ced6262",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+							"position": {
+								"x": 0.015879999846220016,
+								"y": -0.040112998336553574,
+								"z": 0.0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2791a5f85bb3656e",
+				{
+					"PatchArrayPropertyValue": [
+						"m_Choices",
+						[
+							{
+								"AddItemAfter": [
+									"0ca006ac73fc1f4a",
+									"cafeaf85780529fb"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"0ca006ac73fc1f4a",
+									"cafe1d35c4b8b40b"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"0ca006ac73fc1f4a",
+									"cafe4772ab327402"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"0ca006ac73fc1f4a",
+									"cafe3c2ade9eecc0"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"0ca006ac73fc1f4a",
+									"cafe5210b2ee37a7"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"0ca006ac73fc1f4a",
+									"cafefd780ceb834d"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"0ca006ac73fc1f4a",
+									"cafe2e7802ec8a47"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"0ca006ac73fc1f4a",
+									"cafe599b00ce503f"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"0ca006ac73fc1f4a",
+									"cafec44d9b3e5789"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"0ca006ac73fc1f4a",
+									"cafe41234a747e55"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"0ca006ac73fc1f4a",
+									"cafe2f06271b0c57"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"0ca006ac73fc1f4a",
+									"cafe88ebb8e7aba1"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"0ca006ac73fc1f4a",
+									"cafe7b895931f7da"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe88ebb8e7aba1",
+				{
+					"parent": "2791a5f85bb3656e",
+					"name": "Helper_Evergreen_SelectableItem_AsylumTranquilizer",
+					"factory": "00582E55A1995672",
+					"blueprint": "003D1A07E9140323",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -90.0
+								},
+								"position": {
+									"x": -0.11,
+									"y": -0.07416100054979324,
+									"z": 0.0
+								}
+							}
+						},
+						"RewardCrate": { "type": "bool", "value": true },
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "2791a5f85bb3656e",
+							"postInit": true
+						}
+					},
+					"subsets": { "AudioEmitters": ["90f1253cbbc43c10"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe2f06271b0c57",
+				{
+					"parent": "2791a5f85bb3656e",
+					"name": "Helper_Evergreen_SelectableItem_BartoliHuntingShotgunDeluxe",
+					"factory": "00347F57D2CD25E3",
+					"blueprint": "0020B5A31B2C5DF8",
+					"properties": {
+						"RewardCrate": { "type": "bool", "value": true },
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": -0.15700100362300873,
+									"y": -0.05502299964427948,
+									"z": 0.0
+								}
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "2791a5f85bb3656e",
+							"postInit": true
+						}
+					},
+					"subsets": { "AudioEmitters": ["90f1253cbbc43c10"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe599b00ce503f",
+				{
+					"parent": "2791a5f85bb3656e",
+					"name": "Helper_Evergreen_SelectableItem_GluttonySawedOffBartoli12G",
+					"factory": "008639E7480B66D2",
+					"blueprint": "008E448F2BB29FD4",
+					"properties": {
+						"RewardCrate": { "type": "bool", "value": true },
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": -0.04957899823784828,
+									"y": -0.01749899983406067,
+									"z": 0.0
+								}
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "2791a5f85bb3656e",
+							"postInit": true
+						}
+					},
+					"subsets": { "AudioEmitters": ["90f1253cbbc43c10"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe4772ab327402",
+				{
+					"parent": "2791a5f85bb3656e",
+					"name": "Helper_Evergreen_SelectableItem_ShashkaA33Wrath",
+					"factory": "000C96E238EF26F9",
+					"blueprint": "001221BB48FF10E6",
+					"properties": {
+						"RewardCrate": { "type": "bool", "value": true },
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": -0.03159099817276001,
+									"y": -0.011505000293254852,
+									"z": 0.0
+								}
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "2791a5f85bb3656e",
+							"postInit": true
+						}
+					},
+					"subsets": { "AudioEmitters": ["90f1253cbbc43c10"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe2e7802ec8a47",
+				{
+					"parent": "2791a5f85bb3656e",
+					"name": "Helper_Evergreen_SelectableItem_GoldenDragon",
+					"factory": "00A78C2D0FEDB708",
+					"blueprint": "00C2A1FC3C469E36",
+					"properties": {
+						"RewardCrate": { "type": "bool", "value": true },
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": -0.06811600178480148,
+									"y": -0.0,
+									"z": 0.0
+								}
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "2791a5f85bb3656e",
+							"postInit": true
+						}
+					},
+					"subsets": { "AudioEmitters": ["90f1253cbbc43c10"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe3c2ade9eecc0",
+				{
+					"parent": "2791a5f85bb3656e",
+					"name": "Helper_Evergreen_SelectableItem_Majestic",
+					"factory": "00D27BC0E50949AE",
+					"blueprint": "00D95B9CF9AA980F",
+					"properties": {
+						"RewardCrate": { "type": "bool", "value": true },
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": -0.06811600178480148,
+									"y": -0.02,
+									"z": 0.0
+								}
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "2791a5f85bb3656e",
+							"postInit": true
+						}
+					},
+					"subsets": { "AudioEmitters": ["90f1253cbbc43c10"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe7b895931f7da",
+				{
+					"parent": "2791a5f85bb3656e",
+					"name": "Helper_Evergreen_SelectableItem_AsylumFiberWire",
+					"factory": "00BCBD4B227BD645",
+					"blueprint": "00F4F706725AEE11",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": 0.075,
+									"y": -0.04,
+									"z": 0.0
+								}
+							}
+						},
+						"RewardCrate": { "type": "bool", "value": true },
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "2791a5f85bb3656e",
+							"postInit": true
+						}
+					},
+					"subsets": { "AudioEmitters": ["90f1253cbbc43c10"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeaf85780529fb",
+				{
+					"parent": "2791a5f85bb3656e",
+					"name": "Helper_Evergreen_SelectableItem_Sieger300WhiteNinja",
+					"factory": "001345AF6F671120",
+					"blueprint": "0018EE3B87AEAAC4",
+					"properties": {
+						"RewardCrate": { "type": "bool", "value": true },
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": 0.07034700363874435,
+									"y": -0.03215000033378601,
+									"z": 0.0
+								}
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "2791a5f85bb3656e",
+							"postInit": true
+						}
+					},
+					"subsets": { "AudioEmitters": ["90f1253cbbc43c10"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafefd780ceb834d",
+				{
+					"parent": "2791a5f85bb3656e",
+					"name": "Helper_Evergreen_SelectableItem_Jaeger7TuataraEnvy",
+					"factory": "008992B36217DF5E",
+					"blueprint": "00552000A1447098",
+					"properties": {
+						"RewardCrate": { "type": "bool", "value": true },
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": -0.1573539972305298,
+									"y": -0.02937299944460392,
+									"z": 0.0
+								}
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "2791a5f85bb3656e",
+							"postInit": true
+						}
+					},
+					"subsets": { "AudioEmitters": ["90f1253cbbc43c10"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafec44d9b3e5789",
+				{
+					"parent": "2791a5f85bb3656e",
+					"name": "Helper_Evergreen_SelectableItem_DAKX2CovertSloth",
+					"factory": "00C0CC82014D7EBC",
+					"blueprint": "007EAEF8FED6421D",
+					"properties": {
+						"RewardCrate": { "type": "bool", "value": true },
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": 0.0
+								},
+								"position": { "x": -0.1, "y": 0, "z": 0.0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "2791a5f85bb3656e",
+							"postInit": true
+						}
+					},
+					"subsets": { "AudioEmitters": ["90f1253cbbc43c10"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe41234a747e55",
+				{
+					"parent": "2791a5f85bb3656e",
+					"name": "Helper_Evergreen_SelectableItem_DAKGoldCovert",
+					"factory": "0035A8828A5F18C0",
+					"blueprint": "00DC1280A7B1E28A",
+					"properties": {
+						"RewardCrate": { "type": "bool", "value": true },
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": 0.014503000304102898,
+									"y": -0.0,
+									"z": 0.0
+								}
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "2791a5f85bb3656e",
+							"postInit": true
+						}
+					},
+					"subsets": { "AudioEmitters": ["90f1253cbbc43c10"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe1d35c4b8b40b",
+				{
+					"parent": "2791a5f85bb3656e",
+					"name": "Helper_Evergreen_SelectableItem_Sieger300Redeemer",
+					"factory": "002A4FF86054718E",
+					"blueprint": "0083F24AF5D08773",
+					"properties": {
+						"RewardCrate": { "type": "bool", "value": true },
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": 0.09826300293207169,
+									"y": -0.03152500092983246,
+									"z": 0.0
+								}
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "2791a5f85bb3656e",
+							"postInit": true
+						}
+					},
+					"subsets": { "AudioEmitters": ["90f1253cbbc43c10"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe5210b2ee37a7",
+				{
+					"parent": "2791a5f85bb3656e",
+					"name": "Helper_Evergreen_SelectableItem_LustBlinder",
+					"factory": "005A50F9230AE5A4",
+					"blueprint": "007A4529F18B516D",
+					"properties": {
+						"RewardCrate": { "type": "bool", "value": true },
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -90.0
+								},
+								"position": {
+									"x": -0.06,
+									"y": -0.03353700041770935,
+									"z": 0.1
+								}
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "2791a5f85bb3656e",
+							"postInit": true
+						}
+					},
+					"subsets": { "AudioEmitters": ["90f1253cbbc43c10"] }
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

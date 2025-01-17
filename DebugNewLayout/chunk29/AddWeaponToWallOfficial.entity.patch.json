@@ -2111,12 +2111,6 @@
 							},
 							{
 								"AddItemAfter": [
-									"9acb859725e71bcb",
-									"feed7aa2bfe8f973"
-								]
-							},
-							{
-								"AddItemAfter": [
 									"e51f63fcf677f392",
 									"879d45385b93f4fd"
 								]
@@ -2860,12 +2854,6 @@
 								"AddItemAfter": [
 									"94361fe1a68f83e0",
 									"feed5cfbbdd152ac"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"94361fe1a68f83e0",
-									"feed2fd0b56276fc"
 								]
 							},
 							{
@@ -4176,12 +4164,6 @@
 							{
 								"AddItemAfter": [
 									"253bb06bb11e4bec",
-									"feed949e00c5ed3c"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"253bb06bb11e4bec",
 									"a8a40725f2661bc1"
 								]
 							},
@@ -4218,12 +4200,6 @@
 							{
 								"AddItemAfter": [
 									"253bb06bb11e4bec",
-									"feed2a1baf223fb2"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"253bb06bb11e4bec",
 									"2def6a8c42e4d729"
 								]
 							},
@@ -4231,12 +4207,6 @@
 								"AddItemAfter": [
 									"253bb06bb11e4bec",
 									"1e059e20ee78a46b"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"253bb06bb11e4bec",
-									"feed87eae13faca0"
 								]
 							},
 							{
@@ -6406,45 +6376,6 @@
 		},
 		{
 			"AddEntity": [
-				"feed87eae13faca0",
-				{
-					"parent": "33027e94a6ff95a6",
-					"name": "Helper_Evergreen_SelectableItem_WhiteKatana",
-					"factory": "00D77F993FE710C0",
-					"blueprint": "001D08BE720495A7",
-					"properties": {
-						"m_mTransform": {
-							"type": "SMatrix43",
-							"value": {
-								"rotation": {
-									"x": 89.99998975471563,
-									"y": 90,
-									"z": 0
-								},
-								"position": {
-									"x": 0.55511474609375,
-									"y": -4.280436769477092e-7,
-									"z": 1.3250007629394531
-								}
-							}
-						},
-						"GearWall": { "type": "bool", "value": true },
-						"m_eRoomBehaviour": {
-							"type": "ZSpatialEntity.ERoomBehaviour",
-							"value": "ROOM_DYNAMIC"
-						},
-						"m_eidParent": {
-							"type": "SEntityTemplateReference",
-							"value": "33027e94a6ff95a6",
-							"postInit": true
-						}
-					},
-					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-				}
-			]
-		},
-		{
-			"AddEntity": [
 				"feed945952a9dc59",
 				{
 					"parent": "129caf96cdc5cd90",
@@ -7019,45 +6950,6 @@
 		},
 		{
 			"AddEntity": [
-				"feed2a1baf223fb2",
-				{
-					"parent": "33027e94a6ff95a6",
-					"name": "Helper_Evergreen_SelectableItem_KatanaNeon",
-					"factory": "006C4A7E25659D31",
-					"blueprint": "000D1A577A754C39",
-					"properties": {
-						"m_mTransform": {
-							"type": "SMatrix43",
-							"value": {
-								"rotation": {
-									"x": 89.98950178118758,
-									"y": 89.97206112094187,
-									"z": 0.00699795776649468
-								},
-								"position": {
-									"x": 0.21112060546875,
-									"y": -4.485473255044781e-7,
-									"z": 1.3253040313720703
-								}
-							}
-						},
-						"GearWall": { "type": "bool", "value": true },
-						"m_eRoomBehaviour": {
-							"type": "ZSpatialEntity.ERoomBehaviour",
-							"value": "ROOM_DYNAMIC"
-						},
-						"m_eidParent": {
-							"type": "SEntityTemplateReference",
-							"value": "33027e94a6ff95a6",
-							"postInit": true
-						}
-					},
-					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-				}
-			]
-		},
-		{
-			"AddEntity": [
 				"feed828f18ca344e",
 				{
 					"parent": "33027e94a6ff95a6",
@@ -7289,45 +7181,6 @@
 		},
 		{
 			"AddEntity": [
-				"feed7aa2bfe8f973",
-				{
-					"parent": "e3c602b2257207a3",
-					"name": "Helper_Evergreen_SelectableItem_MacheteJungle",
-					"factory": "0016D175CD6D6A8C",
-					"blueprint": "00D6516C98CEC697",
-					"properties": {
-						"m_mTransform": {
-							"type": "SMatrix43",
-							"value": {
-								"rotation": {
-									"x": -90,
-									"y": 0.0,
-									"z": 180
-								},
-								"position": {
-									"x": 0.88,
-									"y": 0,
-									"z": 2.47
-								}
-							}
-						},
-						"GearWall": { "type": "bool", "value": true },
-						"m_eRoomBehaviour": {
-							"type": "ZSpatialEntity.ERoomBehaviour",
-							"value": "ROOM_DYNAMIC"
-						},
-						"m_eidParent": {
-							"type": "SEntityTemplateReference",
-							"value": "e3c602b2257207a3",
-							"postInit": true
-						}
-					},
-					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-				}
-			]
-		},
-		{
-			"AddEntity": [
 				"feed379e64cdb3d8",
 				{
 					"parent": "33027e94a6ff95a6",
@@ -7434,44 +7287,6 @@
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "e3c602b2257207a3"
-						}
-					},
-					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"feed949e00c5ed3c",
-				{
-					"parent": "33027e94a6ff95a6",
-					"name": "Helper_Evergreen_SelectableItem_XmasStar",
-					"factory": "00CDEF6BC6A47E47",
-					"blueprint": "00AC29A7C5F0217A",
-					"properties": {
-						"m_mTransform": {
-							"type": "SMatrix43",
-							"value": {
-								"rotation": {
-									"x": -89.9999897547144,
-									"y": 0.04337440409027207,
-									"z": 179.93684322858573
-								},
-								"position": {
-									"x": -0.97,
-									"y": -0.00030952043016441166,
-									"z": 1.5
-								}
-							}
-						},
-						"GearWall": { "type": "bool", "value": true },
-						"m_eRoomBehaviour": {
-							"type": "ZSpatialEntity.ERoomBehaviour",
-							"value": "ROOM_DYNAMIC"
-						},
-						"m_eidParent": {
-							"type": "SEntityTemplateReference",
-							"value": "33027e94a6ff95a6"
 						}
 					},
 					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
@@ -7686,45 +7501,6 @@
 									"x": 0.56658935546875,
 									"y": 0.00012252479791641235,
 									"z": 1.733999252319336
-								}
-							}
-						},
-						"GearWall": { "type": "bool", "value": true },
-						"m_eRoomBehaviour": {
-							"type": "ZSpatialEntity.ERoomBehaviour",
-							"value": "ROOM_DYNAMIC"
-						},
-						"m_eidParent": {
-							"type": "SEntityTemplateReference",
-							"value": "129caf96cdc5cd90",
-							"postInit": true
-						}
-					},
-					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"feed2fd0b56276fc",
-				{
-					"parent": "129caf96cdc5cd90",
-					"name": "Helper_Evergreen_SelectableItem_BaseballBatClown",
-					"factory": "00EFEB70C3C142EC",
-					"blueprint": "0071AB9859C51A7B",
-					"properties": {
-						"m_mTransform": {
-							"type": "SMatrix43",
-							"value": {
-								"rotation": {
-									"x": 89.99650336998401,
-									"y": 89.97201671333781,
-									"z": 0.0034959903765029803
-								},
-								"position": {
-									"x": -1.1690216064453125,
-									"y": -0.00002224743366241455,
-									"z": 1.5132427215576172
 								}
 							}
 						},
@@ -8273,11 +8049,6 @@
 									"exposedEntity": "Owned"
 								},
 								{
-									"ref": "feed2a1baf223fb2",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
 									"ref": "6b06f763d4ba044c",
 									"externalScene": null,
 									"exposedEntity": "Owned"
@@ -8346,16 +8117,6 @@
 									"ref": "feed379e64cdb3d8",
 									"externalScene": null,
 									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "feed87eae13faca0",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "feed949e00c5ed3c",
-									"externalScene": null,
-									"exposedEntity": "Owned"
 								}
 							],
 							"postInit": true
@@ -8383,11 +8144,6 @@
 								},
 								{
 									"ref": "004bdb48ff6a1ddf",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "feed2fd0b56276fc",
 									"externalScene": null,
 									"exposedEntity": "Owned"
 								},
@@ -8587,11 +8343,6 @@
 								},
 								{
 									"ref": "9acb859725e71bcb",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "feed7aa2bfe8f973",
 									"externalScene": null,
 									"exposedEntity": "Owned"
 								},

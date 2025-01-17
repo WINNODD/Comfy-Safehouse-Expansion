@@ -830,7 +830,6 @@
 						"feed7349a456d417",
 						"feed6718a78f17ce",
 						"feedfcec82094d68",
-						"feed4d2e5e364afe",
 						"feedf94b669f8c5c",
 						"feed149641d0e7fc",
 						"feeda812b6ac1b78",
@@ -1316,7 +1315,6 @@
 						"feed7349a456d417",
 						"feed6718a78f17ce",
 						"feedfcec82094d68",
-						"feed4d2e5e364afe",
 						"feedf94b669f8c5c",
 						"feed149641d0e7fc",
 						"feeda812b6ac1b78",
@@ -2935,7 +2933,6 @@
 						"feed7349a456d417",
 						"feed6718a78f17ce",
 						"feedfcec82094d68",
-						"feed4d2e5e364afe",
 						"feedf94b669f8c5c"
 					]
 				},
@@ -3092,37 +3089,6 @@
 							"x": -0.07999999821186066,
 							"y": 0,
 							"z": 0.009998999536037443
-						}
-					}
-				},
-				"Supplier": { "type": "bool", "value": true },
-				"m_bVisibleInBoxReflection": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feed3996a6de06f6",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
-		},
-		"feed4d2e5e364afe": {
-			"parent": "feed3996a6de06f6",
-			"name": "Helper_Evergreen_SelectableItem_XmasStar",
-			"factory": "00CDEF6BC6A47E47",
-			"blueprint": "00AC29A7C5F0217A",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 90, "y": -90, "z": 0 },
-						"position": {
-							"x": -0.05000099912285805,
-							"y": 0,
-							"z": 0
 						}
 					}
 				},
