@@ -156,6 +156,23 @@
 		},
 		{
 			"SubEntityOperation": [
+				"bc98f1c5a80d2193",
+				{ "SetParent": "0e9463c88101e3a2" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"bc98f1c5a80d2193",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "0e9463c88101e3a2"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"6b3968c53ebe707a",
 				{
 					"SetPropertyValue": {
@@ -693,6 +710,23 @@
 		},
 		{
 			"SubEntityOperation": [
+				"456c2ca38366ca76",
+				{ "SetParent": "cafeb1cafbc63d92" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"456c2ca38366ca76",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "fffffffffffffffe"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"d4a8f3f4f38486bb",
 				{
 					"SetPropertyValue": {
@@ -722,6 +756,23 @@
 						"SetTrue",
 						"cafedfa81c048340"
 					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2332abb586533dc3",
+				{ "SetParent": "911ecfd5cf432fac" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2332abb586533dc3",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "911ecfd5cf432fac"
+					}
 				}
 			]
 		},
@@ -948,6 +999,23 @@
 					"SetPropertyValue": {
 						"property_name": "m_eidParent",
 						"value": "129caf96cdc5cd90"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"53d941bce5e4d437",
+				{ "SetParent": "cafeaec53df203b8" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"53d941bce5e4d437",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "fffffffffffffffe"
 					}
 				}
 			]
@@ -1588,6 +1656,23 @@
 		},
 		{
 			"SubEntityOperation": [
+				"910a924bcdd83561",
+				{ "SetParent": "911ecfd5cf432fac" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"910a924bcdd83561",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "911ecfd5cf432fac"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"82340a0527c40839",
 				{
 					"SetPropertyValue": {
@@ -1824,6 +1909,23 @@
 		},
 		{
 			"SubEntityOperation": [
+				"ba880e5944fbcced",
+				{ "SetParent": "cafe3265e14f8bf9" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ba880e5944fbcced",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "fffffffffffffffe"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"108031891b0ccb8c",
 				{
 					"AddEventConnection": [
@@ -1852,6 +1954,23 @@
 								"z": 2.83
 							}
 						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"38b16e7e3be30124",
+				{ "SetParent": "cafeb1cafbc63d92" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"38b16e7e3be30124",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "fffffffffffffffe"
 					}
 				}
 			]
@@ -2176,6 +2295,23 @@
 		},
 		{
 			"SubEntityOperation": [
+				"0b33aba788fdb2ef",
+				{ "SetParent": "cafef05b3ea1a915" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0b33aba788fdb2ef",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "fffffffffffffffe"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"b058f6b722b0a992",
 				{
 					"AddEventConnection": [
@@ -2307,6 +2443,23 @@
 					"SetPropertyValue": {
 						"property_name": "m_eidParent",
 						"value": "129caf96cdc5cd90"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"81a078360c6ce094",
+				{ "SetParent": "cafeaec53df203b8" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"81a078360c6ce094",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "fffffffffffffffe"
 					}
 				}
 			]
@@ -2537,6 +2690,23 @@
 		},
 		{
 			"SubEntityOperation": [
+				"99334257ba02591e",
+				{ "SetParent": "cafef05b3ea1a915" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"99334257ba02591e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "fffffffffffffffe"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"7461df7d399d230c",
 				{
 					"SetPropertyValue": {
@@ -2665,6 +2835,23 @@
 					"SetPropertyValue": {
 						"property_name": "m_eidParent",
 						"value": "911ecfd5cf432fac"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"10b2b372e45aebcc",
+				{ "SetParent": "cafeaec53df203b8" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"10b2b372e45aebcc",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "fffffffffffffffe"
 					}
 				}
 			]
@@ -3167,6 +3354,40 @@
 		},
 		{
 			"SubEntityOperation": [
+				"1360fd7cfe3533a2",
+				{ "SetParent": "cafeb1cafbc63d92" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1360fd7cfe3533a2",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "fffffffffffffffe"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0b2535f8912b2378",
+				{ "SetParent": "cafeb1cafbc63d92" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0b2535f8912b2378",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "fffffffffffffffe"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"11f4d6adf14499d5",
 				{
 					"SetPropertyValue": {
@@ -3306,6 +3527,23 @@
 		},
 		{
 			"SubEntityOperation": [
+				"1048ef9d5f7b6d4e",
+				{ "SetParent": "cafef05b3ea1a915" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1048ef9d5f7b6d4e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "fffffffffffffffe"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"66588e93403220e1",
 				{
 					"SetPropertyValue": {
@@ -3439,6 +3677,22 @@
 						"OnLeft",
 						"SetTrue",
 						"cafedfa81c048340"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c1b395367b88086b",
+				{
+					"PatchArrayPropertyValue": [
+						"m_entries",
+						[
+							{ "RemoveItemByValue": "bc98f1c5a80d2193" },
+							{ "RemoveItemByValue": "910a924bcdd83561" },
+							{ "RemoveItemByValue": "2332abb586533dc3" },
+							{ "RemoveItemByValue": "b34de55746ff496c" }
+						]
 					]
 				}
 			]
@@ -3866,6 +4120,23 @@
 		},
 		{
 			"SubEntityOperation": [
+				"0cb9cd45c355935a",
+				{ "SetParent": "cafeaec53df203b8" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0cb9cd45c355935a",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "fffffffffffffffe"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"fceed9509aed5f85",
 				{
 					"AddEventConnection": [
@@ -4036,6 +4307,24 @@
 							{
 								"AddItemAfter": [
 									"0eb69d641c22a90e",
+									"b34de55746ff496c"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"0eb69d641c22a90e",
+									"2332abb586533dc3"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"0eb69d641c22a90e",
+									"910a924bcdd83561"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"0eb69d641c22a90e",
 									"feed049d4ed69e86"
 								]
 							},
@@ -4101,6 +4390,23 @@
 							}
 						]
 					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"03afe69143af3a64",
+				{ "SetParent": "cafef05b3ea1a915" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"03afe69143af3a64",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "fffffffffffffffe"
+					}
 				}
 			]
 		},
@@ -4510,6 +4816,40 @@
 		},
 		{
 			"SubEntityOperation": [
+				"529b154766233fa0",
+				{ "SetParent": "cafeaec53df203b8" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"529b154766233fa0",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "fffffffffffffffe"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4090c9e73bf318dc",
+				{ "SetParent": "cafef05b3ea1a915" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4090c9e73bf318dc",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "fffffffffffffffe"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"83b574093c564b2f",
 				{
 					"AddEventConnection": [
@@ -4577,6 +4917,23 @@
 								"z": 3.200322151184082
 							}
 						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b34de55746ff496c",
+				{ "SetParent": "911ecfd5cf432fac" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b34de55746ff496c",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "911ecfd5cf432fac"
 					}
 				}
 			]
@@ -5479,6 +5836,12 @@
 								"AddItemAfter": [
 									"d324149cf6c9733f",
 									"feedab48abda4d78"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"d324149cf6c9733f",
+									"bc98f1c5a80d2193"
 								]
 							},
 							{
@@ -7809,6 +8172,7 @@
 								"cafe3de5673b92ac",
 								"cafef3f08a62b642",
 								"cafe0a646a4b1de7",
+								"cafe1b2ec90fe9f6",
 								"6cd86fedc147cbd9"
 							],
 							"postInit": true
@@ -15221,108 +15585,6 @@
 			]
 		},
 		{
-			"SubEntityOperation": [
-				"ba880e5944fbcced",
-				{ "SetParent": "cafe3265e14f8bf9" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"ba880e5944fbcced",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "fffffffffffffffe"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"10b2b372e45aebcc",
-				{ "SetParent": "cafeaec53df203b8" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"10b2b372e45aebcc",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "fffffffffffffffe"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"81a078360c6ce094",
-				{ "SetParent": "cafeaec53df203b8" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"81a078360c6ce094",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "fffffffffffffffe"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"53d941bce5e4d437",
-				{ "SetParent": "cafeaec53df203b8" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"53d941bce5e4d437",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "fffffffffffffffe"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"0cb9cd45c355935a",
-				{ "SetParent": "cafeaec53df203b8" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"0cb9cd45c355935a",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "fffffffffffffffe"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"529b154766233fa0",
-				{ "SetParent": "cafeaec53df203b8" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"529b154766233fa0",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "fffffffffffffffe"
-					}
-				}
-			]
-		},
-		{
 			"AddEntity": [
 				"cafeaec53df203b8",
 				{
@@ -15389,154 +15651,90 @@
 			]
 		},
 		{
-			"SubEntityOperation": [
-				"456c2ca38366ca76",
-				{ "SetParent": "cafeb1cafbc63d92" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"456c2ca38366ca76",
+			"AddEntity": [
+				"cafe1b2ec90fe9f6",
 				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "fffffffffffffffe"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"0b2535f8912b2378",
-				{ "SetParent": "cafeb1cafbc63d92" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"0b2535f8912b2378",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "fffffffffffffffe"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"1360fd7cfe3533a2",
-				{ "SetParent": "cafeb1cafbc63d92" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"1360fd7cfe3533a2",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "fffffffffffffffe"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"38b16e7e3be30124",
-				{ "SetParent": "cafeb1cafbc63d92" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"38b16e7e3be30124",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "fffffffffffffffe"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"0b33aba788fdb2ef",
-				{ "SetParent": "cafef05b3ea1a915" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"0b33aba788fdb2ef",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "fffffffffffffffe"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"4090c9e73bf318dc",
-				{ "SetParent": "cafef05b3ea1a915" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"4090c9e73bf318dc",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "fffffffffffffffe"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"99334257ba02591e",
-				{ "SetParent": "cafef05b3ea1a915" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"99334257ba02591e",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "fffffffffffffffe"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"1048ef9d5f7b6d4e",
-				{ "SetParent": "cafef05b3ea1a915" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"1048ef9d5f7b6d4e",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "fffffffffffffffe"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"03afe69143af3a64",
-				{ "SetParent": "cafef05b3ea1a915" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"03afe69143af3a64",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "fffffffffffffffe"
+					"parent": "c1b395367b88086b",
+					"name": "All Owned DLCs",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aValues": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								{
+									"ref": "cc3a29a86dbf0425",
+									"externalScene": null,
+									"exposedEntity": "Owned"
+								},
+								{
+									"ref": "9117c01b8aac7e2e",
+									"externalScene": null,
+									"exposedEntity": "Owned"
+								},
+								{
+									"ref": "fa36dea2c7e006b6",
+									"externalScene": null,
+									"exposedEntity": "Owned"
+								},
+								{
+									"ref": "a6c6835a1145d477",
+									"externalScene": null,
+									"exposedEntity": "Owned"
+								},
+								{
+									"ref": "15d0941011a0f5f2",
+									"externalScene": null,
+									"exposedEntity": "Owned"
+								},
+								{
+									"ref": "98b9099c5ad80255",
+									"externalScene": null,
+									"exposedEntity": "Owned"
+								},
+								{
+									"ref": "b52e0c2c768194c3",
+									"externalScene": null,
+									"exposedEntity": "Owned"
+								},
+								{
+									"ref": "ace9c9d4a106badc",
+									"externalScene": null,
+									"exposedEntity": "Owned"
+								},
+								{
+									"ref": "730d3b2345ed8407",
+									"externalScene": null,
+									"exposedEntity": "Owned"
+								},
+								{
+									"ref": "d2a05659ac5afc53",
+									"externalScene": null,
+									"exposedEntity": "Owned"
+								},
+								{
+									"ref": "bc98f1c5a80d2193",
+									"externalScene": null,
+									"exposedEntity": "Owned"
+								},
+								{
+									"ref": "910a924bcdd83561",
+									"externalScene": null,
+									"exposedEntity": "Owned"
+								},
+								{
+									"ref": "2332abb586533dc3",
+									"externalScene": null,
+									"exposedEntity": "Owned"
+								},
+								{
+									"ref": "b34de55746ff496c",
+									"externalScene": null,
+									"exposedEntity": "Owned"
+								}
+							],
+							"postInit": true
+						}
 					}
 				}
 			]
