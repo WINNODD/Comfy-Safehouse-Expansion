@@ -295,15 +295,6 @@
 			]
 		},
 		{
-			"name": "Debug Give Item Title",
-			"tooltip": "Some items do not have a Title or have the same Title as other items, which prevents me from giving them to myself through SDK debug mod.",
-			"group": "Debug",
-			"type": "checkbox",
-			"contentFolders": [
-				"DebugTitle"
-			]
-		},
-		{
 			"name": "Debug Put Outfit In Map",
 			"tooltip": "Put all suppliers' outfits on the pier, for showcase purpose. You can also wear their outfits by asking them nicely.",
 			"group": "Debug",
