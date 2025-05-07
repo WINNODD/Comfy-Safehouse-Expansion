@@ -473,24 +473,6 @@
 				}
 			}
 		},
-		"5a310f4bba47b16f": {
-			"parent": "73867cc289565f25",
-			"name": "Intro cut start",
-			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
-			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
-			"properties": {
-				"m_eEvent": {
-					"type": "EGameEventType",
-					"value": "GET_IntroCutStart"
-				}
-			},
-			"events": {
-				"EventOccurred": {
-					"GetValue": ["fe032df64ebfb0e0"],
-					"Poll": ["7a423dcd408ceb3e"]
-				}
-			}
-		},
 		"cae63889a2a1c878": {
 			"parent": "811ee3bc0846c53b",
 			"name": "Legendary receiver enabled",
@@ -664,24 +646,6 @@
 					"type": "SEntityTemplateReference",
 					"value": "2785349e79e8fed3",
 					"postInit": true
-				}
-			}
-		},
-		"7a423dcd408ceb3e": {
-			"parent": "73867cc289565f25",
-			"name": "Poll Pistol",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
-			"properties": {},
-			"events": {
-				"PollFalse": { "Poll": ["8aea93e4f0bf9f16"] },
-				"PollTrue": {
-					"SetValue": [
-						{
-							"ref": "c3a66072817627dd",
-							"value": { "type": "int32", "value": 1 }
-						}
-					]
 				}
 			}
 		},
@@ -1111,30 +1075,6 @@
 			"name": "EventToken_Evergreen_Gear_SafehouseItemLoaded",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_gear_safehouseitemloaded.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_gear_safehouseitemloaded.entitytemplate].pc_entityblueprint"
-		},
-		"9454e382ce847d06": {
-			"parent": "73867cc289565f25",
-			"name": "ValueInt_Comparator_Poll",
-			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rFirstValueInt": {
-					"type": "SEntityTemplateReference",
-					"value": "80621658e02e5df6",
-					"postInit": true
-				},
-				"m_rSecondValueInt": {
-					"type": "SEntityTemplateReference",
-					"value": "e69014284cdc0161",
-					"postInit": true
-				}
-			},
-			"events": {
-				"GetTrue": {
-					"Poll": ["5d29c47c005ea59b"],
-					"SetFalse": ["4918af64e270c665"]
-				}
-			}
 		},
 		"e564a90866c6b5c6": {
 			"parent": "811ee3bc0846c53b",
@@ -1821,7 +1761,8 @@
 			"parent": "b0906e8ecb81a1b0",
 			"name": "Owned",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint"
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint",
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
 		},
 		"a693000c32bc16b0": {
 			"parent": "314e992cc8505456",
@@ -2306,19 +2247,6 @@
 			},
 			"outputCopying": { "Value": { "Value": ["8ce764a4902a34e5"] } }
 		},
-		"c3a66072817627dd": {
-			"parent": "73867cc289565f25",
-			"name": "ValueInt_Set",
-			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_set.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_set.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rValueEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "e69014284cdc0161",
-					"postInit": true
-				}
-			}
-		},
 		"fc12a8df429f30c0": {
 			"parent": "5e6f1db91ae87475",
 			"name": "Weight",
@@ -2590,19 +2518,6 @@
 				"Out01": { "SetContext": ["11de4c33001422f4"] },
 				"Out02": { "Open": ["8800870fba371cc6"] }
 			}
-		},
-		"ea6fcf55080f4bc0": {
-			"parent": "73867cc289565f25",
-			"name": "Lose on wounded",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_repository.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_repository.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_sPath": {
-					"type": "ZString",
-					"value": "Evergreen_LoseOnWounded"
-				}
-			},
-			"events": { "OnValue": { "SetValue": ["c5ca802e91354e20"] } }
 		},
 		"cc1ecb3c9e4a2907": {
 			"parent": "a7bdfc443af34ab8",
@@ -3064,24 +2979,6 @@
 				}
 			}
 		},
-		"8aea93e4f0bf9f16": {
-			"parent": "73867cc289565f25",
-			"name": "Poll SMG",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
-			"properties": {},
-			"events": {
-				"PollFalse": { "Poll": ["06bea0d556d15790"] },
-				"PollTrue": {
-					"SetValue": [
-						{
-							"ref": "c3a66072817627dd",
-							"value": { "type": "int32", "value": 2 }
-						}
-					]
-				}
-			}
-		},
 		"acab7ade6cefd4be": {
 			"parent": "8ce764a4902a34e5",
 			"name": "General Rare H2",
@@ -3114,12 +3011,6 @@
 				}
 			},
 			"events": { "OnTrue": { "SetTrue": ["defd1e2c3c98b632"] } }
-		},
-		"24dea735f48527d5": {
-			"parent": "73867cc289565f25",
-			"name": "EventToken_Evergreen_SelectableItem_Prestiged",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_selectableitem_prestiged.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_selectableitem_prestiged.entitytemplate].pc_entityblueprint"
 		},
 		"11de4c33001422f4": {
 			"parent": "609ea36bca89e3f2",
@@ -3240,13 +3131,6 @@
 				"m_fValue": { "type": "float32", "value": 100.0 }
 			},
 			"outputCopying": { "Value": { "Value": ["8ce764a4902a34e5"] } }
-		},
-		"4e2526e2c937462b": {
-			"parent": "73867cc289565f25",
-			"name": "ConvertToVoid_int_",
-			"factory": "[modules:/zconverttovoidentity_int.class].pc_entitytype",
-			"blueprint": "[modules:/zconverttovoidentity_int.class].pc_entityblueprint",
-			"events": { "Out": { "Poll": ["9210e67e5b8813d0"] } }
 		},
 		"5cfb2bfe6cb382e1": {
 			"parent": "8ce764a4902a34e5",
@@ -3390,21 +3274,6 @@
 			"factory": "[assembly:/_pro/design/gamecore/helpers_evergreen.template?/helper_evergreen_global_money.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/helpers_evergreen.template?/helper_evergreen_global_money.entitytemplate].pc_entityblueprint"
 		},
-		"fe032df64ebfb0e0": {
-			"parent": "73867cc289565f25",
-			"name": "Repository ID",
-			"factory": "[modules:/zmetricvalue_zrepositoryid.class].pc_entitytype",
-			"blueprint": "[modules:/zmetricvalue_zrepositoryid.class].pc_entityblueprint",
-			"properties": {
-				"m_value": {
-					"type": "ZGuid",
-					"value": "00000000-0000-0000-0000-000000000000"
-				}
-			},
-			"events": {
-				"Value": { "SetRepositoryID": ["ea6fcf55080f4bc0"] }
-			}
-		},
 		"086f96e21d10a8da": {
 			"parent": "8ce764a4902a34e5",
 			"name": "RewardCrate Nonrarity H2",
@@ -3531,25 +3400,6 @@
 			"name": "EventToken_Evergreen_SelectableItem_Rarity",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_selectableitem_rarity.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_selectableitem_rarity.entitytemplate].pc_entityblueprint"
-		},
-		"c5ca802e91354e20": {
-			"parent": "73867cc289565f25",
-			"name": "Resettable",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
-		},
-		"9210e67e5b8813d0": {
-			"parent": "73867cc289565f25",
-			"name": "Reset if resettable",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rValueEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "c5ca802e91354e20"
-				}
-			},
-			"events": { "PollFalse": { "Get": ["9454e382ce847d06"] } }
 		},
 		"f7598eadc0376c8c": {
 			"parent": "f87329cf5b32baca",
@@ -4369,19 +4219,6 @@
 				"Out4": { "Get": ["c2a1defff50aef2c"] }
 			}
 		},
-		"4ce2f9e9e28d3e36": {
-			"parent": "73867cc289565f25",
-			"name": "ValueInt_Set_01",
-			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_set.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_set.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rValueEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "80621658e02e5df6",
-					"postInit": true
-				}
-			}
-		},
 		"6fbbe2cbcbc66e96": {
 			"parent": "8ce764a4902a34e5",
 			"name": "General Nonrarity D1",
@@ -4666,24 +4503,6 @@
 			},
 			"outputCopying": { "Value": { "Value": ["8ce764a4902a34e5"] } }
 		},
-		"06bea0d556d15790": {
-			"parent": "73867cc289565f25",
-			"name": "Poll Shotgun",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
-			"properties": {},
-			"events": {
-				"PollFalse": { "Poll": ["faa519e6d20a6fcc"] },
-				"PollTrue": {
-					"SetValue": [
-						{
-							"ref": "c3a66072817627dd",
-							"value": { "type": "int32", "value": 3 }
-						}
-					]
-				}
-			}
-		},
 		"2e399bc154b71e20": {
 			"parent": "8ce764a4902a34e5",
 			"name": "Get Supply Crate",
@@ -4769,24 +4588,6 @@
 				"Out4": { "Get": ["c6315768a7bdcff8"] }
 			}
 		},
-		"ea870dbdeb96996c": {
-			"parent": "73867cc289565f25",
-			"name": "Poll Melee",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
-			"properties": {},
-			"events": {
-				"PollFalse": { "Poll": ["94013b862f8ab9aa"] },
-				"PollTrue": {
-					"SetValue": [
-						{
-							"ref": "c3a66072817627dd",
-							"value": { "type": "int32", "value": 6 }
-						}
-					]
-				}
-			}
-		},
 		"8e2e373ec0de7d8a": {
 			"parent": "76bc7debe63916b6",
 			"name": "Placed headline",
@@ -4870,9 +4671,7 @@
 			"name": "Gear wall",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_bValue": { "type": "bool", "value": false }
-			}
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
 		},
 		"f0ec20d6bdc34a40": {
 			"parent": "0cd5d1c19b606cb9",
@@ -5029,21 +4828,6 @@
 						"originalEntity": "ac41d3d77c91c105"
 					}
 				]
-			}
-		},
-		"5d29c47c005ea59b": {
-			"parent": "73867cc289565f25",
-			"name": "Remove if gear wall",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rValueEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "13c9381ee813044d"
-				}
-			},
-			"outputCopying": {
-				"PollTrue": { "RemoveItem": ["73867cc289565f25"] }
 			}
 		},
 		"60bb72285e5d804a": {
@@ -5251,32 +5035,11 @@
 			},
 			"outputCopying": { "Value": { "Value": ["8ce764a4902a34e5"] } }
 		},
-		"e69014284cdc0161": {
-			"parent": "73867cc289565f25",
-			"name": "ValueInt",
-			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entityblueprint"
-		},
 		"fe617fd434344b26": {
 			"parent": "84bfcb77adb4cce4",
 			"name": "eventtoken_evergreen_selectableitem_campaignaborted",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_selectableitem_campaignaborted.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_selectableitem_campaignaborted.entitytemplate].pc_entityblueprint"
-		},
-		"cebef89b48b973ac": {
-			"parent": "73867cc289565f25",
-			"name": "EventChannelReceiver_int32",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_int32.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_int32.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rChannelToken": {
-					"type": "SEntityTemplateReference",
-					"value": "24dea735f48527d5"
-				}
-			},
-			"events": {
-				"EventReceived": { "SetValue": ["4ce2f9e9e28d3e36"] }
-			}
 		},
 		"bbb0ae8ea5438f26": {
 			"parent": "ff28c16eb9073f6e",
@@ -5302,12 +5065,6 @@
 					"value": "19ed12aaf77b3a64"
 				}
 			}
-		},
-		"80621658e02e5df6": {
-			"parent": "73867cc289565f25",
-			"name": "ValueInt 2",
-			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entityblueprint"
 		},
 		"605ea497ffaa6632": {
 			"parent": "8375a8be32ea9189",
@@ -5363,23 +5120,6 @@
 				"m_fValue": { "type": "float32", "value": 20.0 }
 			},
 			"outputCopying": { "Value": { "Value": ["8ce764a4902a34e5"] } }
-		},
-		"94013b862f8ab9aa": {
-			"parent": "73867cc289565f25",
-			"name": "Poll Consumable",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
-			"properties": {},
-			"events": {
-				"PollTrue": {
-					"SetValue": [
-						{
-							"ref": "c3a66072817627dd",
-							"value": { "type": "int32", "value": 7 }
-						}
-					]
-				}
-			}
 		},
 		"0720fcf1a0a8ff4a": {
 			"parent": "5e6f1db91ae87475",
@@ -5470,24 +5210,6 @@
 				},
 				"m_bSignalsInEditMode": { "type": "bool", "value": true },
 				"m_bFireOnLevelStart": { "type": "bool", "value": true }
-			}
-		},
-		"d33ce1d3e014d2f9": {
-			"parent": "73867cc289565f25",
-			"name": "Poll Sniper",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
-			"properties": {},
-			"events": {
-				"PollFalse": { "Poll": ["ea870dbdeb96996c"] },
-				"PollTrue": {
-					"SetValue": [
-						{
-							"ref": "c3a66072817627dd",
-							"value": { "type": "int32", "value": 5 }
-						}
-					]
-				}
 			}
 		},
 		"33a882d9a71a1903": {
@@ -5694,55 +5416,6 @@
 			},
 			"outputCopying": { "Value": { "Value": ["8ce764a4902a34e5"] } }
 		},
-		"4918af64e270c665": {
-			"parent": "73867cc289565f25",
-			"name": "Owned",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rValueEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "64fbe690fc534c94"
-				}
-			}
-		},
-		"73867cc289565f25": {
-			"parent": "b0906e8ecb81a1b0",
-			"name": "Entered Prestige handler",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {
-				"Owned": {
-					"type": "SEntityTemplateReference",
-					"value": "64fbe690fc534c94"
-				},
-				"GearWall": {
-					"type": "SEntityTemplateReference",
-					"value": "13c9381ee813044d"
-				}
-			},
-			"events": { "RemoveItem": { "Remove": ["ff28c16eb9073f6e"] } },
-			"propertyAliases": {
-				"GearWall": [
-					{
-						"originalProperty": "m_rValueEntity",
-						"originalEntity": "5d29c47c005ea59b"
-					}
-				],
-				"Owned": [
-					{
-						"originalProperty": "m_rValueEntity",
-						"originalEntity": "4918af64e270c665"
-					}
-				],
-				"RepositoryID": [
-					{
-						"originalProperty": "m_value",
-						"originalEntity": "fe032df64ebfb0e0"
-					}
-				]
-			}
-		},
 		"28230aa9be96b69f": {
 			"parent": "8ce764a4902a34e5",
 			"name": "General Epic H1",
@@ -5752,19 +5425,6 @@
 				"m_fValue": { "type": "float32", "value": 15.0 }
 			},
 			"outputCopying": { "Value": { "Value": ["8ce764a4902a34e5"] } }
-		},
-		"e337a6975b8e7968": {
-			"parent": "73867cc289565f25",
-			"name": "ValueInt_Changed",
-			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rValueEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "80621658e02e5df6"
-				}
-			},
-			"events": { "OnValue": { "In": ["4e2526e2c937462b"] } }
 		},
 		"0352deb04ccf42d9": {
 			"parent": "73e50a6149b2f87b",
@@ -6670,24 +6330,6 @@
 				"m_fValue": { "type": "float32", "value": 20.0 }
 			},
 			"outputCopying": { "Value": { "Value": ["8ce764a4902a34e5"] } }
-		},
-		"faa519e6d20a6fcc": {
-			"parent": "73867cc289565f25",
-			"name": "Poll Assault Rifle",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
-			"properties": {},
-			"events": {
-				"PollFalse": { "Poll": ["d33ce1d3e014d2f9"] },
-				"PollTrue": {
-					"SetValue": [
-						{
-							"ref": "c3a66072817627dd",
-							"value": { "type": "int32", "value": 4 }
-						}
-					]
-				}
-			}
 		},
 		"cf9b02e8694e0da8": {
 			"parent": "0cd5d1c19b606cb9",
