@@ -27,7 +27,7 @@
 						},
 						"position": {
 							"x": 0.0027761096134781837,
-							"y": -0.00010647624731063843,
+							"y": -0.00010647624731063844,
 							"z": 0.29238319396972656
 						}
 					}
@@ -46,8 +46,8 @@
 		"f1249a589646aa26": {
 			"parent": "14f5dd85a4c2f5e4",
 			"name": "Helper_Evergreen_SelectableItem",
-			"factory": "007EE200640F15E5",
-			"blueprint": "00BCA591C00A579D",
+			"factory": "00846B8FEE78BE2A",
+			"blueprint": "004CF60C0B648013",
 			"properties": {
 				"m_RepositoryId": {
 					"type": "ZGuid",
@@ -56,11 +56,7 @@
 				"InspectionPivotTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 0,
 							"y": -0.019999999552965164,
@@ -95,7 +91,7 @@
 					"value": {
 						"rotation": {
 							"x": -89.99996584905415,
-							"y": 0.0000017075472925025798,
+							"y": 1.7075472925025798e-6,
 							"z": 89.99999658490542
 						},
 						"position": {
@@ -120,18 +116,9 @@
 						}
 					}
 				},
-				"melee": {
-					"type": "bool",
-					"value": true
-				},
-				"GearWall": {
-					"type": "bool",
-					"value": false
-				},
-				"Supplier": {
-					"type": "bool",
-					"value": false
-				},
+				"melee": { "type": "bool", "value": true },
+				"GearWall": { "type": "bool", "value": false },
+				"Supplier": { "type": "bool", "value": false },
 				"ItemTransform": {
 					"type": "SMatrix43",
 					"value": {
@@ -140,21 +127,11 @@
 							"y": 0,
 							"z": -0.02797645428453013
 						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
-				"Stash": {
-					"type": "bool",
-					"value": false
-				},
-				"RewardCrate": {
-					"type": "bool",
-					"value": false
-				},
+				"Stash": { "type": "bool", "value": false },
+				"RewardCrate": { "type": "bool", "value": false },
 				"m_boundary": {
 					"type": "SEntityTemplateReference",
 					"value": "b715273f691b8da1",
@@ -166,11 +143,7 @@
 					"postInit": true
 				}
 			},
-			"subsets": {
-				"AudioEmitters": [
-					"14f5dd85a4c2f5e4"
-				]
-			}
+			"subsets": { "AudioEmitters": ["14f5dd85a4c2f5e4"] }
 		},
 		"14f5dd85a4c2f5e4": {
 			"parent": null,
@@ -181,16 +154,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 90,
-							"y": 90,
-							"z": 0
-						},
-						"position": {
-							"x": -6,
-							"y": 0,
-							"z": -22
-						}
+						"rotation": { "x": 90, "y": 90, "z": 0 },
+						"position": { "x": -6, "y": 0, "z": -22 }
 					}
 				}
 			},
@@ -252,21 +217,11 @@
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [
@@ -275,10 +230,6 @@
 			"flag": "5F"
 		}
 	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraBlueprintDependencies": [],
+	"comments": []
 }
