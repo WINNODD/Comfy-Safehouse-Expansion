@@ -1,0 +1,305 @@
+{
+	"tempHash": "009BC3A2B8A38870",
+	"tbluHash": "00B3B8B96C8D13A0",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"c2310334fd3572d7",
+				{ "SetName": "000basement_int_wall_20x20_corner_a_16" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c2310334fd3572d7",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+							"position": {
+								"x": 4.32,
+								"y": 31.749679565429688,
+								"z": 1.0012149810791016
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c2310334fd3572d7",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_PrimitiveScale",
+						"value": {
+							"x": 1.0,
+							"y": 1.55,
+							"z": 0.4406709969043732
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"287a3a4b5f69276e",
+				{ "SetName": "000basement_int_wall_200x400_plain_d02_08" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"287a3a4b5f69276e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -180.0
+							},
+							"position": {
+								"x": 5.076,
+								"y": 31.95966911315918,
+								"z": 0.0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"287a3a4b5f69276e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_PrimitiveScale",
+						"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fe3582a75c0c2f82",
+				{ "SetName": "000basement_int_wall_20x20_corner_a_17" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fe3582a75c0c2f82",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -180.0
+							},
+							"position": {
+								"x": 10.805,
+								"y": 31.749540328979492,
+								"z": 1.0012149810791016
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"cb2c8def744b43ec",
+				{ "SetName": "000basement_int_wall_200x400_plain_d02_09" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"cb2c8def744b43ec",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -180.0
+							},
+							"position": {
+								"x": 9.08,
+								"y": 31.95966911315918,
+								"z": 0.0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"cb2c8def744b43ec",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_PrimitiveScale",
+						"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe7ee7194ddb57",
+				{
+					"parent": "dabc41e7b3ffa059",
+					"name": "001basement_int_wall_200x400_plain_d02_08",
+					"factory": "[assembly:/_pro/environment/templates/kits/evergreen/basement_modular_a.template?/basement_int_wall_100x400_plain_d02.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/environment/templates/kits/evergreen/basement_modular_a.template?/basement_int_wall_100x400_plain_d02.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -180.0
+								},
+								"position": {
+									"x": 4.076,
+									"y": 31.95966911315918,
+									"z": 0.0
+								}
+							}
+						},
+						"m_PrimitiveScale": {
+							"type": "SVector3",
+							"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "c887e0d43f8a8589",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafed91fa221d773",
+				{
+					"parent": "dabc41e7b3ffa059",
+					"name": "001basement_int_wall_200x400_plain_d02_09",
+					"factory": "[assembly:/_pro/environment/templates/kits/evergreen/basement_modular_a.template?/basement_int_wall_100x400_plain_d02.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/environment/templates/kits/evergreen/basement_modular_a.template?/basement_int_wall_100x400_plain_d02.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -180.0
+								},
+								"position": {
+									"x": 10.08,
+									"y": 31.95966911315918,
+									"z": 0.0
+								}
+							}
+						},
+						"m_PrimitiveScale": {
+							"type": "SVector3",
+							"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "c887e0d43f8a8589"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe371886d6ef8d",
+				{
+					"parent": "dabc41e7b3ffa059",
+					"name": "001basement_int_wall_200x038_toppiece_a_21",
+					"factory": "[assembly:/_pro/environment/templates/kits/evergreen/basement_modular_a.template?/basement_int_wall_200x038_toppiece_a.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/environment/templates/kits/evergreen/basement_modular_a.template?/basement_int_wall_200x038_toppiece_a.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -180.0
+								},
+								"position": {
+									"x": 4.149,
+									"y": 31.950180053710938,
+									"z": 3.567133903503418
+								}
+							}
+						},
+						"m_PrimitiveScale": {
+							"type": "SVector3",
+							"value": {
+								"x": 0.8500000238418579,
+								"y": 1.0,
+								"z": 1.0
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "c887e0d43f8a8589"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe7516603a9d0b",
+				{
+					"parent": "dabc41e7b3ffa059",
+					"name": "001basement_int_wall_200x038_toppiece_a_22",
+					"factory": "[assembly:/_pro/environment/templates/kits/evergreen/basement_modular_a.template?/basement_int_wall_200x038_toppiece_a.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/environment/templates/kits/evergreen/basement_modular_a.template?/basement_int_wall_200x038_toppiece_a.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -180.0
+								},
+								"position": {
+									"x": 9.3,
+									"y": 31.950180053710938,
+									"z": 3.5671350955963135
+								}
+							}
+						},
+						"m_PrimitiveScale": {
+							"type": "SVector3",
+							"value": {
+								"x": 0.8500000238418579,
+								"y": 1.0,
+								"z": 1.0
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "c887e0d43f8a8589"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

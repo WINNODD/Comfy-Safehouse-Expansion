@@ -87,12 +87,6 @@
 				"ActionTriggered": { "PickUp": ["76bc7debe63916b6"] }
 			}
 		},
-		"2f2d910cfa9f1fe3": {
-			"parent": "5ca4da59817ade87",
-			"name": "EventToken_Evergreen_Gear_Added_Pistol",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_gear_added_pistol.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_gear_added_pistol.entitytemplate].pc_entityblueprint"
-		},
 		"3d0161cd68e52617": {
 			"parent": "8ce764a4902a34e5",
 			"name": "General Epic D0",
@@ -497,40 +491,6 @@
 				}
 			}
 		},
-		"b7fac9632f96675e": {
-			"parent": "5ca4da59817ade87",
-			"name": "VoidSignalOnce_Simple",
-			"factory": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entityblueprint",
-			"events": {
-				"Out": {
-					"Poll": [
-						"3e8d96da85a5ca75",
-						"78d999f68cc63038",
-						"870b62109cea904e",
-						"9d0f96a212adfda0",
-						"9482a6cb0064b107",
-						"69085de7c0fe3b1e",
-						"9fd25241eadd7073"
-					]
-				}
-			}
-		},
-		"5a2cfba94aba5bb2": {
-			"parent": "5ca4da59817ade87",
-			"name": "ValueBool_Operation",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_bFireOnLevelStart": { "type": "bool", "value": true },
-				"m_aValues": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["64fbe690fc534c94", "13c9381ee813044d"],
-					"postInit": true
-				}
-			},
-			"events": { "OnTrue": { "Signal": ["b7fac9632f96675e"] } }
-		},
 		"cae63889a2a1c878": {
 			"parent": "811ee3bc0846c53b",
 			"name": "Legendary receiver enabled",
@@ -546,15 +506,6 @@
 			"events": {
 				"OnTrue": { "Enable": ["70e1abc743b06deb"] },
 				"OnFalse": { "Disable": ["70e1abc743b06deb"] }
-			}
-		},
-		"995330c1e1640cda": {
-			"parent": "5ca4da59817ade87",
-			"name": "Shotgun",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_bValue": { "type": "bool", "value": false }
 			}
 		},
 		"7a6d804cb7b21ace": {
@@ -703,19 +654,6 @@
 				}
 			}
 		},
-		"47db4b806e85f104": {
-			"parent": "5ca4da59817ade87",
-			"name": "EventChannelTransmitter_void_04",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rChannelToken": {
-					"type": "SEntityTemplateReference",
-					"value": "26200d8d32a49a04",
-					"postInit": true
-				}
-			}
-		},
 		"254a6656fcfe11ab": {
 			"parent": "314e992cc8505456",
 			"name": "Supplier",
@@ -729,26 +667,12 @@
 				}
 			}
 		},
-		"db7769ba05d2d481": {
-			"parent": "5ca4da59817ade87",
-			"name": "Pistol",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_bValue": { "type": "bool", "value": false }
-			}
-		},
 		"7a423dcd408ceb3e": {
 			"parent": "73867cc289565f25",
 			"name": "Poll Pistol",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rValueEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "db7769ba05d2d481"
-				}
-			},
+			"properties": {},
 			"events": {
 				"PollFalse": { "Poll": ["8aea93e4f0bf9f16"] },
 				"PollTrue": {
@@ -1241,15 +1165,6 @@
 				"Value": { "SetRepositoryID": ["57554bdd23508460"] }
 			}
 		},
-		"886ea26de1dd7b33": {
-			"parent": "5ca4da59817ade87",
-			"name": "AssaultRifle",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_bValue": { "type": "bool", "value": false }
-			}
-		},
 		"4c974998a1c29abe": {
 			"parent": "dd218b2743991ca8",
 			"name": "Placed or gear wall",
@@ -1726,19 +1641,6 @@
 				}
 			}
 		},
-		"8eeeadf95beab0d4": {
-			"parent": "5ca4da59817ade87",
-			"name": "EventChannelTransmitter_void_05",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rChannelToken": {
-					"type": "SEntityTemplateReference",
-					"value": "1c4367cac0a4ce05",
-					"postInit": true
-				}
-			}
-		},
 		"8c4c787c36cbe8de": {
 			"parent": "8ce764a4902a34e5",
 			"name": "General H2",
@@ -1860,12 +1762,6 @@
 				"m_fValue": { "type": "float32", "value": 20.0 }
 			},
 			"outputCopying": { "Value": { "Value": ["8ce764a4902a34e5"] } }
-		},
-		"6a8ce889bd0ecfbb": {
-			"parent": "5ca4da59817ade87",
-			"name": "EventToken_Evergreen_Gear_Added_Consumable",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_gear_added_consumable.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_gear_added_consumable.entitytemplate].pc_entityblueprint"
 		},
 		"694db9a52a8b90fe": {
 			"parent": "84bfcb77adb4cce4",
@@ -2097,12 +1993,6 @@
 				"Out4": { "Get": ["122beb3d7dfd9b7d"] }
 			}
 		},
-		"2716190c8050d569": {
-			"parent": "5ca4da59817ade87",
-			"name": "EventToken_Evergreen_Gear_Added_SMG",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_gear_added_smg.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_gear_added_smg.entitytemplate].pc_entityblueprint"
-		},
 		"739de3a7642b64e2": {
 			"parent": "8ce764a4902a34e5",
 			"name": "RewardCrate Nonrarity H4",
@@ -2172,12 +2062,6 @@
 				},
 				"RepositoryID": { "In": ["121c1dd6ffe2975a"] }
 			}
-		},
-		"1c4367cac0a4ce05": {
-			"parent": "5ca4da59817ade87",
-			"name": "EventToken_Evergreen_Gear_Added_Melee",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_gear_added_melee.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_gear_added_melee.entitytemplate].pc_entityblueprint"
 		},
 		"1e26c841bf0ab8cf": {
 			"parent": "609ea36bca89e3f2",
@@ -2537,30 +2421,6 @@
 				}
 			},
 			"events": { "OnValue": { "Variant": ["1bb700ad8f37a376"] } }
-		},
-		"9f98eba87ee931e3": {
-			"parent": "5ca4da59817ade87",
-			"name": "Sniper",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_bValue": { "type": "bool", "value": false }
-			}
-		},
-		"69085de7c0fe3b1e": {
-			"parent": "5ca4da59817ade87",
-			"name": "ValueBool_Poll_04",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rValueEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "9f98eba87ee931e3"
-				}
-			},
-			"events": {
-				"PollTrue": { "TransmitEvent": ["47db4b806e85f104"] }
-			}
 		},
 		"ed716e618702d032": {
 			"parent": "0cd5d1c19b606cb9",
@@ -3017,30 +2877,6 @@
 			"blueprint": "[modules:/zheroitemaction.class].pc_entityblueprint",
 			"events": { "Item": { "TransmitEvent": ["1dc627334f3f3697"] } }
 		},
-		"e1396c03cb0269c0": {
-			"parent": "5ca4da59817ade87",
-			"name": "Consumable",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_bValue": { "type": "bool", "value": false }
-			}
-		},
-		"9fd25241eadd7073": {
-			"parent": "5ca4da59817ade87",
-			"name": "ValueBool_Poll_06",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rValueEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "e1396c03cb0269c0"
-				}
-			},
-			"events": {
-				"PollTrue": { "TransmitEvent": ["2e5fdc387e42c30d"] }
-			}
-		},
 		"7273df69be943e5a": {
 			"parent": "0cd5d1c19b606cb9",
 			"name": "play_gui_evergreen_gearwall_inspect_item_active",
@@ -3138,19 +2974,6 @@
 				"ActionTriggered": { "ShowInMenu": ["609ea36bca89e3f2"] }
 			}
 		},
-		"df2162f4d6838296": {
-			"parent": "5ca4da59817ade87",
-			"name": "EventChannelTransmitter_void_02",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rChannelToken": {
-					"type": "SEntityTemplateReference",
-					"value": "e7c6db2fda479c6f",
-					"postInit": true
-				}
-			}
-		},
 		"57554bdd23508460": {
 			"parent": "5e6f1db91ae87475",
 			"name": "Rarity integer",
@@ -3238,26 +3061,12 @@
 				}
 			}
 		},
-		"c2c5bf11a647be73": {
-			"parent": "5ca4da59817ade87",
-			"name": "SMG",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_bValue": { "type": "bool", "value": false }
-			}
-		},
 		"8aea93e4f0bf9f16": {
 			"parent": "73867cc289565f25",
 			"name": "Poll SMG",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rValueEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "c2c5bf11a647be73"
-				}
-			},
+			"properties": {},
 			"events": {
 				"PollFalse": { "Poll": ["06bea0d556d15790"] },
 				"PollTrue": {
@@ -3268,21 +3077,6 @@
 						}
 					]
 				}
-			}
-		},
-		"9482a6cb0064b107": {
-			"parent": "5ca4da59817ade87",
-			"name": "ValueBool_Poll_01",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rValueEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "c2c5bf11a647be73"
-				}
-			},
-			"events": {
-				"PollTrue": { "TransmitEvent": ["5de4f88cea41b962"] }
 			}
 		},
 		"acab7ade6cefd4be": {
@@ -3489,18 +3283,6 @@
 				"Value": { "TransmitEvent": ["5f259ab8c7f915c1"] }
 			}
 		},
-		"26fadbaa69fd27df": {
-			"parent": "5ca4da59817ade87",
-			"name": "EventChannelTransmitter_void",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rChannelToken": {
-					"type": "SEntityTemplateReference",
-					"value": "2f2d910cfa9f1fe3"
-				}
-			}
-		},
 		"8e5593c13161a563": {
 			"parent": "8ce764a4902a34e5",
 			"name": "General Nonrarity D4",
@@ -3548,18 +3330,6 @@
 			"name": "EventToken_Evergreen_SelectableItem_Selected",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_selectableitem_selected.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_selectableitem_selected.entitytemplate].pc_entityblueprint"
-		},
-		"2e5fdc387e42c30d": {
-			"parent": "5ca4da59817ade87",
-			"name": "EventChannelTransmitter_void_06",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rChannelToken": {
-					"type": "SEntityTemplateReference",
-					"value": "6a8ce889bd0ecfbb"
-				}
-			}
 		},
 		"568e433e664bb34f": {
 			"parent": "8375a8be32ea9189",
@@ -4729,21 +4499,6 @@
 				}
 			}
 		},
-		"3e8d96da85a5ca75": {
-			"parent": "5ca4da59817ade87",
-			"name": "ValueBool_Poll",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rValueEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "db7769ba05d2d481"
-				}
-			},
-			"events": {
-				"PollTrue": { "TransmitEvent": ["26fadbaa69fd27df"] }
-			}
-		},
 		"7bcd19fcd43449f1": {
 			"parent": "befbb178b8571b44",
 			"name": "EventChannelReceiver_RepositoryID",
@@ -4836,19 +4591,6 @@
 				}
 			}
 		},
-		"f273d051f3b67c76": {
-			"parent": "5ca4da59817ade87",
-			"name": "EventChannelTransmitter_void_03",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rChannelToken": {
-					"type": "SEntityTemplateReference",
-					"value": "d5d226f451d02016",
-					"postInit": true
-				}
-			}
-		},
 		"a575b80b2bc8343a": {
 			"parent": "84bfcb77adb4cce4",
 			"name": "Resettable",
@@ -4923,12 +4665,7 @@
 			"name": "Poll Shotgun",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rValueEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "995330c1e1640cda"
-				}
-			},
+			"properties": {},
 			"events": {
 				"PollFalse": { "Poll": ["faa519e6d20a6fcc"] },
 				"PollTrue": {
@@ -5026,111 +4763,12 @@
 				"Out4": { "Get": ["c6315768a7bdcff8"] }
 			}
 		},
-		"d300800690b2a7b5": {
-			"parent": "5ca4da59817ade87",
-			"name": "Melee",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_bValue": { "type": "bool", "value": false }
-			}
-		},
-		"870b62109cea904e": {
-			"parent": "5ca4da59817ade87",
-			"name": "ValueBool_Poll_05",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rValueEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "d300800690b2a7b5"
-				}
-			},
-			"events": {
-				"PollTrue": { "TransmitEvent": ["8eeeadf95beab0d4"] }
-			}
-		},
-		"5ca4da59817ade87": {
-			"parent": "b0906e8ecb81a1b0",
-			"name": "Signal Added Item",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {
-				"pistol": { "type": "bool", "value": false },
-				"SMG": { "type": "bool", "value": false },
-				"shotgun": { "type": "bool", "value": false },
-				"assaultRifle": { "type": "bool", "value": false },
-				"sniper": { "type": "bool", "value": false },
-				"melee": { "type": "bool", "value": false },
-				"187233093": { "type": "bool", "value": false },
-				"m_aValues": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["64fbe690fc534c94", "13c9381ee813044d"],
-					"postInit": true
-				}
-			},
-			"propertyAliases": {
-				"Consumable": [
-					{
-						"originalProperty": "m_bValue",
-						"originalEntity": "e1396c03cb0269c0"
-					}
-				],
-				"SMG": [
-					{
-						"originalProperty": "m_bValue",
-						"originalEntity": "c2c5bf11a647be73"
-					}
-				],
-				"assaultRifle": [
-					{
-						"originalProperty": "m_bValue",
-						"originalEntity": "886ea26de1dd7b33"
-					}
-				],
-				"m_aValues": [
-					{
-						"originalProperty": "m_aValues",
-						"originalEntity": "5a2cfba94aba5bb2"
-					}
-				],
-				"melee": [
-					{
-						"originalProperty": "m_bValue",
-						"originalEntity": "d300800690b2a7b5"
-					}
-				],
-				"pistol": [
-					{
-						"originalProperty": "m_bValue",
-						"originalEntity": "db7769ba05d2d481"
-					}
-				],
-				"shotgun": [
-					{
-						"originalProperty": "m_bValue",
-						"originalEntity": "995330c1e1640cda"
-					}
-				],
-				"sniper": [
-					{
-						"originalProperty": "m_bValue",
-						"originalEntity": "9f98eba87ee931e3"
-					}
-				]
-			}
-		},
 		"ea870dbdeb96996c": {
 			"parent": "73867cc289565f25",
 			"name": "Poll Melee",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rValueEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "d300800690b2a7b5"
-				}
-			},
+			"properties": {},
 			"events": {
 				"PollFalse": { "Poll": ["94013b862f8ab9aa"] },
 				"PollTrue": {
@@ -5187,21 +4825,6 @@
 					"type": "SEntityTemplateReference",
 					"value": "64fbe690fc534c94"
 				}
-			}
-		},
-		"9d0f96a212adfda0": {
-			"parent": "5ca4da59817ade87",
-			"name": "ValueBool_Poll_03",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rValueEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "886ea26de1dd7b33"
-				}
-			},
-			"events": {
-				"PollTrue": { "TransmitEvent": ["f273d051f3b67c76"] }
 			}
 		},
 		"624110cf51cd8ffa": {
@@ -5496,12 +5119,6 @@
 			},
 			"outputCopying": { "Value": { "Value": ["8ce764a4902a34e5"] } }
 		},
-		"d5d226f451d02016": {
-			"parent": "5ca4da59817ade87",
-			"name": "EventToken_Evergreen_Gear_Added_AssaultRifle",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_gear_added_assaultrifle.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_gear_added_assaultrifle.entitytemplate].pc_entityblueprint"
-		},
 		"c41c3d3ae14a9891": {
 			"parent": "76bc7debe63916b6",
 			"name": "Place",
@@ -5746,12 +5363,7 @@
 			"name": "Poll Consumable",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rValueEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "e1396c03cb0269c0"
-				}
-			},
+			"properties": {},
 			"events": {
 				"PollTrue": {
 					"SetValue": [
@@ -5859,12 +5471,7 @@
 			"name": "Poll Sniper",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rValueEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "9f98eba87ee931e3"
-				}
-			},
+			"properties": {},
 			"events": {
 				"PollFalse": { "Poll": ["ea870dbdeb96996c"] },
 				"PollTrue": {
@@ -6064,12 +5671,6 @@
 				"m_bSignalsInEditMode": { "type": "bool", "value": true },
 				"m_bFireOnLevelStart": { "type": "bool", "value": true }
 			}
-		},
-		"e7c6db2fda479c6f": {
-			"parent": "5ca4da59817ade87",
-			"name": "EventToken_Evergreen_Gear_Added_Shotgun",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_gear_added_shotgun.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_gear_added_shotgun.entitytemplate].pc_entityblueprint"
 		},
 		"6230751a1467465a": {
 			"parent": "811ee3bc0846c53b",
@@ -7070,12 +6671,7 @@
 			"name": "Poll Assault Rifle",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rValueEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "886ea26de1dd7b33"
-				}
-			},
+			"properties": {},
 			"events": {
 				"PollFalse": { "Poll": ["d33ce1d3e014d2f9"] },
 				"PollTrue": {
@@ -7087,12 +6683,6 @@
 					]
 				}
 			}
-		},
-		"26200d8d32a49a04": {
-			"parent": "5ca4da59817ade87",
-			"name": "EventToken_Evergreen_Gear_Added_Sniper",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_gear_added_sniper.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_gear_added_sniper.entitytemplate].pc_entityblueprint"
 		},
 		"cf9b02e8694e0da8": {
 			"parent": "0cd5d1c19b606cb9",
@@ -7457,18 +7047,6 @@
 				}
 			}
 		},
-		"5de4f88cea41b962": {
-			"parent": "5ca4da59817ade87",
-			"name": "EventChannelTransmitter_void_01",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rChannelToken": {
-					"type": "SEntityTemplateReference",
-					"value": "2716190c8050d569"
-				}
-			}
-		},
 		"02ace23657bf9db6": {
 			"parent": "d8531e35a49dfb20",
 			"name": "Zoom in",
@@ -7652,21 +7230,6 @@
 				"m_fValue": { "type": "float32", "value": 60.0 }
 			},
 			"outputCopying": { "Value": { "Value": ["8ce764a4902a34e5"] } }
-		},
-		"78d999f68cc63038": {
-			"parent": "5ca4da59817ade87",
-			"name": "ValueBool_Poll_02",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rValueEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "995330c1e1640cda"
-				}
-			},
-			"events": {
-				"PollTrue": { "TransmitEvent": ["df2162f4d6838296"] }
-			}
 		},
 		"622c665ab96e4ca3": {
 			"parent": "8ce764a4902a34e5",
@@ -8734,12 +8297,7 @@
 						"originalEntity": "0cd5d1c19b606cb9"
 					}
 				],
-				"Consumable": [
-					{
-						"originalProperty": "Consumable",
-						"originalEntity": "5ca4da59817ade87"
-					}
-				],
+				"Consumable": [],
 				"FillTextureAlpha": [
 					{
 						"originalProperty": "FillTextureAlpha",
@@ -8786,12 +8344,7 @@
 						"originalEntity": "8127dd6b664ff41e"
 					}
 				],
-				"SMG": [
-					{
-						"originalProperty": "SMG",
-						"originalEntity": "5ca4da59817ade87"
-					}
-				],
+				"SMG": [],
 				"Stash": [
 					{
 						"originalProperty": "m_bValue",
@@ -8834,12 +8387,7 @@
 						"originalEntity": "dd218b2743991ca8"
 					}
 				],
-				"assaultRifle": [
-					{
-						"originalProperty": "assaultRifle",
-						"originalEntity": "5ca4da59817ade87"
-					}
-				],
+				"assaultRifle": [],
 				"m_RepositoryId": [
 					{
 						"originalProperty": "RepositoryID",
@@ -8888,30 +8436,10 @@
 						"originalEntity": "dbbbed4658c2b0ae"
 					}
 				],
-				"melee": [
-					{
-						"originalProperty": "melee",
-						"originalEntity": "5ca4da59817ade87"
-					}
-				],
-				"pistol": [
-					{
-						"originalProperty": "pistol",
-						"originalEntity": "5ca4da59817ade87"
-					}
-				],
-				"shotgun": [
-					{
-						"originalProperty": "shotgun",
-						"originalEntity": "5ca4da59817ade87"
-					}
-				],
-				"sniper": [
-					{
-						"originalProperty": "sniper",
-						"originalEntity": "5ca4da59817ade87"
-					}
-				]
+				"melee": [],
+				"pistol": [],
+				"shotgun": [],
+				"sniper": []
 			},
 			"exposedEntities": {
 				"ItemTransform": {
