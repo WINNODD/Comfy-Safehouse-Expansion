@@ -46,8 +46,8 @@
 		"e2612d4113ea57be": {
 			"parent": "dde10d60ceb4a3cf",
 			"name": "Helper_Evergreen_SelectableItem",
-			"factory": "007EE200640F15E5",
-			"blueprint": "00BCA591C00A579D",
+			"factory": "[assembly:/_pro/design/gamecore/helpers_evergreen.template?/helper_evergreen_selectableitem.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/helpers_evergreen.template?/helper_evergreen_selectableitem.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_RepositoryId": {
 					"type": "ZGuid",
@@ -56,11 +56,7 @@
 				"InspectionItemTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 0.05999999865889549,
 							"y": -0.024000000208616257,
@@ -71,49 +67,29 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"InspectionPivotTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": -0.03999999910593033,
-							"y": 0.029999999329447746,
+							"y": 0.029999999329447743,
 							"z": -0.6600000262260437
 						}
 					}
 				},
 				"TextureScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 7,
-						"y": 7,
-						"z": 7
-					}
+					"value": { "x": 7, "y": 7, "z": 7 }
 				},
 				"TextureTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -90,
-							"y": 0,
-							"z": 180
-						},
+						"rotation": { "x": -90, "y": 0, "z": 180 },
 						"position": {
 							"x": -0.06499999761581421,
 							"y": -0.45500001311302185,
@@ -139,41 +115,18 @@
 					"type": "ZSpatialEntity.ERoomBehaviour",
 					"value": "ROOM_DYNAMIC"
 				},
-				"SMG": {
-					"type": "bool",
-					"value": true
-				},
-				"GearWall": {
-					"type": "bool",
-					"value": false
-				},
-				"Supplier": {
-					"type": "bool",
-					"value": false
-				},
+				"SMG": { "type": "bool", "value": true },
+				"GearWall": { "type": "bool", "value": false },
+				"Supplier": { "type": "bool", "value": false },
 				"ItemTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
-				"Stash": {
-					"type": "bool",
-					"value": false
-				},
-				"RewardCrate": {
-					"type": "bool",
-					"value": false
-				},
+				"Stash": { "type": "bool", "value": false },
+				"RewardCrate": { "type": "bool", "value": false },
 				"m_boundary": {
 					"type": "SEntityTemplateReference",
 					"value": "a6a4769ccfd68b11",
@@ -185,11 +138,7 @@
 					"postInit": true
 				}
 			},
-			"subsets": {
-				"AudioEmitters": [
-					"dde10d60ceb4a3cf"
-				]
-			}
+			"subsets": { "AudioEmitters": ["dde10d60ceb4a3cf"] }
 		},
 		"dde10d60ceb4a3cf": {
 			"parent": null,
@@ -200,16 +149,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -90,
-							"y": 0,
-							"z": 180
-						},
-						"position": {
-							"x": -1,
-							"y": 0,
-							"z": -11
-						}
+						"rotation": { "x": -90, "y": 0, "z": 180 },
+						"position": { "x": -1, "y": 0, "z": -11 }
 					}
 				}
 			},
@@ -271,21 +212,11 @@
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [
@@ -294,10 +225,6 @@
 			"flag": "5F"
 		}
 	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

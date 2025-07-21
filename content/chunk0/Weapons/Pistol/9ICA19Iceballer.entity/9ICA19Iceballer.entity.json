@@ -20,11 +20,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": -0.01462200004607439,
 							"y": -0.03879699856042862,
@@ -46,8 +42,8 @@
 		"6d2889a3e11e3bea": {
 			"parent": "5d5e5c455fede8f2",
 			"name": "Helper_Evergreen_SelectableItem",
-			"factory": "007EE200640F15E5",
-			"blueprint": "00BCA591C00A579D",
+			"factory": "[assembly:/_pro/design/gamecore/helpers_evergreen.template?/helper_evergreen_selectableitem.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/helpers_evergreen.template?/helper_evergreen_selectableitem.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_RepositoryId": {
 					"type": "ZGuid",
@@ -56,14 +52,10 @@
 				"InspectionItemTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -90
-						},
+						"rotation": { "x": 0, "y": 0, "z": -90 },
 						"position": {
 							"x": -0.05000000074505806,
-							"y": -0.014999999664723873,
+							"y": -0.014999999664723871,
 							"z": -0.019999999552965164
 						}
 					}
@@ -108,68 +100,33 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"InspectionPivotTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": -0.03999999910593033,
-							"y": 0.029999999329447746,
+							"y": 0.029999999329447743,
 							"z": -0.36000001430511475
 						}
 					}
 				},
-				"pistol": {
-					"type": "bool",
-					"value": true
-				},
-				"GearWall": {
-					"type": "bool",
-					"value": false
-				},
-				"Supplier": {
-					"type": "bool",
-					"value": false
-				},
+				"pistol": { "type": "bool", "value": true },
+				"GearWall": { "type": "bool", "value": false },
+				"Supplier": { "type": "bool", "value": false },
 				"ItemTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
-				"Stash": {
-					"type": "bool",
-					"value": false
-				},
-				"RewardCrate": {
-					"type": "bool",
-					"value": false
-				},
+				"Stash": { "type": "bool", "value": false },
+				"RewardCrate": { "type": "bool", "value": false },
 				"m_boundary": {
 					"type": "SEntityTemplateReference",
 					"value": "356e9ed930a07e44",
@@ -181,11 +138,7 @@
 					"postInit": true
 				}
 			},
-			"subsets": {
-				"AudioEmitters": [
-					"5d5e5c455fede8f2"
-				]
-			}
+			"subsets": { "AudioEmitters": ["5d5e5c455fede8f2"] }
 		},
 		"5d5e5c455fede8f2": {
 			"parent": null,
@@ -196,16 +149,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 90,
-							"y": 90,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": -21
-						}
+						"rotation": { "x": 90, "y": 90, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": -21 }
 					}
 				}
 			},
@@ -267,21 +212,11 @@
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [
@@ -290,10 +225,6 @@
 			"flag": "5F"
 		}
 	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

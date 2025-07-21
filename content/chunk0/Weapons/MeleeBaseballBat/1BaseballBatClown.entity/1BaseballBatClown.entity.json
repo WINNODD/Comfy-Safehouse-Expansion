@@ -22,7 +22,7 @@
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
-							"x": 0.12263700366020203,
+							"x": 0.12263700366020204,
 							"y": 0.0009679999784566462,
 							"z": 0.03978100046515465
 						}
@@ -42,8 +42,8 @@
 		"25452b0480ae9982": {
 			"parent": "a30d8fccda5d6925",
 			"name": "Helper_Evergreen_SelectableItem",
-			"factory": "007EE200640F15E5",
-			"blueprint": "00BCA591C00A579D",
+			"factory": "[assembly:/_pro/design/gamecore/helpers_evergreen.template?/helper_evergreen_selectableitem.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/helpers_evergreen.template?/helper_evergreen_selectableitem.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_RepositoryId": {
 					"type": "ZGuid",
@@ -56,7 +56,7 @@
 						"position": {
 							"x": 0,
 							"y": 0,
-							"z": -0.9200000166893005
+							"z": -0.9200000166893004
 						}
 					}
 				},
@@ -89,7 +89,7 @@
 						"position": {
 							"x": 0.125,
 							"y": -0.38999998569488525,
-							"z": 0.013000000268220901
+							"z": 0.0130000002682209
 						}
 					}
 				},

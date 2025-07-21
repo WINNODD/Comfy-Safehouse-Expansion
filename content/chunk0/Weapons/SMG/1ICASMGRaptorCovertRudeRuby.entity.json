@@ -6,8 +6,8 @@
 		"eb63b4ab118f0d95": {
 			"parent": "9d0125970702f554",
 			"name": "Helper_Evergreen_SelectableItem",
-			"factory": "007EE200640F15E5",
-			"blueprint": "00BCA591C00A579D",
+			"factory": "[assembly:/_pro/design/gamecore/helpers_evergreen.template?/helper_evergreen_selectableitem.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/helpers_evergreen.template?/helper_evergreen_selectableitem.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_RepositoryId": {
 					"type": "ZGuid",
@@ -16,26 +16,18 @@
 				"InspectionItemTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 0.07000000029802322,
 							"y": 0,
-							"z": -0.029999999329447746
+							"z": -0.029999999329447743
 						}
 					}
 				},
 				"TextureTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -90,
-							"y": 0,
-							"z": 180
-						},
+						"rotation": { "x": -90, "y": 0, "z": 180 },
 						"position": {
 							"x": -0.05000000074505806,
 							"y": -0.5,
@@ -45,11 +37,7 @@
 				},
 				"TextureScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 7,
-						"y": 7,
-						"z": 7
-					}
+					"value": { "x": 7, "y": 7, "z": 7 }
 				},
 				"TextureLocked": {
 					"type": "ZRuntimeResourceID",
@@ -68,11 +56,7 @@
 				"InspectionPivotTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": -0.019999999552965164,
 							"y": 0.03999999910593033,
@@ -80,41 +64,18 @@
 						}
 					}
 				},
-				"SMG": {
-					"type": "bool",
-					"value": true
-				},
-				"GearWall": {
-					"type": "bool",
-					"value": false
-				},
-				"Supplier": {
-					"type": "bool",
-					"value": false
-				},
+				"SMG": { "type": "bool", "value": true },
+				"GearWall": { "type": "bool", "value": false },
+				"Supplier": { "type": "bool", "value": false },
 				"ItemTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
-				"Stash": {
-					"type": "bool",
-					"value": false
-				},
-				"RewardCrate": {
-					"type": "bool",
-					"value": false
-				},
+				"Stash": { "type": "bool", "value": false },
+				"RewardCrate": { "type": "bool", "value": false },
 				"m_boundary": {
 					"type": "SEntityTemplateReference",
 					"value": "7c513bd5269939d9",
@@ -126,11 +87,7 @@
 					"postInit": true
 				}
 			},
-			"subsets": {
-				"AudioEmitters": [
-					"9d0125970702f554"
-				]
-			}
+			"subsets": { "AudioEmitters": ["9d0125970702f554"] }
 		},
 		"7c513bd5269939d9": {
 			"parent": "9d0125970702f554",
@@ -155,7 +112,7 @@
 							"z": 0
 						},
 						"position": {
-							"x": -0.056012000888586044,
+							"x": -0.05601200088858605,
 							"y": -0.06447400152683258,
 							"z": 0.01595900021493435
 						}
@@ -180,16 +137,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -90,
-							"y": 0,
-							"z": 180
-						},
-						"position": {
-							"x": -1,
-							"y": 0,
-							"z": -2
-						}
+						"rotation": { "x": -90, "y": 0, "z": 180 },
+						"position": { "x": -1, "y": 0, "z": -2 }
 					}
 				}
 			},
@@ -251,21 +200,11 @@
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [
@@ -274,10 +213,6 @@
 			"flag": "5F"
 		}
 	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

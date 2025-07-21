@@ -6,8 +6,8 @@
 		"f752fc9fda8e5c74": {
 			"parent": "4d352ea6c1c7c733",
 			"name": "Helper_Evergreen_SelectableItem",
-			"factory": "007EE200640F15E5",
-			"blueprint": "00BCA591C00A579D",
+			"factory": "[assembly:/_pro/design/gamecore/helpers_evergreen.template?/helper_evergreen_selectableitem.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/helpers_evergreen.template?/helper_evergreen_selectableitem.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_RepositoryId": {
 					"type": "ZGuid",
@@ -192,7 +192,7 @@
 						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": -0.009999999776482582,
-							"y": 0.014999999664723873,
+							"y": 0.014999999664723871,
 							"z": 0.02195899933576584
 						}
 					}

@@ -6,8 +6,8 @@
 		"87cc003fd7ecf15f": {
 			"parent": "8b00fd94ca7984d8",
 			"name": "Helper_Evergreen_SelectableItem",
-			"factory": "007EE200640F15E5",
-			"blueprint": "00BCA591C00A579D",
+			"factory": "[assembly:/_pro/design/gamecore/helpers_evergreen.template?/helper_evergreen_selectableitem.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/helpers_evergreen.template?/helper_evergreen_selectableitem.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_RepositoryId": {
 					"type": "ZGuid",
@@ -16,14 +16,10 @@
 				"InspectionItemTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -90
-						},
+						"rotation": { "x": 0, "y": 0, "z": -90 },
 						"position": {
 							"x": 0,
-							"y": -0.014999999664723873,
+							"y": -0.014999999664723871,
 							"z": -0.019999999552965164
 						}
 					}
@@ -31,11 +27,7 @@
 				"TextureTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -90,
-							"y": 0,
-							"z": -90
-						},
+						"rotation": { "x": -90, "y": 0, "z": -90 },
 						"position": {
 							"x": -0.4000000059604645,
 							"y": 0.004999999888241291,
@@ -45,11 +37,7 @@
 				},
 				"TextureScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 7,
-						"y": 7,
-						"z": 7
-					}
+					"value": { "x": 7, "y": 7, "z": 7 }
 				},
 				"TextureLocked": {
 					"type": "ZRuntimeResourceID",
@@ -68,53 +56,26 @@
 				"InspectionPivotTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": -0.07999999821186066,
-							"y": 0.029999999329447746,
+							"y": 0.029999999329447743,
 							"z": -0.36000001430511475
 						}
 					}
 				},
-				"pistol": {
-					"type": "bool",
-					"value": true
-				},
-				"GearWall": {
-					"type": "bool",
-					"value": false
-				},
-				"Supplier": {
-					"type": "bool",
-					"value": false
-				},
+				"pistol": { "type": "bool", "value": true },
+				"GearWall": { "type": "bool", "value": false },
+				"Supplier": { "type": "bool", "value": false },
 				"ItemTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
-				"Stash": {
-					"type": "bool",
-					"value": false
-				},
-				"RewardCrate": {
-					"type": "bool",
-					"value": false
-				},
+				"Stash": { "type": "bool", "value": false },
+				"RewardCrate": { "type": "bool", "value": false },
 				"m_boundary": {
 					"type": "SEntityTemplateReference",
 					"value": "cc167b935fecab41",
@@ -126,11 +87,7 @@
 					"postInit": true
 				}
 			},
-			"subsets": {
-				"AudioEmitters": [
-					"8b00fd94ca7984d8"
-				]
-			}
+			"subsets": { "AudioEmitters": ["8b00fd94ca7984d8"] }
 		},
 		"8b00fd94ca7984d8": {
 			"parent": null,
@@ -141,16 +98,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 90,
-							"y": 90,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": -2
-						}
+						"rotation": { "x": 90, "y": 90, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": -2 }
 					}
 				}
 			},
@@ -220,7 +169,7 @@
 				"m_vGlobalSize": {
 					"type": "SVector3",
 					"value": {
-						"x": 0.09580089896917343,
+						"x": 0.09580089896917345,
 						"y": 0.11825600266456604,
 						"z": 0.02568270079791546
 					}
@@ -228,11 +177,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": -0.004987999796867371,
 							"y": 0.002578000072389841,
@@ -251,21 +196,11 @@
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [
@@ -274,10 +209,6 @@
 			"flag": "5F"
 		}
 	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraBlueprintDependencies": [],
+	"comments": []
 }
