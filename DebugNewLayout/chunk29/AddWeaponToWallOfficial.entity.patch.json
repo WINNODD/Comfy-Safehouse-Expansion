@@ -368,24 +368,6 @@
 							{
 								"AddItemAfter": [
 									"37a776dc245fbd38",
-									"feed2c1eab5465a7"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"37a776dc245fbd38",
-									"feed2bd67105aa51"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"37a776dc245fbd38",
-									"feed63e0e34a80c2"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"37a776dc245fbd38",
 									"9db592664f36477b"
 								]
 							},
@@ -2229,12 +2211,6 @@
 									"6a629349a75659af"
 								]
 							},
-							{
-								"AddItemAfter": [
-									"d28c279ef7dc5629",
-									"feed11552a515059"
-								]
-							},
 							{ "RemoveItemByValue": "24acb3b7c96f80b3" },
 							{ "RemoveItemByValue": "006f244c093d6b08" },
 							{ "RemoveItemByValue": "879d45385b93f4fd" },
@@ -2396,12 +2372,6 @@
 									"c5ba277769a2d8ad",
 									"5ec1d2a23fcdef93"
 								]
-							},
-							{
-								"AddItemAfter": [
-									"c5ba277769a2d8ad",
-									"feed032c95093241"
-								]
 							}
 						]
 					]
@@ -2525,18 +2495,6 @@
 								"AddItemAfter": [
 									"c3c580d3d4b4a8d0",
 									"7bb9ebb9ece79380"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"c3c580d3d4b4a8d0",
-									"feed4c5a1ae6628f"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"c3c580d3d4b4a8d0",
-									"feed9dcb45f22853"
 								]
 							}
 						]
@@ -3120,24 +3078,6 @@
 									"94361fe1a68f83e0",
 									"004bdb48ff6a1ddf"
 								]
-							},
-							{
-								"AddItemAfter": [
-									"94361fe1a68f83e0",
-									"feed0932fe66d5cc"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"94361fe1a68f83e0",
-									"feed945952a9dc59"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"94361fe1a68f83e0",
-									"feed3d07e649c05f"
-								]
 							}
 						]
 					]
@@ -3162,12 +3102,6 @@
 								"AddItemAfter": [
 									"9ed2e628b7a10b94",
 									"feed3b0cc189a27b"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"9ed2e628b7a10b94",
-									"feed1ccd0203c5af"
 								]
 							}
 						]
@@ -4325,18 +4259,6 @@
 							{
 								"AddItemAfter": [
 									"0eb69d641c22a90e",
-									"feed049d4ed69e86"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"0eb69d641c22a90e",
-									"feed48cc3b7b8629"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"0eb69d641c22a90e",
 									"feed3ff2676bd8ef"
 								]
 							},
@@ -4507,12 +4429,6 @@
 								"AddItemAfter": [
 									"253bb06bb11e4bec",
 									"813802d31f5d9d09"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"253bb06bb11e4bec",
-									"feed4ddee5a9aed3"
 								]
 							},
 							{
@@ -5867,18 +5783,6 @@
 									"d324149cf6c9733f",
 									"1339e91386c84e8a"
 								]
-							},
-							{
-								"AddItemAfter": [
-									"d324149cf6c9733f",
-									"feed1e2a697d4120"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"d324149cf6c9733f",
-									"feed6529c91a3453"
-								]
 							}
 						]
 					]
@@ -6320,7 +6224,7 @@
 			"AddEntity": [
 				"feed032c95093241",
 				{
-					"parent": "cb695646a9f47498",
+					"parent": "cafed17c2a6eb2f2",
 					"name": "Helper_Evergreen_SelectableItem_ShashkaA33Wrath",
 					"factory": "000C96E238EF26F9",
 					"blueprint": "001221BB48FF10E6",
@@ -6347,7 +6251,7 @@
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
-							"value": "cb695646a9f47498",
+							"value": "cafed17c2a6eb2f2",
 							"postInit": true
 						}
 					},
@@ -6359,7 +6263,7 @@
 			"AddEntity": [
 				"feed4c5a1ae6628f",
 				{
-					"parent": "4d0355c974f6c856",
+					"parent": "cafed17c2a6eb2f2",
 					"name": "Helper_Evergreen_SelectableItem_BartoliHuntingShotgunDeluxe",
 					"factory": "00347F57D2CD25E3",
 					"blueprint": "0020B5A31B2C5DF8",
@@ -6386,7 +6290,7 @@
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
-							"value": "4d0355c974f6c856",
+							"value": "cafed17c2a6eb2f2",
 							"postInit": true
 						}
 					},
@@ -6398,7 +6302,7 @@
 			"AddEntity": [
 				"feed9dcb45f22853",
 				{
-					"parent": "4d0355c974f6c856",
+					"parent": "cafed17c2a6eb2f2",
 					"name": "Helper_Evergreen_SelectableItem_GluttonySawedOffBartoli12G",
 					"factory": "008639E7480B66D2",
 					"blueprint": "008E448F2BB29FD4",
@@ -6425,7 +6329,7 @@
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
-							"value": "4d0355c974f6c856",
+							"value": "cafed17c2a6eb2f2",
 							"postInit": true
 						}
 					},
@@ -6437,7 +6341,7 @@
 			"AddEntity": [
 				"feed1e2a697d4120",
 				{
-					"parent": "0e9463c88101e3a2",
+					"parent": "cafed17c2a6eb2f2",
 					"name": "Helper_Evergreen_SelectableItem_DAKGoldCovert",
 					"factory": "0035A8828A5F18C0",
 					"blueprint": "00DC1280A7B1E28A",
@@ -6464,7 +6368,7 @@
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
-							"value": "0e9463c88101e3a2",
+							"value": "cafed17c2a6eb2f2",
 							"postInit": true
 						}
 					},
@@ -6476,7 +6380,7 @@
 			"AddEntity": [
 				"feed6529c91a3453",
 				{
-					"parent": "0e9463c88101e3a2",
+					"parent": "cafed17c2a6eb2f2",
 					"name": "Helper_Evergreen_SelectableItem_DAKX2CovertSloth",
 					"factory": "00C0CC82014D7EBC",
 					"blueprint": "007EAEF8FED6421D",
@@ -6503,7 +6407,7 @@
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
-							"value": "0e9463c88101e3a2",
+							"value": "cafed17c2a6eb2f2",
 							"postInit": true
 						}
 					},
@@ -6515,7 +6419,7 @@
 			"AddEntity": [
 				"feed1ccd0203c5af",
 				{
-					"parent": "e5b0aa5553c89229",
+					"parent": "cafed17c2a6eb2f2",
 					"name": "Helper_Evergreen_SelectableItem_Jaeger7TuataraEnvy",
 					"factory": "008992B36217DF5E",
 					"blueprint": "00552000A1447098",
@@ -6542,7 +6446,7 @@
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
-							"value": "e5b0aa5553c89229",
+							"value": "cafed17c2a6eb2f2",
 							"postInit": true
 						}
 					},
@@ -6554,7 +6458,7 @@
 			"AddEntity": [
 				"feed2bd67105aa51",
 				{
-					"parent": "a37fc4b10c022681",
+					"parent": "cafed17c2a6eb2f2",
 					"name": "Helper_Evergreen_SelectableItem_Majestic",
 					"factory": "00D27BC0E50949AE",
 					"blueprint": "00D95B9CF9AA980F",
@@ -6581,7 +6485,7 @@
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
-							"value": "a37fc4b10c022681",
+							"value": "cafed17c2a6eb2f2",
 							"postInit": true
 						}
 					},
@@ -6593,7 +6497,7 @@
 			"AddEntity": [
 				"feed63e0e34a80c2",
 				{
-					"parent": "a37fc4b10c022681",
+					"parent": "cafed17c2a6eb2f2",
 					"name": "Helper_Evergreen_SelectableItem_GoldenDragon",
 					"factory": "00A78C2D0FEDB708",
 					"blueprint": "00C2A1FC3C469E36",
@@ -6620,7 +6524,7 @@
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
-							"value": "a37fc4b10c022681",
+							"value": "cafed17c2a6eb2f2",
 							"postInit": true
 						}
 					},
@@ -6632,7 +6536,7 @@
 			"AddEntity": [
 				"feed2c1eab5465a7",
 				{
-					"parent": "a37fc4b10c022681",
+					"parent": "cafed17c2a6eb2f2",
 					"name": "Helper_Evergreen_SelectableItem_Sieger300WhiteNinja",
 					"factory": "001345AF6F671120",
 					"blueprint": "0018EE3B87AEAAC4",
@@ -6659,7 +6563,7 @@
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
-							"value": "a37fc4b10c022681",
+							"value": "cafed17c2a6eb2f2",
 							"postInit": true
 						}
 					},
@@ -6671,7 +6575,7 @@
 			"AddEntity": [
 				"feed3d07e649c05f",
 				{
-					"parent": "129caf96cdc5cd90",
+					"parent": "cafed17c2a6eb2f2",
 					"name": "Helper_Evergreen_SelectableItem_Coin_Greed",
 					"factory": "001281B3DA03A223",
 					"blueprint": "0034FDFEB10BF8E0",
@@ -6698,7 +6602,7 @@
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
-							"value": "129caf96cdc5cd90",
+							"value": "cafed17c2a6eb2f2",
 							"postInit": true
 						}
 					},
@@ -6710,7 +6614,7 @@
 			"AddEntity": [
 				"feed48cc3b7b8629",
 				{
-					"parent": "911ecfd5cf432fac",
+					"parent": "cafed17c2a6eb2f2",
 					"name": "Helper_Evergreen_SelectableItem_LustBlinder",
 					"factory": "005A50F9230AE5A4",
 					"blueprint": "007A4529F18B516D",
@@ -6737,7 +6641,7 @@
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
-							"value": "911ecfd5cf432fac",
+							"value": "cafed17c2a6eb2f2",
 							"postInit": true
 						}
 					},
@@ -6749,7 +6653,7 @@
 			"AddEntity": [
 				"feed049d4ed69e86",
 				{
-					"parent": "911ecfd5cf432fac",
+					"parent": "cafed17c2a6eb2f2",
 					"name": "Helper_Evergreen_SelectableItem_AsylumTranquilizer",
 					"factory": "00582E55A1995672",
 					"blueprint": "003D1A07E9140323",
@@ -6776,7 +6680,7 @@
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
-							"value": "911ecfd5cf432fac",
+							"value": "cafed17c2a6eb2f2",
 							"postInit": true
 						}
 					},
@@ -6788,7 +6692,7 @@
 			"AddEntity": [
 				"feed945952a9dc59",
 				{
-					"parent": "129caf96cdc5cd90",
+					"parent": "cafed17c2a6eb2f2",
 					"name": "Helper_Evergreen_SelectableItem_GreedCane",
 					"factory": "0052D3B2364B6BF4",
 					"blueprint": "0024AC0FCC90A225",
@@ -6815,7 +6719,7 @@
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
-							"value": "129caf96cdc5cd90",
+							"value": "cafed17c2a6eb2f2",
 							"postInit": true
 						}
 					},
@@ -6827,7 +6731,7 @@
 			"AddEntity": [
 				"feed4ddee5a9aed3",
 				{
-					"parent": "33027e94a6ff95a6",
+					"parent": "cafed17c2a6eb2f2",
 					"name": "Helper_Evergreen_SelectableItem_PrideSaber",
 					"factory": "00AD0725BAA2E911",
 					"blueprint": "004B0E9877440C6F",
@@ -6854,7 +6758,7 @@
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
-							"value": "33027e94a6ff95a6",
+							"value": "cafed17c2a6eb2f2",
 							"postInit": true
 						}
 					},
@@ -6866,7 +6770,7 @@
 			"AddEntity": [
 				"feed11552a515059",
 				{
-					"parent": "e3c602b2257207a3",
+					"parent": "cafed17c2a6eb2f2",
 					"name": "Helper_Evergreen_SelectableItem_EnvyKnife",
 					"factory": "00DAE97E76BD6116",
 					"blueprint": "00B53F006BCD14FC",
@@ -6893,7 +6797,7 @@
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
-							"value": "e3c602b2257207a3",
+							"value": "cafed17c2a6eb2f2",
 							"postInit": true
 						}
 					},
@@ -6940,7 +6844,7 @@
 			"AddEntity": [
 				"feed0932fe66d5cc",
 				{
-					"parent": "129caf96cdc5cd90",
+					"parent": "cafed17c2a6eb2f2",
 					"name": "Helper_Evergreen_SelectableItem_AsylumFiberWire",
 					"factory": "00BCBD4B227BD645",
 					"blueprint": "00F4F706725AEE11",
@@ -6967,7 +6871,7 @@
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
-							"value": "129caf96cdc5cd90",
+							"value": "cafed17c2a6eb2f2",
 							"postInit": true
 						}
 					},
@@ -8216,17 +8120,7 @@
 									"exposedEntity": "Owned"
 								},
 								{
-									"ref": "feed63e0e34a80c2",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
 									"ref": "feed7eb294db68fb",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "feed2bd67105aa51",
 									"externalScene": null,
 									"exposedEntity": "Owned"
 								},
@@ -8237,11 +8131,6 @@
 								},
 								{
 									"ref": "feed497f8cd0b4c9",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "feed2c1eab5465a7",
 									"externalScene": null,
 									"exposedEntity": "Owned"
 								},
@@ -8306,11 +8195,6 @@
 								},
 								{
 									"ref": "77de0cc6d8c6d4a3",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "feed032c95093241",
 									"externalScene": null,
 									"exposedEntity": "Owned"
 								},
@@ -8404,11 +8288,6 @@
 									"exposedEntity": "Owned"
 								},
 								{
-									"ref": "feed4ddee5a9aed3",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
 									"ref": "feed828f18ca344e",
 									"externalScene": null,
 									"exposedEntity": "Owned"
@@ -8463,11 +8342,6 @@
 							"type": "TArray<SEntityTemplateReference>",
 							"value": [
 								{
-									"ref": "feed0932fe66d5cc",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
 									"ref": "004bdb48ff6a1ddf",
 									"externalScene": null,
 									"exposedEntity": "Owned"
@@ -8479,11 +8353,6 @@
 								},
 								{
 									"ref": "006f244c093d6b08",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "feed3d07e649c05f",
 									"externalScene": null,
 									"exposedEntity": "Owned"
 								},
@@ -8509,11 +8378,6 @@
 								},
 								{
 									"ref": "feed91e7c7aafbfb",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "feed945952a9dc59",
 									"externalScene": null,
 									"exposedEntity": "Owned"
 								},
@@ -8617,11 +8481,6 @@
 									"exposedEntity": "Owned"
 								},
 								{
-									"ref": "feed11552a515059",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
 									"ref": "feed61f46089dcc0",
 									"externalScene": null,
 									"exposedEntity": "Owned"
@@ -8717,11 +8576,6 @@
 								},
 								{
 									"ref": "0eb69d641c22a90e",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "feed049d4ed69e86",
 									"externalScene": null,
 									"exposedEntity": "Owned"
 								},
@@ -8856,11 +8710,6 @@
 									"exposedEntity": "Owned"
 								},
 								{
-									"ref": "feed48cc3b7b8629",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
 									"ref": "2fdc8c992e79bc9e",
 									"externalScene": null,
 									"exposedEntity": "Owned"
@@ -8925,11 +8774,6 @@
 									"exposedEntity": "Owned"
 								},
 								{
-									"ref": "feed4c5a1ae6628f",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
 									"ref": "7bb9ebb9ece79380",
 									"externalScene": null,
 									"exposedEntity": "Owned"
@@ -8941,11 +8785,6 @@
 								},
 								{
 									"ref": "d2a8924688f7eaff",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "feed9dcb45f22853",
 									"externalScene": null,
 									"exposedEntity": "Owned"
 								},
@@ -9024,22 +8863,12 @@
 									"exposedEntity": "Owned"
 								},
 								{
-									"ref": "feed1e2a697d4120",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
 									"ref": "d324149cf6c9733f",
 									"externalScene": null,
 									"exposedEntity": "Owned"
 								},
 								{
 									"ref": "4177ddd692f09ef2",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "feed6529c91a3453",
 									"externalScene": null,
 									"exposedEntity": "Owned"
 								},
@@ -9134,11 +8963,6 @@
 								},
 								{
 									"ref": "52fe7c9f33346129",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "feed1ccd0203c5af",
 									"externalScene": null,
 									"exposedEntity": "Owned"
 								},
@@ -15736,6 +15560,101 @@
 							"postInit": true
 						}
 					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafed17c2a6eb2f2",
+				{
+					"parent": "3d41d963b8913ae3",
+					"name": "Z7 Deadly Sins and Deluxe Pack",
+					"factory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_gearwall.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_gearwall.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -180.0
+								},
+								"position": {
+									"x": 44.596920013427734,
+									"y": -133.30259704589844,
+									"z": -19.0
+								}
+							}
+						},
+						"CategoryName": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "003C41CB6A102A11",
+								"flag": "5F"
+							}
+						},
+						"CameraHeightCurve": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 1.5499999523162842, 0.0, 0.0,
+										0.0, 0.0, 0.0, 1.5499999523162842
+									],
+									[
+										2.0, 2.700000047683716, 0.0, 0.0,
+										0.0, 0.0, 0.0, 2.700000047683716
+									]
+								]
+							}
+						},
+						"FieldOfView": {
+							"type": "float32",
+							"value": 45.0
+						},
+						"SafeZoneOriginY": {
+							"type": "float32",
+							"value": 2.1500000953674316
+						},
+						"Enabled": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["3b45d652d56512c5"]
+						},
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						},
+						"m_entries": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"feed3d07e649c05f",
+								"feed945952a9dc59",
+								"feed0932fe66d5cc",
+								"feed48cc3b7b8629",
+								"feed049d4ed69e86",
+								"feed9dcb45f22853",
+								"feed4c5a1ae6628f",
+								"feed6529c91a3453",
+								"feed1e2a697d4120",
+								"feed11552a515059",
+								"feed63e0e34a80c2",
+								"feed2bd67105aa51",
+								"feed2c1eab5465a7",
+								"feed1ccd0203c5af",
+								"feed4ddee5a9aed3",
+								"feed032c95093241"
+							],
+							"postInit": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					},
+					"exposedEntities": {},
+					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 				}
 			]
 		},

@@ -1,0 +1,35 @@
+{
+	"tempHash": "0081059A05E3EBFB",
+	"tbluHash": "000139FC3DCF9533",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"0cb8c2f58bb6104c",
+				{
+					"AddPropertyAliasConnection": [
+						"m_rUsableConditionKeywordsA",
+						{
+							"originalProperty": "m_rUsableConditionKeywordsA",
+							"originalEntity": "39e7b35c51d730c6"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0cb8c2f58bb6104c",
+				{
+					"AddPropertyAliasConnection": [
+						"m_rUsableConditionKeywordsA",
+						{
+							"originalProperty": "m_rUsableConditionKeywordsA",
+							"originalEntity": "635aa280bb4bae92"
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
