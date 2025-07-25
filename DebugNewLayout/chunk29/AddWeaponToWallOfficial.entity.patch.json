@@ -15612,7 +15612,7 @@
 						},
 						"Enabled": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["3b45d652d56512c5"]
+							"value": ["cafe4c3ab4c29f0b"]
 						},
 						"m_eRoomBehaviour": {
 							"type": "ZSpatialEntity.ERoomBehaviour",
@@ -16390,6 +16390,55 @@
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "fffffffffffffffe"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe2fb78c552821",
+				{
+					"parent": "cafed17c2a6eb2f2",
+					"name": "helper_evergreen_entitlement_condition",
+					"factory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/helper_evergreen_entitlement_condition.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/helper_evergreen_entitlement_condition.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"MasteryCriteriaMet": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": []
+						},
+						"RequiredMastery": {
+							"type": "SEntityTemplateReference",
+							"value": null
+						},
+						"RequiredEntitlement": {
+							"type": "uint32",
+							"value": 2
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe4c3ab4c29f0b",
+				{
+					"parent": "cafed17c2a6eb2f2",
+					"name": "VBO",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aValues": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"3b45d652d56512c5",
+								"cafe2fb78c552821"
+							]
+						},
+						"m_eEvaluation": {
+							"type": "ZValueBool_Operation_Signal.EEvaluationType",
+							"value": "ALL"
 						}
 					}
 				}
