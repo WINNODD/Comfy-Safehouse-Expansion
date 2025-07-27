@@ -475,12 +475,6 @@
 				}
 			}
 		},
-		"7e9414792b2337ea": {
-			"parent": "befbb178b8571b44",
-			"name": "EventToken_Evergreen_Gear_InventoryItemLoaded",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_gear_inventoryitemloaded.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_gear_inventoryitemloaded.entitytemplate].pc_entityblueprint"
-		},
 		"eeff8c3738b34225": {
 			"parent": "0cd5d1c19b606cb9",
 			"name": "EventChannelReceiver_ValueBool",
@@ -930,12 +924,6 @@
 					"value": "00000000-0000-0000-0000-000000000000"
 				}
 			}
-		},
-		"cc0eddf86e11bee0": {
-			"parent": "befbb178b8571b44",
-			"name": "EventToken_Evergreen_Gear_SafehouseItemLoaded",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_gear_safehouseitemloaded.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_gear_safehouseitemloaded.entitytemplate].pc_entityblueprint"
 		},
 		"e564a90866c6b5c6": {
 			"parent": "811ee3bc0846c53b",
@@ -2349,12 +2337,6 @@
 			},
 			"outputCopying": { "Value": { "Value": ["8ce764a4902a34e5"] } }
 		},
-		"b8ae3b5cd672451e": {
-			"parent": "befbb178b8571b44",
-			"name": "EventToken_Evergreen_Gear_SafehouseItemRemoved",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_gear_safehouseitemremoved.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_gear_safehouseitemremoved.entitytemplate].pc_entityblueprint"
-		},
 		"b4da20a580a21989": {
 			"parent": "dbbbed4658c2b0ae",
 			"name": "ItemRepositoryKey",
@@ -2586,18 +2568,6 @@
 				"m_fValue": { "type": "float32", "value": 25.0 }
 			},
 			"outputCopying": { "Value": { "Value": ["8ce764a4902a34e5"] } }
-		},
-		"5678ca9b4c4a2da4": {
-			"parent": "befbb178b8571b44",
-			"name": "On safehouse item loaded",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_repositoryid.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_repositoryid.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rChannelToken": {
-					"type": "SEntityTemplateReference",
-					"value": "cc0eddf86e11bee0"
-				}
-			}
 		},
 		"aa9ddfd30e4b305b": {
 			"parent": "5e6f1db91ae87475",
@@ -3282,18 +3252,6 @@
 				"Out4": { "Get": ["afd052f31fcc7b68"] }
 			}
 		},
-		"ed649e794bac670d": {
-			"parent": "befbb178b8571b44",
-			"name": "On inventory item loaded",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_repositoryid.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_repositoryid.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rChannelToken": {
-					"type": "SEntityTemplateReference",
-					"value": "7e9414792b2337ea"
-				}
-			}
-		},
 		"03791a837d950f8e": {
 			"parent": "ff28c16eb9073f6e",
 			"name": "Destroy after a frame",
@@ -3846,18 +3804,6 @@
 				"m_RepositoryId": {
 					"type": "ZGuid",
 					"value": "00000000-0000-0000-0000-000000000000"
-				}
-			}
-		},
-		"7bcd19fcd43449f1": {
-			"parent": "befbb178b8571b44",
-			"name": "EventChannelReceiver_RepositoryID",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_repositoryid.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_repositoryid.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rChannelToken": {
-					"type": "SEntityTemplateReference",
-					"value": "b8ae3b5cd672451e"
 				}
 			}
 		},
