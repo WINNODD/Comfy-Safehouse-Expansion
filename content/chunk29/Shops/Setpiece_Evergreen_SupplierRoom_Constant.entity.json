@@ -53,48 +53,6 @@
 				}
 			}
 		},
-		"2697d742c52114cb": {
-			"parent": "4d661fa986a84d18",
-			"name": "Active and pick and deactivate all",
-			"factory": "[modules:/zsignalforkentity_void.class].pc_entitytype",
-			"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
-			"events": {
-				"Out02": {
-					"Pick": ["d7fdd9142b0d3725", "cafe5d9dd01ce6f5"]
-				},
-				"Out01": {
-					"SetActive": [
-						{
-							"ref": "d7fdd9142b0d3725",
-							"value": { "type": "bool", "value": true }
-						},
-						{
-							"ref": "cafe5d9dd01ce6f5",
-							"value": { "type": "bool", "value": true }
-						}
-					]
-				},
-				"Out03": {
-					"SetActive": [
-						{
-							"ref": "d7fdd9142b0d3725",
-							"value": { "type": "bool", "value": false }
-						},
-						{
-							"ref": "cafe5d9dd01ce6f5",
-							"value": { "type": "bool", "value": false }
-						}
-					]
-				}
-			}
-		},
-		"4df5907452ac8d84": {
-			"parent": "4d661fa986a84d18",
-			"name": "Pick all once",
-			"factory": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entityblueprint",
-			"events": { "Out": { "In": ["2697d742c52114cb"] } }
-		},
 		"71678c1df2acbda3": {
 			"parent": "3843769065110f21",
 			"name": "Active",
@@ -302,7 +260,7 @@
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"1a62e83a0642c64b": {
-			"parent": "d7fdd9142b0d3725",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_HandymanWrench",
 			"factory": "0052AC140DF63469",
 			"blueprint": "0076F445CC146C03",
@@ -326,7 +284,7 @@
 				"m_bVisible": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "d7fdd9142b0d3725",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
@@ -1344,7 +1302,7 @@
 			}
 		},
 		"cdd2ab745dd91a37": {
-			"parent": "d7fdd9142b0d3725",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_ClawHammer",
 			"factory": "003F60A8049D46EE",
 			"blueprint": "009EC9AAEC182C7C",
@@ -1368,7 +1326,7 @@
 				"m_bVisible": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "d7fdd9142b0d3725",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
@@ -2634,68 +2592,6 @@
 				}
 			}
 		},
-		"d7fdd9142b0d3725": {
-			"parent": "4d661fa986a84d18",
-			"name": "Tools",
-			"factory": "002505540A10B4B9",
-			"blueprint": "009667B231F9056A",
-			"properties": {
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_Choices": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"1a62e83a0642c64b",
-						"feedb0f9cda31a31",
-						"cdd2ab745dd91a37"
-					]
-				},
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 90, "z": 0 },
-						"position": { "x": 0.6, "y": 0, "z": -0.6 }
-					}
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_Seed": {
-					"type": "SEntityTemplateReference",
-					"value": null
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "22edf43d9609168f",
-					"postInit": true
-				}
-			}
-		},
-		"4d661fa986a84d18": {
-			"parent": "22edf43d9609168f",
-			"name": "Items",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {
-				"m_Seed": {
-					"type": "SEntityTemplateReference",
-					"value": null
-				}
-			},
-			"inputCopying": { "Pick": { "Signal": ["4df5907452ac8d84"] } },
-			"propertyAliases": {
-				"m_Seed": [
-					{
-						"originalProperty": "m_Seed",
-						"originalEntity": "d7fdd9142b0d3725"
-					},
-					{
-						"originalProperty": "m_Seed",
-						"originalEntity": "cafe5d9dd01ce6f5"
-					}
-				]
-			}
-		},
 		"22edf43d9609168f": {
 			"parent": null,
 			"name": "Setpiece_Evergreen_SupplierRoom",
@@ -2712,8 +2608,7 @@
 			},
 			"inputCopying": {
 				"MoveHitmanToRoom": {
-					"FadeAndActivate": ["5d662720e7376f0e"],
-					"Pick": ["4d661fa986a84d18"]
+					"FadeAndActivate": ["5d662720e7376f0e"]
 				}
 			},
 			"propertyAliases": {
@@ -2733,16 +2628,11 @@
 						"originalEntity": "5c4c4149b57c62b5"
 					}
 				],
-				"m_Seed": [
-					{
-						"originalProperty": "m_Seed",
-						"originalEntity": "4d661fa986a84d18"
-					}
-				]
+				"m_Seed": []
 			}
 		},
 		"feedb0f9cda31a31": {
-			"parent": "d7fdd9142b0d3725",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_HobbyKnife",
 			"factory": "007E04581A85F379",
 			"blueprint": "00B160927B49B0F8",
@@ -2770,14 +2660,14 @@
 				"m_bVisible": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "d7fdd9142b0d3725",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"cafe9b5bdfa4061e": {
-			"parent": "cafe5d9dd01ce6f5",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_OilSpillCanister",
 			"factory": "00DB39B69DF466F9",
 			"blueprint": "004C97456B348A8B",
@@ -2797,51 +2687,14 @@
 				"m_bVisible": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe5d9dd01ce6f5",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
-		"cafe5d9dd01ce6f5": {
-			"parent": "4d661fa986a84d18",
-			"name": "Consumables",
-			"factory": "002505540A10B4B9",
-			"blueprint": "009667B231F9056A",
-			"properties": {
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_Choices": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafecdf388c89d0c",
-						"cafe9b5bdfa4061e",
-						"cafe090183575222"
-					]
-				},
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": -90, "z": 0 },
-						"position": { "x": 0.25, "y": 0, "z": -0.77 }
-					}
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_Seed": {
-					"type": "SEntityTemplateReference",
-					"value": null
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "22edf43d9609168f",
-					"postInit": true
-				}
-			}
-		},
 		"cafe090183575222": {
-			"parent": "cafe5d9dd01ce6f5",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_WaterSpillCanister",
 			"factory": "003689B4343DD63C",
 			"blueprint": "005BFFB35CA3128E",
@@ -2861,14 +2714,14 @@
 				"m_bVisible": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe5d9dd01ce6f5",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"cafecdf388c89d0c": {
-			"parent": "cafe5d9dd01ce6f5",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_ChloroformFlask",
 			"factory": "001720D9C6ADDF3A",
 			"blueprint": "0049BE923AF4C3F6",
@@ -2888,7 +2741,7 @@
 				"m_bVisible": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe5d9dd01ce6f5",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},

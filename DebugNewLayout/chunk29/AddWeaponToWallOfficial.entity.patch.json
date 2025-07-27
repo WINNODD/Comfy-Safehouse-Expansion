@@ -44,84 +44,6 @@
 		},
 		{
 			"SubEntityOperation": [
-				"f30b8806217ee12f",
-				{ "SetParent": "4d0355c974f6c856" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"f30b8806217ee12f",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -89.99996243395732,
-								"y": 0.020275778705565493,
-								"z": -0.0482522481809674
-							},
-							"position": {
-								"x": 0.9037322998046876,
-								"y": 0,
-								"z": 3.2690000534057617
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"f30b8806217ee12f",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "4d0355c974f6c856"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"7a613ecb7adf991a",
-				{ "SetParent": "0e9463c88101e3a2" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"7a613ecb7adf991a",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -90.00003756605386,
-								"y": 0.0477805347929219,
-								"z": 179.9037628560083
-							},
-							"position": {
-								"x": -0.9174041748046876,
-								"y": -1.3870239854441024e-6,
-								"z": 2.8080005645751953
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"7a613ecb7adf991a",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "0e9463c88101e3a2"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
 				"b7bc295e326668cd",
 				{
 					"SetPropertyValue": {
@@ -351,51 +273,6 @@
 		},
 		{
 			"SubEntityOperation": [
-				"a37fc4b10c022681",
-				{
-					"PatchArrayPropertyValue": [
-						"m_entries",
-						[
-							{ "RemoveItemByValue": "7b17484e83122dd4" },
-							{ "RemoveItemByValue": "aa90e9bf81931b44" },
-							{ "RemoveItemByValue": "188da9685022252a" },
-							{ "RemoveItemByValue": "48a985110a7309b8" },
-							{ "RemoveItemByValue": "dc84d1243289685e" },
-							{ "RemoveItemByValue": "1f65e897e1683c3a" },
-							{ "RemoveItemByValue": "18e5c0b5aeb0962d" },
-							{ "RemoveItemByValue": "21a201a8261041e6" },
-							{ "RemoveItemByValue": "7a613ecb7adf991a" },
-							{
-								"AddItemAfter": [
-									"37a776dc245fbd38",
-									"9db592664f36477b"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"37a776dc245fbd38",
-									"bfbbe7f693847994"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"37a776dc245fbd38",
-									"feed497f8cd0b4c9"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"37a776dc245fbd38",
-									"feed7eb294db68fb"
-								]
-							}
-						]
-					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
 				"5736707d79b14e92",
 				{
 					"SetPropertyValue": {
@@ -412,45 +289,6 @@
 								"z": 2.427997589111328
 							}
 						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"6b06f763d4ba044c",
-				{ "SetParent": "33027e94a6ff95a6" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"6b06f763d4ba044c",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": 89.99994535848339,
-								"y": 0.02534173493815302,
-								"z": -179.8610172642305
-							},
-							"position": {
-								"x": 0.0229644775390625,
-								"y": 0.07794143259525299,
-								"z": 3.1574745178222656
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"6b06f763d4ba044c",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "33027e94a6ff95a6"
 					}
 				}
 			]
@@ -760,28 +598,6 @@
 		},
 		{
 			"SubEntityOperation": [
-				"b62cbcfb859c3ed5",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -89.99987876385319,
-								"y": -0.1251911431083083,
-								"z": -0.01328515632588945
-							},
-							"position": {
-								"x": 0.5012969970703125,
-								"y": 0.0503305085003376,
-								"z": 2.5517005920410156
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
 				"ab4f6b7dbab52b1c",
 				{
 					"SetPropertyValue": {
@@ -798,106 +614,6 @@
 								"z": 1.3089523315429688
 							}
 						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"1f65e897e1683c3a",
-				{ "SetParent": "33027e94a6ff95a6" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"1f65e897e1683c3a",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": 89.99998975471563,
-								"y": 90,
-								"z": 0
-							},
-							"position": {
-								"x": 0.9092864990234376,
-								"y": -4.069333954248578e-7,
-								"z": 1.3250007629394531
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"1f65e897e1683c3a",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "33027e94a6ff95a6"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"37a776dc245fbd38",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -90.00005464152964,
-								"y": 0.046393728736309925,
-								"z": -0.04639368391439647
-							},
-							"position": {
-								"x": -0.749176025390625,
-								"y": 0.05036858096718788,
-								"z": 1.7951278686523438
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"18e5c0b5aeb0962d",
-				{ "SetParent": "911ecfd5cf432fac" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"18e5c0b5aeb0962d",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -89.99994877357511,
-								"y": 90,
-								"z": 0
-							},
-							"position": {
-								"x": 1.1096649169921875,
-								"y": 0.05039070546627045,
-								"z": 1.510305404663086
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"18e5c0b5aeb0962d",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "911ecfd5cf432fac"
 					}
 				}
 			]
@@ -1223,45 +939,6 @@
 		},
 		{
 			"SubEntityOperation": [
-				"5ec1d2a23fcdef93",
-				{ "SetParent": "cb695646a9f47498" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"5ec1d2a23fcdef93",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -89.99994877356596,
-								"y": 0.0504352482443341,
-								"z": 179.9495646935104
-							},
-							"position": {
-								"x": -0.469757080078125,
-								"y": 0.05033790320158005,
-								"z": 3.02984619140625
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"5ec1d2a23fcdef93",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "cb695646a9f47498"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
 				"60afede59ce236e8",
 				{ "SetParent": "e3c602b2257207a3" }
 			]
@@ -1295,45 +972,6 @@
 					"SetPropertyValue": {
 						"property_name": "m_eidParent",
 						"value": "e3c602b2257207a3"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"3accb495e2618d34",
-				{ "SetParent": "33027e94a6ff95a6" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"3accb495e2618d34",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -89.9999897547144,
-								"y": 0.04337440409027207,
-								"z": 179.93684322858573
-							},
-							"position": {
-								"x": -0.75,
-								"y": -0.001228841138072312,
-								"z": 1.5
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"3accb495e2618d34",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "33027e94a6ff95a6"
 					}
 				}
 			]
@@ -1959,28 +1597,6 @@
 		},
 		{
 			"SubEntityOperation": [
-				"253bb06bb11e4bec",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": 89.99999316981042,
-								"y": 90,
-								"z": 0
-							},
-							"position": {
-								"x": -0.4783782958984375,
-								"y": 0,
-								"z": 1.3250000476837158
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
 				"09ec9ebe572c5abe",
 				{
 					"SetPropertyValue": {
@@ -2057,45 +1673,6 @@
 								"z": 2.0495738983154297
 							}
 						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"1e059e20ee78a46b",
-				{ "SetParent": "33027e94a6ff95a6" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"1e059e20ee78a46b",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": 89.99998975471563,
-								"y": 90,
-								"z": 0
-							},
-							"position": {
-								"x": 1.2540435791015625,
-								"y": -3.863842721330002e-7,
-								"z": 1.3250007629394531
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"1e059e20ee78a46b",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "33027e94a6ff95a6"
 					}
 				}
 			]
@@ -2220,12 +1797,6 @@
 									"feed5b6dadbbe2f3"
 								]
 							},
-							{
-								"AddItemAfter": [
-									"77168eabebc6251f",
-									"48a985110a7309b8"
-								]
-							},
 							{ "RemoveItemByValue": "a8a40725f2661bc1" },
 							{ "RemoveItemByValue": "813802d31f5d9d09" },
 							{
@@ -2348,31 +1919,7 @@
 							{ "RemoveItemByValue": "38b16e7e3be30124" },
 							{ "RemoveItemByValue": "1360fd7cfe3533a2" },
 							{ "RemoveItemByValue": "456c2ca38366ca76" },
-							{ "RemoveItemByValue": "0b2535f8912b2378" },
-							{
-								"AddItemAfter": [
-									"c5ba277769a2d8ad",
-									"7b17484e83122dd4"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"c5ba277769a2d8ad",
-									"dc84d1243289685e"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"c5ba277769a2d8ad",
-									"44b9065ad86a2fbd"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"c5ba277769a2d8ad",
-									"5ec1d2a23fcdef93"
-								]
-							}
+							{ "RemoveItemByValue": "0b2535f8912b2378" }
 						]
 					]
 				}
@@ -2471,33 +2018,7 @@
 				{
 					"PatchArrayPropertyValue": [
 						"m_entries",
-						[
-							{ "RemoveItemByValue": "ba880e5944fbcced" },
-							{
-								"AddItemAfter": [
-									"c3c580d3d4b4a8d0",
-									"21a201a8261041e6"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"c3c580d3d4b4a8d0",
-									"188da9685022252a"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"c3c580d3d4b4a8d0",
-									"f30b8806217ee12f"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"c3c580d3d4b4a8d0",
-									"7bb9ebb9ece79380"
-								]
-							}
-						]
+						[{ "RemoveItemByValue": "ba880e5944fbcced" }]
 					]
 				}
 			]
@@ -2609,45 +2130,6 @@
 		},
 		{
 			"SubEntityOperation": [
-				"24acb3b7c96f80b3",
-				{ "SetParent": "33027e94a6ff95a6" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"24acb3b7c96f80b3",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -89.97196378157095,
-								"y": 0.001953587278305176,
-								"z": 0.05039741692875363
-							},
-							"position": {
-								"x": -1.133026123046875,
-								"y": 0.001845784834586084,
-								"z": 1.19
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"24acb3b7c96f80b3",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "33027e94a6ff95a6"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
 				"99334257ba02591e",
 				{ "SetParent": "cafef05b3ea1a915" }
 			]
@@ -2721,84 +2203,6 @@
 		},
 		{
 			"SubEntityOperation": [
-				"aa90e9bf81931b44",
-				{ "SetParent": "911ecfd5cf432fac" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"aa90e9bf81931b44",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -89.99015428123464,
-								"y": 90,
-								"z": 0
-							},
-							"position": {
-								"x": 0.2881011962890625,
-								"y": 0.04,
-								"z": 1.8175201416015625
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"aa90e9bf81931b44",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "911ecfd5cf432fac"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"fb06ad7c565c7021",
-				{ "SetParent": "911ecfd5cf432fac" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"fb06ad7c565c7021",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -89.9999470659803,
-								"y": -0.08104878802004366,
-								"z": -0.03259210501093484
-							},
-							"position": {
-								"x": 0.55,
-								"y": 0.050329651683568954,
-								"z": 2.2728958129882812
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"fb06ad7c565c7021",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "911ecfd5cf432fac"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
 				"10b2b372e45aebcc",
 				{ "SetParent": "cafeaec53df203b8" }
 			]
@@ -2845,45 +2249,6 @@
 					"SetPropertyValue": {
 						"property_name": "m_eidParent",
 						"value": "23027479aaa4d18f"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"a8a40725f2661bc1",
-				{ "SetParent": "33027e94a6ff95a6" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"a8a40725f2661bc1",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -89.9999897547144,
-								"y": 0.04337440409027207,
-								"z": 179.93684322858573
-							},
-							"position": {
-								"x": -1.18,
-								"y": -0.0003095204010605812,
-								"z": 1.5
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"a8a40725f2661bc1",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "33027e94a6ff95a6"
 					}
 				}
 			]
@@ -2988,12 +2353,6 @@
 					"PatchArrayPropertyValue": [
 						"m_entries",
 						[
-							{
-								"AddItemBefore": [
-									"060d7a10bc9ddb68",
-									"1a5b27dba6e53beb"
-								]
-							},
 							{ "RemoveItemByValue": "6a629349a75659af" },
 							{ "RemoveItemByValue": "2a2cae69d24d207f" },
 							{ "RemoveItemByValue": "1e059e20ee78a46b" },
@@ -3218,6 +2577,23 @@
 		},
 		{
 			"SubEntityOperation": [
+				"6cfd37adde7a451a",
+				{ "SetParent": "911ecfd5cf432fac" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6cfd37adde7a451a",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "911ecfd5cf432fac"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"5c9dad30cf08621e",
 				{
 					"SetPropertyValue": {
@@ -3337,45 +2713,6 @@
 						"SetTrue",
 						"cafedfa81c048340"
 					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"bfbbe7f693847994",
-				{ "SetParent": "a37fc4b10c022681" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"bfbbe7f693847994",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -89.99995048112852,
-								"y": 0.024372826016690784,
-								"z": -0.04415520314494658
-							},
-							"position": {
-								"x": 0.5889129638671875,
-								"y": 0.05033814534544945,
-								"z": 1.353738784790039
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"bfbbe7f693847994",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "a37fc4b10c022681"
-					}
 				}
 			]
 		},
@@ -3508,45 +2845,6 @@
 		},
 		{
 			"SubEntityOperation": [
-				"2def6a8c42e4d729",
-				{ "SetParent": "33027e94a6ff95a6" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"2def6a8c42e4d729",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -89.9633321147766,
-								"y": 0.04774744194784521,
-								"z": 179.82397669748866
-							},
-							"position": {
-								"x": -0.6139984130859375,
-								"y": -0.0005421847454272211,
-								"z": 2.666017532348633
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"2def6a8c42e4d729",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "33027e94a6ff95a6"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
 				"877441e22d035657",
 				{
 					"SetPropertyValue": {
@@ -3644,48 +2942,10 @@
 							{ "RemoveItemByValue": "bc98f1c5a80d2193" },
 							{ "RemoveItemByValue": "910a924bcdd83561" },
 							{ "RemoveItemByValue": "2332abb586533dc3" },
-							{ "RemoveItemByValue": "b34de55746ff496c" }
+							{ "RemoveItemByValue": "b34de55746ff496c" },
+							{ "RemoveItemByValue": "6cfd37adde7a451a" }
 						]
 					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"44b9065ad86a2fbd",
-				{ "SetParent": "cb695646a9f47498" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"44b9065ad86a2fbd",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -89.99994877357817,
-								"y": -0.01841728387398539,
-								"z": 179.92562984411165
-							},
-							"position": {
-								"x": -0.02276611328125,
-								"y": 0.05041040852665901,
-								"z": 1.818925857543945
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"44b9065ad86a2fbd",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "cb695646a9f47498"
-					}
 				}
 			]
 		},
@@ -4126,45 +3386,6 @@
 		},
 		{
 			"SubEntityOperation": [
-				"7b17484e83122dd4",
-				{ "SetParent": "cb695646a9f47498" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"7b17484e83122dd4",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -89.99992145282454,
-								"y": -0.003809801464741399,
-								"z": 179.89727856715322
-							},
-							"position": {
-								"x": 0.6087493896484375,
-								"y": 0.05036085471510887,
-								"z": 1.4599990844726565
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"7b17484e83122dd4",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "cb695646a9f47498"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
 				"69fe5e92dc97e878",
 				{
 					"AddEventConnection": [
@@ -4282,6 +3503,12 @@
 							{
 								"AddItemAfter": [
 									"0eb69d641c22a90e",
+									"6cfd37adde7a451a"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"0eb69d641c22a90e",
 									"b34de55746ff496c"
 								]
 							},
@@ -4326,30 +3553,6 @@
 									"0eb69d641c22a90e",
 									"feedc2333dbc0dde"
 								]
-							},
-							{
-								"AddItemAfter": [
-									"0eb69d641c22a90e",
-									"18e5c0b5aeb0962d"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"0eb69d641c22a90e",
-									"aa90e9bf81931b44"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"0eb69d641c22a90e",
-									"2fdc8c992e79bc9e"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"0eb69d641c22a90e",
-									"fb06ad7c565c7021"
-								]
 							}
 						]
 					]
@@ -4375,158 +3578,12 @@
 		},
 		{
 			"SubEntityOperation": [
-				"9db592664f36477b",
-				{ "SetParent": "a37fc4b10c022681" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"9db592664f36477b",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -89.99989754716245,
-								"y": 0.011447196564929225,
-								"z": -0.08546602362509827
-							},
-							"position": {
-								"x": -0.6964263916015625,
-								"y": 0.05030754953622818,
-								"z": 2.2665042877197266
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"9db592664f36477b",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "a37fc4b10c022681"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
 				"65ee5dcd25f8aa27",
 				{
 					"SetPropertyValue": {
 						"property_name": "m_vAreaQuadSize",
 						"value": { "x": 0.16405899822711945, "y": 3.0 }
 					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"33027e94a6ff95a6",
-				{
-					"PatchArrayPropertyValue": [
-						"m_entries",
-						[
-							{ "RemoveItemByValue": "9db592664f36477b" },
-							{ "RemoveItemByValue": "7bb9ebb9ece79380" },
-							{ "RemoveItemByValue": "1a5b27dba6e53beb" },
-							{ "RemoveItemByValue": "b3e2b4e029852374" },
-							{ "RemoveItemByValue": "fb06ad7c565c7021" },
-							{ "RemoveItemByValue": "44b9065ad86a2fbd" },
-							{ "RemoveItemByValue": "f30b8806217ee12f" },
-							{ "RemoveItemByValue": "5ec1d2a23fcdef93" },
-							{ "RemoveItemByValue": "bfbbe7f693847994" },
-							{ "RemoveItemByValue": "2fdc8c992e79bc9e" },
-							{ "RemoveItemByValue": "1339e91386c84e8a" },
-							{
-								"AddItemAfter": [
-									"253bb06bb11e4bec",
-									"787f0d6e823b8459"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"253bb06bb11e4bec",
-									"6b06f763d4ba044c"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"253bb06bb11e4bec",
-									"24acb3b7c96f80b3"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"253bb06bb11e4bec",
-									"069f16a4764ef5cb"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"253bb06bb11e4bec",
-									"3accb495e2618d34"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"253bb06bb11e4bec",
-									"a8a40725f2661bc1"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"253bb06bb11e4bec",
-									"813802d31f5d9d09"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"253bb06bb11e4bec",
-									"feed7017ae845196"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"253bb06bb11e4bec",
-									"feedc7c4f774b693"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"253bb06bb11e4bec",
-									"feed828f18ca344e"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"253bb06bb11e4bec",
-									"2def6a8c42e4d729"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"253bb06bb11e4bec",
-									"1e059e20ee78a46b"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"253bb06bb11e4bec",
-									"2a2cae69d24d207f"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"253bb06bb11e4bec",
-									"1f65e897e1683c3a"
-								]
-							}
-						]
-					]
 				}
 			]
 		},
@@ -4573,45 +3630,6 @@
 						"SetTrue",
 						"cafedfa81c048340"
 					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"2a2cae69d24d207f",
-				{ "SetParent": "33027e94a6ff95a6" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"2a2cae69d24d207f",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": 89.99998975471563,
-								"y": 90,
-								"z": 0
-							},
-							"position": {
-								"x": -0.15155029296875,
-								"y": -4.70164195576217e-7,
-								"z": 1.3250007629394531
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"2a2cae69d24d207f",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "33027e94a6ff95a6"
-					}
 				}
 			]
 		},
@@ -4694,45 +3712,6 @@
 						"SetTrue",
 						"cafedfa81c048340"
 					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"2fdc8c992e79bc9e",
-				{ "SetParent": "911ecfd5cf432fac" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"2fdc8c992e79bc9e",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -89.99994877357206,
-								"y": 0.041964658498288565,
-								"z": -0.04196469643452135
-							},
-							"position": {
-								"x": -0.7382354736328125,
-								"y": 0.05032193288207054,
-								"z": 2.928342819213867
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"2fdc8c992e79bc9e",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "911ecfd5cf432fac"
-					}
 				}
 			]
 		},
@@ -4825,45 +3804,6 @@
 						"SetTrue",
 						"cafedfa81c048340"
 					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"069f16a4764ef5cb",
-				{ "SetParent": "33027e94a6ff95a6" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"069f16a4764ef5cb",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": 89.9999897547132,
-								"y": -0.046393702055952016,
-								"z": 179.95360628387456
-							},
-							"position": {
-								"x": -0.8078765869140625,
-								"y": -0.0011220303131267428,
-								"z": 2.07
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"069f16a4764ef5cb",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "33027e94a6ff95a6"
-					}
 				}
 			]
 		},
@@ -5024,45 +3964,6 @@
 		},
 		{
 			"SubEntityOperation": [
-				"dc84d1243289685e",
-				{ "SetParent": "cb695646a9f47498" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"dc84d1243289685e",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -90.00003756605835,
-								"y": 0.055250013718875,
-								"z": 179.91677358787555
-							},
-							"position": {
-								"x": -0.8557586669921875,
-								"y": 0.05035313963890076,
-								"z": 3.2239999771118164
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"dc84d1243289685e",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "cb695646a9f47498"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
 				"9268e56ab66ac7b6",
 				{
 					"AddEventConnection": [
@@ -5149,45 +4050,6 @@
 		},
 		{
 			"SubEntityOperation": [
-				"b3e2b4e029852374",
-				{ "SetParent": "0e9463c88101e3a2" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"b3e2b4e029852374",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -89.99992145282454,
-								"y": -0.003809801464741399,
-								"z": 179.89727856715322
-							},
-							"position": {
-								"x": 0.0183563232421875,
-								"y": -0.01,
-								"z": 2.446741104125977
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"b3e2b4e029852374",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "0e9463c88101e3a2"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
 				"caa736a15b78c533",
 				{
 					"SetPropertyValue": {
@@ -5204,84 +4066,6 @@
 								"z": 1.5196990966796875
 							}
 						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"1339e91386c84e8a",
-				{ "SetParent": "0e9463c88101e3a2" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"1339e91386c84e8a",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -89.99986681124767,
-								"y": 0.05786328757815084,
-								"z": 179.86811773378432
-							},
-							"position": {
-								"x": -0.951416015625,
-								"y": -1.3890512491343545e-6,
-								"z": 1.4519996643066406
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"1339e91386c84e8a",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "0e9463c88101e3a2"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"21a201a8261041e6",
-				{ "SetParent": "4d0355c974f6c856" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"21a201a8261041e6",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -90.00005464152964,
-								"y": 0.046393728736309925,
-								"z": -0.04639368391439647
-							},
-							"position": {
-								"x": -1.0181884765625,
-								"y": -1.052140760293696e-6,
-								"z": 2.427999496459961
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"21a201a8261041e6",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "4d0355c974f6c856"
 					}
 				}
 			]
@@ -5319,45 +4103,6 @@
 						"Poll",
 						"cafeac73d7c77982"
 					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"1a5b27dba6e53beb",
-				{ "SetParent": "129caf96cdc5cd90" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"1a5b27dba6e53beb",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": 90.0209669835163,
-								"y": 89.97198257331972,
-								"z": 0.006988994785004708
-							},
-							"position": {
-								"x": -0.8347930908203125,
-								"y": 0.023721352219581604,
-								"z": 1.51300048828125
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"1a5b27dba6e53beb",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "129caf96cdc5cd90"
-					}
 				}
 			]
 		},
@@ -5660,45 +4405,6 @@
 		},
 		{
 			"SubEntityOperation": [
-				"188da9685022252a",
-				{ "SetParent": "4d0355c974f6c856" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"188da9685022252a",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -89.9999470659803,
-								"y": -0.08104878802004366,
-								"z": -0.03259210501093484
-							},
-							"position": {
-								"x": 0.54766845703125,
-								"y": -9.588084139977582e-7,
-								"z": 2.0527992248535156
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"188da9685022252a",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "4d0355c974f6c856"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
 				"0eb69d641c22a90e",
 				{
 					"SetPropertyValue": {
@@ -5817,24 +4523,6 @@
 									"d324149cf6c9733f",
 									"feed7552597c2a4f"
 								]
-							},
-							{
-								"AddItemAfter": [
-									"d324149cf6c9733f",
-									"7a613ecb7adf991a"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"d324149cf6c9733f",
-									"b3e2b4e029852374"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"d324149cf6c9733f",
-									"1339e91386c84e8a"
-								]
 							}
 						]
 					]
@@ -5935,45 +4623,6 @@
 		},
 		{
 			"SubEntityOperation": [
-				"7bb9ebb9ece79380",
-				{ "SetParent": "4d0355c974f6c856" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"7bb9ebb9ece79380",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -89.9999470659803,
-								"y": -0.08104878802004366,
-								"z": -0.03259210501093484
-							},
-							"position": {
-								"x": 0.894805908203125,
-								"y": 0.05034543573856354,
-								"z": 1.780923843383789
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"7bb9ebb9ece79380",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "4d0355c974f6c856"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
 				"a105cc55c3220bfc",
 				{
 					"SetPropertyValue": {
@@ -5986,45 +4635,6 @@
 								"z": 2.2411956787109375
 							}
 						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"813802d31f5d9d09",
-				{ "SetParent": "33027e94a6ff95a6" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"813802d31f5d9d09",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -89.99997267924331,
-								"y": -0.017556452939096974,
-								"z": -179.84396708035914
-							},
-							"position": {
-								"x": -0.90203857421875,
-								"y": -0.00035909644793719053,
-								"z": 1.75
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"813802d31f5d9d09",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "33027e94a6ff95a6"
 					}
 				}
 			]
@@ -6075,45 +4685,6 @@
 		},
 		{
 			"SubEntityOperation": [
-				"48a985110a7309b8",
-				{ "SetParent": "e3c602b2257207a3" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"48a985110a7309b8",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -89.99995901886498,
-								"y": 0.010240107479707834,
-								"z": -179.96178345503077
-							},
-							"position": {
-								"x": 0.3615234375,
-								"y": 1.0728836059570312e-6,
-								"z": 2.07999038696289
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"48a985110a7309b8",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "e3c602b2257207a3"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
 				"b0a00cd4900a17e5",
 				{
 					"AddEventConnection": [
@@ -6121,45 +4692,6 @@
 						"SetTrue",
 						"cafedfa81c048340"
 					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"787f0d6e823b8459",
-				{ "SetParent": "33027e94a6ff95a6" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"787f0d6e823b8459",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -89.99996926414873,
-								"y": 0.021157305627736576,
-								"z": 179.90751642017693
-							},
-							"position": {
-								"x": 0.9654998779296876,
-								"y": 0.000953270704485476,
-								"z": 2.5014610290527344
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"787f0d6e823b8459",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "33027e94a6ff95a6"
-					}
 				}
 			]
 		},
@@ -7336,7 +5868,7 @@
 			"AddEntity": [
 				"feed828f18ca344e",
 				{
-					"parent": "33027e94a6ff95a6",
+					"parent": "129caf96cdc5cd90",
 					"name": "Helper_Evergreen_SelectableItem_RustyPirateSaber",
 					"factory": "00E029432BD5685A",
 					"blueprint": "009FA164CD4DDF64",
@@ -7363,7 +5895,7 @@
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
-							"value": "33027e94a6ff95a6"
+							"value": "129caf96cdc5cd90"
 						}
 					},
 					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
@@ -7374,7 +5906,7 @@
 			"AddEntity": [
 				"feedc7c4f774b693",
 				{
-					"parent": "33027e94a6ff95a6",
+					"parent": "129caf96cdc5cd90",
 					"name": "Helper_Evergreen_SelectableItem_Scimitar",
 					"factory": "00D0FB8AFD9D40C6",
 					"blueprint": "00578567E9BB670C",
@@ -7401,7 +5933,7 @@
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
-							"value": "33027e94a6ff95a6",
+							"value": "129caf96cdc5cd90",
 							"postInit": true
 						}
 					},
@@ -7413,7 +5945,7 @@
 			"AddEntity": [
 				"feed7017ae845196",
 				{
-					"parent": "33027e94a6ff95a6",
+					"parent": "129caf96cdc5cd90",
 					"name": "Helper_Evergreen_SelectableItem_Excalibur",
 					"factory": "00DF2349FB1234AB",
 					"blueprint": "007F2114A62BE60C",
@@ -7440,7 +5972,7 @@
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
-							"value": "33027e94a6ff95a6"
+							"value": "129caf96cdc5cd90"
 						}
 					},
 					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
@@ -8136,7 +6668,6 @@
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
 							"value": [
-								"cafeb6479de9c340",
 								"cafe2f1f818366e2",
 								"cafe58cc9efd2c0b",
 								"cafea2d556df4f8a",
@@ -8162,55 +6693,6 @@
 								"cafeaf592075f7e3",
 								"cafe4a9a049fcba7"
 							]
-						}
-					}
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"cafeb6479de9c340",
-				{
-					"parent": "a37fc4b10c022681",
-					"name": "All Owned SP 3",
-					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
-					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
-					"properties": {
-						"m_aValues": {
-							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								{
-									"ref": "b62cbcfb859c3ed5",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "9db592664f36477b",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "feed7eb294db68fb",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "bfbbe7f693847994",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "feed497f8cd0b4c9",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "37a776dc245fbd38",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								}
-							],
-							"postInit": true
 						}
 					}
 				}

@@ -108,19 +108,6 @@
 			},
 			"outputCopying": { "Value": { "Value": ["8ce764a4902a34e5"] } }
 		},
-		"6c2d2a15f2e79a1f": {
-			"parent": "0cd5d1c19b606cb9",
-			"name": "EventChannelTransmitter_void",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rChannelToken": {
-					"type": "SEntityTemplateReference",
-					"value": "ed716e618702d032",
-					"postInit": true
-				}
-			}
-		},
 		"bd626a497e8fd8e7": {
 			"parent": "ff28c16eb9073f6e",
 			"name": "GuidConverter",
@@ -163,12 +150,6 @@
 					"postInit": true
 				}
 			}
-		},
-		"23f5fc2e95566fec": {
-			"parent": "811ee3bc0846c53b",
-			"name": "EventToken_Evergreen_SelectableItem_SetNonrarityDivisor",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_selectableitem_setnonraritydivisor.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_selectableitem_setnonraritydivisor.entitytemplate].pc_entityblueprint"
 		},
 		"2a1aa30dd2729d55": {
 			"parent": "a7bdfc443af34ab8",
@@ -279,23 +260,6 @@
 				}
 			}
 		},
-		"2a4f7833c5841818": {
-			"parent": "811ee3bc0846c53b",
-			"name": "Common receiver",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_int32.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_int32.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_bEnabled": { "type": "bool", "value": false },
-				"m_rChannelToken": {
-					"type": "SEntityTemplateReference",
-					"value": "f2a422552878eebc",
-					"postInit": true
-				}
-			},
-			"outputCopying": {
-				"EventReceived": { "Value": ["811ee3bc0846c53b"] }
-			}
-		},
 		"b28d11f11557a106": {
 			"parent": "5e6f1db91ae87475",
 			"name": "Supplier",
@@ -320,10 +284,6 @@
 					"value": ["db8239a57201a0da", "73b103969c1b76dd"],
 					"postInit": true
 				}
-			},
-			"events": {
-				"OnTrue": { "Enable": ["209a942e04bb1b87"] },
-				"OnFalse": { "Disable": ["209a942e04bb1b87"] }
 			}
 		},
 		"48f4f643227a57d3": {
@@ -337,10 +297,6 @@
 					"value": ["db8239a57201a0da", "78a4e53ec1125b25"],
 					"postInit": true
 				}
-			},
-			"events": {
-				"OnTrue": { "Enable": ["c4e285ab5f8f1c88"] },
-				"OnFalse": { "Disable": ["c4e285ab5f8f1c88"] }
 			}
 		},
 		"f3b1fd645f02c1f6": {
@@ -428,10 +384,6 @@
 					"value": ["db8239a57201a0da", "e564a90866c6b5c6"],
 					"postInit": true
 				}
-			},
-			"events": {
-				"OnTrue": { "Enable": ["70e1abc743b06deb"] },
-				"OnFalse": { "Disable": ["70e1abc743b06deb"] }
 			}
 		},
 		"7a6d804cb7b21ace": {
@@ -705,12 +657,6 @@
 			"events": {
 				"EventOccurred": { "GetValue": ["6feef404819bf680"] }
 			}
-		},
-		"7fac06ccd7080c44": {
-			"parent": "811ee3bc0846c53b",
-			"name": "EventToken_Evergreen_SelectableItem_SetEpicDivisor",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_selectableitem_setepicdivisor.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_selectableitem_setepicdivisor.entitytemplate].pc_entityblueprint"
 		},
 		"69cca4229f24af33": {
 			"parent": "4a03e71c54f5b925",
@@ -1179,23 +1125,6 @@
 				}
 			}
 		},
-		"c4e285ab5f8f1c88": {
-			"parent": "811ee3bc0846c53b",
-			"name": "Rare receiver",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_int32.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_int32.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_bEnabled": { "type": "bool", "value": false },
-				"m_rChannelToken": {
-					"type": "SEntityTemplateReference",
-					"value": "8c6137e2085be544",
-					"postInit": true
-				}
-			},
-			"outputCopying": {
-				"EventReceived": { "Value": ["811ee3bc0846c53b"] }
-			}
-		},
 		"d5302d2893a496fa": {
 			"parent": "8ce764a4902a34e5",
 			"name": "Get normal",
@@ -1465,19 +1394,6 @@
 			"blueprint": "[modules:/zeventreceiverentity_void.class].pc_entityblueprint",
 			"events": { "EventReceived": { "Get": ["87455282ebb16b6f"] } }
 		},
-		"215c9118d300c7b2": {
-			"parent": "8375a8be32ea9189",
-			"name": "Send safehouse item",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_repositoryid.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_repositoryid.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rChannelToken": {
-					"type": "SEntityTemplateReference",
-					"value": "568e433e664bb34f",
-					"postInit": true
-				}
-			}
-		},
 		"8c4c787c36cbe8de": {
 			"parent": "8ce764a4902a34e5",
 			"name": "General H2",
@@ -1713,12 +1629,6 @@
 			},
 			"outputCopying": { "Value": { "Value": ["8ce764a4902a34e5"] } }
 		},
-		"1f7474bdbb7b9344": {
-			"parent": "dbbbed4658c2b0ae",
-			"name": "EventToken_Evergreen_AwardedItems_ItemAwarded",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_awardeditems_itemawarded.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_awardeditems_itemawarded.entitytemplate].pc_entityblueprint"
-		},
 		"f540f0940d7fc4c2": {
 			"parent": "8ce764a4902a34e5",
 			"name": "General Nonrarity D3",
@@ -1757,19 +1667,6 @@
 					"postInit": true
 				}
 			}
-		},
-		"8cc801492feeb8f8": {
-			"parent": "dbbbed4658c2b0ae",
-			"name": "On item awarded",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_repositoryid.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_repositoryid.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rChannelToken": {
-					"type": "SEntityTemplateReference",
-					"value": "1f7474bdbb7b9344"
-				}
-			},
-			"events": { "EventReceived": { "In": ["11034d402a6d6458"] } }
 		},
 		"5f410a1a217f1bef": {
 			"parent": "a7bdfc443af34ab8",
@@ -1976,12 +1873,6 @@
 				"ActionTriggered": { "ZoomOut": ["d8531e35a49dfb20"] }
 			}
 		},
-		"8c6137e2085be544": {
-			"parent": "811ee3bc0846c53b",
-			"name": "EventToken_Evergreen_SelectableItem_SetRareDivisor",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_selectableitem_setraredivisor.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_selectableitem_setraredivisor.entitytemplate].pc_entityblueprint"
-		},
 		"7201b6977aaa1657": {
 			"parent": "5e6f1db91ae87475",
 			"name": "Picked or unpicked",
@@ -2037,22 +1928,6 @@
 			},
 			"events": {
 				"EventReceived": { "GetByRank": ["8ce764a4902a34e5"] }
-			}
-		},
-		"a4f1bf29f2d8a47c": {
-			"parent": "5e6f1db91ae87475",
-			"name": "Hardcore receiver",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_bool.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_bool.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rChannelToken": {
-					"type": "SEntityTemplateReference",
-					"value": "5cef80ed833a906c",
-					"postInit": true
-				}
-			},
-			"events": {
-				"EventReceived": { "SetValue": ["a6036cbed34d3bec"] }
 			}
 		},
 		"fdb2f6d347b4284c": {
@@ -2135,18 +2010,6 @@
 				}
 			}
 		},
-		"d65b673dab3fcf6f": {
-			"parent": "8375a8be32ea9189",
-			"name": "Item repository ID",
-			"factory": "[modules:/zmetricvalue_zrepositoryid.class].pc_entitytype",
-			"blueprint": "[modules:/zmetricvalue_zrepositoryid.class].pc_entityblueprint",
-			"properties": {
-				"m_value": {
-					"type": "ZGuid",
-					"value": "00000000-0000-0000-0000-000000000000"
-				}
-			}
-		},
 		"245c438497bc325c": {
 			"parent": "811ee3bc0846c53b",
 			"name": "Epic receiver enabled",
@@ -2158,10 +2021,6 @@
 					"value": ["db8239a57201a0da", "04816ce7c27e7d08"],
 					"postInit": true
 				}
-			},
-			"events": {
-				"OnTrue": { "Enable": ["83c5e1123f9e929e"] },
-				"OnFalse": { "Disable": ["83c5e1123f9e929e"] }
 			}
 		},
 		"545301885a458e34": {
@@ -2186,12 +2045,6 @@
 				}
 			},
 			"events": { "OnValue": { "Variant": ["1bb700ad8f37a376"] } }
-		},
-		"ed716e618702d032": {
-			"parent": "0cd5d1c19b606cb9",
-			"name": "EventToken_Sound_Evergreen_47_Bought_From_Supplier",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_47_bought_from_supplier.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_47_bought_from_supplier.entitytemplate].pc_entityblueprint"
 		},
 		"b09d5ff340576980": {
 			"parent": "ff28c16eb9073f6e",
@@ -2410,10 +2263,6 @@
 					"value": ["db8239a57201a0da", "9d0c112681d1d1a0"],
 					"postInit": true
 				}
-			},
-			"events": {
-				"OnTrue": { "Enable": ["2a4f7833c5841818"] },
-				"OnFalse": { "Disable": ["2a4f7833c5841818"] }
 			}
 		},
 		"ac90ed5050de0e2b": {
@@ -2996,12 +2845,6 @@
 				}
 			}
 		},
-		"568e433e664bb34f": {
-			"parent": "8375a8be32ea9189",
-			"name": "EventToken_Evergreen_Gear_SafehouseItem",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_gear_safehouseitem.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_gear_safehouseitem.entitytemplate].pc_entityblueprint"
-		},
 		"39a789aba2b139af": {
 			"parent": "314e992cc8505456",
 			"name": "Subtract cost from money",
@@ -3165,7 +3008,7 @@
 			}
 		},
 		"02e976969bab5d99": {
-			"parent": "342524639c213ad4",
+			"parent": "a00ed9aa64ef68f7",
 			"name": "EventToken_Evergreen_SelectableItem_Rarity",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_selectableitem_rarity.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_selectableitem_rarity.entitytemplate].pc_entityblueprint"
@@ -3321,36 +3164,6 @@
 				"OnFalse": { "Hide": ["9cd4d10906533e3a"] },
 				"OnValue": { "SetVisible": ["31001ddbad2423f7"] }
 			}
-		},
-		"70e1abc743b06deb": {
-			"parent": "811ee3bc0846c53b",
-			"name": "Legendary receiver",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_int32.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_int32.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_bEnabled": { "type": "bool", "value": false },
-				"m_rChannelToken": {
-					"type": "SEntityTemplateReference",
-					"value": "6230751a1467465a",
-					"postInit": true
-				}
-			},
-			"outputCopying": {
-				"EventReceived": { "Value": ["811ee3bc0846c53b"] }
-			}
-		},
-		"11034d402a6d6458": {
-			"parent": "dbbbed4658c2b0ae",
-			"name": "Set item awarded on match",
-			"factory": "[modules:/zrepositorykeycomparatorentity.class].pc_entitytype",
-			"blueprint": "[modules:/zrepositorykeycomparatorentity.class].pc_entityblueprint",
-			"properties": {
-				"m_RepositoryKey": {
-					"type": "SEntityTemplateReference",
-					"value": "b4da20a580a21989"
-				}
-			},
-			"events": { "OnTrue": { "SetTrue": ["c1e74dbc865f13b1"] } }
 		},
 		"caf5aff3234e0988": {
 			"parent": "5e6f1db91ae87475",
@@ -3701,12 +3514,6 @@
 				"ActionTriggered": { "Leave": ["d8531e35a49dfb20"] }
 			}
 		},
-		"5cef80ed833a906c": {
-			"parent": "5e6f1db91ae87475",
-			"name": "EventToken_Evergreen_Difficulty_Hardcore",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_difficulty_hardcore.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_difficulty_hardcore.entitytemplate].pc_entityblueprint"
-		},
 		"82db39dd7ff8b699": {
 			"parent": "314e992cc8505456",
 			"name": "Purchase",
@@ -3993,19 +3800,6 @@
 				}
 			}
 		},
-		"5b9ff9b118dd9ae4": {
-			"parent": "8375a8be32ea9189",
-			"name": "On get safehouse items",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rChannelToken": {
-					"type": "SEntityTemplateReference",
-					"value": "605ea497ffaa6632",
-					"postInit": true
-				}
-			}
-		},
 		"2db46906b7f1680c": {
 			"parent": "76bc7debe63916b6",
 			"name": "Retrieve",
@@ -4128,12 +3922,6 @@
 				"m_fValue": { "type": "float32", "value": 0.0 }
 			},
 			"outputCopying": { "Value": { "Value": ["8ce764a4902a34e5"] } }
-		},
-		"f2a422552878eebc": {
-			"parent": "811ee3bc0846c53b",
-			"name": "EventToken_Evergreen_SelectableItem_SetCommonDivisor",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_selectableitem_setcommondivisor.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_selectableitem_setcommondivisor.entitytemplate].pc_entityblueprint"
 		},
 		"a88c1c235bb0afe3": {
 			"parent": "5e6f1db91ae87475",
@@ -4294,22 +4082,6 @@
 				}
 			}
 		},
-		"83c5e1123f9e929e": {
-			"parent": "811ee3bc0846c53b",
-			"name": "Epic receiver",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_int32.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_int32.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rChannelToken": {
-					"type": "SEntityTemplateReference",
-					"value": "7fac06ccd7080c44"
-				},
-				"m_bEnabled": { "type": "bool", "value": false }
-			},
-			"outputCopying": {
-				"EventReceived": { "Value": ["811ee3bc0846c53b"] }
-			}
-		},
 		"624110cf51cd8ffa": {
 			"parent": "8ce764a4902a34e5",
 			"name": "RewardCrate D4",
@@ -4422,19 +4194,6 @@
 					}
 				]
 			}
-		},
-		"3e575336edfb2753": {
-			"parent": "8375a8be32ea9189",
-			"name": "Get if gear wall and placed",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rValueEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "13c9381ee813044d"
-				}
-			},
-			"events": { "PollTrue": { "Poll": ["5c05ade31655c163"] } }
 		},
 		"184155c496ae7cb3": {
 			"parent": "ff28c16eb9073f6e",
@@ -4657,12 +4416,6 @@
 					"value": "19ed12aaf77b3a64"
 				}
 			}
-		},
-		"605ea497ffaa6632": {
-			"parent": "8375a8be32ea9189",
-			"name": "EventToken_Evergreen_Gear_GetSafehouseItems",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_gear_getsafehouseitems.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_gear_getsafehouseitems.entitytemplate].pc_entityblueprint"
 		},
 		"2f60228355429181": {
 			"parent": "76bc7debe63916b6",
@@ -4980,12 +4733,6 @@
 				"m_bFireOnLevelStart": { "type": "bool", "value": true }
 			}
 		},
-		"6230751a1467465a": {
-			"parent": "811ee3bc0846c53b",
-			"name": "EventToken_Evergreen_SelectableItem_SetLegendaryDivisor",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_selectableitem_setlegendarydivisor.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_selectableitem_setlegendarydivisor.entitytemplate].pc_entityblueprint"
-		},
 		"09e15f804021f0a8": {
 			"parent": "8ce764a4902a34e5",
 			"name": "General Nonrarity H0",
@@ -5065,22 +4812,6 @@
 			},
 			"outputCopying": { "Value": { "Value": ["8ce764a4902a34e5"] } }
 		},
-		"209a942e04bb1b87": {
-			"parent": "811ee3bc0846c53b",
-			"name": "Nonrarity receiver",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_int32.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_int32.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rChannelToken": {
-					"type": "SEntityTemplateReference",
-					"value": "23f5fc2e95566fec"
-				},
-				"m_bEnabled": { "type": "bool", "value": false }
-			},
-			"outputCopying": {
-				"EventReceived": { "Value": ["811ee3bc0846c53b"] }
-			}
-		},
 		"c6e4bdb8538c4359": {
 			"parent": "8ce764a4902a34e5",
 			"name": "RewardCrate Epic D2",
@@ -5109,59 +4840,6 @@
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint",
 			"properties": { "m_bValue": { "type": "bool", "value": true } }
-		},
-		"5c05ade31655c163": {
-			"parent": "8375a8be32ea9189",
-			"name": "Get if placed",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rValueEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "15fbf45986917512"
-				}
-			},
-			"events": { "PollTrue": { "GetValue": ["d65b673dab3fcf6f"] } }
-		},
-		"8375a8be32ea9189": {
-			"parent": "b0906e8ecb81a1b0",
-			"name": "Item getter",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {
-				"Placed": {
-					"type": "SEntityTemplateReference",
-					"value": "15fbf45986917512"
-				},
-				"GearWall": {
-					"type": "SEntityTemplateReference",
-					"value": "13c9381ee813044d"
-				},
-				"RepositoryID": {
-					"type": "ZGuid",
-					"value": "00000000-0000-0000-0000-000000000000"
-				}
-			},
-			"propertyAliases": {
-				"GearWall": [
-					{
-						"originalProperty": "m_rValueEntity",
-						"originalEntity": "3e575336edfb2753"
-					}
-				],
-				"Placed": [
-					{
-						"originalProperty": "m_rValueEntity",
-						"originalEntity": "5c05ade31655c163"
-					}
-				],
-				"RepositoryID": [
-					{
-						"originalProperty": "m_value",
-						"originalEntity": "d65b673dab3fcf6f"
-					}
-				]
-			}
 		},
 		"403525c6f0aaf4ec": {
 			"parent": "0cd5d1c19b606cb9",
@@ -5481,7 +5159,6 @@
 				},
 				"ZoomedIn": { "Send": ["7273df69be943e5a"] },
 				"ZoomedOut": { "Send": ["a9e6ca992c32662e"] },
-				"Purchased": { "TransmitEvent": ["6c2d2a15f2e79a1f"] },
 				"Placed": { "Poll": ["57e7b2a7a9aab75a"] }
 			},
 			"propertyAliases": {
@@ -7468,10 +7145,6 @@
 					{
 						"originalProperty": "RepositoryID",
 						"originalEntity": "ff28c16eb9073f6e"
-					},
-					{
-						"originalProperty": "RepositoryID",
-						"originalEntity": "8375a8be32ea9189"
 					},
 					{
 						"originalProperty": "RepositoryID",
