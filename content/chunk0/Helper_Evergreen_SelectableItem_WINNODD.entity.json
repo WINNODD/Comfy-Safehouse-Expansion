@@ -1241,12 +1241,6 @@
 				}
 			}
 		},
-		"b2e2d181b9247f26": {
-			"parent": "ff28c16eb9073f6e",
-			"name": "EventToken_Evergreen_SelectableItem_Purchased",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_selectableitem_purchased.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_selectableitem_purchased.entitytemplate].pc_entityblueprint"
-		},
 		"6fc472be73793370": {
 			"parent": "a7bdfc443af34ab8",
 			"name": "End inspect",
@@ -1311,8 +1305,7 @@
 			"parent": "ff28c16eb9073f6e",
 			"name": "Supplier item actions",
 			"factory": "[modules:/zheroitemaction.class].pc_entitytype",
-			"blueprint": "[modules:/zheroitemaction.class].pc_entityblueprint",
-			"events": { "Item": { "TransmitEvent": ["1dc627334f3f3697"] } }
+			"blueprint": "[modules:/zheroitemaction.class].pc_entityblueprint"
 		},
 		"7273df69be943e5a": {
 			"parent": "0cd5d1c19b606cb9",
@@ -2353,18 +2346,6 @@
 				"m_rValueEntity": {
 					"type": "SEntityTemplateReference",
 					"value": "74a95387bb5c76af"
-				}
-			}
-		},
-		"1dc627334f3f3697": {
-			"parent": "ff28c16eb9073f6e",
-			"name": "Transmit EventToken_Evergreen_SelectableItem_Purchased",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_zentityref.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_zentityref.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rChannelToken": {
-					"type": "SEntityTemplateReference",
-					"value": "b2e2d181b9247f26"
 				}
 			}
 		},

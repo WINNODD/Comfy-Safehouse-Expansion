@@ -1,0 +1,56 @@
+{
+	"tempHash": "007EE200640F15E5",
+	"tbluHash": "00BCA591C00A579D",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"b0906e8ecb81a1b0",
+				{
+					"AddPropertyAliasConnection": [
+						"GearCapacityUsed",
+						{
+							"originalProperty": "SpawnOnStart",
+							"originalEntity": "ff28c16eb9073f6e"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b0906e8ecb81a1b0",
+				{
+					"AddPropertyAliasConnection": [
+						"GearCapacityUsed",
+						{
+							"originalProperty": "m_bValue",
+							"originalEntity": "15fbf45986917512"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b0906e8ecb81a1b0",
+				{
+					"AddPropertyAliasConnection": [
+						"GearCapacityUsed",
+						{
+							"originalProperty": "m_bVisible",
+							"originalEntity": "b77691e22dd91fc8"
+						}
+					]
+				}
+			]
+		},
+		{
+			"AddComment": {
+				"parent": "b0906e8ecb81a1b0",
+				"name": "Notes",
+				"text": "\"GearCapacityUsed\" exists in (probably) every SelectableItem_WeaponName templates as a propertyAliase. However it doesn't exist here. So I took the advantage of it. To bypass the supplier random picking process. Make sure the game always spawn every shop item. Preventing inconsistent crash from happening."
+			}
+		}
+	],
+	"patchVersion": 6
+}
