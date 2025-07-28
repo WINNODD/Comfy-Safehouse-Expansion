@@ -53,70 +53,6 @@
 				}
 			}
 		},
-		"2697d742c52114cb": {
-			"parent": "4d661fa986a84d18",
-			"name": "Active and pick and deactivate all",
-			"factory": "[modules:/zsignalforkentity_void.class].pc_entitytype",
-			"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
-			"events": {
-				"Out02": {
-					"Pick": [
-						"d7fdd9142b0d3725",
-						"3cb06d28214eab0f",
-						"ffdc469af6b2b204",
-						"cafe2424ec0c9f37"
-					],
-					"In": []
-				},
-				"Out01": {
-					"SetActive": [
-						{
-							"ref": "d7fdd9142b0d3725",
-							"value": { "type": "bool", "value": true }
-						},
-						{
-							"ref": "ffdc469af6b2b204",
-							"value": { "type": "bool", "value": true }
-						},
-						{
-							"ref": "3cb06d28214eab0f",
-							"value": { "type": "bool", "value": true }
-						},
-						{
-							"ref": "cafe2424ec0c9f37",
-							"value": { "type": "bool", "value": true }
-						}
-					]
-				},
-				"Out03": {
-					"SetActive": [
-						{
-							"ref": "d7fdd9142b0d3725",
-							"value": { "type": "bool", "value": false }
-						},
-						{
-							"ref": "ffdc469af6b2b204",
-							"value": { "type": "bool", "value": false }
-						},
-						{
-							"ref": "3cb06d28214eab0f",
-							"value": { "type": "bool", "value": false }
-						},
-						{
-							"ref": "cafe2424ec0c9f37",
-							"value": { "type": "bool", "value": false }
-						}
-					]
-				}
-			}
-		},
-		"4df5907452ac8d84": {
-			"parent": "4d661fa986a84d18",
-			"name": "Pick all once",
-			"factory": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entityblueprint",
-			"events": { "Out": { "In": ["2697d742c52114cb"] } }
-		},
 		"71678c1df2acbda3": {
 			"parent": "3843769065110f21",
 			"name": "Active",
@@ -358,7 +294,7 @@
 			}
 		},
 		"a00cb5e254c6ef12": {
-			"parent": "d7fdd9142b0d3725",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_KronstadtExplosivePenGen2",
 			"factory": "00D48393F7E4E472",
 			"blueprint": "000FC13253985088",
@@ -376,9 +312,10 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "d7fdd9142b0d3725",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
@@ -589,7 +526,7 @@
 			}
 		},
 		"cea7c9aefb1cf959": {
-			"parent": "ffdc469af6b2b204",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_Concept5",
 			"factory": "000685B97DC88A9E",
 			"blueprint": "00E7C2D9507E7067",
@@ -611,16 +548,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "ffdc469af6b2b204",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"b090d302df7465d3": {
-			"parent": "3cb06d28214eab0f",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_KronstadtMiniFlashRoboXOI2900",
 			"factory": "00DE2E8655AE6B10",
 			"blueprint": "00E15A3A314CEF08",
@@ -642,9 +580,10 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3cb06d28214eab0f",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
@@ -2583,39 +2522,6 @@
 				}
 			}
 		},
-		"ffdc469af6b2b204": {
-			"parent": "4d661fa986a84d18",
-			"name": "Concept5",
-			"factory": "002505540A10B4B9",
-			"blueprint": "009667B231F9056A",
-			"properties": {
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_Choices": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cea7c9aefb1cf959"]
-				},
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 90, "z": 0 },
-						"position": { "x": 0.05, "y": 0, "z": -0.7 }
-					}
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_Seed": {
-					"type": "SEntityTemplateReference",
-					"value": null
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "22edf43d9609168f",
-					"postInit": true
-				}
-			}
-		},
 		"f0f42d8add64dfeb": {
 			"parent": "94942b43238078d1",
 			"name": "Light",
@@ -2712,101 +2618,6 @@
 				}
 			}
 		},
-		"d7fdd9142b0d3725": {
-			"parent": "4d661fa986a84d18",
-			"name": "ExplosivePenSambuca",
-			"factory": "002505540A10B4B9",
-			"blueprint": "009667B231F9056A",
-			"properties": {
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_Choices": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["a00cb5e254c6ef12"]
-				},
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0.47, "y": 0, "z": -0.65 }
-					}
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_Seed": {
-					"type": "SEntityTemplateReference",
-					"value": null
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "22edf43d9609168f",
-					"postInit": true
-				}
-			}
-		},
-		"3cb06d28214eab0f": {
-			"parent": "4d661fa986a84d18",
-			"name": "LilFlashySambuca",
-			"factory": "002505540A10B4B9",
-			"blueprint": "009667B231F9056A",
-			"properties": {
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_Choices": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["b090d302df7465d3"]
-				},
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 90, "y": 180, "z": 0 },
-						"position": { "x": -0.4, "y": 0, "z": -0.8 }
-					}
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_Seed": {
-					"type": "SEntityTemplateReference",
-					"value": null
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "22edf43d9609168f",
-					"postInit": true
-				}
-			}
-		},
-		"4d661fa986a84d18": {
-			"parent": "22edf43d9609168f",
-			"name": "Items",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {
-				"m_Seed": {
-					"type": "SEntityTemplateReference",
-					"value": null
-				}
-			},
-			"inputCopying": { "Pick": { "Signal": ["4df5907452ac8d84"] } },
-			"propertyAliases": {
-				"m_Seed": [
-					{
-						"originalProperty": "m_Seed",
-						"originalEntity": "ffdc469af6b2b204"
-					},
-					{
-						"originalProperty": "m_Seed",
-						"originalEntity": "d7fdd9142b0d3725"
-					},
-					{
-						"originalProperty": "m_Seed",
-						"originalEntity": "3cb06d28214eab0f"
-					}
-				]
-			}
-		},
 		"22edf43d9609168f": {
 			"parent": null,
 			"name": "Setpiece_Evergreen_SupplierRoom",
@@ -2823,8 +2634,7 @@
 			},
 			"inputCopying": {
 				"MoveHitmanToRoom": {
-					"FadeAndActivate": ["5d662720e7376f0e"],
-					"Pick": ["4d661fa986a84d18"]
+					"FadeAndActivate": ["5d662720e7376f0e"]
 				}
 			},
 			"propertyAliases": {
@@ -2844,16 +2654,11 @@
 						"originalEntity": "5c4c4149b57c62b5"
 					}
 				],
-				"m_Seed": [
-					{
-						"originalProperty": "m_Seed",
-						"originalEntity": "4d661fa986a84d18"
-					}
-				]
+				"m_Seed": []
 			}
 		},
 		"cafe54661e0cdf6f": {
-			"parent": "cafe2424ec0c9f37",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_KronstadtIOI1998XSurroundEarphones",
 			"factory": "0021DA98CCB2C313",
 			"blueprint": "001EBF834E3D7919",
@@ -2875,46 +2680,14 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "cafe2424ec0c9f37",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
-		},
-		"cafe2424ec0c9f37": {
-			"parent": "4d661fa986a84d18",
-			"name": "EarphoneSambuca",
-			"factory": "002505540A10B4B9",
-			"blueprint": "009667B231F9056A",
-			"properties": {
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_Choices": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe54661e0cdf6f"]
-				},
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 90, "y": 180, "z": 0 },
-						"position": { "x": -0.4, "y": 0, "z": -0.8 }
-					}
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_Seed": {
-					"type": "SEntityTemplateReference",
-					"value": null
-				},
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "22edf43d9609168f",
 					"postInit": true
 				}
-			}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		}
 	},
 	"propertyOverrides": [],

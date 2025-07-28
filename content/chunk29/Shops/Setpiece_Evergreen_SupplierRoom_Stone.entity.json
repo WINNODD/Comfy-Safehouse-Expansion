@@ -4,7 +4,7 @@
 	"rootEntity": "22edf43d9609168f",
 	"entities": {
 		"59a6b3387d33f98d": {
-			"parent": "24201011b4f6b949",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_ConcreteSniper",
 			"factory": "00EAC5D68147F1AC",
 			"blueprint": "0087CE85F6D34E46",
@@ -26,9 +26,10 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "24201011b4f6b949",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
@@ -83,48 +84,6 @@
 					"postInit": true
 				}
 			}
-		},
-		"2697d742c52114cb": {
-			"parent": "4d661fa986a84d18",
-			"name": "Active and pick and deactivate all",
-			"factory": "[modules:/zsignalforkentity_void.class].pc_entitytype",
-			"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
-			"events": {
-				"Out02": {
-					"Pick": ["24201011b4f6b949", "feed004481e2212a"]
-				},
-				"Out01": {
-					"SetActive": [
-						{
-							"ref": "24201011b4f6b949",
-							"value": { "type": "bool", "value": true }
-						},
-						{
-							"ref": "feed004481e2212a",
-							"value": { "type": "bool", "value": true }
-						}
-					]
-				},
-				"Out03": {
-					"SetActive": [
-						{
-							"ref": "24201011b4f6b949",
-							"value": { "type": "bool", "value": false }
-						},
-						{
-							"ref": "feed004481e2212a",
-							"value": { "type": "bool", "value": false }
-						}
-					]
-				}
-			}
-		},
-		"4df5907452ac8d84": {
-			"parent": "4d661fa986a84d18",
-			"name": "Pick all once",
-			"factory": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entityblueprint",
-			"events": { "Out": { "In": ["2697d742c52114cb"] } }
 		},
 		"71678c1df2acbda3": {
 			"parent": "3843769065110f21",
@@ -1358,7 +1317,7 @@
 			}
 		},
 		"e4985f154db50ee8": {
-			"parent": "24201011b4f6b949",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_TheOrnamentalSniper",
 			"factory": "007B954AAA7588CA",
 			"blueprint": "00837B87C3A99278",
@@ -1380,9 +1339,10 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "24201011b4f6b949",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
@@ -2387,46 +2347,6 @@
 				}
 			}
 		},
-		"24201011b4f6b949": {
-			"parent": "4d661fa986a84d18",
-			"name": "Sniper Rifles Sieger Cool Skin",
-			"factory": "002505540A10B4B9",
-			"blueprint": "009667B231F9056A",
-			"properties": {
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_Choices": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e4985f154db50ee8",
-						"59a6b3387d33f98d",
-						"feed8d764c2b0cdb",
-						"feed510620394a83",
-						"feed111ddec3bd86",
-						"feed8ddbdbfb7d0f"
-					]
-				},
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": -0.05, "y": 0, "z": -0.9 }
-					}
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_Seed": {
-					"type": "SEntityTemplateReference",
-					"value": null
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "22edf43d9609168f",
-					"postInit": true
-				}
-			}
-		},
 		"8e2fcc662b0fe4c0": {
 			"parent": "7f7698a22dd99f6e",
 			"name": "Bottom",
@@ -2688,31 +2608,6 @@
 				}
 			}
 		},
-		"4d661fa986a84d18": {
-			"parent": "22edf43d9609168f",
-			"name": "Items",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {
-				"m_Seed": {
-					"type": "SEntityTemplateReference",
-					"value": null
-				}
-			},
-			"inputCopying": { "Pick": { "Signal": ["4df5907452ac8d84"] } },
-			"propertyAliases": {
-				"m_Seed": [
-					{
-						"originalProperty": "m_Seed",
-						"originalEntity": "24201011b4f6b949"
-					},
-					{
-						"originalProperty": "m_Seed",
-						"originalEntity": "feed004481e2212a"
-					}
-				]
-			}
-		},
 		"22edf43d9609168f": {
 			"parent": null,
 			"name": "Setpiece_Evergreen_SupplierRoom_Stone",
@@ -2729,8 +2624,7 @@
 			},
 			"inputCopying": {
 				"MoveHitmanToRoom": {
-					"FadeAndActivate": ["5d662720e7376f0e"],
-					"Pick": ["4d661fa986a84d18"]
+					"FadeAndActivate": ["5d662720e7376f0e"]
 				}
 			},
 			"propertyAliases": {
@@ -2750,16 +2644,11 @@
 						"originalEntity": "5c4c4149b57c62b5"
 					}
 				],
-				"m_Seed": [
-					{
-						"originalProperty": "m_Seed",
-						"originalEntity": "4d661fa986a84d18"
-					}
-				]
+				"m_Seed": []
 			}
 		},
 		"feed8d764c2b0cdb": {
-			"parent": "24201011b4f6b949",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_Sieger300RudeRuby",
 			"factory": "00C86F3453E95649",
 			"blueprint": "006D83F84D41F5C7",
@@ -2781,16 +2670,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "24201011b4f6b949",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feed510620394a83": {
-			"parent": "24201011b4f6b949",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_Sieger300Ice",
 			"factory": "0025974C7DB937F7",
 			"blueprint": "00023C4644DB751B",
@@ -2812,16 +2702,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "24201011b4f6b949",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feedc08d7bc9bfc4": {
-			"parent": "feed004481e2212a",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_HacklLeviathanSniperRifleCovert",
 			"factory": "003B7BE0981D649D",
 			"blueprint": "001C7CF8C06E1BDA",
@@ -2843,16 +2734,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feed004481e2212a",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feeda3b45e7361e4": {
-			"parent": "feed004481e2212a",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_HacklLeviathanSniperRifleCovertDucky",
 			"factory": "00F32755ADB1229D",
 			"blueprint": "007DF7B9811506A8",
@@ -2874,57 +2766,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feed004481e2212a",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
-		},
-		"feed004481e2212a": {
-			"parent": "4d661fa986a84d18",
-			"name": "Sniper Rifles Sieger Not That Cool Skin",
-			"factory": "002505540A10B4B9",
-			"blueprint": "009667B231F9056A",
-			"properties": {
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_Choices": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed5c4f0d14cd93",
-						"feed00c12348ed38",
-						"feed88e18eb78122",
-						"feede6df40e4107d",
-						"feedf1e9c18e574f",
-						"feedc08d7bc9bfc4",
-						"feeda3b45e7361e4"
-					]
-				},
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": -0.05, "y": 0, "z": -0.5 }
-					}
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_Seed": {
-					"type": "SEntityTemplateReference",
-					"value": null
-				},
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "22edf43d9609168f",
 					"postInit": true
 				}
-			}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feede6df40e4107d": {
-			"parent": "feed004481e2212a",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_Sieger300Viper",
 			"factory": "00DA726575CB348F",
 			"blueprint": "002DE0D5C6913C60",
@@ -2946,16 +2798,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feed004481e2212a",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feed00c12348ed38": {
-			"parent": "feed004481e2212a",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_Sieger300Advanced",
 			"factory": "00C631164BC68FE7",
 			"blueprint": "00DC27D98D2DD616",
@@ -2977,16 +2830,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feed004481e2212a",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feed88e18eb78122": {
-			"parent": "feed004481e2212a",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_Sieger300Tactical",
 			"factory": "001F36D6C24322D5",
 			"blueprint": "007F15E49770115F",
@@ -3008,16 +2862,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feed004481e2212a",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feed5c4f0d14cd93": {
-			"parent": "feed004481e2212a",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_Sieger300",
 			"factory": "005D14E2145B7FF9",
 			"blueprint": "00A505E7C08137E7",
@@ -3039,16 +2894,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feed004481e2212a",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feed111ddec3bd86": {
-			"parent": "24201011b4f6b949",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_Sieger300Ghost",
 			"factory": "0086CE09E5561ACC",
 			"blueprint": "00895C3C6D02E2C6",
@@ -3070,16 +2926,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "24201011b4f6b949",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feedf1e9c18e574f": {
-			"parent": "feed004481e2212a",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_Sieger300Redeemer",
 			"factory": "002A4FF86054718E",
 			"blueprint": "0083F24AF5D08773",
@@ -3101,16 +2958,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feed004481e2212a",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feed8ddbdbfb7d0f": {
-			"parent": "24201011b4f6b949",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_Sieger300WhiteNinja",
 			"factory": "001345AF6F671120",
 			"blueprint": "0018EE3B87AEAAC4",
@@ -3132,9 +2990,10 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "24201011b4f6b949",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},

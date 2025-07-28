@@ -54,7 +54,7 @@
 			}
 		},
 		"abcc138583cd9a3d": {
-			"parent": "1dbb3051aa11cdac",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_FireAxeHoliday",
 			"factory": "006E31BAA7B9B158",
 			"blueprint": "00B9FE44D51352D3",
@@ -72,67 +72,14 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "1dbb3051aa11cdac",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
-		},
-		"2697d742c52114cb": {
-			"parent": "4d661fa986a84d18",
-			"name": "Active and pick and deactivate all",
-			"factory": "[modules:/zsignalforkentity_void.class].pc_entitytype",
-			"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
-			"events": {
-				"Out02": {
-					"Pick": [
-						"3cb06d28214eab0f",
-						"1dbb3051aa11cdac",
-						"feed3996a6de06f6"
-					]
-				},
-				"Out01": {
-					"SetActive": [
-						{
-							"ref": "1dbb3051aa11cdac",
-							"value": { "type": "bool", "value": true }
-						},
-						{
-							"ref": "3cb06d28214eab0f",
-							"value": { "type": "bool", "value": true }
-						},
-						{
-							"ref": "feed3996a6de06f6",
-							"value": { "type": "bool", "value": true }
-						}
-					]
-				},
-				"Out03": {
-					"SetActive": [
-						{
-							"ref": "1dbb3051aa11cdac",
-							"value": { "type": "bool", "value": false }
-						},
-						{
-							"ref": "3cb06d28214eab0f",
-							"value": { "type": "bool", "value": false }
-						},
-						{
-							"ref": "feed3996a6de06f6",
-							"value": { "type": "bool", "value": false }
-						}
-					]
-				}
-			}
-		},
-		"4df5907452ac8d84": {
-			"parent": "4d661fa986a84d18",
-			"name": "Pick all once",
-			"factory": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entityblueprint",
-			"events": { "Out": { "In": ["2697d742c52114cb"] } }
 		},
 		"71678c1df2acbda3": {
 			"parent": "3843769065110f21",
@@ -579,7 +526,7 @@
 			}
 		},
 		"463486ee45ea740f": {
-			"parent": "3cb06d28214eab0f",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_GuruEmeticGrenade",
 			"factory": "006E3BCE2218C107",
 			"blueprint": "00521D4B107B12E3",
@@ -601,16 +548,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3cb06d28214eab0f",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"b090d302df7465d3": {
-			"parent": "3cb06d28214eab0f",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_GuruEmeticSyringe",
 			"factory": "00EAF486BC393D18",
 			"blueprint": "00240A5B6599CC56",
@@ -628,9 +576,10 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3cb06d28214eab0f",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
@@ -2091,7 +2040,7 @@
 			"blueprint": "[assembly:/templates/sound/musiccontrollers.template?/musiccore_s3_blockbiomechange.entitytemplate].pc_entityblueprint"
 		},
 		"ed3e6d22c8987be3": {
-			"parent": "1dbb3051aa11cdac",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_ICA19Iceballer",
 			"factory": "00D5C889C0C0DBB7",
 			"blueprint": "00BDAFD25896DEBA",
@@ -2117,9 +2066,10 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "1dbb3051aa11cdac",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
@@ -2716,107 +2666,6 @@
 				}
 			}
 		},
-		"3cb06d28214eab0f": {
-			"parent": "4d661fa986a84d18",
-			"name": "Toys",
-			"factory": "002505540A10B4B9",
-			"blueprint": "009667B231F9056A",
-			"properties": {
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_Choices": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["b090d302df7465d3", "463486ee45ea740f"]
-				},
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0.3, "y": 0, "z": -0.9 }
-					}
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_Seed": {
-					"type": "SEntityTemplateReference",
-					"value": null
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "22edf43d9609168f",
-					"postInit": true
-				}
-			}
-		},
-		"1dbb3051aa11cdac": {
-			"parent": "4d661fa986a84d18",
-			"name": "Melee Big",
-			"factory": "002505540A10B4B9",
-			"blueprint": "009667B231F9056A",
-			"properties": {
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_Choices": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcc138583cd9a3d",
-						"feed149641d0e7fc",
-						"feeda812b6ac1b78",
-						"cafe1559930610bd",
-						"ed3e6d22c8987be3"
-					]
-				},
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": -0.2 }
-					}
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_Seed": {
-					"type": "SEntityTemplateReference",
-					"value": null
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "22edf43d9609168f",
-					"postInit": true
-				}
-			}
-		},
-		"4d661fa986a84d18": {
-			"parent": "22edf43d9609168f",
-			"name": "Items",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {
-				"m_Seed": {
-					"type": "SEntityTemplateReference",
-					"value": null
-				}
-			},
-			"inputCopying": { "Pick": { "Signal": ["4df5907452ac8d84"] } },
-			"propertyAliases": {
-				"m_Seed": [
-					{
-						"originalProperty": "m_Seed",
-						"originalEntity": "1dbb3051aa11cdac"
-					},
-					{
-						"originalProperty": "m_Seed",
-						"originalEntity": "feed3996a6de06f6"
-					},
-					{
-						"originalProperty": "m_Seed",
-						"originalEntity": "3cb06d28214eab0f"
-					}
-				]
-			}
-		},
 		"22edf43d9609168f": {
 			"parent": null,
 			"name": "Setpiece_Evergreen_SupplierRoom",
@@ -2833,8 +2682,7 @@
 			},
 			"inputCopying": {
 				"MoveHitmanToRoom": {
-					"FadeAndActivate": ["5d662720e7376f0e"],
-					"Pick": ["4d661fa986a84d18"]
+					"FadeAndActivate": ["5d662720e7376f0e"]
 				}
 			},
 			"propertyAliases": {
@@ -2854,16 +2702,11 @@
 						"originalEntity": "5c4c4149b57c62b5"
 					}
 				],
-				"m_Seed": [
-					{
-						"originalProperty": "m_Seed",
-						"originalEntity": "4d661fa986a84d18"
-					}
-				]
+				"m_Seed": []
 			}
 		},
 		"feeda812b6ac1b78": {
-			"parent": "1dbb3051aa11cdac",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_FirePokerHolidayPresent",
 			"factory": "00B7A2CE1DC2C073",
 			"blueprint": "0042E20AAEF871C0",
@@ -2881,16 +2724,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "1dbb3051aa11cdac",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feed149641d0e7fc": {
-			"parent": "1dbb3051aa11cdac",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_ShovelWrapped",
 			"factory": "00F7F3161AB374E1",
 			"blueprint": "000D94235C61FEA2",
@@ -2908,55 +2752,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "1dbb3051aa11cdac",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
-		},
-		"feed3996a6de06f6": {
-			"parent": "4d661fa986a84d18",
-			"name": "Melee Small",
-			"factory": "002505540A10B4B9",
-			"blueprint": "009667B231F9056A",
-			"properties": {
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_Choices": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed920ead64f9fb",
-						"feed7349a456d417",
-						"feed6718a78f17ce",
-						"feedfcec82094d68",
-						"feedf94b669f8c5c"
-					]
-				},
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": -90, "z": 0 },
-						"position": { "x": -0.3, "y": 0, "z": -0.9 }
-					}
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_Seed": {
-					"type": "SEntityTemplateReference",
-					"value": null
-				},
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "22edf43d9609168f",
 					"postInit": true
 				}
-			}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feed920ead64f9fb": {
-			"parent": "feed3996a6de06f6",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_IceAxe",
 			"factory": "0009103DD5A087B2",
 			"blueprint": "003E94980A66FE1E",
@@ -2978,16 +2784,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feed3996a6de06f6",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feed7349a456d417": {
-			"parent": "feed3996a6de06f6",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_IcePick",
 			"factory": "00C0FDEE5C6D5F0F",
 			"blueprint": "009C110B651D0F6B",
@@ -3009,16 +2816,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feed3996a6de06f6",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feedfcec82094d68": {
-			"parent": "feed3996a6de06f6",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_AsylumFiberWire",
 			"factory": "00BCBD4B227BD645",
 			"blueprint": "00F4F706725AEE11",
@@ -3036,16 +2844,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feed3996a6de06f6",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feed6718a78f17ce": {
-			"parent": "feed3996a6de06f6",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_Quickdraw",
 			"factory": "0059C21C20D14B77",
 			"blueprint": "00EEB86E22574552",
@@ -3063,16 +2872,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feed3996a6de06f6",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feedf94b669f8c5c": {
-			"parent": "feed3996a6de06f6",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_Piton",
 			"factory": "00E788C0F16E4A8D",
 			"blueprint": "00264DA580038F71",
@@ -3098,16 +2908,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feed3996a6de06f6",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"cafe1559930610bd": {
-			"parent": "1dbb3051aa11cdac",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_CrowbarHolidayPresent",
 			"factory": "00E579DD7D307A82",
 			"blueprint": "0054FD7632F188A8",
@@ -3125,9 +2936,10 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "1dbb3051aa11cdac",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},

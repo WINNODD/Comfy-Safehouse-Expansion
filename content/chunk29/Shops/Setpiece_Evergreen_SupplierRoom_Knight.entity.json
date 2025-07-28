@@ -53,60 +53,6 @@
 				}
 			}
 		},
-		"2697d742c52114cb": {
-			"parent": "4d661fa986a84d18",
-			"name": "Active and pick and deactivate all",
-			"factory": "[modules:/zsignalforkentity_void.class].pc_entitytype",
-			"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
-			"events": {
-				"Out02": {
-					"Pick": [
-						"feed348997ba61a8",
-						"feedba56613c5911",
-						"feedfe0aa1ecfcc5"
-					]
-				},
-				"Out01": {
-					"SetActive": [
-						{
-							"ref": "feed348997ba61a8",
-							"value": { "type": "bool", "value": true }
-						},
-						{
-							"ref": "feedba56613c5911",
-							"value": { "type": "bool", "value": true }
-						},
-						{
-							"ref": "feedfe0aa1ecfcc5",
-							"value": { "type": "bool", "value": true }
-						}
-					]
-				},
-				"Out03": {
-					"SetActive": [
-						{
-							"ref": "feed348997ba61a8",
-							"value": { "type": "bool", "value": false }
-						},
-						{
-							"ref": "feedba56613c5911",
-							"value": { "type": "bool", "value": false }
-						},
-						{
-							"ref": "feedfe0aa1ecfcc5",
-							"value": { "type": "bool", "value": false }
-						}
-					]
-				}
-			}
-		},
-		"4df5907452ac8d84": {
-			"parent": "4d661fa986a84d18",
-			"name": "Pick all once",
-			"factory": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entityblueprint",
-			"events": { "Out": { "In": ["2697d742c52114cb"] } }
-		},
 		"71678c1df2acbda3": {
 			"parent": "3843769065110f21",
 			"name": "Active",
@@ -2602,35 +2548,6 @@
 				}
 			}
 		},
-		"4d661fa986a84d18": {
-			"parent": "22edf43d9609168f",
-			"name": "Items",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {
-				"m_Seed": {
-					"type": "SEntityTemplateReference",
-					"value": null
-				}
-			},
-			"inputCopying": { "Pick": { "Signal": ["4df5907452ac8d84"] } },
-			"propertyAliases": {
-				"m_Seed": [
-					{
-						"originalProperty": "m_Seed",
-						"originalEntity": "feed348997ba61a8"
-					},
-					{
-						"originalProperty": "m_Seed",
-						"originalEntity": "feedba56613c5911"
-					},
-					{
-						"originalProperty": "m_Seed",
-						"originalEntity": "feedfe0aa1ecfcc5"
-					}
-				]
-			}
-		},
 		"22edf43d9609168f": {
 			"parent": null,
 			"name": "Setpiece_Evergreen_SupplierRoom_Knight & Stone",
@@ -2647,8 +2564,7 @@
 			},
 			"inputCopying": {
 				"MoveHitmanToRoom": {
-					"FadeAndActivate": ["5d662720e7376f0e"],
-					"Pick": ["4d661fa986a84d18"]
+					"FadeAndActivate": ["5d662720e7376f0e"]
 				}
 			},
 			"propertyAliases": {
@@ -2668,56 +2584,11 @@
 						"originalEntity": "5c4c4149b57c62b5"
 					}
 				],
-				"m_Seed": [
-					{
-						"originalProperty": "m_Seed",
-						"originalEntity": "4d661fa986a84d18"
-					}
-				]
-			}
-		},
-		"feedfe0aa1ecfcc5": {
-			"parent": "4d661fa986a84d18",
-			"name": "Sniper Rifles Jaeger",
-			"factory": "002505540A10B4B9",
-			"blueprint": "009667B231F9056A",
-			"properties": {
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_Choices": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed192c5cac1bea",
-						"feed7e0afccbabed",
-						"feedb93363acc34d",
-						"feed5a9892c7f6f0",
-						"feedfe1761dd1e1a",
-						"feed1a8b9b9cd509"
-					]
-				},
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0.2, "y": 0, "z": -0.8 }
-					}
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_Seed": {
-					"type": "SEntityTemplateReference",
-					"value": null
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "22edf43d9609168f",
-					"postInit": true
-				}
+				"m_Seed": []
 			}
 		},
 		"feed7e0afccbabed": {
-			"parent": "feedfe0aa1ecfcc5",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_Jaeger7Lancer",
 			"factory": "001E6AF137DBD34E",
 			"blueprint": "00A795CA6358BD1F",
@@ -2739,16 +2610,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feedfe0aa1ecfcc5",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feed192c5cac1bea": {
-			"parent": "feedfe0aa1ecfcc5",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_Jaeger7Covert",
 			"factory": "00C5E8C134C6B902",
 			"blueprint": "00CC6062B2685124",
@@ -2770,16 +2642,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feedfe0aa1ecfcc5",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feed5a9892c7f6f0": {
-			"parent": "feedfe0aa1ecfcc5",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_Jaeger7Tuatara",
 			"factory": "00325FC1C380EA78",
 			"blueprint": "0010D435519D4D2A",
@@ -2801,16 +2674,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feedfe0aa1ecfcc5",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feedb93363acc34d": {
-			"parent": "feedfe0aa1ecfcc5",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_Jaeger7Tiger",
 			"factory": "008E926CC79B363B",
 			"blueprint": "004BB81778BA2EE0",
@@ -2832,16 +2706,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feedfe0aa1ecfcc5",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feedfe1761dd1e1a": {
-			"parent": "feedfe0aa1ecfcc5",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_Jaeger7SnowFox",
 			"factory": "00F9824B7677C770",
 			"blueprint": "001823A88927E54A",
@@ -2863,55 +2738,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedfe0aa1ecfcc5",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
-		},
-		"feedba56613c5911": {
-			"parent": "4d661fa986a84d18",
-			"name": "Sniper Rifles Druzhina",
-			"factory": "002505540A10B4B9",
-			"blueprint": "009667B231F9056A",
-			"properties": {
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_Choices": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed09602de3c1dc",
-						"feed106ce49535ce",
-						"feed9ff94026bfcf",
-						"feed1490931c5685",
-						"feedd7abccee32e0"
-					]
-				},
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0.2, "y": 0, "z": -0.4 }
-					}
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_Seed": {
-					"type": "SEntityTemplateReference",
-					"value": null
-				},
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "22edf43d9609168f",
 					"postInit": true
 				}
-			}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feed1490931c5685": {
-			"parent": "feedba56613c5911",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_MakeshiftSniper",
 			"factory": "008C85F5C5EB52C9",
 			"blueprint": "003AFE871EE3DC2A",
@@ -2933,16 +2770,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feedba56613c5911",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feed09602de3c1dc": {
-			"parent": "feedba56613c5911",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_Druzhina34",
 			"factory": "0090F52A41C4E570",
 			"blueprint": "00080A14E725F89C",
@@ -2964,16 +2802,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feedba56613c5911",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feed106ce49535ce": {
-			"parent": "feedba56613c5911",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_Druzhina34DTI",
 			"factory": "00A6CDF4F744A530",
 			"blueprint": "0089FBF7C8932B8A",
@@ -2995,16 +2834,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feedba56613c5911",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feed9ff94026bfcf": {
-			"parent": "feedba56613c5911",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_Druzhina34ICAArctic",
 			"factory": "008F0922D5A74B37",
 			"blueprint": "00CA49469CFDD000",
@@ -3026,16 +2866,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feedba56613c5911",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feedd7abccee32e0": {
-			"parent": "feedba56613c5911",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_Druzhina34ICA",
 			"factory": "004C0C35DC84B134",
 			"blueprint": "00FF45E0CA0B848B",
@@ -3057,54 +2898,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedba56613c5911",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
-		},
-		"feed348997ba61a8": {
-			"parent": "4d661fa986a84d18",
-			"name": "Sniper Rifles Woodsman",
-			"factory": "002505540A10B4B9",
-			"blueprint": "009667B231F9056A",
-			"properties": {
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_Choices": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedd7eebfc8e599",
-						"feed9a8c831ecc71",
-						"feed3b76578e57b4",
-						"feedcb4f2c1db3b7"
-					]
-				},
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0.1, "y": 0, "z": 0 }
-					}
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_Seed": {
-					"type": "SEntityTemplateReference",
-					"value": null
-				},
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "22edf43d9609168f",
 					"postInit": true
 				}
-			}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feed9a8c831ecc71": {
-			"parent": "feed348997ba61a8",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_AncestralSniper",
 			"factory": "0075E5147FABFCF2",
 			"blueprint": "00627CC925CACF13",
@@ -3126,16 +2930,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feed348997ba61a8",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feedd7eebfc8e599": {
-			"parent": "feed348997ba61a8",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_ICABartoliWoodsmanHuntingRifleCovert",
 			"factory": "00FFABEDF07A3490",
 			"blueprint": "001EBF6D232EEF52",
@@ -3157,16 +2962,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feed348997ba61a8",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feed1a8b9b9cd509": {
-			"parent": "feedfe0aa1ecfcc5",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_Jaeger7TuataraEnvy",
 			"factory": "008992B36217DF5E",
 			"blueprint": "00552000A1447098",
@@ -3188,16 +2994,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feedfe0aa1ecfcc5",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feed3b76578e57b4": {
-			"parent": "feed348997ba61a8",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_Majestic",
 			"factory": "00D27BC0E50949AE",
 			"blueprint": "00D95B9CF9AA980F",
@@ -3219,16 +3026,17 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feed348997ba61a8",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"feedcb4f2c1db3b7": {
-			"parent": "feed348997ba61a8",
+			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_GoldenDragon",
 			"factory": "00A78C2D0FEDB708",
 			"blueprint": "00C2A1FC3C469E36",
@@ -3250,9 +3058,10 @@
 					"value": false
 				},
 				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feed348997ba61a8",
+					"value": "22edf43d9609168f",
 					"postInit": true
 				}
 			},

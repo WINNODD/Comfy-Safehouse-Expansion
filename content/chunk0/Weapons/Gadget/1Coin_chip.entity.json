@@ -1,0 +1,233 @@
+{
+	"tempHash": "0071C9225EB2D326",
+	"tbluHash": "00DDB985D6A7C661",
+	"rootEntity": "3708cea71649c0b9",
+	"entities": {
+		"c5e0250ad312a3e0": {
+			"parent": "3708cea71649c0b9",
+			"name": "Helper_Evergreen_SelectableItem",
+			"factory": "[assembly:/_pro/design/gamecore/helpers_evergreen.template?/helper_evergreen_selectableitem.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/helpers_evergreen.template?/helper_evergreen_selectableitem.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "1addc0c6-68bd-4c29-972c-da404bea3715"
+				},
+				"InspectionPivotTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 90, "z": 0 },
+						"position": {
+							"x": -0.019999999552965164,
+							"y": 3.469446951953614e-18,
+							"z": -0.18000000715255737
+						}
+					}
+				},
+				"InspectionItemTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 90, "z": 0 },
+						"position": {
+							"x": 0.01299999988079071,
+							"y": 0.0020000000949949026,
+							"z": 1.040834002868023e-17
+						}
+					}
+				},
+				"TextureUnlocked": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00F99935651E7332",
+						"flag": "5F"
+					}
+				},
+				"TextureLocked": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0058DA9B5E5B102F",
+						"flag": "5F"
+					}
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": -0.595142012386346,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": -0.04391099885106087
+						}
+					}
+				},
+				"TextureTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 90, "y": 0, "z": 0 },
+						"position": {
+							"x": 0,
+							"y": -0.16099999845027924,
+							"z": 0.02199999988079071
+						}
+					}
+				},
+				"TextureScale": {
+					"type": "SVector3",
+					"value": { "x": 3, "y": 3, "z": 3 }
+				},
+				"melee": { "type": "bool", "value": true },
+				"GearWall": { "type": "bool", "value": false },
+				"Supplier": { "type": "bool", "value": false },
+				"ItemTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0.009 }
+					}
+				},
+				"Stash": { "type": "bool", "value": false },
+				"RewardCrate": { "type": "bool", "value": false },
+				"m_boundary": {
+					"type": "SEntityTemplateReference",
+					"value": "57277ef0d088b812",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "3708cea71649c0b9",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["3708cea71649c0b9"] }
+		},
+		"3708cea71649c0b9": {
+			"parent": null,
+			"name": "Helper_Evergreen_SelectableItem_Coin_Chip",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -90, "y": 90, "z": 0 },
+						"position": { "x": -9, "y": 0, "z": 1 }
+					}
+				}
+			},
+			"propertyAliases": {
+				"GearWall": [
+					{
+						"originalProperty": "GearWall",
+						"originalEntity": "c5e0250ad312a3e0"
+					}
+				],
+				"Supplier": [
+					{
+						"originalProperty": "Supplier",
+						"originalEntity": "c5e0250ad312a3e0"
+					}
+				],
+				"GearCapacityUsed": [
+					{
+						"originalProperty": "GearCapacityUsed",
+						"originalEntity": "c5e0250ad312a3e0"
+					}
+				],
+				"ItemTransform": [
+					{
+						"originalProperty": "ItemTransform",
+						"originalEntity": "c5e0250ad312a3e0"
+					}
+				],
+				"Stash": [
+					{
+						"originalProperty": "Stash",
+						"originalEntity": "c5e0250ad312a3e0"
+					}
+				],
+				"RewardCrate": [
+					{
+						"originalProperty": "RewardCrate",
+						"originalEntity": "c5e0250ad312a3e0"
+					}
+				]
+			},
+			"exposedEntities": {
+				"Owned": {
+					"isArray": false,
+					"refersTo": [
+						{
+							"ref": "c5e0250ad312a3e0",
+							"externalScene": null,
+							"exposedEntity": "Owned"
+						}
+					]
+				}
+			},
+			"exposedInterfaces": {
+				"ZEvergreenMenuEntryEntity": "c5e0250ad312a3e0",
+				"ZRandomSelectorChoice": "c5e0250ad312a3e0",
+				"ZEventReceiverEntity_bool": "c5e0250ad312a3e0",
+				"ZEventReceiverEntity_void": "c5e0250ad312a3e0"
+			}
+		},
+		"57277ef0d088b812": {
+			"parent": "3708cea71649c0b9",
+			"name": "Boundary",
+			"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.05577100068330765,
+						"y": 0.05497739836573601,
+						"z": 0.011280800215899944
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "c5e0250ad312a3e0",
+						"externalScene": null,
+						"exposedEntity": "ItemTransform"
+					}
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0.044232319782458035,
+							"z": 0
+						},
+						"position": {
+							"x": -0.0001120000015362166,
+							"y": -0.0007779999868944287,
+							"z": 0.022160999476909637
+						}
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "[assembly:/geometry/g2/gizmos.wl2?/gizmo_trigger_01.prim].pc_prim",
+			"flag": "5F"
+		}
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

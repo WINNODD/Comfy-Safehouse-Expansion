@@ -711,18 +711,6 @@
 				"m_dtCloseTransition": {
 					"type": "float32",
 					"value": 0.699999988079071
-				},
-				"m_entries": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"1a62e83a0642c64b",
-						"cdd2ab745dd91a37",
-						"feedb0f9cda31a31",
-						"cafecdf388c89d0c",
-						"cafe9b5bdfa4061e",
-						"cafe090183575222"
-					],
-					"postInit": true
 				}
 			},
 			"outputCopying": {
@@ -1176,14 +1164,6 @@
 							"ref": "4c938898b9b64483",
 							"value": { "type": "bool", "value": true }
 						}
-					],
-					"Pick": [
-						"1a62e83a0642c64b",
-						"cdd2ab745dd91a37",
-						"feedb0f9cda31a31",
-						"cafecdf388c89d0c",
-						"cafe9b5bdfa4061e",
-						"cafe090183575222"
 					]
 				}
 			}
