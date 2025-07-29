@@ -888,7 +888,7 @@
 								"y": 0.0,
 								"z": -180.0
 							},
-							"position": { "x": 0.405, "y": 0.0, "z": 2.65 }
+							"position": { "x": 0.415, "y": 0.0, "z": 2.65 }
 						}
 					}
 				}
@@ -2557,6 +2557,20 @@
 		},
 		{
 			"SubEntityOperation": [
+				"c9ccb074a210c4fc",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": 90.0, "y": 0.0, "z": -0.0 },
+							"position": { "x": -0.69, "y": 0.0, "z": 1.46 }
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"82836f6c60ce9b46",
 				{
 					"SetPropertyValue": {
@@ -3039,9 +3053,9 @@
 									"z": 179.9515433572291
 								},
 								"position": {
-									"x": 0.0,
-									"y": -0.03,
-									"z": 1.9
+									"x": 0.34,
+									"y": -0.0,
+									"z": 2.06
 								}
 							}
 						},
@@ -4325,9 +4339,9 @@
 									"z": 179.9515433572291
 								},
 								"position": {
-									"x": 1.24,
-									"y": -0.05,
-									"z": 2.93
+									"x": 0.835,
+									"y": -0.0,
+									"z": 2.06
 								}
 							}
 						},
@@ -11670,7 +11684,10 @@
 						},
 						"Enabled": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["cafe4c3ab4c29f0b"]
+							"value": [
+								"3b45d652d56512c5",
+								"cafe4c3ab4c29f0b"
+							]
 						},
 						"m_eRoomBehaviour": {
 							"type": "ZSpatialEntity.ERoomBehaviour",
@@ -12480,21 +12497,14 @@
 			"AddEntity": [
 				"cafe4c3ab4c29f0b",
 				{
-					"parent": "cafed17c2a6eb2f2",
-					"name": "VBO",
-					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
-					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+					"parent": "cafe658f90b638fd",
+					"name": "ValueBool_Basic",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
 					"properties": {
-						"m_aValues": {
-							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"3b45d652d56512c5",
-								"cafe2fb78c552821"
-							]
-						},
-						"m_eEvaluation": {
-							"type": "ZValueBool_Operation_Signal.EEvaluationType",
-							"value": "ALL"
+						"m_bAlwaysSignalOnSet": {
+							"type": "bool",
+							"value": true
 						}
 					}
 				}
@@ -12557,9 +12567,9 @@
 									"z": 179.9515433572291
 								},
 								"position": {
-									"x": 0.0,
-									"y": -0.03,
-									"z": 1.9
+									"x": -0.175,
+									"y": -0.0,
+									"z": 2.06
 								}
 							}
 						},
@@ -12637,7 +12647,7 @@
 								"position": {
 									"x": -1.17,
 									"y": 0.0,
-									"z": 3.2
+									"z": 1.46
 								}
 							}
 						},
@@ -12668,14 +12678,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": -89.9999965849052,
+									"x": 90.0,
 									"y": 0,
-									"z": -180
+									"z": -180.0
 								},
 								"position": {
-									"x": -1.17,
+									"x": 0.34,
 									"y": 0.0,
-									"z": 3.2
+									"z": 3.05
 								}
 							}
 						},
@@ -12711,9 +12721,9 @@
 									"z": -180
 								},
 								"position": {
-									"x": -1.17,
+									"x": -0.18,
 									"y": 0.0,
-									"z": 3.2
+									"z": 3.27
 								}
 							}
 						},
@@ -12749,9 +12759,9 @@
 									"z": -180
 								},
 								"position": {
-									"x": -1.17,
+									"x": -0.69,
 									"y": 0.0,
-									"z": 3.2
+									"z": 2.06
 								}
 							}
 						},
@@ -12789,7 +12799,7 @@
 								"position": {
 									"x": -1.17,
 									"y": 0.0,
-									"z": 3.2
+									"z": 1.46
 								}
 							}
 						},
@@ -12819,15 +12829,11 @@
 						"m_mTransform": {
 							"type": "SMatrix43",
 							"value": {
-								"rotation": {
-									"x": -89.9999965849052,
-									"y": 0,
-									"z": -180
-								},
+								"rotation": { "x": 90.0, "y": 0, "z": 0 },
 								"position": {
-									"x": -1.17,
+									"x": -1.155,
 									"y": 0.0,
-									"z": 3.2
+									"z": 1.46
 								}
 							}
 						},
@@ -12857,15 +12863,11 @@
 						"m_mTransform": {
 							"type": "SMatrix43",
 							"value": {
-								"rotation": {
-									"x": -89.9999965849052,
-									"y": 0,
-									"z": -180
-								},
+								"rotation": { "x": 90.0, "y": 0, "z": 0 },
 								"position": {
-									"x": -1.17,
+									"x": -0.69,
 									"y": 0.0,
-									"z": 3.2
+									"z": 3.17
 								}
 							}
 						},
@@ -12880,6 +12882,46 @@
 						}
 					},
 					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe658f90b638fd",
+				{
+					"parent": "cafed17c2a6eb2f2",
+					"name": "EventChannelReceiver_bool",
+					"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_bool.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_bool.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rChannelToken": {
+							"type": "SEntityTemplateReference",
+							"value": "cafebfcf34a77721",
+							"postInit": true
+						}
+					},
+					"events": {
+						"EventReceived": {
+							"SetValue": ["cafe4c3ab4c29f0b"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafebfcf34a77721",
+				{
+					"parent": "cafe658f90b638fd",
+					"name": "EntitlementWOAPremium",
+					"factory": "[modules:/ztokenidentity.class].pc_entitytype",
+					"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+					"properties": {
+						"m_sName": {
+							"type": "ZString",
+							"value": "EntitlementWOAPremium"
+						}
+					}
 				}
 			]
 		},
