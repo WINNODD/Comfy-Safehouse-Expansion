@@ -8,8 +8,8 @@
 	],
 	"frameworkVersion": "2.33.21",
 	"version": "1.0.3",
-	"thumbs": [
-		"ConsoleCmd OnlineResources_Disable 1"
+	"contentFolders": [
+		"content"
 	],
 	"dependencies": [
 		{

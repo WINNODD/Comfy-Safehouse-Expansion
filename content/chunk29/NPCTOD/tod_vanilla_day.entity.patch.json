@@ -1,0 +1,121 @@
+{
+	"tempHash": "00F766FFFAFA4298",
+	"tbluHash": "0091EB2844E7D05B",
+	"patch": [
+		{
+			"AddEntity": [
+				"cafec12fbd4cb958",
+				{
+					"parent": {
+						"ref": "cafe9b73842954ae",
+						"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+					},
+					"name": "Act_MR_Sit_Chair_80cm",
+					"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_chair_80cm.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_chair_80cm.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0,
+									"z": -57.429462
+								},
+								"position": {
+									"x": 9.822093,
+									"y": -163.21161,
+									"z": -18.998379
+								}
+							}
+						},
+						"m_fActTimeout": {
+							"type": "float32",
+							"value": -1
+						},
+						"m_bAlignPosition": {
+							"type": "bool",
+							"value": true
+						},
+						"m_AlignRotation": {
+							"type": "ZActBehaviorEntity.ERotationAlignment",
+							"value": "RA_EXACT"
+						},
+						"m_pActor": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "cafe9b73842954ae",
+								"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+							},
+							"postInit": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "feed7b75fe5b5dc1",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": -57.429462 },
+						"position": {
+							"x": 9.822093,
+							"y": -163.21161,
+							"z": -18.998379
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "feed4695696637cc",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_aWaypoints",
+				"propertyOverride": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafec12fbd4cb958"]
+				}
+			}
+		},
+		{
+			"AddPinConnectionOverride": {
+				"fromEntity": {
+					"ref": "feed4695696637cc",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"fromPin": "OnStart",
+				"toEntity": "cafec12fbd4cb958",
+				"toPin": "Start"
+			}
+		},
+		{
+			"AddPinConnectionOverrideDelete": {
+				"fromEntity": {
+					"ref": "feed4695696637cc",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"fromPin": "OnStart",
+				"toEntity": {
+					"ref": "cafe05a00cc4830f",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"toPin": "Start"
+			}
+		}
+	],
+	"patchVersion": 6
+}
