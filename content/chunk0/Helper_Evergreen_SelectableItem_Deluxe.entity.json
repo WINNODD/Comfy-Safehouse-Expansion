@@ -25,6 +25,12 @@
 			},
 			"events": { "Output": { "T": ["6bc51f027c661f6a"] } }
 		},
+		"fc3ad8eae4a108ca": {
+			"parent": "ff28c16eb9073f6e",
+			"name": "eventtoken_evergreen_selectableitem_spawned",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_selectableitem_spawned.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_selectableitem_spawned.entitytemplate].pc_entityblueprint"
+		},
 		"82d0b27f8a85d759": {
 			"parent": "76bc7debe63916b6",
 			"name": "Pick up",
@@ -65,6 +71,19 @@
 				}
 			}
 		},
+		"6c2d2a15f2e79a1f": {
+			"parent": "0cd5d1c19b606cb9",
+			"name": "EventChannelTransmitter_void",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "ed716e618702d032",
+					"postInit": true
+				}
+			}
+		},
 		"bd626a497e8fd8e7": {
 			"parent": "ff28c16eb9073f6e",
 			"name": "GuidConverter",
@@ -77,6 +96,19 @@
 			"name": "UITextFormatArgument_ZString_",
 			"factory": "[modules:/zuitextformatargument_string.class].pc_entitytype",
 			"blueprint": "[modules:/zuitextformatargument_string.class].pc_entityblueprint"
+		},
+		"fcd5b5f210301e49": {
+			"parent": "ff28c16eb9073f6e",
+			"name": "Transmit EventToken_Evergreen_SelectableItem_Selected",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_zentityref.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_zentityref.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "5aa827ec28e29b68",
+					"postInit": true
+				}
+			}
 		},
 		"c5ddfb8c376bf711": {
 			"parent": "76bc7debe63916b6",
@@ -165,6 +197,12 @@
 				}
 			}
 		},
+		"1df07d0ccd256ddc": {
+			"parent": "ff28c16eb9073f6e",
+			"name": "eventtoken_evergreen_selectableitem_requested",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_selectableitem_requested.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_selectableitem_requested.entitytemplate].pc_entityblueprint"
+		},
 		"82456f5ae76a3703": {
 			"parent": "76bc7debe63916b6",
 			"name": "Not locked by mastery",
@@ -196,6 +234,18 @@
 			"name": "EventToken_Evergreen_Gear_ItemDropped",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_gear_itemdropped.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_gear_itemdropped.entitytemplate].pc_entityblueprint"
+		},
+		"d4f75b1aef0680fd": {
+			"parent": "ff28c16eb9073f6e",
+			"name": "EventChannelTransmitter_void_01",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "fc3ad8eae4a108ca"
+				}
+			}
 		},
 		"14b9566197e5645b": {
 			"parent": "a7bdfc443af34ab8",
@@ -449,8 +499,7 @@
 			"parent": "76bc7debe63916b6",
 			"name": "Locked by challenge",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_changed.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_changed.entitytemplate].pc_entityblueprint",
-			"properties": {}
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_changed.entitytemplate].pc_entityblueprint"
 		},
 		"75fea0acdd24c034": {
 			"parent": "dd218b2743991ca8",
@@ -667,19 +716,6 @@
 				}
 			}
 		},
-		"defd1e2c3c98b632": {
-			"parent": "befbb178b8571b44",
-			"name": "Set item owned",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rValueEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "64fbe690fc534c94",
-					"postInit": true
-				}
-			}
-		},
 		"ef72d1f0d4a1ddde": {
 			"parent": "bef5f48cb59b9dab",
 			"name": "EvergreenGearUnlockChallengeInfo",
@@ -705,18 +741,6 @@
 				"m_rValueEntity": {
 					"type": "SEntityTemplateReference",
 					"value": "75fea0acdd24c034"
-				}
-			}
-		},
-		"acce7665084a7786": {
-			"parent": "befbb178b8571b44",
-			"name": "ItemRepositoryKey",
-			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
-			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": {
-				"m_RepositoryId": {
-					"type": "ZGuid",
-					"value": "00000000-0000-0000-0000-000000000000"
 				}
 			}
 		},
@@ -861,8 +885,7 @@
 			"parent": "b0906e8ecb81a1b0",
 			"name": "Owned",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint",
-			"properties": { "m_bValue": { "type": "bool", "value": true } }
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint"
 		},
 		"a693000c32bc16b0": {
 			"parent": "314e992cc8505456",
@@ -947,8 +970,7 @@
 			"parent": "76bc7debe63916b6",
 			"name": "Locked by mastery",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_changed.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_changed.entitytemplate].pc_entityblueprint",
-			"properties": {}
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_changed.entitytemplate].pc_entityblueprint"
 		},
 		"5058d66a511b95ca": {
 			"parent": "f87329cf5b32baca",
@@ -1090,6 +1112,12 @@
 				}
 			}
 		},
+		"ed716e618702d032": {
+			"parent": "0cd5d1c19b606cb9",
+			"name": "EventToken_Sound_Evergreen_47_Bought_From_Supplier",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_47_bought_from_supplier.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_47_bought_from_supplier.entitytemplate].pc_entityblueprint"
+		},
 		"b09d5ff340576980": {
 			"parent": "ff28c16eb9073f6e",
 			"name": "On EventToken_Evergreen_Gear_ItemDropped",
@@ -1113,24 +1141,6 @@
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_bValue": { "type": "bool", "value": false }
-			}
-		},
-		"321900bf5355cc72": {
-			"parent": "befbb178b8571b44",
-			"name": "Spawn item on match if gear wall",
-			"factory": "[modules:/zrepositorykeycomparatorentity.class].pc_entitytype",
-			"blueprint": "[modules:/zrepositorykeycomparatorentity.class].pc_entityblueprint",
-			"properties": {
-				"m_RepositoryKey": {
-					"type": "SEntityTemplateReference",
-					"value": "acce7665084a7786"
-				}
-			},
-			"events": {
-				"OnTrue": {
-					"SetTrue": ["defd1e2c3c98b632"],
-					"Poll": ["0d542ebc2d9aa18d"]
-				}
 			}
 		},
 		"08f806162c58cab0": {
@@ -1241,6 +1251,12 @@
 				}
 			}
 		},
+		"b2e2d181b9247f26": {
+			"parent": "ff28c16eb9073f6e",
+			"name": "EventToken_Evergreen_SelectableItem_Purchased",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_selectableitem_purchased.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_selectableitem_purchased.entitytemplate].pc_entityblueprint"
+		},
 		"6fc472be73793370": {
 			"parent": "a7bdfc443af34ab8",
 			"name": "End inspect",
@@ -1305,7 +1321,8 @@
 			"parent": "ff28c16eb9073f6e",
 			"name": "Supplier item actions",
 			"factory": "[modules:/zheroitemaction.class].pc_entitytype",
-			"blueprint": "[modules:/zheroitemaction.class].pc_entityblueprint"
+			"blueprint": "[modules:/zheroitemaction.class].pc_entityblueprint",
+			"events": { "Item": { "TransmitEvent": ["1dc627334f3f3697"] } }
 		},
 		"7273df69be943e5a": {
 			"parent": "0cd5d1c19b606cb9",
@@ -1408,21 +1425,7 @@
 			"parent": "76bc7debe63916b6",
 			"name": "Locked by entitlement",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_changed.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_changed.entitytemplate].pc_entityblueprint",
-			"properties": {}
-		},
-		"a2b709de5e8d5e5e": {
-			"parent": "befbb178b8571b44",
-			"name": "Set item owned on match",
-			"factory": "[modules:/zrepositorykeycomparatorentity.class].pc_entitytype",
-			"blueprint": "[modules:/zrepositorykeycomparatorentity.class].pc_entityblueprint",
-			"properties": {
-				"m_RepositoryKey": {
-					"type": "SEntityTemplateReference",
-					"value": "acce7665084a7786"
-				}
-			},
-			"events": { "OnTrue": { "SetTrue": ["defd1e2c3c98b632"] } }
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_changed.entitytemplate].pc_entityblueprint"
 		},
 		"11de4c33001422f4": {
 			"parent": "609ea36bca89e3f2",
@@ -1505,6 +1508,12 @@
 					"value": "3303c63a6583a672"
 				}
 			}
+		},
+		"5aa827ec28e29b68": {
+			"parent": "ff28c16eb9073f6e",
+			"name": "EventToken_Evergreen_SelectableItem_Selected",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_selectableitem_selected.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_selectableitem_selected.entitytemplate].pc_entityblueprint"
 		},
 		"39a789aba2b139af": {
 			"parent": "314e992cc8505456",
@@ -2108,8 +2117,7 @@
 			"parent": "b0906e8ecb81a1b0",
 			"name": "Unlocked",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint",
-			"properties": { "m_bValue": { "type": "bool", "value": true } }
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint"
 		},
 		"f319ecd8210df127": {
 			"parent": "ff28c16eb9073f6e",
@@ -2207,7 +2215,8 @@
 			"blueprint": "[modules:/zheroitemaction.class].pc_entityblueprint",
 			"events": {
 				"OnItemChanged": { "DisablePickup": ["05a47eed8ac146cc"] },
-				"OnFailed": { "PickupIntoHands": ["05a47eed8ac146cc"] }
+				"OnFailed": { "PickupIntoHands": ["05a47eed8ac146cc"] },
+				"Item": { "TransmitEvent": ["fcd5b5f210301e49"] }
 			}
 		},
 		"8e2e373ec0de7d8a": {
@@ -2262,65 +2271,6 @@
 			},
 			"events": { "PollTrue": { "Send": ["403525c6f0aaf4ec"] } }
 		},
-		"0d542ebc2d9aa18d": {
-			"parent": "befbb178b8571b44",
-			"name": "Spawn if gear wall",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rValueEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "13c9381ee813044d"
-				}
-			},
-			"outputCopying": {
-				"PollTrue": { "Loaded": ["befbb178b8571b44"] }
-			}
-		},
-		"befbb178b8571b44": {
-			"parent": "b0906e8ecb81a1b0",
-			"name": "Item loader",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {
-				"Owned": {
-					"type": "SEntityTemplateReference",
-					"value": "64fbe690fc534c94"
-				},
-				"GearWall": {
-					"type": "SEntityTemplateReference",
-					"value": "13c9381ee813044d"
-				},
-				"RepositoryID": {
-					"type": "ZGuid",
-					"value": "00000000-0000-0000-0000-000000000000"
-				}
-			},
-			"events": {
-				"Loaded": { "Spawn": ["ff28c16eb9073f6e"] },
-				"Removed": { "Remove": ["ff28c16eb9073f6e"] }
-			},
-			"propertyAliases": {
-				"GearWall": [
-					{
-						"originalProperty": "m_rValueEntity",
-						"originalEntity": "0d542ebc2d9aa18d"
-					}
-				],
-				"Owned": [
-					{
-						"originalProperty": "m_rValueEntity",
-						"originalEntity": "defd1e2c3c98b632"
-					}
-				],
-				"RepositoryID": [
-					{
-						"originalProperty": "m_RepositoryId",
-						"originalEntity": "acce7665084a7786"
-					}
-				]
-			}
-		},
 		"184155c496ae7cb3": {
 			"parent": "ff28c16eb9073f6e",
 			"name": "Is gear wall",
@@ -2346,6 +2296,18 @@
 				"m_rValueEntity": {
 					"type": "SEntityTemplateReference",
 					"value": "74a95387bb5c76af"
+				}
+			}
+		},
+		"1dc627334f3f3697": {
+			"parent": "ff28c16eb9073f6e",
+			"name": "Transmit EventToken_Evergreen_SelectableItem_Purchased",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_zentityref.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_zentityref.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "b2e2d181b9247f26"
 				}
 			}
 		},
@@ -2387,6 +2349,18 @@
 			},
 			"outputCopying": {
 				"ActionTriggered": { "Place": ["76bc7debe63916b6"] }
+			}
+		},
+		"9cc0dc3a6444f578": {
+			"parent": "ff28c16eb9073f6e",
+			"name": "EventChannelTransmitter_void",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "1df07d0ccd256ddc"
+				}
 			}
 		},
 		"8233ea06afd64783": {
@@ -2701,8 +2675,7 @@
 			"parent": "b0906e8ecb81a1b0",
 			"name": "Placed",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint",
-			"properties": { "m_bValue": { "type": "bool", "value": true } }
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint"
 		},
 		"403525c6f0aaf4ec": {
 			"parent": "0cd5d1c19b606cb9",
@@ -2944,6 +2917,7 @@
 				},
 				"ZoomedIn": { "Send": ["7273df69be943e5a"] },
 				"ZoomedOut": { "Send": ["a9e6ca992c32662e"] },
+				"Purchased": { "TransmitEvent": ["6c2d2a15f2e79a1f"] },
 				"Placed": { "Poll": ["57e7b2a7a9aab75a"] }
 			},
 			"propertyAliases": {
@@ -3108,7 +3082,7 @@
 					"type": "SEntityTemplateReference",
 					"value": "6135c34b3c1c8f6f"
 				},
-				"m_bVisible": { "type": "bool", "value": true },
+				"m_bVisible": { "type": "bool", "value": false },
 				"m_bSpawnOnStart": { "type": "bool", "value": false }
 			},
 			"events": {
@@ -3120,9 +3094,11 @@
 						"b60030115d87d91c"
 					]
 				},
+				"ItemRequested": { "TransmitEvent": ["9cc0dc3a6444f578"] },
 				"ItemReady": {
 					"SetOverride": ["b60030115d87d91c"],
-					"SetTrue": ["53700dc743a23b73"]
+					"SetTrue": ["53700dc743a23b73"],
+					"TransmitEvent": ["d4f75b1aef0680fd"]
 				}
 			}
 		},
@@ -3321,22 +3297,6 @@
 			"events": {
 				"Item": { "SetItem": ["1b787050d609dde2"] },
 				"Done": { "Reset": ["d96d7c70999f2f8c"] }
-			}
-		},
-		"bc7f22b3fd787d45": {
-			"parent": "befbb178b8571b44",
-			"name": "Spawn item on match if gear wall 2",
-			"factory": "[modules:/zrepositorykeycomparatorentity.class].pc_entitytype",
-			"blueprint": "[modules:/zrepositorykeycomparatorentity.class].pc_entityblueprint",
-			"properties": {
-				"m_RepositoryKey": {
-					"type": "SEntityTemplateReference",
-					"value": "acce7665084a7786"
-				}
-			},
-			"events": { "OnTrue": { "SetFalse": ["defd1e2c3c98b632"] } },
-			"outputCopying": {
-				"OnTrue": { "Removed": ["befbb178b8571b44"] }
 			}
 		},
 		"b8d3aef5ac5ec51e": {
@@ -4199,7 +4159,6 @@
 						"originalEntity": "0cd5d1c19b606cb9"
 					}
 				],
-				"Consumable": [],
 				"FillTextureAlpha": [
 					{
 						"originalProperty": "FillTextureAlpha",
@@ -4246,7 +4205,6 @@
 						"originalEntity": "8127dd6b664ff41e"
 					}
 				],
-				"SMG": [],
 				"Stash": [
 					{
 						"originalProperty": "m_bValue",
@@ -4289,15 +4247,10 @@
 						"originalEntity": "dd218b2743991ca8"
 					}
 				],
-				"assaultRifle": [],
 				"m_RepositoryId": [
 					{
 						"originalProperty": "RepositoryID",
 						"originalEntity": "dd218b2743991ca8"
-					},
-					{
-						"originalProperty": "RepositoryID",
-						"originalEntity": "befbb178b8571b44"
 					},
 					{
 						"originalProperty": "RepositoryID",
@@ -4309,11 +4262,7 @@
 						"originalProperty": "m_boundary",
 						"originalEntity": "dd218b2743991ca8"
 					}
-				],
-				"melee": [],
-				"pistol": [],
-				"shotgun": [],
-				"sniper": []
+				]
 			},
 			"exposedEntities": {
 				"ItemTransform": {
@@ -4328,6 +4277,15 @@
 			"exposedInterfaces": {
 				"ZEvergreenMenuEntryEntity": "dd218b2743991ca8",
 				"ZEventReceiverEntity_bool": "49281dc702fa5e85"
+			}
+		},
+		"cafea86145f8a450": {
+			"parent": "b0906e8ecb81a1b0",
+			"name": "GameEventListener",
+			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+			"events": {
+				"EventOccurred": { "Spawn": ["ff28c16eb9073f6e"] }
 			}
 		}
 	},

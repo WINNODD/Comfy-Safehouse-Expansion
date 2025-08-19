@@ -11,9 +11,7 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c2318c7895981ed0"
-					],
+					"value": ["c2318c7895981ed0"],
 					"postInit": true
 				}
 			}
@@ -26,9 +24,7 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"92e8394b3e9dc256"
-					],
+					"value": ["92e8394b3e9dc256"],
 					"postInit": true
 				}
 			}
@@ -47,9 +43,7 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ecef324b33f824a1"
-					]
+					"value": ["ecef324b33f824a1"]
 				}
 			}
 		},
@@ -70,7 +64,7 @@
 		},
 		"3a19ddae3f3b8f59": {
 			"parent": null,
-			"name": "Charset_Snug_Unique_Lust_F",
+			"name": "Charset_Snug_Unique_LjudmilaVetrova_F",
 			"factory": "004470A9E6A7722D",
 			"blueprint": "00E21A11EC782D9E",
 			"properties": {
@@ -100,30 +94,14 @@
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [
-
-	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }
