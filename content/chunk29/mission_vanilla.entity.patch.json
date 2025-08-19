@@ -451,6 +451,20 @@
 		},
 		{
 			"SubEntityOperation": [
+				"0350f4f0b3a91686",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pGrid",
+						"value": {
+							"resource": "0073A98DEFD09B2E",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"4363614527381d43",
 				{
 					"AddEventConnection": [
@@ -1185,6 +1199,20 @@
 						"m_entries",
 						[{ "RemoveItemByValue": "ba880e5944fbcced" }]
 					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"07dfe57fa8eb85e5",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_NavpowerResourceID",
+						"value": {
+							"resource": "0037B729B527E438",
+							"flag": "5F"
+						}
+					}
 				}
 			]
 		},
@@ -7687,14 +7715,6 @@
 								"position": { "x": 50, "y": 0, "z": 200 }
 							}
 						},
-						"m_Seed": {
-							"type": "SEntityTemplateReference",
-							"value": {
-								"ref": "c8657a023aedee52",
-								"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
-							},
-							"postInit": true
-						},
 						"PostfilterController": {
 							"type": "SEntityTemplateReference",
 							"value": "58a0ad94bea29cfd"
@@ -7864,14 +7884,6 @@
 								"rotation": { "x": 0, "y": 0, "z": 0 },
 								"position": { "x": 0, "y": 0, "z": 200 }
 							}
-						},
-						"m_Seed": {
-							"type": "SEntityTemplateReference",
-							"value": {
-								"ref": "c8657a023aedee52",
-								"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
-							},
-							"postInit": true
 						},
 						"PostfilterController": {
 							"type": "SEntityTemplateReference",
@@ -8052,14 +8064,6 @@
 								"position": { "x": 100, "y": 0, "z": 200 }
 							}
 						},
-						"m_Seed": {
-							"type": "SEntityTemplateReference",
-							"value": {
-								"ref": "c8657a023aedee52",
-								"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
-							},
-							"postInit": true
-						},
 						"PostfilterController": {
 							"type": "SEntityTemplateReference",
 							"value": "58a0ad94bea29cfd"
@@ -8233,14 +8237,6 @@
 								"rotation": { "x": 0, "y": 0, "z": 0 },
 								"position": { "x": 150, "y": 0, "z": 200 }
 							}
-						},
-						"m_Seed": {
-							"type": "SEntityTemplateReference",
-							"value": {
-								"ref": "c8657a023aedee52",
-								"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
-							},
-							"postInit": true
 						},
 						"PostfilterController": {
 							"type": "SEntityTemplateReference",
@@ -8416,14 +8412,6 @@
 								"position": { "x": 0, "y": 50, "z": 200 }
 							}
 						},
-						"m_Seed": {
-							"type": "SEntityTemplateReference",
-							"value": {
-								"ref": "c8657a023aedee52",
-								"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
-							},
-							"postInit": true
-						},
 						"PostfilterController": {
 							"type": "SEntityTemplateReference",
 							"value": "58a0ad94bea29cfd"
@@ -8594,14 +8582,6 @@
 								"position": { "x": 50, "y": 50, "z": 200 }
 							}
 						},
-						"m_Seed": {
-							"type": "SEntityTemplateReference",
-							"value": {
-								"ref": "c8657a023aedee52",
-								"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
-							},
-							"postInit": true
-						},
 						"PostfilterController": {
 							"type": "SEntityTemplateReference",
 							"value": "58a0ad94bea29cfd"
@@ -8771,14 +8751,6 @@
 								"rotation": { "x": 0, "y": 0, "z": 0 },
 								"position": { "x": 100, "y": 50, "z": 200 }
 							}
-						},
-						"m_Seed": {
-							"type": "SEntityTemplateReference",
-							"value": {
-								"ref": "c8657a023aedee52",
-								"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
-							},
-							"postInit": true
 						},
 						"PostfilterController": {
 							"type": "SEntityTemplateReference",
@@ -8954,14 +8926,6 @@
 								"position": { "x": 150, "y": 50, "z": 200 }
 							}
 						},
-						"m_Seed": {
-							"type": "SEntityTemplateReference",
-							"value": {
-								"ref": "c8657a023aedee52",
-								"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
-							},
-							"postInit": true
-						},
 						"PostfilterController": {
 							"type": "SEntityTemplateReference",
 							"value": "58a0ad94bea29cfd"
@@ -9136,14 +9100,6 @@
 								"position": { "x": 0, "y": 100, "z": 200 }
 							}
 						},
-						"m_Seed": {
-							"type": "SEntityTemplateReference",
-							"value": {
-								"ref": "c8657a023aedee52",
-								"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
-							},
-							"postInit": true
-						},
 						"PostfilterController": {
 							"type": "SEntityTemplateReference",
 							"value": "58a0ad94bea29cfd"
@@ -9317,14 +9273,6 @@
 								"rotation": { "x": 0, "y": 0, "z": 0 },
 								"position": { "x": 50, "y": 100, "z": 200 }
 							}
-						},
-						"m_Seed": {
-							"type": "SEntityTemplateReference",
-							"value": {
-								"ref": "c8657a023aedee52",
-								"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
-							},
-							"postInit": true
 						},
 						"PostfilterController": {
 							"type": "SEntityTemplateReference",
@@ -9632,14 +9580,6 @@
 								}
 							}
 						},
-						"m_Seed": {
-							"type": "SEntityTemplateReference",
-							"value": {
-								"ref": "c8657a023aedee52",
-								"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
-							},
-							"postInit": true
-						},
 						"PostfilterController": {
 							"type": "SEntityTemplateReference",
 							"value": "58a0ad94bea29cfd"
@@ -9809,14 +9749,6 @@
 								"rotation": { "x": 0, "y": 0, "z": 0 },
 								"position": { "x": 0, "y": 150, "z": 200 }
 							}
-						},
-						"m_Seed": {
-							"type": "SEntityTemplateReference",
-							"value": {
-								"ref": "c8657a023aedee52",
-								"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
-							},
-							"postInit": true
 						},
 						"PostfilterController": {
 							"type": "SEntityTemplateReference",
@@ -9992,14 +9924,6 @@
 								"position": { "x": 50, "y": 150, "z": 200 }
 							}
 						},
-						"m_Seed": {
-							"type": "SEntityTemplateReference",
-							"value": {
-								"ref": "c8657a023aedee52",
-								"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
-							},
-							"postInit": true
-						},
 						"PostfilterController": {
 							"type": "SEntityTemplateReference",
 							"value": "58a0ad94bea29cfd"
@@ -10115,14 +10039,6 @@
 									"z": 200
 								}
 							}
-						},
-						"m_Seed": {
-							"type": "SEntityTemplateReference",
-							"value": {
-								"ref": "c8657a023aedee52",
-								"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
-							},
-							"postInit": true
 						},
 						"PostfilterController": {
 							"type": "SEntityTemplateReference",

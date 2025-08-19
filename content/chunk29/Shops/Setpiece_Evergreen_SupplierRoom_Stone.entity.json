@@ -726,7 +726,6 @@
 						"feed111ddec3bd86",
 						"feed88e18eb78122",
 						"feede6df40e4107d",
-						"feedf1e9c18e574f",
 						"feed8ddbdbfb7d0f"
 					],
 					"postInit": true
@@ -1212,7 +1211,6 @@
 						"feed111ddec3bd86",
 						"feed88e18eb78122",
 						"feede6df40e4107d",
-						"feedf1e9c18e574f",
 						"feed8ddbdbfb7d0f"
 					],
 					"postInit": true
@@ -2908,38 +2906,6 @@
 			"name": "Helper_Evergreen_SelectableItem_Sieger300Ghost",
 			"factory": "0086CE09E5561ACC",
 			"blueprint": "00895C3C6D02E2C6",
-			"properties": {
-				"Supplier": { "type": "bool", "value": true },
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -90, "y": 0, "z": -180 },
-						"position": {
-							"x": 0.030000999569892883,
-							"y": 0,
-							"z": 0.0045079998672008514
-						}
-					}
-				},
-				"m_bVisibleInBoxReflection": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"GearCapacityUsed": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "22edf43d9609168f",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
-		},
-		"feedf1e9c18e574f": {
-			"parent": "4c938898b9b64483",
-			"name": "Helper_Evergreen_SelectableItem_Sieger300Redeemer",
-			"factory": "002A4FF86054718E",
-			"blueprint": "0083F24AF5D08773",
 			"properties": {
 				"Supplier": { "type": "bool", "value": true },
 				"m_mTransform": {
