@@ -885,7 +885,8 @@
 			"parent": "b0906e8ecb81a1b0",
 			"name": "Owned",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint"
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint",
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
 		},
 		"a693000c32bc16b0": {
 			"parent": "314e992cc8505456",
@@ -2117,7 +2118,8 @@
 			"parent": "b0906e8ecb81a1b0",
 			"name": "Unlocked",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint"
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint",
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
 		},
 		"f319ecd8210df127": {
 			"parent": "ff28c16eb9073f6e",
@@ -2675,7 +2677,8 @@
 			"parent": "b0906e8ecb81a1b0",
 			"name": "Placed",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint"
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint",
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
 		},
 		"403525c6f0aaf4ec": {
 			"parent": "0cd5d1c19b606cb9",
