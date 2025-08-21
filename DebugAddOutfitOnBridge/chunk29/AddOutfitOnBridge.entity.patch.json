@@ -1,1 +1,1630 @@
-{"tempHash":"00A9B93A825F5BDC","tbluHash":"005BA5CA6AC00627","patch":[{"AddEntity":["feed6ae115d4ee9a",{"parent":"fffffffffffffffe","name":"DebugOutfitsShowcase","factory":"[modules:/zentity.class].pc_entitytype","blueprint":"[modules:/zentity.class].pc_entityblueprint"}]},{"AddEntity":["feed337f112b327c",{"parent":"feed6ae115d4ee9a","name":"OUTFIT_Vanilla_Unique_Archivist_F_Actor_v0","factory":"00B83B240A2B7250","blueprint":"00958409EEAB0D9A","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":89.66291798160364},"position":{"x":-33.838623046875,"y":-190.0760040283203,"z":-12.289788246154785}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"fffffffffffffffe","postInit":true}}}]},{"AddEntity":["feedc2ffd4d96299",{"parent":"feed6ae115d4ee9a","name":"OUTFIT_Vanilla_Unique_ClubOwner_M_Actor_v0","factory":"008B2353BA831DA0","blueprint":"0038E2927C91B907","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":89.66291798160364},"position":{"x":-21.424175262451172,"y":-190.0760040283203,"z":-12.289788246154785}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"fffffffffffffffe","postInit":true}}}]},{"AddEntity":["feed3794bc02c5f0",{"parent":"feed6ae115d4ee9a","name":"OUTFIT_Vanilla_DaveReady_M_Actor_v0","factory":"0056E70016F92664","blueprint":"0058EC2F71C4BBA2","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":89.66291798160364},"position":{"x":-32.3564338684082,"y":-190.0760040283203,"z":-12.289788246154785}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"fffffffffffffffe","postInit":true}}}]},{"AddEntity":["feed32ba11da2e3e",{"parent":"feed6ae115d4ee9a","name":"OUTFIT_Vanilla_OliviaHall_F_Actor_v0","factory":"00CFC21534038D64","blueprint":"00165734F5E57482","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":89.66291798160364},"position":{"x":-28.518068313598633,"y":-190.0760040283203,"z":-12.289788246154785}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"fffffffffffffffe","postInit":true}}}]},{"AddEntity":["feedb66af64d2e5d",{"parent":"feed6ae115d4ee9a","name":"OUTFIT_Vanilla_Knight_F_Actor_v0","factory":"00FA2B0E65414A86","blueprint":"00A946480C376D2A","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":89.66291798160364},"position":{"x":-17.440414428710938,"y":-190.0760040283203,"z":-12.285826683044434}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"fffffffffffffffe","postInit":true}}}]},{"AddEntity":["feed78401a3f11c2",{"parent":"feed6ae115d4ee9a","name":"OUTFIT_Vanilla_PenelopeGrave_F_Actor_v0","factory":"008038A6CAF9706A","blueprint":"00D75040F17BEEF8","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":89.66291798160364},"position":{"x":-27.41908836364746,"y":-190.0760040283203,"z":-12.289788246154785}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"fffffffffffffffe","postInit":true}}}]},{"AddEntity":["feedcf69f64b9319",{"parent":"feed6ae115d4ee9a","name":"OUTFIT_Vanilla_Unique_LjudmilaVetrova_F_Actor_v0","factory":"004B8EB0B210C5A6","blueprint":"00BBF4D70E3428B0","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":89.66291798160364},"position":{"x":-18.880725860595703,"y":-190.0760040283203,"z":-12.289788246154785}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"fffffffffffffffe","postInit":true}}}]},{"AddEntity":["feed6fdd4105cad8",{"parent":"feed6ae115d4ee9a","name":"OUTFIT_Vanilla_LucasGrey_M_Actor_v0","factory":"00258618A3C834DB","blueprint":"00B0B6C098546727","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":89.66291798160364},"position":{"x":-29.750152587890625,"y":-190.0760040283203,"z":-12.289788246154785}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"fffffffffffffffe","postInit":true}}}]},{"AddEntity":["feedaf3931d2866d",{"parent":"feed6ae115d4ee9a","name":"OUTFIT_Vanilla_Soders_M_Actor_v0","factory":"004ECF3BBE22500B","blueprint":"00FE05F2973444A6","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":89.66291798160364},"position":{"x":-26.191242218017578,"y":-191.9028778076172,"z":-12.289788246154785}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"fffffffffffffffe","postInit":true}}}]},{"AddEntity":["feed36e1d16f4998",{"parent":"feed6ae115d4ee9a","name":"OUTFIT_Vanilla_TheConstant_M_Actor_v0","factory":"0042862D3CC4C325","blueprint":"0029A102A9E9545C","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":89.66291798160364},"position":{"x":-23.705774307250977,"y":-190.0760040283203,"z":-12.289788246154785}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"fffffffffffffffe","postInit":true}}}]},{"AddEntity":["feed98bcd5dc402b",{"parent":"feed6ae115d4ee9a","name":"OUTFIT_Vanilla_Unique_AgentSmith_M_Actor_v0","factory":"00D328E16C14E7F8","blueprint":"006EDD3D4AEE6D1D","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":89.66291798160364},"position":{"x":-22.581466674804688,"y":-190.0760040283203,"z":-12.289788246154785}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"fffffffffffffffe","postInit":true}}}]},{"AddEntity":["feedcef2e55e7965",{"parent":"feed6ae115d4ee9a","name":"OUTFIT_Vanilla_Stone_M_Actor_v0","factory":"0095D691E73798BF","blueprint":"00840001C2516A31","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":89.66291798160364},"position":{"x":-24.90164566040039,"y":-190.0780029296875,"z":-12.289788246154785}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"fffffffffffffffe","postInit":true}}}]},{"AddEntity":["feedf35a0b8b793d",{"parent":"feed6ae115d4ee9a","name":"OUTFIT_Vanilla_Legacy47_Actor_v0","factory":"00354F1323EDAE8C","blueprint":"00B24CD9904A352F","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":89.66291798160364},"position":{"x":-31.077852249145508,"y":-190.0760040283203,"z":-12.289788246154785}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"fffffffffffffffe","postInit":true}}}]},{"AddEntity":["feed28f422ee810e",{"parent":"feed6ae115d4ee9a","name":"OUTFIT_Vanilla_Unique_Diana_F_Actor_v0","factory":"006727ECC036C60D","blueprint":"00F642AAA5CCC3A1","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":89.66291798160364},"position":{"x":-20.107189178466797,"y":-190.0760040283203,"z":-12.289788246154785}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"fffffffffffffffe","postInit":true}}}]},{"AddEntity":["feed70f223abca6d",{"parent":"feed3794bc02c5f0","name":"ClothBundleSpawn","factory":"[modules:/zclothbundlespawnentity.class].pc_entitytype","blueprint":"[modules:/zclothbundlespawnentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}},"m_RepositoryId":{"type":"ZGuid","value":"f466828e-4d14-4742-a1f4-291b3809c15b"},"m_eidParent":{"type":"SEntityTemplateReference","value":"feed3794bc02c5f0","postInit":true}}}]},{"AddEntity":["feedf76ca8a9e77c",{"parent":"feedb66af64d2e5d","name":"ClothBundleSpawn","factory":"[modules:/zclothbundlespawnentity.class].pc_entitytype","blueprint":"[modules:/zclothbundlespawnentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}},"m_RepositoryId":{"type":"ZGuid","value":"fc1c1b1f-db45-49b2-a703-ed633d35e943"},"m_eidParent":{"type":"SEntityTemplateReference","value":"feedb66af64d2e5d","postInit":true}}}]},{"AddEntity":["feeda4c08f5a67fc",{"parent":"feedf35a0b8b793d","name":"ClothBundleSpawn","factory":"[modules:/zclothbundlespawnentity.class].pc_entitytype","blueprint":"[modules:/zclothbundlespawnentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}},"m_RepositoryId":{"type":"ZGuid","value":"752110ee-0ede-4785-8575-77be932532f0"},"m_eidParent":{"type":"SEntityTemplateReference","value":"feedf35a0b8b793d","postInit":true}}}]},{"AddEntity":["feedd50bac0497bc",{"parent":"feed6fdd4105cad8","name":"ClothBundleSpawn","factory":"[modules:/zclothbundlespawnentity.class].pc_entitytype","blueprint":"[modules:/zclothbundlespawnentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}},"m_RepositoryId":{"type":"ZGuid","value":"82c2d44a-b2c2-4dcd-9017-7b68342b099a"},"m_eidParent":{"type":"SEntityTemplateReference","value":"feed6fdd4105cad8","postInit":true}}}]},{"AddEntity":["feedb18537b1412e",{"parent":"feed32ba11da2e3e","name":"ClothBundleSpawn","factory":"[modules:/zclothbundlespawnentity.class].pc_entitytype","blueprint":"[modules:/zclothbundlespawnentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}},"m_RepositoryId":{"type":"ZGuid","value":"f648e0b6-5055-4024-afda-6150a78b6c00"},"m_eidParent":{"type":"SEntityTemplateReference","value":"feed32ba11da2e3e","postInit":true}}}]},{"AddEntity":["feed86918d95c87f",{"parent":"feed78401a3f11c2","name":"ClothBundleSpawn","factory":"[modules:/zclothbundlespawnentity.class].pc_entitytype","blueprint":"[modules:/zclothbundlespawnentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}},"m_RepositoryId":{"type":"ZGuid","value":"9c9b4e1c-9793-47fc-888b-da02d8ccbc4b"},"m_eidParent":{"type":"SEntityTemplateReference","value":"feed78401a3f11c2","postInit":true}}}]},{"AddEntity":["feede864645c0210",{"parent":"feedaf3931d2866d","name":"ClothBundleSpawn","factory":"[modules:/zclothbundlespawnentity.class].pc_entitytype","blueprint":"[modules:/zclothbundlespawnentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}},"m_RepositoryId":{"type":"ZGuid","value":"5f99e842-6c37-4698-bfe7-63f1a3c3a40c"},"m_eidParent":{"type":"SEntityTemplateReference","value":"feedaf3931d2866d","postInit":true}}}]},{"AddEntity":["feedb2cfdddd3cfb",{"parent":"feedcef2e55e7965","name":"ClothBundleSpawn","factory":"[modules:/zclothbundlespawnentity.class].pc_entitytype","blueprint":"[modules:/zclothbundlespawnentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}},"m_RepositoryId":{"type":"ZGuid","value":"9efbf970-43d6-451f-96dd-dde83f560ce6"},"m_eidParent":{"type":"SEntityTemplateReference","value":"feedcef2e55e7965","postInit":true}}}]},{"AddEntity":["feed836a857c205f",{"parent":"feed36e1d16f4998","name":"ClothBundleSpawn","factory":"[modules:/zclothbundlespawnentity.class].pc_entitytype","blueprint":"[modules:/zclothbundlespawnentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}},"m_RepositoryId":{"type":"ZGuid","value":"a183186a-cac0-4d83-bb94-e15471260677"},"m_eidParent":{"type":"SEntityTemplateReference","value":"feed36e1d16f4998","postInit":true}}}]},{"AddEntity":["feedfae99412cab3",{"parent":"feed98bcd5dc402b","name":"ClothBundleSpawn","factory":"[modules:/zclothbundlespawnentity.class].pc_entitytype","blueprint":"[modules:/zclothbundlespawnentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}},"m_RepositoryId":{"type":"ZGuid","value":"20ac5f24-a43a-46e8-b21f-ec3b9f6a2e84"},"m_eidParent":{"type":"SEntityTemplateReference","value":"feed98bcd5dc402b","postInit":true}}}]},{"AddEntity":["feedb260c6dd2f87",{"parent":"feed337f112b327c","name":"ClothBundleSpawn","factory":"[modules:/zclothbundlespawnentity.class].pc_entitytype","blueprint":"[modules:/zclothbundlespawnentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}},"m_RepositoryId":{"type":"ZGuid","value":"6be6513c-c2bd-4491-b829-25a8e26623d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"feed337f112b327c","postInit":true}}}]},{"AddEntity":["feed8cece4d61952",{"parent":"feedc2ffd4d96299","name":"ClothBundleSpawn","factory":"[modules:/zclothbundlespawnentity.class].pc_entitytype","blueprint":"[modules:/zclothbundlespawnentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}},"m_RepositoryId":{"type":"ZGuid","value":"c8e410d2-c002-40d3-b890-f2a60b5978bf"},"m_eidParent":{"type":"SEntityTemplateReference","value":"feedc2ffd4d96299","postInit":true}}}]},{"AddEntity":["feed90d6e7cef090",{"parent":"feed28f422ee810e","name":"ClothBundleSpawn","factory":"[modules:/zclothbundlespawnentity.class].pc_entitytype","blueprint":"[modules:/zclothbundlespawnentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}},"m_RepositoryId":{"type":"ZGuid","value":"5d99eb58-2af4-43f5-accd-eaef313849a7"},"m_eidParent":{"type":"SEntityTemplateReference","value":"feed28f422ee810e","postInit":true}}}]},{"AddEntity":["feed6c6dffaeaaa7",{"parent":"feedcf69f64b9319","name":"ClothBundleSpawn","factory":"[modules:/zclothbundlespawnentity.class].pc_entitytype","blueprint":"[modules:/zclothbundlespawnentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}},"m_RepositoryId":{"type":"ZGuid","value":"79cc2ad6-0f1a-49fe-af79-736b8585c66a"},"m_eidParent":{"type":"SEntityTemplateReference","value":"feedcf69f64b9319","postInit":true}}}]},{"AddEntity":["feed9c62b3bdb327",{"parent":"feed6ae115d4ee9a","name":"OUTFIT_Vanilla_Soders_M_Actor_v1","factory":"0073EC91621A0DEE","blueprint":"00E50E46BAF165BD","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":89.66291798160364},"position":{"x":-26.191242218017578,"y":-190.0760040283203,"z":-12.289788246154785}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"fffffffffffffffe","postInit":true}}}]},{"AddEntity":["feedf6f47e27d758",{"parent":"feed9c62b3bdb327","name":"ClothBundleSpawn","factory":"[modules:/zclothbundlespawnentity.class].pc_entitytype","blueprint":"[modules:/zclothbundlespawnentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}},"m_RepositoryId":{"type":"ZGuid","value":"5f99e842-6c37-4698-bfe7-63f1a3c3a40c"},"m_eidParent":{"type":"SEntityTemplateReference","value":"feed9c62b3bdb327","postInit":true}}}]}],"patchVersion":6}
+{
+	"tempHash": "00A9B93A825F5BDC",
+	"tbluHash": "005BA5CA6AC00627",
+	"patch": [
+		{
+			"AddEntity": [
+				"feed6ae115d4ee9a",
+				{
+					"parent": "fffffffffffffffe",
+					"name": "DebugOutfitsShowcase",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed337f112b327c",
+				{
+					"parent": "feed6ae115d4ee9a",
+					"name": "OUTFIT_Vanilla_Unique_Archivist_F_Actor_v0",
+					"factory": "00B83B240A2B7250",
+					"blueprint": "00958409EEAB0D9A",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 90.0 },
+								"position": {
+									"x": -24.0,
+									"y": -190.0,
+									"z": -12.289788246154783
+								}
+							}
+						},
+						"m_bForceVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedc2ffd4d96299",
+				{
+					"parent": "feed6ae115d4ee9a",
+					"name": "OUTFIT_Vanilla_Unique_ClubOwner_M_Actor_v0",
+					"factory": "008B2353BA831DA0",
+					"blueprint": "0038E2927C91B907",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 90.0 },
+								"position": {
+									"x": -23.0,
+									"y": -190.0,
+									"z": -12.289788246154783
+								}
+							}
+						},
+						"m_bForceVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed3794bc02c5f0",
+				{
+					"parent": "feed6ae115d4ee9a",
+					"name": "OUTFIT_Vanilla_OrsonMills_M_Actor_v0",
+					"factory": "0056E70016F92664",
+					"blueprint": "0058EC2F71C4BBA2",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 90.0 },
+								"position": {
+									"x": -30.0,
+									"y": -190.0,
+									"z": -12.289788246154783
+								}
+							}
+						},
+						"m_bForceVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed32ba11da2e3e",
+				{
+					"parent": "feed6ae115d4ee9a",
+					"name": "OUTFIT_Vanilla_OliviaHall_F_Actor_v0",
+					"factory": "00CFC21534038D64",
+					"blueprint": "00165734F5E57482",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 90.0 },
+								"position": {
+									"x": -31.0,
+									"y": -190.0,
+									"z": -12.289788246154783
+								}
+							}
+						},
+						"m_bForceVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedb66af64d2e5d",
+				{
+					"parent": "feed6ae115d4ee9a",
+					"name": "OUTFIT_Vanilla_Knight_F_Actor_v0",
+					"factory": "00FA2B0E65414A86",
+					"blueprint": "00A946480C376D2A",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 90.0 },
+								"position": {
+									"x": -34.0,
+									"y": -190.0,
+									"z": -12.289788246154783
+								}
+							}
+						},
+						"m_bForceVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed78401a3f11c2",
+				{
+					"parent": "feed6ae115d4ee9a",
+					"name": "OUTFIT_Vanilla_PenelopeGrave_F_Actor_v0",
+					"factory": "008038A6CAF9706A",
+					"blueprint": "00D75040F17BEEF8",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 90.0 },
+								"position": {
+									"x": -29.0,
+									"y": -190.0,
+									"z": -12.289788246154783
+								}
+							}
+						},
+						"m_bForceVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedcf69f64b9319",
+				{
+					"parent": "feed6ae115d4ee9a",
+					"name": "OUTFIT_Vanilla_Unique_LjudmilaVetrova_F_Actor_v0",
+					"factory": "004B8EB0B210C5A6",
+					"blueprint": "00BBF4D70E3428B0",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 90.0 },
+								"position": {
+									"x": -21.0,
+									"y": -190.0,
+									"z": -12.289788246154783
+								}
+							}
+						},
+						"m_bForceVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed6fdd4105cad8",
+				{
+					"parent": "feed6ae115d4ee9a",
+					"name": "OUTFIT_Vanilla_LucasGrey_M_Actor_v0",
+					"factory": "00258618A3C834DB",
+					"blueprint": "00B0B6C098546727",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 90.0 },
+								"position": {
+									"x": -32.0,
+									"y": -190.0,
+									"z": -12.289788246154783
+								}
+							}
+						},
+						"m_bForceVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedaf3931d2866d",
+				{
+					"parent": "feed6ae115d4ee9a",
+					"name": "OUTFIT_Vanilla_Soders_M_Actor_v0",
+					"factory": "004ECF3BBE22500B",
+					"blueprint": "00FE05F2973444A6",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 90.0 },
+								"position": {
+									"x": -28.0,
+									"y": -190.0,
+									"z": -12.289788246154783
+								}
+							}
+						},
+						"m_bForceVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed36e1d16f4998",
+				{
+					"parent": "feed6ae115d4ee9a",
+					"name": "OUTFIT_Vanilla_TheConstant_M_Actor_v0",
+					"factory": "0042862D3CC4C325",
+					"blueprint": "0029A102A9E9545C",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 90.0 },
+								"position": {
+									"x": -26.0,
+									"y": -190.0,
+									"z": -12.289788246154783
+								}
+							}
+						},
+						"m_bForceVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed98bcd5dc402b",
+				{
+					"parent": "feed6ae115d4ee9a",
+					"name": "OUTFIT_Vanilla_Unique_AgentSmith_M_Actor_v0",
+					"factory": "00D328E16C14E7F8",
+					"blueprint": "006EDD3D4AEE6D1D",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 90.0 },
+								"position": {
+									"x": -25.0,
+									"y": -190.0,
+									"z": -12.289788246154783
+								}
+							}
+						},
+						"m_bForceVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedcef2e55e7965",
+				{
+					"parent": "feed6ae115d4ee9a",
+					"name": "OUTFIT_Vanilla_Stone_M_Actor_v0",
+					"factory": "0095D691E73798BF",
+					"blueprint": "00840001C2516A31",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 90.0 },
+								"position": {
+									"x": -27.0,
+									"y": -190.0,
+									"z": -12.289788246154783
+								}
+							}
+						},
+						"m_bForceVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedf35a0b8b793d",
+				{
+					"parent": "feed6ae115d4ee9a",
+					"name": "OUTFIT_Vanilla_Legacy47_Actor_v0",
+					"factory": "00354F1323EDAE8C",
+					"blueprint": "00B24CD9904A352F",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 90.0 },
+								"position": {
+									"x": -33.0,
+									"y": -190.0,
+									"z": -12.289788246154783
+								}
+							}
+						},
+						"m_bForceVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed28f422ee810e",
+				{
+					"parent": "feed6ae115d4ee9a",
+					"name": "OUTFIT_Vanilla_Unique_Diana_F_Actor_v0",
+					"factory": "006727ECC036C60D",
+					"blueprint": "00F642AAA5CCC3A1",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 90.0 },
+								"position": {
+									"x": -22.0,
+									"y": -190.0,
+									"z": -12.289788246154783
+								}
+							}
+						},
+						"m_bForceVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed70f223abca6d",
+				{
+					"parent": "feed3794bc02c5f0",
+					"name": "ClothBundleSpawn",
+					"factory": "[modules:/zclothbundlespawnentity.class].pc_entitytype",
+					"blueprint": "[modules:/zclothbundlespawnentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "f466828e-4d14-4742-a1f4-291b3809c15b"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "feed3794bc02c5f0",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedf76ca8a9e77c",
+				{
+					"parent": "feedb66af64d2e5d",
+					"name": "ClothBundleSpawn",
+					"factory": "[modules:/zclothbundlespawnentity.class].pc_entitytype",
+					"blueprint": "[modules:/zclothbundlespawnentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "fc1c1b1f-db45-49b2-a703-ed633d35e943"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "feedb66af64d2e5d",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feeda4c08f5a67fc",
+				{
+					"parent": "feedf35a0b8b793d",
+					"name": "ClothBundleSpawn",
+					"factory": "[modules:/zclothbundlespawnentity.class].pc_entitytype",
+					"blueprint": "[modules:/zclothbundlespawnentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "752110ee-0ede-4785-8575-77be932532f0"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "feedf35a0b8b793d",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedd50bac0497bc",
+				{
+					"parent": "feed6fdd4105cad8",
+					"name": "ClothBundleSpawn",
+					"factory": "[modules:/zclothbundlespawnentity.class].pc_entitytype",
+					"blueprint": "[modules:/zclothbundlespawnentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "82c2d44a-b2c2-4dcd-9017-7b68342b099a"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "feed6fdd4105cad8",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedb18537b1412e",
+				{
+					"parent": "feed32ba11da2e3e",
+					"name": "ClothBundleSpawn",
+					"factory": "[modules:/zclothbundlespawnentity.class].pc_entitytype",
+					"blueprint": "[modules:/zclothbundlespawnentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "f648e0b6-5055-4024-afda-6150a78b6c00"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "feed32ba11da2e3e",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed86918d95c87f",
+				{
+					"parent": "feed78401a3f11c2",
+					"name": "ClothBundleSpawn",
+					"factory": "[modules:/zclothbundlespawnentity.class].pc_entitytype",
+					"blueprint": "[modules:/zclothbundlespawnentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "9c9b4e1c-9793-47fc-888b-da02d8ccbc4b"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "feed78401a3f11c2",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feede864645c0210",
+				{
+					"parent": "feedaf3931d2866d",
+					"name": "ClothBundleSpawn",
+					"factory": "[modules:/zclothbundlespawnentity.class].pc_entitytype",
+					"blueprint": "[modules:/zclothbundlespawnentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "5f99e842-6c37-4698-bfe7-63f1a3c3a40c"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "feedaf3931d2866d",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedb2cfdddd3cfb",
+				{
+					"parent": "feedcef2e55e7965",
+					"name": "ClothBundleSpawn",
+					"factory": "[modules:/zclothbundlespawnentity.class].pc_entitytype",
+					"blueprint": "[modules:/zclothbundlespawnentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "9efbf970-43d6-451f-96dd-dde83f560ce6"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "feedcef2e55e7965",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed836a857c205f",
+				{
+					"parent": "feed36e1d16f4998",
+					"name": "ClothBundleSpawn",
+					"factory": "[modules:/zclothbundlespawnentity.class].pc_entitytype",
+					"blueprint": "[modules:/zclothbundlespawnentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "a183186a-cac0-4d83-bb94-e15471260677"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "feed36e1d16f4998",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedfae99412cab3",
+				{
+					"parent": "feed98bcd5dc402b",
+					"name": "ClothBundleSpawn",
+					"factory": "[modules:/zclothbundlespawnentity.class].pc_entitytype",
+					"blueprint": "[modules:/zclothbundlespawnentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "20ac5f24-a43a-46e8-b21f-ec3b9f6a2e84"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "feed98bcd5dc402b",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedb260c6dd2f87",
+				{
+					"parent": "feed337f112b327c",
+					"name": "ClothBundleSpawn",
+					"factory": "[modules:/zclothbundlespawnentity.class].pc_entitytype",
+					"blueprint": "[modules:/zclothbundlespawnentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "6be6513c-c2bd-4491-b829-25a8e26623d9"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "feed337f112b327c",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed8cece4d61952",
+				{
+					"parent": "feedc2ffd4d96299",
+					"name": "ClothBundleSpawn",
+					"factory": "[modules:/zclothbundlespawnentity.class].pc_entitytype",
+					"blueprint": "[modules:/zclothbundlespawnentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "c8e410d2-c002-40d3-b890-f2a60b5978bf"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "feedc2ffd4d96299",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed90d6e7cef090",
+				{
+					"parent": "feed28f422ee810e",
+					"name": "ClothBundleSpawn",
+					"factory": "[modules:/zclothbundlespawnentity.class].pc_entitytype",
+					"blueprint": "[modules:/zclothbundlespawnentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "5d99eb58-2af4-43f5-accd-eaef313849a7"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "feed28f422ee810e",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed6c6dffaeaaa7",
+				{
+					"parent": "feedcf69f64b9319",
+					"name": "ClothBundleSpawn",
+					"factory": "[modules:/zclothbundlespawnentity.class].pc_entitytype",
+					"blueprint": "[modules:/zclothbundlespawnentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "79cc2ad6-0f1a-49fe-af79-736b8585c66a"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "feedcf69f64b9319",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed9c62b3bdb327",
+				{
+					"parent": "feed6ae115d4ee9a",
+					"name": "OUTFIT_Vanilla_Soders_M_Actor_v1",
+					"factory": "0073EC91621A0DEE",
+					"blueprint": "00E50E46BAF165BD",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 90.0 },
+								"position": {
+									"x": -28.0,
+									"y": -191.0,
+									"z": -12.289788246154783
+								}
+							}
+						},
+						"m_bForceVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedf6f47e27d758",
+				{
+					"parent": "feed9c62b3bdb327",
+					"name": "ClothBundleSpawn",
+					"factory": "[modules:/zclothbundlespawnentity.class].pc_entitytype",
+					"blueprint": "[modules:/zclothbundlespawnentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "5f99e842-6c37-4698-bfe7-63f1a3c3a40c"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "feed9c62b3bdb327",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe02ab4077974b",
+				{
+					"parent": "feed6ae115d4ee9a",
+					"name": "OUTFIT_Vanilla_Knight_F_Actor_v1",
+					"factory": "00F9BB774C4C6B59",
+					"blueprint": "0073CB7481310A2B",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 90.0 },
+								"position": {
+									"x": -34.0,
+									"y": -191.0,
+									"z": -12.289788246154783
+								}
+							}
+						},
+						"m_bForceVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe3abfbade1650",
+				{
+					"parent": "cafe02ab4077974b",
+					"name": "ClothBundleSpawn",
+					"factory": "[modules:/zclothbundlespawnentity.class].pc_entitytype",
+					"blueprint": "[modules:/zclothbundlespawnentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "fc1c1b1f-db45-49b2-a703-ed633d35e943"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe02ab4077974b",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe80be121484cd",
+				{
+					"parent": "feed6ae115d4ee9a",
+					"name": "OUTFIT_Vanilla_LucasGrey_M_Actor_v2",
+					"factory": "007FAC8146E55F4F",
+					"blueprint": "004C2C5CDA2699B1",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 90.0 },
+								"position": {
+									"x": -32.0,
+									"y": -192.0,
+									"z": -12.289788246154783
+								}
+							}
+						},
+						"m_bForceVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe3a205e09b5a0",
+				{
+					"parent": "cafe80be121484cd",
+					"name": "ClothBundleSpawn",
+					"factory": "[modules:/zclothbundlespawnentity.class].pc_entitytype",
+					"blueprint": "[modules:/zclothbundlespawnentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "82c2d44a-b2c2-4dcd-9017-7b68342b099a"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe80be121484cd",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe615641abd35f",
+				{
+					"parent": "feed6ae115d4ee9a",
+					"name": "OUTFIT_Vanilla_LucasGrey_M_Actor_v1",
+					"factory": "00C91D16AB614B96",
+					"blueprint": "00F21907EB7B6411",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 90.0 },
+								"position": {
+									"x": -32.0,
+									"y": -191.0,
+									"z": -12.289788246154783
+								}
+							}
+						},
+						"m_bForceVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe1bf5012907de",
+				{
+					"parent": "cafe615641abd35f",
+					"name": "ClothBundleSpawn",
+					"factory": "[modules:/zclothbundlespawnentity.class].pc_entitytype",
+					"blueprint": "[modules:/zclothbundlespawnentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "82c2d44a-b2c2-4dcd-9017-7b68342b099a"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe615641abd35f",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe4ca19c495157",
+				{
+					"parent": "feed6ae115d4ee9a",
+					"name": "OUTFIT_Vanilla_LucasGrey_M_Actor_v3",
+					"factory": "00469FB2D057667B",
+					"blueprint": "000F99C4CECBAF68",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 90.0 },
+								"position": {
+									"x": -32.0,
+									"y": -193.0,
+									"z": -12.289788246154783
+								}
+							}
+						},
+						"m_bForceVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe87f9392a9632",
+				{
+					"parent": "cafe4ca19c495157",
+					"name": "ClothBundleSpawn",
+					"factory": "[modules:/zclothbundlespawnentity.class].pc_entitytype",
+					"blueprint": "[modules:/zclothbundlespawnentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "82c2d44a-b2c2-4dcd-9017-7b68342b099a"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe4ca19c495157",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafee27481cec57b",
+				{
+					"parent": "feed6ae115d4ee9a",
+					"name": "OUTFIT_Vanilla_OrsonMills_M_Actor_v1",
+					"factory": "00DB78F1D92B3E3B",
+					"blueprint": "0031FDD164A0E4C9",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 90.0 },
+								"position": {
+									"x": -30.0,
+									"y": -191.0,
+									"z": -12.289788246154783
+								}
+							}
+						},
+						"m_bForceVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe162fe47150f8",
+				{
+					"parent": "cafee27481cec57b",
+					"name": "ClothBundleSpawn",
+					"factory": "[modules:/zclothbundlespawnentity.class].pc_entitytype",
+					"blueprint": "[modules:/zclothbundlespawnentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "f466828e-4d14-4742-a1f4-291b3809c15b"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafee27481cec57b",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe02960105731b",
+				{
+					"parent": "feed6ae115d4ee9a",
+					"name": "OUTFIT_Vanilla_PenelopeGrave_F_Actor_v1",
+					"factory": "001465FF81A611A1",
+					"blueprint": "00427809F8C1168C",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 90.0 },
+								"position": {
+									"x": -29.0,
+									"y": -190.0,
+									"z": -12.289788246154783
+								}
+							}
+						},
+						"m_bForceVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafec86c8fb974f1",
+				{
+					"parent": "cafe02960105731b",
+					"name": "ClothBundleSpawn",
+					"factory": "[modules:/zclothbundlespawnentity.class].pc_entitytype",
+					"blueprint": "[modules:/zclothbundlespawnentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "9c9b4e1c-9793-47fc-888b-da02d8ccbc4b"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe02960105731b",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafef999b939ca06",
+				{
+					"parent": "feed6ae115d4ee9a",
+					"name": "OUTFIT_Vanilla_Stone_M_Actor_v1",
+					"factory": "00A7B01DD0E1713F",
+					"blueprint": "00FEFDA9075C906B",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 90.0 },
+								"position": {
+									"x": -27.0,
+									"y": -191.0,
+									"z": -12.289788246154783
+								}
+							}
+						},
+						"m_bForceVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafef1f2dfd8b7a2",
+				{
+					"parent": "cafef999b939ca06",
+					"name": "ClothBundleSpawn",
+					"factory": "[modules:/zclothbundlespawnentity.class].pc_entitytype",
+					"blueprint": "[modules:/zclothbundlespawnentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "9efbf970-43d6-451f-96dd-dde83f560ce6"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafef999b939ca06",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe56a4ab316865",
+				{
+					"parent": "feed6ae115d4ee9a",
+					"name": "OUTFIT_Vanilla_TheConstant_M_Actor_v1",
+					"factory": "00F2B04FD8CF14D2",
+					"blueprint": "008CBF33545E1696",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 90.0 },
+								"position": {
+									"x": -26.0,
+									"y": -191.0,
+									"z": -12.289788246154783
+								}
+							}
+						},
+						"m_bForceVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeeb3ee0fabd14",
+				{
+					"parent": "cafe56a4ab316865",
+					"name": "ClothBundleSpawn",
+					"factory": "[modules:/zclothbundlespawnentity.class].pc_entitytype",
+					"blueprint": "[modules:/zclothbundlespawnentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "a183186a-cac0-4d83-bb94-e15471260677"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe56a4ab316865",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe11a5fdb93d91",
+				{
+					"parent": "feed6ae115d4ee9a",
+					"name": "OUTFIT_Vanilla_Unique_Diana_F_Actor_v1",
+					"factory": "00F9349F901E198E",
+					"blueprint": "0071667DF551F1B8",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 90.0 },
+								"position": {
+									"x": -22.0,
+									"y": -191.0,
+									"z": -12.289788246154783
+								}
+							}
+						},
+						"m_bForceVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe55f567126e70",
+				{
+					"parent": "cafe11a5fdb93d91",
+					"name": "ClothBundleSpawn",
+					"factory": "[modules:/zclothbundlespawnentity.class].pc_entitytype",
+					"blueprint": "[modules:/zclothbundlespawnentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "5d99eb58-2af4-43f5-accd-eaef313849a7"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe11a5fdb93d91",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafef6385ab8cb2e",
+				{
+					"parent": "feed6ae115d4ee9a",
+					"name": "OUTFIT_Vanilla_Unique_Diana_F_Actor_v2",
+					"factory": "003E0AE0326257DF",
+					"blueprint": "00A2EB987FA9F530",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 90.0 },
+								"position": {
+									"x": -22.0,
+									"y": -192.0,
+									"z": -12.289788246154783
+								}
+							}
+						},
+						"m_bForceVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe159ce01fcab0",
+				{
+					"parent": "cafef6385ab8cb2e",
+					"name": "ClothBundleSpawn",
+					"factory": "[modules:/zclothbundlespawnentity.class].pc_entitytype",
+					"blueprint": "[modules:/zclothbundlespawnentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "5d99eb58-2af4-43f5-accd-eaef313849a7"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafef6385ab8cb2e",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafedc21414e80dc",
+				{
+					"parent": "feed6ae115d4ee9a",
+					"name": "OUTFIT_Vanilla_Unique_LjudmilaVetrova_F_Actor_v1",
+					"factory": "00E49574D8E86448",
+					"blueprint": "008E812D7541C056",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 90.0 },
+								"position": {
+									"x": -21.0,
+									"y": -191.0,
+									"z": -12.289788246154783
+								}
+							}
+						},
+						"m_bForceVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafee199cb87cfd9",
+				{
+					"parent": "cafedc21414e80dc",
+					"name": "ClothBundleSpawn",
+					"factory": "[modules:/zclothbundlespawnentity.class].pc_entitytype",
+					"blueprint": "[modules:/zclothbundlespawnentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "79cc2ad6-0f1a-49fe-af79-736b8585c66a"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafedc21414e80dc",
+							"postInit": true
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

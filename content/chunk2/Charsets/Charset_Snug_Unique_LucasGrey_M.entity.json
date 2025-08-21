@@ -11,7 +11,12 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["c2318c7895981ed0", "cafeb92cacf70fd2"],
+					"value": [
+						"c2318c7895981ed0",
+						"cafeb92cacf70fd2",
+						"cafe7450122cdbb2",
+						"cafe069a461c5675"
+					],
 					"postInit": true
 				}
 			}
@@ -24,7 +29,12 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["92e8394b3e9dc256", "cafeb92cacf70fd2"],
+					"value": [
+						"92e8394b3e9dc256",
+						"cafedc975e6e6930",
+						"cafe32984f804648",
+						"cafe5153947a44ab"
+					],
 					"postInit": true
 				}
 			}
@@ -110,6 +120,51 @@
 		},
 		"cafe32984f804648": {
 			"parent": "3648192a6d0364a3",
+			"name": "2",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "007FAC8146E55F4F",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafe069a461c5675": {
+			"parent": "5939ac41df089b5d",
+			"name": "3",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00469FB2D057667B",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafe7450122cdbb2": {
+			"parent": "5939ac41df089b5d",
+			"name": "2",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "007FAC8146E55F4F",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafedc975e6e6930": {
+			"parent": "3648192a6d0364a3",
 			"name": "1",
 			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
 			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
@@ -118,6 +173,21 @@
 					"type": "ZRuntimeResourceID",
 					"value": {
 						"resource": "00C91D16AB614B96",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafe5153947a44ab": {
+			"parent": "3648192a6d0364a3",
+			"name": "3",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00469FB2D057667B",
 						"flag": "9F"
 					}
 				}

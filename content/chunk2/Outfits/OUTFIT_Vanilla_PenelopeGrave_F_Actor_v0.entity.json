@@ -60,22 +60,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
-				"Texture2D_03_enab": {
-					"type": "bool",
-					"value": true
-				},
+				"Texture2D_03_enab": { "type": "bool", "value": true },
 				"Texture2D_03": {
 					"type": "ZRuntimeResourceID",
 					"value": {
@@ -94,10 +83,7 @@
 						"flag": "5F"
 					}
 				},
-				"Texture2D_01_enab": {
-					"type": "bool",
-					"value": true
-				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
 				"Texture2D_01": {
 					"type": "ZRuntimeResourceID",
 					"value": {
@@ -115,9 +101,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"90c47951517d5a62"
-					],
+					"value": ["90c47951517d5a62"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -136,22 +120,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
-				"Texture2D_01_enab": {
-					"type": "bool",
-					"value": true
-				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
 				"Texture2D_01": {
 					"type": "ZRuntimeResourceID",
 					"value": {
@@ -205,7 +178,7 @@
 				},
 				"EyeShader_01_IrisHueShift": {
 					"type": "float32",
-					"value": 0.029999999329447746
+					"value": 0.029999999329447743
 				},
 				"EyeShader_01_IrisBrightness_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
@@ -213,9 +186,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"90c47951517d5a62"
-					],
+					"value": ["90c47951517d5a62"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -264,22 +235,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
-				"Texture2D_01_enab": {
-					"type": "bool",
-					"value": true
-				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
 				"Texture2D_01": {
 					"type": "ZRuntimeResourceID",
 					"value": {
@@ -321,9 +281,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"90c47951517d5a62"
-					],
+					"value": ["90c47951517d5a62"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -342,16 +300,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"ConstantColorRGB_01_Value_op": {
@@ -364,9 +314,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"90c47951517d5a62"
-					],
+					"value": ["90c47951517d5a62"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -401,18 +349,11 @@
 					"type": "ZRuntimeResourceID",
 					"value": null
 				},
-				"m_fLODScale": {
-					"type": "float32",
-					"value": 1
-				},
+				"m_fLODScale": { "type": "float32", "value": 1 },
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 5.46701192855835,
 							"y": -1.0000029802322388,
@@ -445,9 +386,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7500d0e7c52da8d6"
-					]
+					"value": ["7500d0e7c52da8d6"]
 				},
 				"m_bGlobalCollidersEnabled": {
 					"type": "bool",
@@ -459,11 +398,7 @@
 				},
 				"m_vGravity": {
 					"type": "SVector3",
-					"value": {
-						"x": 0,
-						"y": 0,
-						"z": -9.819999694824219
-					}
+					"value": { "x": 0, "y": 0, "z": -9.81999969482422 }
 				},
 				"m_bUseSkinningNegNormalConstrains": {
 					"type": "bool",
@@ -473,10 +408,7 @@
 					"type": "bool",
 					"value": false
 				},
-				"m_fDamping": {
-					"type": "float32",
-					"value": 0.5
-				},
+				"m_fDamping": { "type": "float32", "value": 0.5 },
 				"m_bUsePerVertexDamping": {
 					"type": "bool",
 					"value": false
@@ -485,22 +417,10 @@
 					"type": "bool",
 					"value": true
 				},
-				"m_fFrequency": {
-					"type": "float32",
-					"value": 60
-				},
-				"m_nIterations": {
-					"type": "uint32",
-					"value": 2
-				},
-				"m_fShearStiffness": {
-					"type": "float32",
-					"value": 0.5
-				},
-				"m_fBendStiffness": {
-					"type": "float32",
-					"value": 0.5
-				},
+				"m_fFrequency": { "type": "float32", "value": 60 },
+				"m_nIterations": { "type": "uint32", "value": 2 },
+				"m_fShearStiffness": { "type": "float32", "value": 0.5 },
+				"m_fBendStiffness": { "type": "float32", "value": 0.5 },
 				"m_eStretchConstrainType": {
 					"type": "EClothStretchConstrainType",
 					"value": "eClothBendConstrainType_None"
@@ -516,28 +436,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"90c47951517d5a62"
-					]
+					"value": ["90c47951517d5a62"]
 				},
-				"Texture2D_01_enab": {
-					"type": "bool",
-					"value": true
-				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
 				"Texture2D_01": {
 					"type": "ZRuntimeResourceID",
 					"value": {
@@ -598,16 +505,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"ConstantVector1D_01_Value_op": {
@@ -626,10 +525,7 @@
 					"type": "float32",
 					"value": 0.019999999552965164
 				},
-				"Texture2D_01_enab": {
-					"type": "bool",
-					"value": true
-				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
 				"Texture2D_01": {
 					"type": "ZRuntimeResourceID",
 					"value": {
@@ -639,9 +535,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"90c47951517d5a62"
-					],
+					"value": ["90c47951517d5a62"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -652,28 +546,15 @@
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [
-		{
-			"resource": "0017453C4D1649AB",
-			"flag": "5F"
-		},
+		{ "resource": "0017453C4D1649AB", "flag": "5F" },
 		{
 			"resource": "[assembly:/_pro/characters/assets/_genericparts/skin/textures/skin_detail.texture?/normal_a.tex](asnormalmap).pc_tex",
 			"flag": "5F"
@@ -682,14 +563,8 @@
 			"resource": "[assembly:/_pro/environment/textures/constants/color_black.texture?/diffuse_a.tex](ascolormap).pc_tex",
 			"flag": "5F"
 		},
-		{
-			"resource": "00762EF556264FE4",
-			"flag": "5F"
-		},
-		{
-			"resource": "0091386D5362CB46",
-			"flag": "5F"
-		},
+		{ "resource": "00762EF556264FE4", "flag": "5F" },
+		{ "resource": "0091386D5362CB46", "flag": "5F" },
 		{
 			"resource": "[assembly:/_pro/characters/assets/_genericparts/skin/textures/skin_detail.texture?/variance_a.tex](ascolormap).pc_tex",
 			"flag": "5F"
@@ -739,10 +614,6 @@
 			"flag": "5F"
 		}
 	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

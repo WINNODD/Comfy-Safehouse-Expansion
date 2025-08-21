@@ -1,6 +1,196 @@
 {
 	"tempHash": "001A36D7D6641F2F",
 	"tbluHash": "0022CD0B82D318BD",
-	"patch": [],
+	"patch": [
+		{
+			"AddEntity": [
+				"cafe9b42c20f79e5",
+				{
+					"parent": "fffffffffffffffe",
+					"name": "IdlesNight",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe4aa85e621356",
+				{
+					"parent": "cafe9b42c20f79e5",
+					"name": "Act_MR_HeadOfSecurity_AimPistol_Dianna",
+					"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_headofsecurity_aimpistol_dianna.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_headofsecurity_aimpistol_dianna.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": 59.7499340996149
+								},
+								"position": {
+									"x": -20.52712059020996,
+									"y": 48.79732894897461,
+									"z": 89.06273651123047
+								}
+							}
+						},
+						"m_fActTimeout": {
+							"type": "float32",
+							"value": -1
+						},
+						"m_pActor": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "cafe4f22f3ca930f",
+								"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+							},
+							"postInit": true
+						},
+						"m_pTarget": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe8a1cd2bfb185",
+							"postInit": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					},
+					"events": {
+						"OnActDone": { "Start": [] },
+						"Fire_Weapon": { "Shot": [], "Poll": [] },
+						"OnReached": { "Set": [] }
+					},
+					"outputCopying": {
+						"Fire_Weapon": { "Fire_Weapon": [] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe791f438e19c4",
+				{
+					"parent": "cafe4aa85e621356",
+					"name": "TimerSimple",
+					"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"Delay time (ms)": {
+							"type": "int32",
+							"value": 1500
+						}
+					},
+					"events": {
+						"Out": {
+							"In": ["cafe791f438e19c4"],
+							"Fire_Pistol_From_ArmBackLoop": [
+								"cafe4aa85e621356"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe8a1cd2bfb185",
+				{
+					"parent": "cafe4aa85e621356",
+					"name": "Spatial",
+					"factory": "[modules:/zspatialentity.class].pc_entitytype",
+					"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								}
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe93c11ecb2521",
+				{
+					"parent": "cafe4aa85e621356",
+					"name": "TimerConditional",
+					"factory": "[assembly:/_pro/design/logic.template?/timerconditional.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic.template?/timerconditional.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_pCondition": {
+							"type": "SEntityTemplateReference",
+							"value": null
+						},
+						"m_nInterval": { "type": "int32", "value": 600 },
+						"m_bResetWhenStopped": {
+							"type": "bool",
+							"value": true
+						}
+					},
+					"events": {
+						"TimeOut": { "SetTrue": [], "ActivateOnce": [] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe94120be1a320",
+				{
+					"parent": "cafe4aa85e621356",
+					"name": "IsHolstered",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+					"events": {
+						"OnTrue": { "Poll": [] },
+						"OnFalse": { "Disarm": [] }
+					}
+				}
+			]
+		},
+		{
+			"AddPinConnectionOverride": {
+				"fromEntity": {
+					"ref": "feed100d27a80ad3",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"fromPin": "OnStart",
+				"toEntity": "cafe4aa85e621356",
+				"toPin": "Start"
+			}
+		},
+		{
+			"AddPinConnectionOverride": {
+				"fromEntity": {
+					"ref": "feed100d27a80ad3",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"fromPin": "OnStart",
+				"toEntity": "cafe791f438e19c4",
+				"toPin": "In"
+			}
+		}
+	],
 	"patchVersion": 6
 }

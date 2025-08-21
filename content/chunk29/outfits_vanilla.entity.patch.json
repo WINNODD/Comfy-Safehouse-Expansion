@@ -79,7 +79,7 @@
 						},
 						"m_sCommonName": {
 							"type": "ZString",
-							"value": "Wet_Unique_Archivist_F_PRO"
+							"value": "Vanilla_Archivist_F_PRO"
 						},
 						"m_sTitle": {
 							"type": "ZString",
@@ -182,7 +182,7 @@
 						},
 						"m_sCommonName": {
 							"type": "ZString",
-							"value": "Sheep_Unique_Orson_M"
+							"value": "Vanilla_Orson_M"
 						},
 						"m_sTitle": {
 							"type": "ZString",
@@ -254,7 +254,7 @@
 						},
 						"m_sCommonName": {
 							"type": "ZString",
-							"value": "CHAR_SC_Hero_KNIGHT_F_PROXXXXX"
+							"value": "Vanilla_KNIGHT_F_PROXXXXX"
 						},
 						"m_sTitle": {
 							"type": "ZString",
@@ -330,7 +330,7 @@
 						},
 						"m_sCommonName": {
 							"type": "ZString",
-							"value": "CHAR_SC_Hero_Stone_M_PROXXXXX"
+							"value": "Vanilla_Stone_M_PROXXXXX"
 						},
 						"m_sTitle": {
 							"type": "ZString",
@@ -379,7 +379,7 @@
 				"feedffea1a33807e",
 				{
 					"parent": "feeda519c268e23f",
-					"name": "Snug_Unique_Legacy47_StartingOutfit_M",
+					"name": "Snug_Unique_C47_M",
 					"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 					"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
 					"properties": {
@@ -401,7 +401,7 @@
 						},
 						"m_sCommonName": {
 							"type": "ZString",
-							"value": "CHAR_Reward_Legacy47_StartingOutfit_M_ PRO225384"
+							"value": "Vanilla_Legacy47_StartingOutfit_M_ PRO225384"
 						},
 						"m_sTitle": {
 							"type": "ZString",
@@ -508,7 +508,7 @@
 						},
 						"m_sCommonName": {
 							"type": "ZString",
-							"value": "Colorado_Unique_PenelopeGraves_F_HPA2594"
+							"value": "Vanilla_PenelopeGraves_F_HPA2594"
 						},
 						"m_sTitle": {
 							"type": "ZString",
@@ -598,7 +598,7 @@
 						},
 						"m_sCommonName": {
 							"type": "ZString",
-							"value": "Edgy_Unique_Organizer"
+							"value": "Vanilla_Organizer"
 						},
 						"m_sTitle": {
 							"type": "ZString",
@@ -716,7 +716,7 @@
 						},
 						"m_sCommonName": {
 							"type": "ZString",
-							"value": "TheIsland_Unique_KnightArmour_M_PRO99845"
+							"value": "Vanilla_LucasGrey_M_PRO99845"
 						},
 						"m_sTitle": {
 							"type": "ZString",
@@ -827,7 +827,7 @@
 						},
 						"m_sCommonName": {
 							"type": "ZString",
-							"value": "Hokkaido_Unique_AgentSmith_M_HPA2591"
+							"value": "Vanilla_AgentSmith_M_HPA2591"
 						},
 						"m_sTitle": {
 							"type": "ZString",
@@ -925,7 +925,7 @@
 						},
 						"m_sCommonName": {
 							"type": "ZString",
-							"value": "TheIsland_Unique_TheConstant_M_PRO99770"
+							"value": "Vanilla_TheConstant_M_PRO99770"
 						},
 						"m_sTitle": {
 							"type": "ZString",
@@ -1018,7 +1018,7 @@
 						},
 						"m_sCommonName": {
 							"type": "ZString",
-							"value": "Trapped_Unique_ErichSoders_M"
+							"value": "Vanilla_ErichSoders_M"
 						},
 						"m_sTitle": {
 							"type": "ZString",
@@ -1110,7 +1110,7 @@
 						},
 						"m_sCommonName": {
 							"type": "ZString",
-							"value": "Opulent_Unique_LjudmilaVetrova_F_"
+							"value": "Vanilla_LjudmilaVetrova_F_"
 						},
 						"m_rNameTextResource": {
 							"type": "ZRuntimeResourceID",
@@ -1191,7 +1191,7 @@
 						"m_bIsFemale": { "type": "bool", "value": true },
 						"m_sCommonName": {
 							"type": "ZString",
-							"value": "Llama_Unique_Diana_F"
+							"value": "Vanilla_Diana_F"
 						},
 						"m_sTitle": {
 							"type": "ZString",
@@ -1302,7 +1302,7 @@
 						},
 						"m_sCommonName": {
 							"type": "ZString",
-							"value": "Cinematic_OliviaHall_NoBag"
+							"value": "Vanilla_OliviaHall_NoBag"
 						},
 						"m_sTitle": {
 							"type": "ZString",
@@ -1471,9 +1471,9 @@
 				"feeda3f7b7e28f43",
 				{
 					"parent": "feedffea1a33807e",
-					"name": "Charset_Snug_Unique_Legacy47_StartingOutfit_M",
-					"factory": "00632D16D804C473",
-					"blueprint": "003895FBF0C03584"
+					"name": "Charset_Snug_Unique_C47_M",
+					"factory": "00789438E4336183",
+					"blueprint": "00FD929566B2BB20"
 				}
 			]
 		},

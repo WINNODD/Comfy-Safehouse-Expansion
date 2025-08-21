@@ -33,10 +33,6 @@
 			"toChunk": 2
 		},
 		{
-			"runtimeID": "003601062919BB43",
-			"toChunk": 2
-		},
-		{
 			"runtimeID": "00A498175B11C595",
 			"toChunk": 2
 		},
@@ -74,10 +70,6 @@
 		},
 		{
 			"runtimeID": "0024C41AF8C16FEF",
-			"toChunk": 2
-		},
-		{
-			"runtimeID": "007D4D95505CF8A0",
 			"toChunk": 2
 		},
 		{
@@ -251,6 +243,36 @@
 		{
 			"runtimeID": "00BB69326A00371E",
 			"toChunk": 2
+		},
+		{
+			"comment": "headset_military_expensive",
+			"runtimeID": "004ABDBDCB9EE545",
+			"toChunk": 1
+		},
+		{
+			"comment": "glasses_safety",
+			"runtimeID": "004F7A2B8E503F5F",
+			"toChunk": 1
+		},
+		{
+			"comment": "nemesis_elbowbrace",
+			"runtimeID": "001BD12EF4759E71",
+			"toChunk": 2
+		},
+		{
+			"comment": "helmet_motorbike_new",
+			"runtimeID": "00519263C8D97B20",
+			"toChunk": 1
+		},
+		{
+			"comment": "sierra helmet",
+			"runtimeID": "00D7184648549B04",
+			"toChunk": 1
+		},
+		{
+			"comment": "underwear_boxers_smith",
+			"runtimeID": "00D45B0D027BF5A6",
+			"toChunk": 1
 		}
 	],
 	"options": [
@@ -279,6 +301,15 @@
 			"type": "checkbox",
 			"contentFolders": [
 				"DebugAddOutfitOnBridge"
+			]
+		},
+		{
+			"name": "Debug No Black Screen",
+			"tooltip": "You may ignore this",
+			"group": "Debug",
+			"type": "checkbox",
+			"contentFolders": [
+				"DebugNoBlackScreen"
 			]
 		}
 	]

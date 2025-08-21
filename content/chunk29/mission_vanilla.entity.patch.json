@@ -9372,7 +9372,7 @@
 						},
 						"m_aWaypoints": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["cafeb6abd3b220dc"],
+							"value": [],
 							"postInit": true
 						},
 						"m_aRoles": {
@@ -9384,8 +9384,7 @@
 					"events": {
 						"Triggered": {
 							"MoveHitmanToRoom": ["feed290b55a2ae9b"]
-						},
-						"OnStart": { "Start": ["cafeb6abd3b220dc"] }
+						}
 					}
 				}
 			]
@@ -13301,56 +13300,6 @@
 		},
 		{
 			"AddEntity": [
-				"cafeb6abd3b220dc",
-				{
-					"parent": "cafe4f22f3ca930f",
-					"name": "act_fr_stand_smoke",
-					"factory": "[assembly:/_pro/design/actor/acts/fr.template?/act_fr_stand_smoke.entitytemplate].pc_entitytype",
-					"blueprint": "[assembly:/_pro/design/actor/acts/fr.template?/act_fr_stand_smoke.entitytemplate].pc_entityblueprint",
-					"properties": {
-						"m_mTransform": {
-							"type": "SMatrix43",
-							"value": {
-								"rotation": {
-									"x": -0.0,
-									"y": 0.0,
-									"z": 79
-								},
-								"position": {
-									"x": -13.999266624450684,
-									"y": -184.64556884765625,
-									"z": -12.588011741638184
-								}
-							}
-						},
-						"m_fActTimeout": {
-							"type": "float32",
-							"value": -1
-						},
-						"m_bAlignPosition": {
-							"type": "bool",
-							"value": true
-						},
-						"m_AlignRotation": {
-							"type": "ZActBehaviorEntity.ERotationAlignment",
-							"value": "RA_EXACT"
-						},
-						"m_pActor": {
-							"type": "SEntityTemplateReference",
-							"value": "cafe4f22f3ca930f",
-							"postInit": true
-						},
-						"m_eidParent": {
-							"type": "SEntityTemplateReference",
-							"value": "fffffffffffffffe",
-							"postInit": true
-						}
-					}
-				}
-			]
-		},
-		{
-			"AddEntity": [
 				"cafe4f22f3ca930f",
 				{
 					"parent": "feed100d27a80ad3",
@@ -14006,6 +13955,17 @@
 							"In": ["cafeffa97deb4194"]
 						}
 					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe4dc03f4fa367",
+				{
+					"parent": "feeda75649904273",
+					"name": "Idles",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 				}
 			]
 		},

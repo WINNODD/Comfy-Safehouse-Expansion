@@ -6,10 +6,7 @@
 			"AddEntity": [
 				"cafec12fbd4cb958",
 				{
-					"parent": {
-						"ref": "cafe9b73842954ae",
-						"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
-					},
+					"parent": "cafe50b954411916",
 					"name": "Act_MR_Sit_Chair_80cm",
 					"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_chair_80cm.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_chair_80cm.entitytemplate].pc_entityblueprint",
@@ -33,14 +30,6 @@
 							"type": "float32",
 							"value": -1
 						},
-						"m_bAlignPosition": {
-							"type": "bool",
-							"value": true
-						},
-						"m_AlignRotation": {
-							"type": "ZActBehaviorEntity.ERotationAlignment",
-							"value": "RA_EXACT"
-						},
 						"m_pActor": {
 							"type": "SEntityTemplateReference",
 							"value": {
@@ -55,6 +44,70 @@
 							"postInit": true
 						}
 					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe78c4556f7109",
+				{
+					"parent": "cafe50b954411916",
+					"name": "act_fr_stand_smoke",
+					"factory": "[assembly:/_pro/design/actor/acts/fr.template?/act_fr_stand_smoke.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/acts/fr.template?/act_fr_stand_smoke.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": 79
+								},
+								"position": {
+									"x": -13.999266624450684,
+									"y": -184.64556884765625,
+									"z": -12.588011741638184
+								}
+							}
+						},
+						"m_fActTimeout": {
+							"type": "float32",
+							"value": -1
+						},
+						"m_bAlignPosition": {
+							"type": "bool",
+							"value": true
+						},
+						"m_AlignRotation": {
+							"type": "ZActBehaviorEntity.ERotationAlignment",
+							"value": "RA_EXACT"
+						},
+						"m_pActor": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "cafe4f22f3ca930f",
+								"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+							},
+							"postInit": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe50b954411916",
+				{
+					"parent": "fffffffffffffffe",
+					"name": "IdlesDay",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 				}
 			]
 		},
@@ -81,6 +134,16 @@
 		{
 			"AddPropertyOverrideConnection": {
 				"entity": {
+					"ref": "feed7b75fe5b5dc1",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_nOutfitVariation",
+				"propertyOverride": { "type": "int32", "value": 2 }
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
 					"ref": "feed4695696637cc",
 					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
 				},
@@ -89,6 +152,30 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": ["cafec12fbd4cb958"]
 				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "feed100d27a80ad3",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_aWaypoints",
+				"propertyOverride": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe78c4556f7109"]
+				}
+			}
+		},
+		{
+			"AddPinConnectionOverride": {
+				"fromEntity": {
+					"ref": "feed100d27a80ad3",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"fromPin": "OnStart",
+				"toEntity": "cafe78c4556f7109",
+				"toPin": "Start"
 			}
 		},
 		{
@@ -114,6 +201,20 @@
 					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
 				},
 				"toPin": "Start"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "cafec12fbd4cb958",
+				"name": "Notes",
+				"text": "Grey"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "cafe78c4556f7109",
+				"name": "Notes",
+				"text": "Knight"
 			}
 		}
 	],

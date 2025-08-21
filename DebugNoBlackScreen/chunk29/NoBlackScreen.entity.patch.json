@@ -1,0 +1,37 @@
+{
+	"tempHash": "00A9B93A825F5BDC",
+	"tbluHash": "005BA5CA6AC00627",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"776105c12ac7e590",
+				{
+					"RemoveEventConnection": [
+						"EventOccurred",
+						"SetValue",
+						{
+							"ref": "391908b33d744c7a",
+							"value": { "type": "float32", "value": 1.0 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"776105c12ac7e590",
+				{
+					"AddEventConnection": [
+						"EventOccurred",
+						"SetValue",
+						{
+							"ref": "391908b33d744c7a",
+							"value": { "type": "float32", "value": 0.0 }
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
