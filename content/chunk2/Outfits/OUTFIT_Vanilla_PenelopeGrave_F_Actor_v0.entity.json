@@ -345,6 +345,10 @@
 			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedproxyentity.class].entitytype,[modules:/zclothcharacterentity.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedproxyentity.class].entitytype,[modules:/zclothcharacterentity.class].entitytype).pc_entityblueprint",
 			"properties": {
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
 				"m_ResourceID": {
 					"type": "ZRuntimeResourceID",
 					"value": null
