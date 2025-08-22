@@ -116,11 +116,11 @@
 				"propertyOverride": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0, "z": -57.429462 },
+						"rotation": { "x": -0.0, "y": 0, "z": -96.235115 },
 						"position": {
-							"x": 9.8220987093,
-							"y": -163.21161,
-							"z": -18.998379
+							"x": -34.489716,
+							"y": -162.46584,
+							"z": -12.387572
 						}
 					}
 				}
@@ -133,7 +133,7 @@
 					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
 				},
 				"propertyName": "m_nOutfitVariation",
-				"propertyOverride": { "type": "int32", "value": 2 }
+				"propertyOverride": { "type": "int32", "value": 0 }
 			}
 		},
 		{
@@ -146,11 +146,11 @@
 				"propertyOverride": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0, "z": -57.429462 },
+						"rotation": { "x": -0.0, "y": 0, "z": -178.99596 },
 						"position": {
-							"x": 9.822093,
-							"y": -163.21161,
-							"z": -18.998379
+							"x": 18.972801,
+							"y": -161.7491,
+							"z": -19.000002
 						}
 					}
 				}
@@ -176,15 +176,11 @@
 				"propertyOverride": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -0.0,
-							"y": 0,
-							"z": -57.444429462
-						},
+						"rotation": { "x": -0.0, "y": 0, "z": -89.01265 },
 						"position": {
-							"x": 9.822093,
-							"y": -163.21555161,
-							"z": -18.998379
+							"x": 51.479843,
+							"y": -150.48605,
+							"z": -18.99576
 						}
 					}
 				}
@@ -203,6 +199,16 @@
 		{
 			"AddPropertyOverrideConnection": {
 				"entity": {
+					"ref": "feedeffcf36bbb40",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_bWeaponUnholstered",
+				"propertyOverride": { "type": "bool", "value": true }
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
 					"ref": "feedb89c156a7396",
 					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
 				},
@@ -210,11 +216,11 @@
 				"propertyOverride": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0, "z": -57.429462 },
+						"rotation": { "x": -0.0, "y": 0, "z": -15.351723 },
 						"position": {
-							"x": 9.822093,
-							"y": -163.21161,
-							"z": -18.996767678379
+							"x": 50.234592,
+							"y": -139.64333,
+							"z": -19
 						}
 					}
 				}
@@ -240,11 +246,11 @@
 				"propertyOverride": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0, "z": -57.429462 },
+						"rotation": { "x": -0.0, "y": 0, "z": 0.89874595 },
 						"position": {
-							"x": 9.82343434342093,
-							"y": -163.21161,
-							"z": -18.998379
+							"x": 21.986246,
+							"y": -173.89622,
+							"z": 0.2222137
 						}
 					}
 				}
@@ -270,15 +276,11 @@
 				"propertyOverride": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -0.0,
-							"y": 0,
-							"z": -57343434.429462
-						},
+						"rotation": { "x": -0.0, "y": 0, "z": -150.5993 },
 						"position": {
-							"x": 9.822093,
-							"y": -163.21161,
-							"z": -18.998379
+							"x": 58.315422,
+							"y": -197.20308,
+							"z": -10.961167
 						}
 					}
 				}
@@ -304,15 +306,11 @@
 				"propertyOverride": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -0.0,
-							"y": 0,
-							"z": -57.49090909029462
-						},
+						"rotation": { "x": -0.0, "y": 0, "z": 120.47208 },
 						"position": {
-							"x": 9.822093,
-							"y": -163.21161,
-							"z": -18.998379
+							"x": 35.71584,
+							"y": -252.581,
+							"z": -9.382342
 						}
 					}
 				}
@@ -338,11 +336,11 @@
 				"propertyOverride": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0, "z": -57.429462 },
+						"rotation": { "x": -0.0, "y": 0, "z": -72.67181 },
 						"position": {
-							"x": 9.822093,
-							"y": -14545454563.21161,
-							"z": -18.998379
+							"x": 24.676,
+							"y": -164.05705,
+							"z": -18.996548
 						}
 					}
 				}
@@ -368,11 +366,11 @@
 				"propertyOverride": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0, "z": -57.429462 },
+						"rotation": { "x": -0.0, "y": 0, "z": -165.43192 },
 						"position": {
-							"x": 9.822093,
-							"y": -163.21161,
-							"z": -18.998379
+							"x": 34.826317,
+							"y": -253.2792,
+							"z": -9.407703
 						}
 					}
 				}
@@ -398,11 +396,11 @@
 				"propertyOverride": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0, "z": -57.429462 },
+						"rotation": { "x": -0.0, "y": 0, "z": -96.41343 },
 						"position": {
-							"x": 9.822093,
-							"y": -163.21161,
-							"z": -18.998379
+							"x": 51.48868,
+							"y": -144.36197,
+							"z": -18.999588
 						}
 					}
 				}
@@ -416,6 +414,16 @@
 				},
 				"propertyName": "m_nOutfitVariation",
 				"propertyOverride": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "feedba284a61f6b7",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_bWeaponUnholstered",
+				"propertyOverride": { "type": "bool", "value": true }
 			}
 		},
 		{

@@ -313,6 +313,41 @@
 			"comment": "setpiece_trap_waterscooterride",
 			"runtimeID": "00700FDBD5F9E434",
 			"toChunk": 1
+		},
+		{
+			"comment": "act_fr_stand_armsback",
+			"runtimeID": "00C3D13C3A502D88",
+			"toChunk": 1
+		},
+		{
+			"comment": "male_reg_erichsoders_01.wl2?/coat.weightedprim",
+			"runtimeID": "0041051E9740C4DC",
+			"toChunk": 1
+		},
+		{
+			"comment": "male_reg_erichsoders_01.wl2?/gloves.weightedprim",
+			"runtimeID": "00C203041B37F052",
+			"toChunk": 1
+		},
+		{
+			"comment": "male_reg_erichsoders_01.wl2?/shirt.weightedprim",
+			"runtimeID": "003B4A0290072E53",
+			"toChunk": 1
+		},
+		{
+			"comment": "male_reg_erichsoders_01.wl2?/shoes.weightedprim",
+			"runtimeID": "0033DF922D30CE91",
+			"toChunk": 1
+		},
+		{
+			"comment": "male_reg_erichsoders_01.wl2?/tie.weightedprim",
+			"runtimeID": "00C24B8507338072",
+			"toChunk": 1
+		},
+		{
+			"comment": "male_reg_erichsoders_01.wl2?/pants.weightedprim",
+			"runtimeID": "006323AE69729ADD",
+			"toChunk": 1
 		}
 	],
 	"options": [

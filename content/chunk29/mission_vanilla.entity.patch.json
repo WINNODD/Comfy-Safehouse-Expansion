@@ -7964,14 +7964,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": 0,
-									"y": 0,
-									"z": 173.58613513320512
+									"x": -0.0,
+									"y": 0.0,
+									"z": -178.9959480494622
 								},
 								"position": {
-									"x": 67.8224105834961,
-									"y": -207.37100219726565,
-									"z": -7.917996883392334
+									"x": 18.972801208496097,
+									"y": -161.7490997314453,
+									"z": -19.000001907348633
 								}
 							}
 						},
@@ -7997,7 +7997,7 @@
 						},
 						"m_bWeaponUnholstered": {
 							"type": "bool",
-							"value": true
+							"value": false
 						},
 						"m_nWeaponIndex": { "type": "int32", "value": 0 },
 						"m_eRequiredVoiceVariation": {
@@ -8154,14 +8154,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": 0,
-									"y": 0,
-									"z": 84.59895228075708
+									"x": -0.0,
+									"y": 0.0,
+									"z": -15.3517232004271
 								},
 								"position": {
-									"x": 21.494155883789062,
-									"y": -182.37066650390625,
-									"z": 0.30631425976753235
+									"x": 50.23459243774414,
+									"y": -139.64332580566406,
+									"z": -19.0
 								}
 							}
 						},
@@ -8524,14 +8524,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": -0.018633332916847593,
-									"y": 0.020868181049477713,
-									"z": -96.47626111420708
+									"x": -0.0,
+									"y": 0,
+									"z": -96.235115
 								},
 								"position": {
-									"x": 21.912778854370117,
-									"y": -182.95529174804688,
-									"z": -5.015439033508301
+									"x": -34.489716,
+									"y": -162.46584,
+									"z": -12.387572
 								}
 							}
 						},
@@ -8704,11 +8704,15 @@
 						"m_mTransform": {
 							"type": "SMatrix43",
 							"value": {
-								"rotation": { "x": 0, "y": 0, "z": 90.0 },
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -165.4319039847519
+								},
 								"position": {
-									"x": 8.5,
-									"y": -174.5,
-									"z": -10.960646629333496
+									"x": 34.826316833496094,
+									"y": -253.27920532226565,
+									"z": -9.407703399658203
 								}
 							}
 						},
@@ -8886,14 +8890,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": 0.0,
+									"x": -0.0,
 									"y": 0.0,
-									"z": -90
+									"z": -150.5993031850557
 								},
 								"position": {
-									"x": 17.3,
-									"y": -170.95,
-									"z": -5.3000006675720215
+									"x": 58.31542205810547,
+									"y": -197.2030792236328,
+									"z": -10.961167335510254
 								}
 							}
 						},
@@ -9071,14 +9075,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": 0,
-									"y": 0,
-									"z": 175.0684262984354
+									"x": -0.0,
+									"y": 0.0,
+									"z": -72.67180617366873
 								},
 								"position": {
-									"x": 22.31171226501465,
-									"y": -174.8775177001953,
-									"z": -10.950000762939451
+									"x": 24.676000595092773,
+									"y": -164.0570526123047,
+									"z": -18.99654769897461
 								}
 							}
 						},
@@ -9256,14 +9260,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": 0,
-									"y": 0,
-									"z": 113.03524919152105
+									"x": -0.0,
+									"y": 0.0,
+									"z": 0.8987459967143422
 								},
 								"position": {
-									"x": 39.2,
-									"y": -174.5,
-									"z": -10.9970703125
+									"x": 21.98624610900879,
+									"y": -173.89622497558594,
+									"z": 0.22221370041370392
 								}
 							}
 						},
@@ -9443,12 +9447,12 @@
 								"rotation": {
 									"x": -0.0,
 									"y": 0.0,
-									"z": 79
+									"z": -89.0126507048728
 								},
 								"position": {
-									"x": -13.999266624450684,
-									"y": -184.64556884765625,
-									"z": -12.588011741638184
+									"x": 51.47984313964844,
+									"y": -150.48605346679688,
+									"z": -18.995759963989254
 								}
 							}
 						},
@@ -9472,6 +9476,11 @@
 							"type": "int32",
 							"value": 0
 						},
+						"m_bWeaponUnholstered": {
+							"type": "bool",
+							"value": false
+						},
+						"m_nWeaponIndex": { "type": "int32", "value": 0 },
 						"m_eRequiredVoiceVariation": {
 							"type": "EActorVoiceVariation",
 							"value": "eAVV_CIVFEM05"
@@ -9584,14 +9593,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": 0,
-									"y": 0,
-									"z": 56.837149902762626
+									"x": -0.0,
+									"y": 0.0,
+									"z": -96.41342932915975
 								},
 								"position": {
-									"x": -40.84832000732422,
-									"y": -157.09619140625,
-									"z": -12.352264404296877
+									"x": 51.48868179321289,
+									"y": -144.36196899414065,
+									"z": -18.999588012695312
 								}
 							}
 						},
@@ -9615,6 +9624,11 @@
 							"type": "int32",
 							"value": 0
 						},
+						"m_bWeaponUnholstered": {
+							"type": "bool",
+							"value": false
+						},
+						"m_nWeaponIndex": { "type": "int32", "value": 0 },
 						"m_eRequiredVoiceVariation": {
 							"type": "EActorVoiceVariation",
 							"value": "eAVV_ET_FABA"
@@ -9771,11 +9785,15 @@
 						"m_mTransform": {
 							"type": "SMatrix43",
 							"value": {
-								"rotation": { "x": 0, "y": 0, "z": -90 },
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": 120.47207414148234
+								},
 								"position": {
-									"x": 15,
-									"y": -168.0,
-									"z": -10.958318710327148
+									"x": 35.71583938598633,
+									"y": -252.58099365234375,
+									"z": -9.382342338562012
 								}
 							}
 						},
@@ -13325,14 +13343,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": 0,
+									"x": -0.0,
 									"y": 0,
-									"z": 84.59895228075708
+									"z": 0.89874595
 								},
 								"position": {
-									"x": 21.494155883789062,
-									"y": -182.37066650390625,
-									"z": 0.30631425976753235
+									"x": 21.986246,
+									"y": -173.89622,
+									"z": 0.2222137
 								}
 							}
 						},
@@ -14363,7 +14381,10 @@
 						}
 					},
 					"events": {
-						"PollTrue": { "Start": ["cafe7f73e519868b"] }
+						"PollTrue": {
+							"Start": ["cafe7f73e519868b"],
+							"Activate": ["cafe64f864edbd1b"]
+						}
 					}
 				}
 			]
@@ -15315,14 +15336,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": -0.0,
+									"x": 0.0,
 									"y": 0.0,
-									"z": -120.06762399171696
+									"z": -90
 								},
 								"position": {
-									"x": -116.1947021484375,
-									"y": 265.5213928222656,
-									"z": 31.1943302154541
+									"x": 17.3,
+									"y": -170.95,
+									"z": -5.3000006675720215
 								}
 							}
 						},
@@ -15408,14 +15429,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": -0.0,
-									"y": 0.0,
-									"z": 90.14616165778754
+									"x": -0.018633332916847593,
+									"y": 0.020868181049477713,
+									"z": -96.47626111420708
 								},
 								"position": {
-									"x": -45.404441833496094,
-									"y": 31.493940353393555,
-									"z": 93.0
+									"x": 21.912778854370117,
+									"y": -182.95529174804688,
+									"z": -5.015439033508301
 								}
 							}
 						},
@@ -15447,14 +15468,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": -0.0,
-									"y": 0.0,
-									"z": -140.2060271752661
+									"x": -0.018633332916847593,
+									"y": 0.020868181049477713,
+									"z": -96.47626111420708
 								},
 								"position": {
-									"x": -102.92559814453124,
-									"y": 32.678409576416016,
-									"z": -0.1610639989376068
+									"x": 21.912778854370117,
+									"y": -182.95529174804688,
+									"z": -5.015439033508301
 								}
 							}
 						},
@@ -15534,13 +15555,13 @@
 							"value": {
 								"rotation": {
 									"x": -0.0,
-									"y": 0.0,
-									"z": 120.83088762172612
+									"y": 0,
+									"z": -72.67181
 								},
 								"position": {
-									"x": 17.447629928588867,
-									"y": 39.0832405090332,
-									"z": 37.0
+									"x": 24.676,
+									"y": -164.05705,
+									"z": -18.996548
 								}
 							}
 						},
@@ -15577,13 +15598,13 @@
 							"value": {
 								"rotation": {
 									"x": -0.0,
-									"y": 0.0,
-									"z": -41.5236487408193
+									"y": 0,
+									"z": -178.99596
 								},
 								"position": {
-									"x": -35.47126007080078,
-									"y": -56.1256103515625,
-									"z": 46.055519104003906
+									"x": 18.972801,
+									"y": -161.7491,
+									"z": -19.000002
 								}
 							}
 						},
@@ -15674,13 +15695,13 @@
 							"value": {
 								"rotation": {
 									"x": -0.0,
-									"y": 0.0,
-									"z": 59.7499340996149
+									"y": 0,
+									"z": -89.01265
 								},
 								"position": {
-									"x": -20.52712059020996,
-									"y": 48.79732894897461,
-									"z": 89.06273651123047
+									"x": 51.479843,
+									"y": -150.48605,
+									"z": -18.99576
 								}
 							}
 						},
@@ -15821,12 +15842,12 @@
 								"rotation": {
 									"x": -0.0,
 									"y": 0.0,
-									"z": 49.01070102917848
+									"z": 79
 								},
 								"position": {
-									"x": 0.018431000411510468,
-									"y": -56.24882888793945,
-									"z": 47.08713912963867
+									"x": -13.999266624450684,
+									"y": -184.64556884765625,
+									"z": -12.588011741638184
 								}
 							}
 						},
@@ -15857,14 +15878,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": -6.27646356613191,
-									"y": 0.003437746473379583,
-									"z": 137.1367869802616
+									"x": -0.0,
+									"y": 0.0,
+									"z": 79
 								},
 								"position": {
-									"x": -58.731300354003906,
-									"y": 14.343179702758787,
-									"z": 4.398157119750977
+									"x": -13.999266624450684,
+									"y": -184.64556884765625,
+									"z": -12.588011741638184
 								}
 							}
 						},
@@ -15906,12 +15927,12 @@
 								"rotation": {
 									"x": -0.0,
 									"y": 0.0,
-									"z": 90.65278504224251
+									"z": 79
 								},
 								"position": {
-									"x": -41.260780334472656,
-									"y": 88.98766326904297,
-									"z": 0.19000199437141416
+									"x": -13.999266624450684,
+									"y": -184.64556884765625,
+									"z": -12.588011741638184
 								}
 							}
 						},
@@ -15947,13 +15968,13 @@
 							"value": {
 								"rotation": {
 									"x": -0.0,
-									"y": 0.0,
-									"z": 157.55601116256585
+									"y": 0,
+									"z": -15.351723
 								},
 								"position": {
-									"x": -42.21501159667969,
-									"y": 82.63294982910156,
-									"z": 0.1899999976158142
+									"x": 50.234592,
+									"y": -139.64333,
+									"z": -19
 								}
 							}
 						},
@@ -16013,14 +16034,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": -0.0,
-									"y": 0.0,
-									"z": -152.68300754205248
+									"x": 0,
+									"y": 0,
+									"z": 113.03524919152105
 								},
 								"position": {
-									"x": -30.116140365600582,
-									"y": 174.03810119628906,
-									"z": 38.36336898803711
+									"x": 39.2,
+									"y": -174.5,
+									"z": -10.9970703125
 								}
 							}
 						},
@@ -16056,14 +16077,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": -0.0,
+									"x": 0.0,
 									"y": 0.0,
-									"z": 118.39354423689733
+									"z": -90
 								},
 								"position": {
-									"x": -126.73079681396484,
-									"y": -38.01691055297851,
-									"z": -3.7054519653320312
+									"x": 17.3,
+									"y": -170.95,
+									"z": -5.3000006675720215
 								}
 							}
 						},
@@ -16173,14 +16194,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": -0.0,
+									"x": 0.0,
 									"y": 0.0,
-									"z": 118.39354423689733
+									"z": -90
 								},
 								"position": {
-									"x": -126.73079681396484,
-									"y": -38.01691055297851,
-									"z": -3.7054519653320312
+									"x": 17.3,
+									"y": -170.95,
+									"z": -5.3000006675720215
 								}
 							}
 						},
@@ -16219,14 +16240,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": -0.0,
-									"y": 0.0,
-									"z": -0.0
+									"x": -0.013823342106717283,
+									"y": 0.014151191608788492,
+									"z": 88.65709601258965
 								},
 								"position": {
-									"x": -0.0109978299587965,
-									"y": -0.42544230818748474,
-									"z": 0.0
+									"x": 31.785982131958008,
+									"y": -157.53311157226565,
+									"z": -5
 								}
 							}
 						},
@@ -16266,13 +16287,13 @@
 							"value": {
 								"rotation": {
 									"x": -0.0,
-									"y": 0.0,
-									"z": -79.3947789437233
+									"y": 0,
+									"z": -150.5993
 								},
 								"position": {
-									"x": -57.77130889892578,
-									"y": 60.684871673583984,
-									"z": 0.20000000298023224
+									"x": 58.315422,
+									"y": -197.20308,
+									"z": -10.961167
 								}
 							}
 						},
@@ -16532,13 +16553,13 @@
 							"value": {
 								"rotation": {
 									"x": -0.0,
-									"y": 0.0,
-									"z": -4.828585562418375
+									"y": 0,
+									"z": 120.47208
 								},
 								"position": {
-									"x": -42.53446960449219,
-									"y": 290.7915954589844,
-									"z": -13.0
+									"x": 35.71584,
+									"y": -252.581,
+									"z": -9.382342
 								}
 							}
 						},
@@ -16575,14 +16596,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": 0,
+									"x": -0.0,
 									"y": 0,
-									"z": 173.58613513320512
+									"z": -165.43192
 								},
 								"position": {
-									"x": 67.8224105834961,
-									"y": -207.37100219726565,
-									"z": -7.917996883392334
+									"x": 34.826317,
+									"y": -253.2792,
+									"z": -9.407703
 								}
 							}
 						},
@@ -16716,13 +16737,13 @@
 							"value": {
 								"rotation": {
 									"x": -0.0,
-									"y": 0.0,
-									"z": -175.00032938011122
+									"y": 0,
+									"z": -96.41343
 								},
 								"position": {
-									"x": -16.772340774536133,
-									"y": 98.51354217529295,
-									"z": 12.918439865112305
+									"x": 51.48868,
+									"y": -144.36197,
+									"z": -18.999588
 								}
 							}
 						},
@@ -16876,6 +16897,658 @@
 							"type": "SEntityTemplateReference",
 							"value": "fffffffffffffffe",
 							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe17581f4b7e46",
+				{
+					"parent": "cafe64f864edbd1b",
+					"name": "FX_E_Water_Splashes_Sink_Overflow_02",
+					"factory": "[assembly:/_pro/effects/templates/water/fx_water_spray.template?/fx_e_water_splashes_sink_overflow.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/effects/templates/water/fx_water_spray.template?/fx_e_water_splashes_sink_overflow.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -180.0
+								},
+								"position": {
+									"x": 0.7612339854240417,
+									"y": -2.117645025253296,
+									"z": 0.06183800101280213
+								}
+							}
+						},
+						"BoxEmittorSize": {
+							"type": "SVector3",
+							"value": {
+								"x": 0.800000011920929,
+								"y": 0.10000000149011612,
+								"z": 0.029999999329447743
+							}
+						},
+						"DecalMinSize": {
+							"type": "float32",
+							"value": 100.0
+						},
+						"DecalMaxSize": {
+							"type": "float32",
+							"value": 150.0
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe64f864edbd1b",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafec1d000b3bd74",
+				{
+					"parent": "cafe64f864edbd1b",
+					"name": "FX_PB_Smoke",
+					"factory": "[assembly:/_pro/effects/templates/smoke/fx_smoke.template?/fx_pb_smoke.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/effects/templates/smoke/fx_smoke.template?/fx_pb_smoke.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_FixedAlpha": {
+							"type": "float32",
+							"value": 0.5
+						},
+						"m_nMultiTrackLength": {
+							"type": "int32",
+							"value": 8
+						},
+						"m_ParticleColorRangeStart": {
+							"type": "SColorRGB",
+							"value": "#ffffff"
+						},
+						"m_ParticleColorRangeEnd": {
+							"type": "SColorRGB",
+							"value": "#ffffff"
+						},
+						"m_vGravity": {
+							"type": "SVector3",
+							"value": { "x": 0.0, "y": 0.0, "z": -15.0 }
+						},
+						"m_fMotionStretchFactor": {
+							"type": "float32",
+							"value": 6.0
+						},
+						"AlphaCurve": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 0.0, 0.0, 0.0,
+										-0.21460182964801788,
+										0.7146018147468567,
+										4.8090179775077144e-17, 0.0
+									],
+									[
+										0.006674294359982014, 0.5, 0.0,
+										0.0, -0.21460182964801788,
+										-0.07079632580280304,
+										0.7853981852531433, 0.5
+									],
+									[
+										0.013348588719964027, 1.0, 0.0,
+										0.0, 0.0, 0.0, 0.0, 1.0
+									],
+									[
+										0.6995614171028137, 1.0, 0.0, 0.0,
+										0.21460182964801788,
+										-0.7146018147468567,
+										-4.8090179775077144e-17, 1.0
+									],
+									[
+										0.8497806787490845, 0.5, 0.0, 0.0,
+										0.21460182964801788,
+										0.07079632580280304,
+										-0.7853981852531433, 0.5
+									],
+									[
+										1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+										0.0
+									]
+								]
+							}
+						},
+						"m_fTimeToLiveSecondsMax": {
+							"type": "float32",
+							"value": 0.3499999940395355
+						},
+						"m_fTimeToLiveSecondsMin": {
+							"type": "float32",
+							"value": 0.3499999940395355
+						},
+						"m_fParticleSizeMin": {
+							"type": "float32",
+							"value": 10.0
+						},
+						"m_fParticleSizeMax": {
+							"type": "float32",
+							"value": 10.0
+						},
+						"SizeAddMin": {
+							"type": "float32",
+							"value": 250.0
+						},
+						"m_fFriction": {
+							"type": "float32",
+							"value": 200.0
+						},
+						"m_fCameraFadeFarDistance": {
+							"type": "float32",
+							"value": 4.0
+						},
+						"m_fCameraFadeSizeFactor": {
+							"type": "float32",
+							"value": 10.0
+						},
+						"SizeAddMax": { "type": "float32", "value": 0.0 },
+						"m_fWindMultiplier": {
+							"type": "float32",
+							"value": 1.0
+						},
+						"m_ePivotLocation": {
+							"type": "EParticleSpritePivotLocation",
+							"value": "CENTER_PIVOT"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe5a14fd14d5b2",
+				{
+					"parent": "cafe64f864edbd1b",
+					"name": "FX_E_Liquid_Pipe",
+					"factory": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/fx_e_liquid_pipe.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/fx_e_liquid_pipe.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": 0.763034999370575,
+									"y": -2.217406988143921,
+									"z": 2.653162956237793
+								}
+							}
+						},
+						"ImpactPosition": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": 0.0,
+									"y": 0.0,
+									"z": -2.5999999046325684
+								}
+							}
+						},
+						"Opacity": {
+							"type": "float32",
+							"value": 0.05000000074505806
+						},
+						"Color": {
+							"type": "SColorRGB",
+							"value": "#ffffff"
+						},
+						"Enabled": { "type": "bool", "value": false },
+						"ParticleEmittorOffset": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": 0.0,
+									"y": 0.0,
+									"z": 0.0
+								}
+							}
+						},
+						"m_fEmissionCameraProximity": {
+							"type": "float32",
+							"value": 15.0
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe64f864edbd1b",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe8ee7f3d76a42",
+				{
+					"parent": "cafe64f864edbd1b",
+					"name": "FX_PB_Smoke_01",
+					"factory": "[assembly:/_pro/effects/templates/smoke/fx_smoke.template?/fx_pb_smoke.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/effects/templates/smoke/fx_smoke.template?/fx_pb_smoke.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_FixedAlpha": {
+							"type": "float32",
+							"value": 0.20000000298023224
+						},
+						"m_nMultiTrackLength": {
+							"type": "int32",
+							"value": 8
+						},
+						"m_ParticleColorRangeStart": {
+							"type": "SColorRGB",
+							"value": "#ffffff"
+						},
+						"m_ParticleColorRangeEnd": {
+							"type": "SColorRGB",
+							"value": "#ffffff"
+						},
+						"m_vGravity": {
+							"type": "SVector3",
+							"value": { "x": 0.0, "y": 0.0, "z": 2.0 }
+						},
+						"m_fMotionStretchFactor": {
+							"type": "float32",
+							"value": 10.0
+						},
+						"AlphaCurve": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 0.0, 0.0, 0.0,
+										-0.21460182964801788,
+										0.7146018147468567,
+										4.8090179775077144e-17, 0.0
+									],
+									[
+										0.13277079164981842, 0.5, 0.0, 0.0,
+										-0.21460182964801788,
+										-0.07079632580280304,
+										0.7853981852531433, 0.5
+									],
+									[
+										0.26554158329963684, 1.0, 0.0, 0.0,
+										0.0, 0.0, 0.0, 1.0
+									],
+									[
+										0.6995614171028137, 1.0, 0.0, 0.0,
+										0.21460182964801788,
+										-0.7146018147468567,
+										-4.8090179775077144e-17, 1.0
+									],
+									[
+										0.8497806787490845, 0.5, 0.0, 0.0,
+										0.21460182964801788,
+										0.07079632580280304,
+										-0.7853981852531433, 0.5
+									],
+									[
+										1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+										0.0
+									]
+								]
+							}
+						},
+						"m_fTimeToLiveSecondsMax": {
+							"type": "float32",
+							"value": 2.0
+						},
+						"m_fTimeToLiveSecondsMin": {
+							"type": "float32",
+							"value": 2.0
+						},
+						"m_fParticleSizeMin": {
+							"type": "float32",
+							"value": 100.0
+						},
+						"m_fParticleSizeMax": {
+							"type": "float32",
+							"value": 100.0
+						},
+						"SizeAddMin": { "type": "float32", "value": 50.0 },
+						"m_fFriction": {
+							"type": "float32",
+							"value": 200.0
+						},
+						"m_fCameraFadeFarDistance": {
+							"type": "float32",
+							"value": 4.0
+						},
+						"m_fCameraFadeSizeFactor": {
+							"type": "float32",
+							"value": 10.0
+						},
+						"SizeAddMax": { "type": "float32", "value": 0.0 },
+						"m_fWindMultiplier": {
+							"type": "float32",
+							"value": 0.0
+						},
+						"m_ePivotLocation": {
+							"type": "EParticleSpritePivotLocation",
+							"value": "CENTER_PIVOT"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafebab0b44e51a4",
+				{
+					"parent": "cafe64f864edbd1b",
+					"name": "FX_Water_Leak_2x2m_A",
+					"factory": "[assembly:/_pro/effects/templates/water/fx_water_leaks.template?/fx_water_leak_2x2m_a.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/effects/templates/water/fx_water_leaks.template?/fx_water_leak_2x2m_a.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": 0.7846490144729614,
+									"y": -1.8694000244140625,
+									"z": 0.08110000193119049
+								}
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe64f864edbd1b",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe3eeca7f4e5eb",
+				{
+					"parent": "cafe64f864edbd1b",
+					"name": "FX_PR_Smoke_Wispy_Generic_4t_8x4_01",
+					"factory": "[assembly:/_pro/effects/templates/particlerenderers/fx_pr_smoke.template?/fx_pr_smoke_wispy_generic_4t_8x4.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/effects/templates/particlerenderers/fx_pr_smoke.template?/fx_pr_smoke_wispy_generic_4t_8x4.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"FlowTurbulenceStart": {
+							"type": "float32",
+							"value": 10.0
+						},
+						"FlowTurbulenceEnd": {
+							"type": "float32",
+							"value": 5.0
+						},
+						"BumpScale": { "type": "float32", "value": 0.0 },
+						"Reflectance": { "type": "float32", "value": 0.5 },
+						"Detail": { "type": "float32", "value": 1.0 },
+						"SphericalNormals": {
+							"type": "float32",
+							"value": 0.0
+						},
+						"Diffusion": { "type": "float32", "value": 0.0 },
+						"Translucency": {
+							"type": "float32",
+							"value": 0.5
+						},
+						"SortParticles": { "type": "bool", "value": true }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe7aee905e55b1",
+				{
+					"parent": "cafe64f864edbd1b",
+					"name": "ParticleEmitterBox 2",
+					"factory": "[modules:/zparticleemitterboxentity.class].pc_entitytype",
+					"blueprint": "[modules:/zparticleemitterboxentity.class].pc_entityblueprint",
+					"properties": {
+						"m_fSpeedMin": { "type": "float32", "value": 0.0 },
+						"m_ParticleController": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe8ee7f3d76a42"
+						},
+						"m_ParticleRender": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe3eeca7f4e5eb"
+						},
+						"m_ParticleShaderParameters": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "cafe3eeca7f4e5eb",
+								"externalScene": null,
+								"exposedEntity": "FX_PSP_Smoke_Generic"
+							}
+						},
+						"m_fSpeedMax": { "type": "float32", "value": 0.0 },
+						"m_fEmissionTimeSeconds": {
+							"type": "float32",
+							"value": 0.0
+						},
+						"m_bEnabled": { "type": "bool", "value": false },
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -180.0
+								},
+								"position": {
+									"x": 0.7538300156593323,
+									"y": -2.080687999725342,
+									"z": -0.028849000111222267
+								}
+							}
+						},
+						"m_vGlobalSize": {
+							"type": "SVector3",
+							"value": {
+								"x": 1.5479999780654907,
+								"y": 1.0,
+								"z": 0.0
+							}
+						},
+						"m_fParticlesPerSecond": {
+							"type": "float32",
+							"value": 2.0
+						},
+						"m_fOuterConeAngle": {
+							"type": "float32",
+							"value": 0.0
+						},
+						"m_eSpawnMode": {
+							"type": "eParticleEmitterBoxEntity_SpawnModes",
+							"value": "BOX_SPAWNMODE_ELLIPSOID_INSIDE"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe64f864edbd1b",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe03c5f3d74c29",
+				{
+					"parent": "cafe64f864edbd1b",
+					"name": "FX_PR_Smoke_Wispy_Generic_4t_8x4",
+					"factory": "[assembly:/_pro/effects/templates/particlerenderers/fx_pr_smoke.template?/fx_pr_smoke_wispy_generic_4t_8x4.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/effects/templates/particlerenderers/fx_pr_smoke.template?/fx_pr_smoke_wispy_generic_4t_8x4.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"FlowTurbulenceStart": {
+							"type": "float32",
+							"value": 10.0
+						},
+						"FlowTurbulenceEnd": {
+							"type": "float32",
+							"value": 5.0
+						},
+						"BumpScale": { "type": "float32", "value": 0.0 },
+						"Reflectance": { "type": "float32", "value": 0.5 },
+						"Detail": { "type": "float32", "value": 1.0 },
+						"SphericalNormals": {
+							"type": "float32",
+							"value": 0.0
+						},
+						"Diffusion": { "type": "float32", "value": 0.0 },
+						"Translucency": {
+							"type": "float32",
+							"value": 0.5
+						},
+						"SortParticles": { "type": "bool", "value": true }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeb7fb2ab42569",
+				{
+					"parent": "cafe64f864edbd1b",
+					"name": "ParticleEmitterBox",
+					"factory": "[modules:/zparticleemitterboxentity.class].pc_entitytype",
+					"blueprint": "[modules:/zparticleemitterboxentity.class].pc_entityblueprint",
+					"properties": {
+						"m_fSpeedMin": { "type": "float32", "value": 5.0 },
+						"m_ParticleController": {
+							"type": "SEntityTemplateReference",
+							"value": "cafec1d000b3bd74"
+						},
+						"m_ParticleRender": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe03c5f3d74c29"
+						},
+						"m_ParticleShaderParameters": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "cafe03c5f3d74c29",
+								"externalScene": null,
+								"exposedEntity": "FX_PSP_Smoke_Generic"
+							}
+						},
+						"m_fSpeedMax": { "type": "float32", "value": 5.0 },
+						"m_fEmissionTimeSeconds": {
+							"type": "float32",
+							"value": 0.0
+						},
+						"m_bEnabled": { "type": "bool", "value": false },
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -180.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": 0.7471309900283813,
+									"y": -2.2067110538482666,
+									"z": 2.53418493270874
+								}
+							}
+						},
+						"m_vGlobalSize": {
+							"type": "SVector3",
+							"value": { "x": 0.0, "y": 0.0, "z": 0.0 }
+						},
+						"m_fParticlesPerSecond": {
+							"type": "float32",
+							"value": 15.0
+						},
+						"m_fOuterConeAngle": {
+							"type": "float32",
+							"value": 0.0
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe64f864edbd1b",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe64f864edbd1b",
+				{
+					"parent": "cafe7f73e519868b",
+					"name": "FX_Shower",
+					"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+					"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0,
+									"z": 1.1786897
+								},
+								"position": {
+									"x": 5.4345207,
+									"y": -135.92035,
+									"z": -17.99465
+								}
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe"
+						}
+					},
+					"inputCopying": {
+						"Activate": {
+							"Activate": [
+								"cafe5a14fd14d5b2",
+								"cafeb7fb2ab42569",
+								"cafe7aee905e55b1",
+								"cafebab0b44e51a4",
+								"cafe17581f4b7e46"
+							]
+						},
+						"Deactivate": {
+							"Deactivate": [
+								"cafe5a14fd14d5b2",
+								"cafeb7fb2ab42569",
+								"cafe7aee905e55b1",
+								"cafe17581f4b7e46"
+							]
 						}
 					}
 				}

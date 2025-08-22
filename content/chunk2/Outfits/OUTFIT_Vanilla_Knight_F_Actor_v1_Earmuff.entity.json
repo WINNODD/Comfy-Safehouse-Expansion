@@ -35,16 +35,7 @@
 			"parent": "a6cad545ae4c473c",
 			"name": "Dress_Top_Turtleneck_NoSlv",
 			"factory": "0088D2B1138E65DB",
-			"blueprint": "00F2C315BA64B712",
-			"properties": {
-				"m_pMeshResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00D63378F4C93769",
-						"flag": "5F"
-					}
-				}
-			}
+			"blueprint": "00F2C315BA64B712"
 		},
 		"a6cad545ae4c473c": {
 			"parent": null,

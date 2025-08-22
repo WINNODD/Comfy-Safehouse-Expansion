@@ -294,6 +294,11 @@
 						"m_aAllowedWeaponKeys": {
 							"type": "TArray<SEntityTemplateReference>",
 							"value": []
+						},
+						"m_AvailableWeaponKeys": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe8d219bf5009b"],
+							"postInit": true
 						}
 					}
 				}
@@ -369,6 +374,11 @@
 						"m_aAllowedWeaponKeys": {
 							"type": "TArray<SEntityTemplateReference>",
 							"value": []
+						},
+						"m_AvailableWeaponKeys": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe7f7b7f4c0f68"],
+							"postInit": true
 						}
 					}
 				}
@@ -1806,6 +1816,40 @@
 				"cafe8b009be32973",
 				{
 					"parent": "feed9854428b6be7",
+					"name": "ItemKey_(Pistol) ICA 19 Black Lilly S3",
+					"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+					"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+					"properties": {
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "b0f87b4e-a41c-4771-8c74-f56574129679"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe7f7b7f4c0f68",
+				{
+					"parent": "feedd2347f5322ab",
+					"name": "ItemKey__S3_ Sieger_AR552_Tactical",
+					"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+					"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+					"properties": {
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "a8309099-1b89-4492-bf37-37d4312b6615"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe8d219bf5009b",
+				{
+					"parent": "feed3df74289b212",
 					"name": "ItemKey_(Pistol) ICA 19 Black Lilly S3",
 					"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 					"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
