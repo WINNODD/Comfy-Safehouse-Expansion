@@ -1,7 +1,55 @@
 {
-	"tempHash": "00F766FFFAFA4298",
-	"tbluHash": "0091EB2844E7D05B",
+	"tempHash": "00E27DFAAEC4D8FE",
+	"tbluHash": "0029717E09A34983",
 	"patch": [
+		{
+			"RemovePropertyOverrideConnection": {
+				"entity": {
+					"ref": "061cecb646e484c8",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 77.62288416754255,
+							"y": 53.9917321066999,
+							"z": -109.50726674626947
+						},
+						"position": {
+							"x": -35.1302490234375,
+							"y": -193.99110412597656,
+							"z": 11.625539779663086
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "061cecb646e484c8",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 77.62288416754255,
+							"y": 53.9917321066999,
+							"z": -109.50726674626948
+						},
+						"position": {
+							"x": -35.1302490234375,
+							"y": -193.99110412597656,
+							"z": 11.625539779663086
+						}
+					}
+				}
+			}
+		},
 		{
 			"AddPropertyOverrideConnection": {
 				"entity": {
@@ -9,182 +57,24 @@
 					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
 				},
 				"propertyName": "m_nValue",
-				"propertyOverride": { "type": "int32", "value": 1 }
-			}
-		},
-		{
-			"AddPropertyOverrideConnection": {
-				"entity": {
-					"ref": "feedc7bdc5ee3942",
-					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
-				},
-				"propertyName": "m_mTransform",
-				"propertyOverride": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0, "z": -73.02686 },
-						"position": {
-							"x": 28.844427,
-							"y": -160.92159,
-							"z": -5.0000005
-						}
-					}
-				}
-			}
-		},
-		{
-			"AddPropertyOverrideConnection": {
-				"entity": {
-					"ref": "feedc7bdc5ee3942",
-					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
-				},
-				"propertyName": "m_nOutfitVariation",
-				"propertyOverride": { "type": "int32", "value": 0 }
-			}
-		},
-		{
-			"AddPropertyOverrideConnection": {
-				"entity": {
-					"ref": "feedaa1a63c74e1e",
-					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
-				},
-				"propertyName": "m_mTransform",
-				"propertyOverride": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0, "z": -83.6147 },
-						"position": {
-							"x": 10.116482,
-							"y": -165.24016,
-							"z": -10.945866
-						}
-					}
-				}
-			}
-		},
-		{
-			"AddPropertyOverrideConnection": {
-				"entity": {
-					"ref": "feedaa1a63c74e1e",
-					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
-				},
-				"propertyName": "m_nOutfitVariation",
-				"propertyOverride": { "type": "int32", "value": 0 }
-			}
-		},
-		{
-			"AddPropertyOverrideConnection": {
-				"entity": {
-					"ref": "feedb1a30f22a577",
-					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
-				},
-				"propertyName": "m_mTransform",
-				"propertyOverride": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -0.013823342106717283,
-							"y": 0.014151191608788492,
-							"z": 88.65709601258965
-						},
-						"position": {
-							"x": 31.785982131958008,
-							"y": -157.53311157226565,
-							"z": -5
-						}
-					}
-				}
-			}
-		},
-		{
-			"AddPropertyOverrideConnection": {
-				"entity": {
-					"ref": "feedb1a30f22a577",
-					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
-				},
-				"propertyName": "m_nOutfitVariation",
-				"propertyOverride": { "type": "int32", "value": 0 }
-			}
-		},
-		{
-			"AddPropertyOverrideConnection": {
-				"entity": {
-					"ref": "feed35a7d75aaa3f",
-					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
-				},
-				"propertyName": "m_mTransform",
-				"propertyOverride": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0, "z": -57.429462 },
-						"position": {
-							"x": 9.822093,
-							"y": -163.21161,
-							"z": -18.998379
-						}
-					}
-				}
-			}
-		},
-		{
-			"AddPropertyOverrideConnection": {
-				"entity": {
-					"ref": "feed35a7d75aaa3f",
-					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
-				},
-				"propertyName": "m_nOutfitVariation",
-				"propertyOverride": { "type": "int32", "value": 1 }
-			}
-		},
-		{
-			"AddPropertyOverrideConnection": {
-				"entity": {
-					"ref": "feed7b75fe5b5dc1",
-					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
-				},
-				"propertyName": "m_mTransform",
-				"propertyOverride": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -0.0,
-							"y": 0,
-							"z": -51232137.429462
-						},
-						"position": {
-							"x": 9.822093,
-							"y": -163.21161,
-							"z": -18.998379
-						}
-					}
-				}
-			}
-		},
-		{
-			"AddPropertyOverrideConnection": {
-				"entity": {
-					"ref": "feed7b75fe5b5dc1",
-					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
-				},
-				"propertyName": "m_nOutfitVariation",
 				"propertyOverride": { "type": "int32", "value": 2 }
 			}
 		},
 		{
 			"AddPropertyOverrideConnection": {
 				"entity": {
-					"ref": "feedeffcf36bbb40",
+					"ref": "feedc7bdc5ee3942",
 					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
 				},
 				"propertyName": "m_mTransform",
 				"propertyOverride": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 79 },
+						"rotation": { "x": -0.0, "y": 0, "z": 93.51887 },
 						"position": {
-							"x": -13.999266624450684,
-							"y": -184.64556884765625,
-							"z": -12.588011741638184
+							"x": 26.843098,
+							"y": -163.44926,
+							"z": -10.949668
 						}
 					}
 				}
@@ -193,7 +83,7 @@
 		{
 			"AddPropertyOverrideConnection": {
 				"entity": {
-					"ref": "feedeffcf36bbb40",
+					"ref": "feedc7bdc5ee3942",
 					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
 				},
 				"propertyName": "m_nOutfitVariation",
@@ -203,18 +93,18 @@
 		{
 			"AddPropertyOverrideConnection": {
 				"entity": {
-					"ref": "feedb89c156a7396",
+					"ref": "feedaa1a63c74e1e",
 					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
 				},
 				"propertyName": "m_mTransform",
 				"propertyOverride": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0, "z": -57.429462 },
+						"rotation": { "x": -0.0, "y": 0, "z": -94.97994 },
 						"position": {
-							"x": 9.822093,
-							"y": -163.22231231161,
-							"z": -18.998379
+							"x": 28.96125,
+							"y": -181.32619,
+							"z": -10.950001
 						}
 					}
 				}
@@ -223,111 +113,17 @@
 		{
 			"AddPropertyOverrideConnection": {
 				"entity": {
-					"ref": "feedb89c156a7396",
+					"ref": "feedaa1a63c74e1e",
 					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
 				},
 				"propertyName": "m_nOutfitVariation",
-				"propertyOverride": { "type": "int32", "value": 0 }
+				"propertyOverride": { "type": "int32", "value": 1 }
 			}
 		},
 		{
 			"AddPropertyOverrideConnection": {
 				"entity": {
-					"ref": "feed1c05d4a0ba8b",
-					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
-				},
-				"propertyName": "m_mTransform",
-				"propertyOverride": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 113.03524919152105
-						},
-						"position": {
-							"x": 39.2,
-							"y": -174.5,
-							"z": -10.9970703125
-						}
-					}
-				}
-			}
-		},
-		{
-			"AddPropertyOverrideConnection": {
-				"entity": {
-					"ref": "feed1c05d4a0ba8b",
-					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
-				},
-				"propertyName": "m_nOutfitVariation",
-				"propertyOverride": { "type": "int32", "value": 0 }
-			}
-		},
-		{
-			"AddPropertyOverrideConnection": {
-				"entity": {
-					"ref": "feedb1b258fc40dc",
-					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
-				},
-				"propertyName": "m_mTransform",
-				"propertyOverride": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0, "z": -57.429462 },
-						"position": {
-							"x": 9.822012123193,
-							"y": -163.21161,
-							"z": -18.998379
-						}
-					}
-				}
-			}
-		},
-		{
-			"AddPropertyOverrideConnection": {
-				"entity": {
-					"ref": "feedb1b258fc40dc",
-					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
-				},
-				"propertyName": "m_nOutfitVariation",
-				"propertyOverride": { "type": "int32", "value": 0 }
-			}
-		},
-		{
-			"AddPropertyOverrideConnection": {
-				"entity": {
-					"ref": "feedadab0e2e35af",
-					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
-				},
-				"propertyName": "m_mTransform",
-				"propertyOverride": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0, "z": -57.429462 },
-						"position": {
-							"x": 9.82123123201393,
-							"y": -163.21161,
-							"z": -18.998379
-						}
-					}
-				}
-			}
-		},
-		{
-			"AddPropertyOverrideConnection": {
-				"entity": {
-					"ref": "feedadab0e2e35af",
-					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
-				},
-				"propertyName": "m_nOutfitVariation",
-				"propertyOverride": { "type": "int32", "value": 0 }
-			}
-		},
-		{
-			"AddPropertyOverrideConnection": {
-				"entity": {
-					"ref": "feed7fd86a3c73dd",
+					"ref": "feedb1a30f22a577",
 					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
 				},
 				"propertyName": "m_mTransform",
@@ -337,12 +133,272 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0,
-							"z": -57.421231239462
+							"z": -57.4129462
 						},
 						"position": {
 							"x": 9.822093,
 							"y": -163.21161,
 							"z": -18.998379
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "feedb1a30f22a577",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_nOutfitVariation",
+				"propertyOverride": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "feed35a7d75aaa3f",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.018633332916847593,
+							"y": 0.020868181049477713,
+							"z": -96.47626111420708
+						},
+						"position": {
+							"x": 21.912778854370117,
+							"y": -182.95529174804688,
+							"z": -5.015439033508301
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "feed35a7d75aaa3f",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_nOutfitVariation",
+				"propertyOverride": { "type": "int32", "value": 0 }
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "feed7b75fe5b5dc1",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 173.58613513320512
+						},
+						"position": {
+							"x": 67.8224105834961,
+							"y": -207.37100219726565,
+							"z": -7.917996883392334
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "feed7b75fe5b5dc1",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_nOutfitVariation",
+				"propertyOverride": { "type": "int32", "value": 0 }
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "feedeffcf36bbb40",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0,
+							"z": -57.429111462
+						},
+						"position": {
+							"x": 9.822093,
+							"y": -163.21161,
+							"z": -18.998379
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "feedeffcf36bbb40",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_nOutfitVariation",
+				"propertyOverride": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "feedb89c156a7396",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0,
+							"z": -57.42911111111462
+						},
+						"position": {
+							"x": 9.822093,
+							"y": -163.21161,
+							"z": -18.998379
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "feedb89c156a7396",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_nOutfitVariation",
+				"propertyOverride": { "type": "int32", "value": 0 }
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "feed1c05d4a0ba8b",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": -57.429462 },
+						"position": {
+							"x": 9.822011193,
+							"y": -163.21161,
+							"z": -18.998379
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "feed1c05d4a0ba8b",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_nOutfitVariation",
+				"propertyOverride": { "type": "int32", "value": 0 }
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "feedb1b258fc40dc",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": -57.429462 },
+						"position": {
+							"x": 9.822093,
+							"y": -163.211111161,
+							"z": -18.998379
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "feedb1b258fc40dc",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_nOutfitVariation",
+				"propertyOverride": { "type": "int32", "value": 0 }
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "feedadab0e2e35af",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": -57.429462 },
+						"position": {
+							"x": 9.822093,
+							"y": -163.21161,
+							"z": -18.1111998379
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "feedadab0e2e35af",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_nOutfitVariation",
+				"propertyOverride": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "feed7fd86a3c73dd",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 175.0684262984354
+						},
+						"position": {
+							"x": 22.31171226501465,
+							"y": -174.8775177001953,
+							"z": -10.950000762939451
 						}
 					}
 				}
@@ -368,11 +424,11 @@
 				"propertyOverride": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0, "z": -57.429462 },
+						"rotation": { "x": 0, "y": 0, "z": 90.0 },
 						"position": {
-							"x": 9.822093,
-							"y": -163.21161,
-							"z": -18.998312312379
+							"x": 8.5,
+							"y": -174.5,
+							"z": -10.960646629333496
 						}
 					}
 				}
@@ -398,15 +454,11 @@
 				"propertyOverride": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 56.837149902762626
-						},
+						"rotation": { "x": -0.0, "y": 0, "z": -57.429462 },
 						"position": {
-							"x": -40.84832000732422,
-							"y": -157.09619140625,
-							"z": -12.352264404296877
+							"x": 9.822093,
+							"y": -163.21444161,
+							"z": -18.998379
 						}
 					}
 				}
@@ -419,7 +471,7 @@
 					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
 				},
 				"propertyName": "m_nOutfitVariation",
-				"propertyOverride": { "type": "int32", "value": 0 }
+				"propertyOverride": { "type": "int32", "value": 1 }
 			}
 		},
 		{
@@ -435,8 +487,8 @@
 						"rotation": { "x": -0.0, "y": 0, "z": -57.429462 },
 						"position": {
 							"x": 9.822093,
-							"y": -163.21161,
-							"z": -11231238.998379
+							"y": -163.21555161,
+							"z": -18.998379
 						}
 					}
 				}
@@ -450,20 +502,6 @@
 				},
 				"propertyName": "m_nOutfitVariation",
 				"propertyOverride": { "type": "int32", "value": 1 }
-			}
-		},
-		{
-			"AddComment": {
-				"parent": "cafec12fbd4cb958",
-				"name": "Notes",
-				"text": "Grey"
-			}
-		},
-		{
-			"AddComment": {
-				"parent": "cafe78c4556f7109",
-				"name": "Notes",
-				"text": "Knight"
 			}
 		}
 	],

@@ -273,6 +273,46 @@
 			"comment": "underwear_boxers_smith",
 			"runtimeID": "00D45B0D027BF5A6",
 			"toChunk": 1
+		},
+		{
+			"comment": "Act_FR_Stand_Showering_Night",
+			"runtimeID": "00619A048CDE8906",
+			"toChunk": 1
+		},
+		{
+			"comment": "Coat_RldSlv_Open_Dexy_Barat",
+			"runtimeID": "0038945E0B73424E",
+			"toChunk": 0
+		},
+		{
+			"comment": "act_mr_stand_basic_carrysuitcase_phone",
+			"runtimeID": "005D073DD15A51A9",
+			"toChunk": 1
+		},
+		{
+			"comment": "act_mr_stand_carrysuitcase_pickup_000cm",
+			"runtimeID": "004C06BE00B43E75",
+			"toChunk": 1
+		},
+		{
+			"comment": "act_fr_sit_interview_075cm",
+			"runtimeID": "005F276FDC69BC83",
+			"toChunk": 1
+		},
+		{
+			"comment": "act_fr_sit_ground_meditate",
+			"runtimeID": "00C467636232BE02",
+			"toChunk": 1
+		},
+		{
+			"comment": "act_fr_sit_tablet_legscrossed",
+			"runtimeID": "00BE161C4E60FC9F",
+			"toChunk": 1
+		},
+		{
+			"comment": "setpiece_trap_waterscooterride",
+			"runtimeID": "00700FDBD5F9E434",
+			"toChunk": 1
 		}
 	],
 	"options": [

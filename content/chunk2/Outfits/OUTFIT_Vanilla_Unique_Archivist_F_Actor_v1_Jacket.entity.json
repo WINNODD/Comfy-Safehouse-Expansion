@@ -1432,9 +1432,22 @@
 		},
 		"cafefda03d0842e8": {
 			"parent": "8db43cba3310f114",
-			"name": "Jacket_ZipBlazer_RldSlv_Open",
-			"factory": "00C9FF25D1F39F64",
-			"blueprint": "00919A5EE511F27E"
+			"name": "Coat_RldSlv_Open",
+			"factory": "0066AD8A052C4745",
+			"blueprint": "00B8801A82512825",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#169196"
+				},
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0038945E0B73424E",
+						"flag": "5F"
+					}
+				}
+			}
 		}
 	},
 	"propertyOverrides": [],

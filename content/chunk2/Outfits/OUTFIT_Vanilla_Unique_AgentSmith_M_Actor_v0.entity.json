@@ -47,15 +47,18 @@
 		},
 		"b3668697ff4d0244": {
 			"parent": "0eedb9279cb639fb",
-			"name": "Legs_Knee_Foot",
-			"factory": "00AAE13A3883E047",
-			"blueprint": "00F29BB36D859F50"
-		},
-		"cf98a363252007a2": {
-			"parent": "0eedb9279cb639fb",
-			"name": "Upper_Body",
-			"factory": "00E7208BAEDDB24F",
-			"blueprint": "003C889C79F6A7B1"
+			"name": "Body_Full",
+			"factory": "008C9419C0263DF3",
+			"blueprint": "009E702203139DF5",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/sheep/orsonmills/geometry/male_reg_orsonmills.wl2?/body.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			}
 		},
 		"996351de8a01594a": {
 			"parent": "0eedb9279cb639fb",
@@ -167,8 +170,7 @@
 						"996351de8a01594a",
 						"c864c095488542a9",
 						"b3668697ff4d0244",
-						"bd6b9b9f64a5bcc4",
-						"cf98a363252007a2"
+						"bd6b9b9f64a5bcc4"
 					],
 					"postInit": true
 				}

@@ -13,7 +13,8 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
 						"feedbe03383b9ed3",
-						"c2318c7895981ed0"
+						"c2318c7895981ed0",
+						"cafe073729486912"
 					],
 					"postInit": true
 				}
@@ -29,7 +30,8 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
 						"feeda22696ffac30",
-						"92e8394b3e9dc256"
+						"92e8394b3e9dc256",
+						"cafe5a6853473e18"
 					],
 					"postInit": true
 				}
@@ -49,9 +51,7 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ecef324b33f824a1"
-					]
+					"value": ["ecef324b33f824a1"]
 				}
 			}
 		},
@@ -130,32 +130,46 @@
 					}
 				}
 			}
+		},
+		"cafe073729486912": {
+			"parent": "5939ac41df089b5d",
+			"name": "2",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "002670DDB8F47828",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafe5a6853473e18": {
+			"parent": "3648192a6d0364a3",
+			"name": "2",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "002670DDB8F47828",
+						"flag": "9F"
+					}
+				}
+			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [
-
-	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

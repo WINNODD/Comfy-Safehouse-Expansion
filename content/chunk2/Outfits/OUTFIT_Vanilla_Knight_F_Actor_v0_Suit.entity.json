@@ -12,7 +12,7 @@
 				"m_pMeshResource": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "003601062919BB43",
+						"resource": "00D63378F4C93769",
 						"flag": "5F"
 					}
 				}
@@ -20,9 +20,9 @@
 		},
 		"457c4e7a1d7b6026": {
 			"parent": "a6cad545ae4c473c",
-			"name": "Legs_Heels_Thigh_Shoe",
-			"factory": "007E81D3CC28B87A",
-			"blueprint": "00983181CF5DE248"
+			"name": "Ankle",
+			"factory": "00B2939807466E78",
+			"blueprint": "00E7AB76F39C72FD"
 		},
 		"f124917ba1b8926b": {
 			"parent": "a6cad545ae4c473c",
@@ -52,12 +52,21 @@
 			"factory": "002B2CD333FFF83B",
 			"blueprint": "00772513286AF68A",
 			"properties": {
-				"m_pMeshResource": {
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Texture2D_01": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "0051616C767E50CF",
+						"resource": "00E27B084BA92DEC",
 						"flag": "5F"
 					}
+				},
+				"Diffuse_Color_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
 				}
 			}
 		},
@@ -112,9 +121,9 @@
 		},
 		"09561f18cd604d49": {
 			"parent": "a6cad545ae4c473c",
-			"name": "Shoes_Heels_Pump_Stilettos_Pointy",
-			"factory": "00A52988698CC89D",
-			"blueprint": "00B31734BD8E86E7",
+			"name": "Shoes_Sneakers_Standard",
+			"factory": "0073EEBDB2B72F46",
+			"blueprint": "00977DC0D9091DE2",
 			"properties": {
 				"Diffuse_Saturation_01_Value": {
 					"type": "float32",
@@ -128,17 +137,45 @@
 		},
 		"feed5f8ae1d9c2a8": {
 			"parent": "a6cad545ae4c473c",
-			"name": "Pants_Dress_Regular",
-			"factory": "005C5DDDE72EC1B6",
-			"blueprint": "009B778E59D4BE98",
+			"name": "Pants_Jeans_Loose",
+			"factory": "0082D3C59CF08132",
+			"blueprint": "0032CBA95FC511D6",
 			"properties": {
 				"Diffuse_Color_01_Value": {
 					"type": "SColorRGB",
-					"value": "#ededed"
+					"value": "#b0cdff"
 				},
-				"ConstantVector1D_01_Value": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "002A9327AB0DD89A",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00B2200C0E18E18A",
+						"flag": "5F"
+					}
+				},
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00235DCFE0D9200B",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "001AED313894A78C",
+						"flag": "5F"
+					}
+				},
+				"Diffuse_Saturation_01_Value": {
 					"type": "float32",
-					"value": 7.070000171661377
+					"value": 1.0
 				}
 			}
 		},

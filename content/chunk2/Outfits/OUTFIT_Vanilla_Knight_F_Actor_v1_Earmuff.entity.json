@@ -3,21 +3,6 @@
 	"tbluHash": "0073CB7481310A2B",
 	"rootEntity": "a6cad545ae4c473c",
 	"entities": {
-		"7c9d4286fd72b384": {
-			"parent": "a6cad545ae4c473c",
-			"name": "Torso_Neck_LowCut",
-			"factory": "00826AB19AFA26D5",
-			"blueprint": "00354F8846FC3E29",
-			"properties": {
-				"m_pMeshResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "003601062919BB43",
-						"flag": "5F"
-					}
-				}
-			}
-		},
 		"457c4e7a1d7b6026": {
 			"parent": "a6cad545ae4c473c",
 			"name": "Ankle",
@@ -52,9 +37,12 @@
 			"factory": "0088D2B1138E65DB",
 			"blueprint": "00F2C315BA64B712",
 			"properties": {
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#ffffff"
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00D63378F4C93769",
+						"flag": "5F"
+					}
 				}
 			}
 		},
@@ -95,7 +83,6 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
 						"457c4e7a1d7b6026",
-						"7c9d4286fd72b384",
 						"87a1dcd99263e3d0",
 						"f124917ba1b8926b",
 						"09561f18cd604d49",
@@ -125,17 +112,45 @@
 		},
 		"feed5f8ae1d9c2a8": {
 			"parent": "a6cad545ae4c473c",
-			"name": "Pants_Dress_Regular",
-			"factory": "005C5DDDE72EC1B6",
-			"blueprint": "009B778E59D4BE98",
+			"name": "Pants_Jeans_Loose",
+			"factory": "0082D3C59CF08132",
+			"blueprint": "0032CBA95FC511D6",
 			"properties": {
 				"Diffuse_Color_01_Value": {
 					"type": "SColorRGB",
-					"value": "#ededed"
+					"value": "#b0cdff"
 				},
-				"ConstantVector1D_01_Value": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "002A9327AB0DD89A",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00B2200C0E18E18A",
+						"flag": "5F"
+					}
+				},
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00235DCFE0D9200B",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "001AED313894A78C",
+						"flag": "5F"
+					}
+				},
+				"Diffuse_Saturation_01_Value": {
 					"type": "float32",
-					"value": 7.070000171661377
+					"value": 1.0
 				}
 			}
 		},
@@ -295,8 +310,8 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.4585524535941325,
-							"y": 89.06217366568768,
+							"x": -0.0,
+							"y": 90.0,
 							"z": -165.76847823666898
 						},
 						"position": {
@@ -320,11 +335,7 @@
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 0.9709069728851318,
-						"y": 1.0,
-						"z": 1.0
-					}
+					"value": { "x": 0.9, "y": 1.0, "z": 1.0 }
 				},
 				"m_ResourceID": {
 					"type": "ZRuntimeResourceID",
@@ -373,25 +384,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -1.7486496850419675,
-							"y": 88.81668665702303,
-							"z": -176.39544709755012
-						},
-						"position": {
-							"x": 0.06937000155448914,
-							"y": -0.0006569999968633056,
-							"z": 0.0002289999974891543
-						}
+						"rotation": { "x": -0.0, "y": 90.0, "z": -180.0 },
+						"position": { "x": 0.07, "y": -0.01, "z": 0.0 }
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 0.8999999761581421,
-						"y": 0.8999999761581421,
-						"z": 0.8999999761581421
-					}
+					"value": { "x": 0.9, "y": 0.9, "z": 0.9 }
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",

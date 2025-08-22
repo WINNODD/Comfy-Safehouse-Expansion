@@ -5,20 +5,21 @@
 	"entities": {
 		"adec4839b940bbed": {
 			"parent": "774ee27d56983013",
-			"name": "TShirt_UNeck",
-			"factory": "004C9138B36149A3",
-			"blueprint": "00018BE2F843E3E7",
+			"name": "Dress_Chiffon_Halter",
+			"factory": "00F631A7C12FEC69",
+			"blueprint": "00769075B6D475B0",
 			"properties": {
 				"Diffuse_Color_01_Value": {
 					"type": "SColorRGB",
-					"value": "#ffb9cf"
+					"value": "#dc83cd"
 				},
-				"m_pMeshResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00FBB85A9108E763",
-						"flag": "5F"
-					}
+				"Diffuse_Hue_Shift_01_Value": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 2.0
 				}
 			}
 		},
@@ -194,9 +195,9 @@
 		},
 		"c7787c36fb37704f": {
 			"parent": "774ee27d56983013",
-			"name": "Torso_Neck",
-			"factory": "00873B0AADBCBDE1",
-			"blueprint": "00C2E4D06EA74492"
+			"name": "Torso_Biceps",
+			"factory": "00063195E485A27F",
+			"blueprint": "00B00FE89F4970EA"
 		},
 		"af14a40919cc466b": {
 			"parent": "774ee27d56983013",
@@ -613,9 +614,9 @@
 		},
 		"5eb09c3d61830dd4": {
 			"parent": "774ee27d56983013",
-			"name": "Arms_Biceps_Hand",
-			"factory": "000A0E3A10CE7F76",
-			"blueprint": "0025CEE71B0D5343"
+			"name": "Arms_Elbow_Hand",
+			"factory": "00DD0A3992337132",
+			"blueprint": "0054CDCCA79B57FF"
 		},
 		"29f141b85e5ffa95": {
 			"parent": "774ee27d56983013",
@@ -754,11 +755,8 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
 						"5eb09c3d61830dd4",
-						"641f8c92b3ab20c4",
 						"feed9878fa5ef708",
-						"d9f62fdc5048eb70",
 						"adec4839b940bbed",
-						"db2da9f16430e381",
 						"af14a40919cc466b",
 						"16741b992d470770",
 						"feed5579d662684e",
@@ -804,22 +802,9 @@
 		},
 		"16741b992d470770": {
 			"parent": "774ee27d56983013",
-			"name": "Shorts_Chino_Pleated_Short",
-			"factory": "0096135A1C0AF1A3",
-			"blueprint": "005BEA0DBC867DD6",
-			"properties": {
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#ffffff"
-				},
-				"m_pMeshResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "0024C41AF8C16FEF",
-						"flag": "5F"
-					}
-				}
-			}
+			"name": "Legs_Heels_Thigh_Feet",
+			"factory": "00DE0C1F2A8AD69E",
+			"blueprint": "00522D7F63E69C1D"
 		},
 		"fe67b3f78db217bc": {
 			"parent": "f9320154885ca71e",
@@ -888,27 +873,6 @@
 					"value": "774ee27d56983013"
 				}
 			}
-		},
-		"db2da9f16430e381": {
-			"parent": "774ee27d56983013",
-			"name": "Legs_Thigh_Boots",
-			"factory": "00B2C26C3EADCA6B",
-			"blueprint": "00321BFE0A2D30F5",
-			"properties": {
-				"m_pMeshResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "0084ECBCE0375062",
-						"flag": "5F"
-					}
-				}
-			}
-		},
-		"d9f62fdc5048eb70": {
-			"parent": "774ee27d56983013",
-			"name": "Abdomen",
-			"factory": "001C8CBC06C7B5C4",
-			"blueprint": "00C2DB28BD718065"
 		},
 		"bb3d99801ee50b80": {
 			"parent": "f9320154885ca71e",
@@ -1020,25 +984,6 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "774ee27d56983013"
-				}
-			}
-		},
-		"641f8c92b3ab20c4": {
-			"parent": "774ee27d56983013",
-			"name": "Shoes_Derby_Wing_RoundTip",
-			"factory": "0063C50D6FA4D391",
-			"blueprint": "00AC65A09DF02DA6",
-			"properties": {
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#ffffff"
-				},
-				"m_pMeshResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "0090A5E6ABAAACBB",
-						"flag": "5F"
-					}
 				}
 			}
 		},
@@ -1314,26 +1259,9 @@
 		},
 		"feed5579d662684e": {
 			"parent": "774ee27d56983013",
-			"name": "Socks_Stayup",
-			"factory": "00F08922DD07B15C",
-			"blueprint": "00CDED97BA9FB106",
-			"properties": {
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#ffffff"
-				},
-				"ConstantVector1D_05_Value": {
-					"type": "float32",
-					"value": 0.5
-				},
-				"m_pMeshResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00963A1D37D8AC32",
-						"flag": "5F"
-					}
-				}
-			}
+			"name": "Shoes_Heels_Sandals_AnkleBuckles",
+			"factory": "00A36C305C89E468",
+			"blueprint": "009878569C05310C"
 		},
 		"feed9878fa5ef708": {
 			"parent": "774ee27d56983013",

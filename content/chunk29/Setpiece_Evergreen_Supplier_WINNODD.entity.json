@@ -3,19 +3,6 @@
 	"tbluHash": "00C20A98BE1FA492",
 	"rootEntity": "aa6b31cb3e12bdfc",
 	"entities": {
-		"252e186ca5294208": {
-			"parent": "e8ed008afe470277",
-			"name": "ActorProviderWaypoint",
-			"factory": "[modules:/zactorproviderapproach.class].pc_entitytype",
-			"blueprint": "[modules:/zactorproviderapproach.class].pc_entityblueprint",
-			"properties": {
-				"m_aWaypoints": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [],
-					"postInit": true
-				}
-			}
-		},
 		"c31caef4f20530d5": {
 			"parent": "c8e36d4105f5548d",
 			"name": "Ready to play",
@@ -231,12 +218,7 @@
 			"name": "Role",
 			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rActorProvider": {
-					"type": "SEntityTemplateReference",
-					"value": "252e186ca5294208"
-				}
-			}
+			"properties": {}
 		},
 		"c34f2f650b5e269f": {
 			"parent": "c8e36d4105f5548d",
@@ -433,13 +415,7 @@
 			"name": "Role",
 			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rActorProvider": {
-					"type": "SEntityTemplateReference",
-					"value": "fcb2435664fe6dfe",
-					"postInit": true
-				}
-			}
+			"properties": {}
 		},
 		"7abd2ed164431c64": {
 			"parent": "30421326019e4e2f",
@@ -513,19 +489,6 @@
 					"value": false
 				},
 				"m_bCameraSide": { "type": "bool", "value": false }
-			}
-		},
-		"fcb2435664fe6dfe": {
-			"parent": "ab82851bbb7bb234",
-			"name": "ActorProviderWaypoint",
-			"factory": "[modules:/zactorproviderapproach.class].pc_entitytype",
-			"blueprint": "[modules:/zactorproviderapproach.class].pc_entityblueprint",
-			"properties": {
-				"m_aWaypoints": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [],
-					"postInit": true
-				}
 			}
 		},
 		"bfc021574703d396": {
@@ -751,8 +714,7 @@
 					"value": [],
 					"postInit": true
 				}
-			},
-			"propertyAliases": { "m_rActorProvider": [] }
+			}
 		},
 		"d4d9095d24310d02": {
 			"parent": "8000e6efcedde289",
@@ -884,16 +846,20 @@
 						"originalEntity": "c8e36d4105f5548d"
 					},
 					{
-						"originalProperty": "m_rActorProvider",
-						"originalEntity": "e6cd42ef394c0f05"
-					},
-					{
 						"originalProperty": "m_rActor",
 						"originalEntity": "8000e6efcedde289"
 					},
 					{
 						"originalProperty": "m_pActor",
 						"originalEntity": "bfc021574703d396"
+					},
+					{
+						"originalProperty": "m_rActorProvider",
+						"originalEntity": "bc638b7a93d49c3c"
+					},
+					{
+						"originalProperty": "m_rActorProvider",
+						"originalEntity": "5190a9d8936ee48e"
 					}
 				],
 				"m_rPromptDescriptionTextResource": [
@@ -920,16 +886,7 @@
 						"originalEntity": "ab82851bbb7bb234"
 					}
 				],
-				"m_aWaypoints": [
-					{
-						"originalProperty": "m_aWaypoints",
-						"originalEntity": "fcb2435664fe6dfe"
-					},
-					{
-						"originalProperty": "m_aWaypoints",
-						"originalEntity": "252e186ca5294208"
-					}
-				],
+				"m_aWaypoints": [],
 				"m_aRoles": [
 					{
 						"originalProperty": "m_aRoles",
