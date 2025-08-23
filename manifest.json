@@ -348,6 +348,16 @@
 			"comment": "male_reg_erichsoders_01.wl2?/pants.weightedprim",
 			"runtimeID": "006323AE69729ADD",
 			"toChunk": 1
+		},
+		{
+			"comment": "Motorcycle_fox_A",
+			"runtimeID": "00C9A248EB140FD7",
+			"toChunk": 2
+		},
+		{
+			"comment": "Diana head season 2 mesh",
+			"runtimeID": "00D49620618AD133",
+			"toChunk": 2
 		}
 	],
 	"options": [

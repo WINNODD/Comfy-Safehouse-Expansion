@@ -559,7 +559,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 180.0, "y": 90.0, "z": 0.0 },
-						"position": { "x": 0.07, "y": 0.0, "z": 0.0 }
+						"position": { "x": 0.06, "y": -0.01, "z": 0.0 }
 					}
 				},
 				"m_PrimitiveScale": {
@@ -574,10 +574,15 @@
 					}
 				},
 				"m_bKinematic": { "type": "bool", "value": true },
+				"m_bRemovePhysics": { "type": "bool", "value": true },
 				"m_bEnableCollision": { "type": "bool", "value": false },
 				"m_rLinkedProxyEntity": {
 					"type": "SEntityTemplateReference",
 					"value": "90c47951517d5a62"
+				},
+				"m_CollisionResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": null
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",

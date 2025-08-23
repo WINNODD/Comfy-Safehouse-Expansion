@@ -39,9 +39,18 @@
 		},
 		"ecef324b33f824a1": {
 			"parent": "1c8564c8c140dc48",
-			"name": "Var0",
+			"name": "0",
 			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0073EC91621A0DEE",
+						"flag": "9F"
+					}
+				}
+			}
 		},
 		"1c8564c8c140dc48": {
 			"parent": "3a19ddae3f3b8f59",
@@ -51,7 +60,11 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["ecef324b33f824a1"]
+					"value": [
+						"ecef324b33f824a1",
+						"cafebbd613bffe78",
+						"cafeb971e804b4e4"
+					]
 				}
 			}
 		},
@@ -156,6 +169,36 @@
 					"type": "ZRuntimeResourceID",
 					"value": {
 						"resource": "002670DDB8F47828",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafeb971e804b4e4": {
+			"parent": "1c8564c8c140dc48",
+			"name": "2",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "002670DDB8F47828",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafebbd613bffe78": {
+			"parent": "1c8564c8c140dc48",
+			"name": "1",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "004ECF3BBE22500B",
 						"flag": "9F"
 					}
 				}

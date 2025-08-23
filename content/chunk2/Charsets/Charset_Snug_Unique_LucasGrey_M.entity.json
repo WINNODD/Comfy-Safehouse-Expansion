@@ -41,9 +41,18 @@
 		},
 		"ecef324b33f824a1": {
 			"parent": "1c8564c8c140dc48",
-			"name": "Var0",
+			"name": "0",
 			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00258618A3C834DB",
+						"flag": "9F"
+					}
+				}
+			}
 		},
 		"1c8564c8c140dc48": {
 			"parent": "3a19ddae3f3b8f59",
@@ -53,7 +62,12 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["ecef324b33f824a1"]
+					"value": [
+						"ecef324b33f824a1",
+						"cafe66cf26331f85",
+						"cafeb83a7da9548e",
+						"cafee8fc0d36ad30"
+					]
 				}
 			}
 		},
@@ -188,6 +202,51 @@
 					"type": "ZRuntimeResourceID",
 					"value": {
 						"resource": "00469FB2D057667B",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafe66cf26331f85": {
+			"parent": "1c8564c8c140dc48",
+			"name": "1",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00C91D16AB614B96",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafee8fc0d36ad30": {
+			"parent": "1c8564c8c140dc48",
+			"name": "3",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00469FB2D057667B",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafeb83a7da9548e": {
+			"parent": "1c8564c8c140dc48",
+			"name": "2",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "007FAC8146E55F4F",
 						"flag": "9F"
 					}
 				}

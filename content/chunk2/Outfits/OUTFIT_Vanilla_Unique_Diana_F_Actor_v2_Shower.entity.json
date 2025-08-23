@@ -12,7 +12,7 @@
 				"m_pMeshResource": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "00B2FBF154437671",
+						"resource": "00D49620618AD133",
 						"flag": "5F"
 					}
 				}
@@ -435,6 +435,40 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "3083ca99ca262045"
+				}
+			}
+		},
+		"cafed540ea8d15f7": {
+			"parent": "aac4898738ac1819",
+			"name": "fem_reg_diana_season2_cinematic_head",
+			"factory": "[assembly:/_pro/characters/assets/individuals/diana_burnwood/materials/fem_reg_diana_season2_cinematic_head.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/individuals/diana_burnwood/materials/fem_reg_diana_season2_cinematic_head.mi].pc_entityblueprint",
+			"properties": {
+				"ConstantVector1D_04_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_05_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 1
+				},
+				"ConstantVector1D_04_Value": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["3083ca99ca262045"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "3083ca99ca262045",
+					"postInit": true
 				}
 			}
 		}

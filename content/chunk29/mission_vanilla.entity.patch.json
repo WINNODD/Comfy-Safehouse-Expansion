@@ -351,6 +351,34 @@
 		},
 		{
 			"SubEntityOperation": [
+				"bc7b623018fb1f90",
+				{ "SetParent": "cafe011c2c6ecd91" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"bc7b623018fb1f90",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": 170.70203986110985
+							},
+							"position": {
+								"x": 0.07154464721679688,
+								"y": -1.816436767578125,
+								"z": 0.0050079999491572
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"e2f6b8dfdb70014e",
 				{
 					"SetPropertyValue": {
@@ -428,6 +456,28 @@
 					"SetPropertyValue": {
 						"property_name": "m_eidParent",
 						"value": "fffffffffffffffe"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"86ed890fa30fa1c7",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -88.65050300844429
+							},
+							"position": {
+								"x": 29.639650344848633,
+								"y": -172.6563262939453,
+								"z": 20.525779724121097
+							}
+						}
 					}
 				}
 			]
@@ -2095,6 +2145,34 @@
 		},
 		{
 			"SubEntityOperation": [
+				"35841bc96512cff0",
+				{ "SetParent": "cafe011c2c6ecd91" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"35841bc96512cff0",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -4.237944453081019
+							},
+							"position": {
+								"x": -0.28644371032714844,
+								"y": 2.5602264404296875,
+								"z": 0.0414609983563423
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"a6c6835a1145d477",
 				{ "SetParent": "e3c602b2257207a3" }
 			]
@@ -2262,6 +2340,34 @@
 					"SetPropertyValue": {
 						"property_name": "m_vAreaQuadSize",
 						"value": { "x": 0.16405899822711945, "y": 3.0 }
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"402b1a04ddf25735",
+				{ "SetParent": "cafe011c2c6ecd91" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"402b1a04ddf25735",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -49.95074120047322
+							},
+							"position": {
+								"x": -2.3571624755859375,
+								"y": 0.61077880859375,
+								"z": 0.020297000184655
+							}
+						}
 					}
 				}
 			]
@@ -2455,6 +2561,17 @@
 		},
 		{
 			"SubEntityOperation": [
+				"90eaaae1073bd875",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_TriggerOnHitman",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"5272a05bb5a48f5d",
 				{
 					"PatchArrayPropertyValue": [
@@ -2640,6 +2757,34 @@
 							}
 						]
 					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"767a061d1d085ccf",
+				{ "SetParent": "cafe011c2c6ecd91" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"767a061d1d085ccf",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": 34.94695927938495
+							},
+							"position": {
+								"x": 1.881948471069336,
+								"y": 1.0108184814453125,
+								"z": 0.0050079999491572
+							}
+						}
+					}
 				}
 			]
 		},
@@ -7966,12 +8111,12 @@
 								"rotation": {
 									"x": -0.0,
 									"y": 0.0,
-									"z": -178.9959480494622
+									"z": -121.46499530297498
 								},
 								"position": {
-									"x": 18.93429374694824,
-									"y": -161.7457275390625,
-									"z": -19.000001907348633
+									"x": 11.31616497039795,
+									"y": -164.75389099121094,
+									"z": -18.998367309570312
 								}
 							}
 						},
@@ -8156,12 +8301,12 @@
 								"rotation": {
 									"x": -0.0,
 									"y": 0.0,
-									"z": 179.49642218532998
+									"z": 79.00000226002052
 								},
 								"position": {
-									"x": 4.561276912689209,
-									"y": -157.53237915039065,
-									"z": -18.999998092651367
+									"x": 25.005067825317383,
+									"y": -150.09710693359375,
+									"z": -18.998090744018555
 								}
 							}
 						},
@@ -8341,12 +8486,12 @@
 								"rotation": {
 									"x": -0.0,
 									"y": 0.0,
-									"z": -94.9799430576312
+									"z": -83.614695467188
 								},
 								"position": {
-									"x": 28.96125030517578,
-									"y": -181.32618713378903,
-									"z": -10.950000762939451
+									"x": 10.005308151245115,
+									"y": -165.34521484375,
+									"z": -11.00522518157959
 								}
 							}
 						},
@@ -8526,12 +8671,12 @@
 								"rotation": {
 									"x": -0.0,
 									"y": 0.0,
-									"z": -157.04637859745537
+									"z": 92.95220739804192
 								},
 								"position": {
-									"x": -11.813796043395996,
-									"y": -181.82928466796875,
-									"z": -12.299078941345217
+									"x": 37.886234283447266,
+									"y": -158.13099670410156,
+									"z": -10.996997833251951
 								}
 							}
 						},
@@ -8707,12 +8852,12 @@
 								"rotation": {
 									"x": -0.0,
 									"y": 0.0,
-									"z": -165.4319039847519
+									"z": 118.38939966902
 								},
 								"position": {
-									"x": 34.826316833496094,
-									"y": -253.27920532226565,
-									"z": -9.407703399658203
+									"x": 52.3427619934082,
+									"y": -206.82421875,
+									"z": -8.559720039367676
 								}
 							}
 						},
@@ -8892,12 +9037,12 @@
 								"rotation": {
 									"x": -0.0,
 									"y": 0.0,
-									"z": -4.3395980884773335
+									"z": -162.6653954807676
 								},
 								"position": {
-									"x": 25.945316314697266,
-									"y": -181.4021148681641,
-									"z": -5.000000953674316
+									"x": -28.92496681213379,
+									"y": -191.0162811279297,
+									"z": -12.293253898620604
 								}
 							}
 						},
@@ -8937,11 +9082,20 @@
 							"type": "bool",
 							"value": true
 						},
+						"m_bBriefcase": { "type": "bool", "value": false },
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "fffffffffffffffe",
 							"postInit": true
 						}
+					},
+					"propertyAliases": {
+						"m_bBriefcase": [
+							{
+								"originalProperty": "m_bSpawnOnStart",
+								"originalEntity": "cafeb5f3d33bf03c"
+							}
+						]
 					},
 					"subsets": {
 						"AudioEmitters": ["fffffffffffffffe"],
@@ -9077,12 +9231,12 @@
 								"rotation": {
 									"x": -0.0,
 									"y": 0.0,
-									"z": -72.67180617366873
+									"z": 88.51943272306211
 								},
 								"position": {
-									"x": 24.676000595092773,
-									"y": -164.0570526123047,
-									"z": -18.99654769897461
+									"x": -37.64410781860352,
+									"y": -158.08425903320312,
+									"z": -12.402729988098145
 								}
 							}
 						},
@@ -9788,12 +9942,12 @@
 								"rotation": {
 									"x": -0.0,
 									"y": 0.0,
-									"z": 120.47207414148234
+									"z": 58.19272275654446
 								},
 								"position": {
-									"x": 35.71583938598633,
-									"y": -252.58099365234375,
-									"z": -9.382342338562012
+									"x": 17.88107681274414,
+									"y": -167.11489868164065,
+									"z": 0.24814417958259585
 								}
 							}
 						},
@@ -9973,11 +10127,11 @@
 								"rotation": {
 									"x": -0.0,
 									"y": 0.0,
-									"z": 50.567163858443514
+									"z": 42.91419505303961
 								},
 								"position": {
-									"x": 28.444326400756836,
-									"y": -182.29444885253903,
+									"x": 28.13218116760254,
+									"y": -182.32199096679688,
 									"z": -5.000000953674316
 								}
 							}
@@ -14169,9 +14323,9 @@
 									"z": -83.6147
 								},
 								"position": {
-									"x": 10.116482,
-									"y": -165.24016,
-									"z": -10.945866
+									"x": 10.005308,
+									"y": -165.34521,
+									"z": -11.005225
 								}
 							}
 						},
@@ -14965,7 +15119,15 @@
 						}
 					},
 					"events": {
-						"PollTrue": { "Start": ["cafee88bc4ff1f09"] }
+						"PollTrue": {
+							"Start": ["cafee88bc4ff1f09"],
+							"StartRotorFullSpeed": [
+								"66429fe2be8cb7c0",
+								"8cdc97c27feedcf1",
+								"d67abce70b1bb470"
+							],
+							"RotorFullSpeed": ["5ceb886142046c2e"]
+						}
 					}
 				}
 			]
@@ -15318,7 +15480,15 @@
 						}
 					},
 					"events": {
-						"PollTrue": { "Start": ["cafe1e7d08d95048"] }
+						"PollTrue": {
+							"Start": ["cafe1e7d08d95048"],
+							"StartRotorFullSpeed": [
+								"66429fe2be8cb7c0",
+								"8cdc97c27feedcf1",
+								"d67abce70b1bb470"
+							],
+							"RotorFullSpeed": ["5ceb886142046c2e"]
+						}
 					}
 				}
 			]
@@ -15429,14 +15599,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": -0.018633332916847593,
-									"y": 0.020868181049477713,
-									"z": -96.47626111420708
+									"x": -0.0,
+									"y": 0.0,
+									"z": 92.95220739804192
 								},
 								"position": {
-									"x": 21.912778854370117,
-									"y": -182.95529174804688,
-									"z": -5.015439033508301
+									"x": 37.886234283447266,
+									"y": -158.13099670410156,
+									"z": -10.996997833251951
 								}
 							}
 						},
@@ -15514,12 +15684,12 @@
 								"rotation": {
 									"x": -0.0,
 									"y": 0,
-									"z": -57.429462
+									"z": -31.465
 								},
 								"position": {
-									"x": 9.822093,
-									"y": -163.21161,
-									"z": -18.998379
+									"x": 11.316165,
+									"y": -164.75389,
+									"z": -18.998367
 								}
 							}
 						},
@@ -15714,6 +15884,11 @@
 							"value": "cafe4f22f3ca930f",
 							"postInit": true
 						},
+						"m_rOrientToTransform": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe00a2786d13fb",
+							"postInit": true
+						},
 						"m_pTarget": {
 							"type": "SEntityTemplateReference",
 							"value": "cafe00a2786d13fb",
@@ -15774,12 +15949,12 @@
 								"rotation": {
 									"x": -0.0,
 									"y": 0.0,
-									"z": -0.0
+									"z": -124.42807695647812
 								},
 								"position": {
-									"x": -0.0,
-									"y": 0.0,
-									"z": -0.0
+									"x": 108.09446716308594,
+									"y": -151.05313110351565,
+									"z": -17.405574798583984
 								}
 							}
 						},
@@ -15879,13 +16054,13 @@
 							"value": {
 								"rotation": {
 									"x": -0.0,
-									"y": 0.0,
-									"z": 79
+									"y": 0,
+									"z": 79.00001
 								},
 								"position": {
-									"x": -13.999266624450684,
-									"y": -184.64556884765625,
-									"z": -12.588011741638184
+									"x": 25.29383,
+									"y": -151.58266,
+									"z": -18.99809
 								}
 							}
 						},
@@ -16008,13 +16183,12 @@
 					"properties": {
 						"Delay time (ms)": {
 							"type": "int32",
-							"value": 15000
+							"value": 3000
 						}
 					},
 					"events": {
 						"Out": {
 							"In": ["cafe81bfe4881ed1"],
-							"Stop_Fire": ["cafe79c13a233881"],
 							"Aim": ["cafe79c13a233881"]
 						}
 					}
@@ -16077,14 +16251,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": 0.0,
-									"y": 0.0,
-									"z": -90
+									"x": -0.0,
+									"y": 0,
+									"z": -162.66539
 								},
 								"position": {
-									"x": 17.3,
-									"y": -170.95,
-									"z": -5.3000006675720215
+									"x": -28.924967,
+									"y": -191.01628,
+									"z": -12.293254
 								}
 							}
 						},
@@ -16113,7 +16287,7 @@
 					},
 					"events": {
 						"OnActTimeout": { "Done": [] },
-						"OnReached": {}
+						"OnReached": { "Phone_Call": ["cafe76835c6aea01"] }
 					},
 					"subsets": { "Replicable": ["fffffffffffffffe"] }
 				}
@@ -16123,7 +16297,7 @@
 			"AddEntity": [
 				"cafec852824c0893",
 				{
-					"parent": "cafe5fd44cdbf824",
+					"parent": "feedb1b258fc40dc",
 					"name": "Briefcase Item Key",
 					"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 					"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
@@ -16140,7 +16314,7 @@
 			"AddEntity": [
 				"cafeb5f3d33bf03c",
 				{
-					"parent": "cafe5fd44cdbf824",
+					"parent": "feedb1b258fc40dc",
 					"name": "Briefcase Spawner",
 					"factory": "[modules:/zitemspawner.class].pc_entitytype",
 					"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
@@ -16166,7 +16340,7 @@
 						},
 						"m_bSpawnOnStart": {
 							"type": "bool",
-							"value": true
+							"value": false
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
@@ -16194,14 +16368,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": 0.0,
-									"y": 0.0,
-									"z": -90
+									"x": -0.0,
+									"y": 0,
+									"z": -162.66539
 								},
 								"position": {
-									"x": 17.3,
-									"y": -170.95,
-									"z": -5.3000006675720215
+									"x": -28.924967,
+									"y": -191.01628,
+									"z": -12.293254
 								}
 							}
 						},
@@ -16335,12 +16509,12 @@
 								"rotation": {
 									"x": -0.0,
 									"y": 0.0,
-									"z": 67.94379338209954
+									"z": 58.19272275654446
 								},
 								"position": {
-									"x": -110.15650177001952,
-									"y": 125.07350158691406,
-									"z": 1.4518879652023315
+									"x": 17.88107681274414,
+									"y": -167.11489868164065,
+									"z": 0.24814417958259585
 								}
 							}
 						},
@@ -16370,11 +16544,15 @@
 						"m_mTransform": {
 							"type": "SMatrix43",
 							"value": {
-								"rotation": { "x": -0.0, "y": 0, "z": 90 },
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": 42.91419505303961
+								},
 								"position": {
-									"x": -0.847029,
-									"y": 0.066372,
-									"z": 0
+									"x": 28.13218116760254,
+									"y": -182.32199096679688,
+									"z": -5.000000953674316
 								}
 							}
 						},
@@ -16412,12 +16590,12 @@
 								"rotation": {
 									"x": -0.0,
 									"y": 0.0,
-									"z": -58.42628417063123
+									"z": 8.083933693162212
 								},
 								"position": {
-									"x": -61.30818176269531,
-									"y": 16.766279220581055,
-									"z": 0.5737659931182861
+									"x": -46.027809143066406,
+									"y": -156.89483642578125,
+									"z": -13.322759628295898
 								}
 							}
 						},
@@ -16473,7 +16651,7 @@
 						},
 						"m_fActTimeout": {
 							"type": "float32",
-							"value": 30.0
+							"value": 5.0
 						},
 						"m_pActor": {
 							"type": "SEntityTemplateReference",
@@ -16510,13 +16688,13 @@
 							"value": {
 								"rotation": {
 									"x": -0.0,
-									"y": 0.0,
-									"z": -86.03351286399153
+									"y": 0,
+									"z": 118.389404
 								},
 								"position": {
-									"x": -21.076190948486328,
-									"y": -93.14320373535156,
-									"z": 0.18889200687408447
+									"x": 52.342762,
+									"y": -206.82422,
+									"z": -8.55972
 								}
 							}
 						},
@@ -16713,7 +16891,8 @@
 						"TimeOut": {
 							"Stop": ["cafe8069a4a3245c"],
 							"Military_Stand_Riffle": ["cafe130e5b7aaf08"],
-							"Reset": ["cafe8069a4a3245c"]
+							"Reset": ["cafe8069a4a3245c"],
+							"Start": ["cafe2c3243dbf0e7"]
 						}
 					}
 				}
@@ -16838,12 +17017,12 @@
 								"rotation": {
 									"x": -0.0,
 									"y": 0.0,
-									"z": -0.0
+									"z": -105.59643265213732
 								},
 								"position": {
-									"x": -0.0,
-									"y": 0.0,
-									"z": -0.0
+									"x": 80.40323638916016,
+									"y": -144.99842834472656,
+									"z": -17.475383758544922
 								}
 							}
 						},
@@ -16871,12 +17050,12 @@
 								"rotation": {
 									"x": -0.0,
 									"y": 0.0,
-									"z": 41.403052959465334
+									"z": 159.6121475562328
 								},
 								"position": {
-									"x": -178.94509887695312,
-									"y": -70.695556640625,
-									"z": 2.999994993209839
+									"x": 36.536376953125,
+									"y": -248.5377655029297,
+									"z": -9.386530876159668
 								}
 							}
 						},
@@ -17551,6 +17730,300 @@
 			]
 		},
 		{
+			"AddEntity": [
+				"cafeed3206e3fe12",
+				{
+					"parent": "feeda75649904273",
+					"name": "NPC Cosmetics",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe2205acfe00ae",
+				{
+					"parent": "cafeed3206e3fe12",
+					"name": "Suitcase_A02_Blue_Royce",
+					"factory": "00FB7E06C6849AC7",
+					"blueprint": "00A48557C75B0BF8",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": 140.97317101906302
+								},
+								"position": {
+									"x": 33.89910125732422,
+									"y": -252.81158447265625,
+									"z": -9.413277626037598
+								}
+							}
+						},
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafed9e7c6e06d90",
+				{
+					"parent": "cafeed3206e3fe12",
+					"name": "Suitcase_A01_Grey_Orson",
+					"factory": "00CAADBA1019378C",
+					"blueprint": "00D073DC44581D37",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0,
+									"z": -109.070915
+								},
+								"position": {
+									"x": 40.1125,
+									"y": -174.15332,
+									"z": -10.951504
+								}
+							}
+						},
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe3758534134b9",
+				{
+					"parent": "cafeed3206e3fe12",
+					"name": "Suitcase_B01_Soders",
+					"factory": "0079ED90192AA757",
+					"blueprint": "0013AA579AC29896",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": 176.61227519434203
+								},
+								"position": {
+									"x": 36.40643310546875,
+									"y": -251.8690643310547,
+									"z": -9.428565979003906
+								}
+							}
+						},
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafee9368ea5186a",
+				{
+					"parent": "cafeed3206e3fe12",
+					"name": "Suitcase_B02_Rolf",
+					"factory": "00A8F502378B30A8",
+					"blueprint": "009B477FEA18AEC6",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -6.5250746570480525
+								},
+								"position": {
+									"x": 2.7262730598449707,
+									"y": 1.988453984260559,
+									"z": 0.0
+								}
+							}
+						},
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe25d150075b57",
+				{
+					"parent": "cafeed3206e3fe12",
+					"name": "Suitcase_A01_Vetrova",
+					"factory": "00D3A25B845BED4E",
+					"blueprint": "001DD91F326D9CF2",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0,
+									"z": -95.677734
+								},
+								"position": {
+									"x": 37.656628,
+									"y": -248.4877,
+									"z": -9.353139
+								}
+							}
+						},
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe3aa8310e61ac",
+				{
+					"parent": "cafeed3206e3fe12",
+					"name": "Motorcycle_fox_A_01",
+					"factory": "[assembly:/_pro/vehicles/templates/vehicles_fox_a.template?/motorcycle_fox_a.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_fox_a.template?/motorcycle_fox_a.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.003460981420790723,
+									"y": 3.9482365607289256,
+									"z": 35.16306588444594
+								},
+								"position": {
+									"x": 38.47940444946289,
+									"y": -157.87240600585938,
+									"z": -11.02915859222412
+								}
+							}
+						},
+						"ConstantColorRGB_01_Value": {
+							"type": "SColorRGB",
+							"value": "#b2b2b2"
+						},
+						"ConstantColorRGB_04_Value": {
+							"type": "SColorRGB",
+							"value": "#404040"
+						},
+						"ConstantColorRGB_19_Value": {
+							"type": "SColorRGB",
+							"value": "#cf1111"
+						},
+						"ConstantColorRGB_18_Value": {
+							"type": "SColorRGB",
+							"value": "#c90000"
+						},
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						},
+						"ConstantVector1D_23_Value": {
+							"type": "float32",
+							"value": 0.5199999809265137
+						},
+						"ConstantVector1D_10_Value": {
+							"type": "float32",
+							"value": 0.10000000149011612
+						},
+						"ConstantColorRGB_02_Value": {
+							"type": "SColorRGB",
+							"value": "#adadad"
+						},
+						"Color": {
+							"type": "SColorRGB",
+							"value": "#cfcfcf"
+						},
+						"Storage_Containers_Visable": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						},
+						"EnableInteractionLeft": {
+							"type": "bool",
+							"value": false
+						},
+						"m_bValueEnable": {
+							"type": "bool",
+							"value": false
+						}
+					},
+					"subsets": {
+						"Activatable_NormalGameplay, IEntity": [
+							"fffffffffffffffe"
+						],
+						"AudioEmitters": ["fffffffffffffffe"]
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe011c2c6ecd91",
+				{
+					"parent": "feeda75649904273",
+					"name": "Office Chairs Borrowed",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
 			"AddComment": {
 				"parent": "cafecc3c50363cbf",
 				"name": "Notes",
@@ -17562,6 +18035,34 @@
 				"parent": "cafedeeed4af5d74",
 				"name": "Notes",
 				"text": "1 is day\n2 is dusk (morning)\n3 is night\nSet by random tod brick overrides"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "bc7b623018fb1f90",
+				"name": "Notes",
+				"text": "Diana"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "402b1a04ddf25735",
+				"name": "Notes",
+				"text": "Graves"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "35841bc96512cff0",
+				"name": "Notes",
+				"text": "Rolf"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "767a061d1d085ccf",
+				"name": "Notes",
+				"text": "Vetrova"
 			}
 		}
 	],

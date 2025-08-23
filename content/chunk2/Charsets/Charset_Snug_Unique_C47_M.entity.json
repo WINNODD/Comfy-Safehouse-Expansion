@@ -11,7 +11,7 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["c2318c7895981ed0", "cafeb97877f925ef"],
+					"value": ["c2318c7895981ed0"],
 					"postInit": true
 				}
 			}
@@ -24,7 +24,7 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["92e8394b3e9dc256", "cafe2368ea85d38e"],
+					"value": ["92e8394b3e9dc256"],
 					"postInit": true
 				}
 			}
@@ -33,7 +33,16 @@
 			"parent": "1c8564c8c140dc48",
 			"name": "Var0",
 			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0094669AA56DE6AC",
+						"flag": "9F"
+					}
+				}
+			}
 		},
 		"1c8564c8c140dc48": {
 			"parent": "3a19ddae3f3b8f59",
@@ -81,36 +90,6 @@
 		"c2318c7895981ed0": {
 			"parent": "5939ac41df089b5d",
 			"name": "0",
-			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {
-				"m_Outfit": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "0094669AA56DE6AC",
-						"flag": "9F"
-					}
-				}
-			}
-		},
-		"cafeb97877f925ef": {
-			"parent": "5939ac41df089b5d",
-			"name": "1",
-			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {
-				"m_Outfit": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "0094669AA56DE6AC",
-						"flag": "9F"
-					}
-				}
-			}
-		},
-		"cafe2368ea85d38e": {
-			"parent": "3648192a6d0364a3",
-			"name": "1",
 			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
 			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
 			"properties": {

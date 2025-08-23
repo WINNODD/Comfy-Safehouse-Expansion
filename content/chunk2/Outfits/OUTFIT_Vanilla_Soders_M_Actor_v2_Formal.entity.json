@@ -618,80 +618,15 @@
 		"30365926dfc88606": {
 			"parent": null,
 			"name": "OUTFIT_Vanilla_Soders_M_Actor_v2",
-			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedproxyentity.class].entitytype,[modules:/zclothcharacterentity.class].entitytype).pc_entitytype",
-			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedproxyentity.class].entitytype,[modules:/zclothcharacterentity.class].entitytype).pc_entityblueprint",
+			"factory": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
 			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -0.738333842324499
-						},
-						"position": {
-							"x": 25.113479614257812,
-							"y": 3.288922071456909,
-							"z": 0.05418499931693077
-						}
-					}
-				},
 				"m_pBonesAndCollisionResource": {
 					"type": "ZRuntimeResourceID",
 					"value": {
 						"resource": "[assembly:/_pro/characters/assets/individuals/hokkaido/erichsoders/geometry/male_reg_erichsoders.wl2?/bones.weightedprim](bodypart).pc_bonerig",
 						"flag": "5F"
 					}
-				},
-				"m_bCreateSkirtConstrains": {
-					"type": "bool",
-					"value": true
-				},
-				"m_fSkirtConstraintOffset": {
-					"type": "float32",
-					"value": 0.2800000011920929
-				},
-				"m_fSkirtConstraintFraction": {
-					"type": "float32",
-					"value": 0.5
-				},
-				"m_eBendConstrainType": {
-					"type": "EClothBendConstrainType",
-					"value": "eClothBendConstrainType_Stick"
-				},
-				"m_nIterations": { "type": "uint32", "value": 3 },
-				"m_fShearStiffness": {
-					"type": "float32",
-					"value": 0.10000000149011612
-				},
-				"m_fFrequency": { "type": "float32", "value": 90 },
-				"m_fBendStiffness": {
-					"type": "float32",
-					"value": 0.10000000149011612
-				},
-				"m_fWindConstant": {
-					"type": "float32",
-					"value": 0.10000000149011612
-				},
-				"m_bUseSkinningPosNormalConstrains": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bUseSkinningNegNormalConstrains": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bGlobalCollidersEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_sId": {
-					"type": "ZGuid",
-					"value": "96b08f3a-ee08-49c2-bdf1-0e50b337db7c"
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
 				},
 				"m_aBodyParts": {
 					"type": "TArray<SEntityTemplateReference>",
