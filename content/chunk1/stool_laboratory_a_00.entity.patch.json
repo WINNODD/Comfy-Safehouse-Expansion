@@ -1,0 +1,46 @@
+{
+	"tempHash": "005DD616B805A9E0",
+	"tbluHash": "00C8CD6273FED1CF",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"779ecd31f5f1ac6e",
+				{
+					"AddProperty": [
+						"m_mSeatTransform",
+						{
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": 0.0,
+									"y": 0.0,
+									"z": 0.4699999988079071
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"779ecd31f5f1ac6e",
+				{
+					"AddPropertyAliasConnection": [
+						"m_mSeatTransform",
+						{
+							"originalProperty": "m_mTransform",
+							"originalEntity": "31193b3d4748cd49"
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

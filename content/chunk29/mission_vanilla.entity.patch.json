@@ -364,15 +364,40 @@
 						"value": {
 							"rotation": {
 								"x": -0.0,
-								"y": 0.0,
-								"z": 170.70203986110985
+								"y": 0,
+								"z": 170.70204
 							},
 							"position": {
-								"x": 0.07154464721679688,
-								"y": -1.816436767578125,
-								"z": 0.0050079999491572
+								"x": 26.203205,
+								"y": -185.28433,
+								"z": -4.994992
 							}
 						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"bc7b623018fb1f90",
+				{
+					"AddProperty": [
+						"m_eRoomBehaviour",
+						{
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"bc7b623018fb1f90",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "fffffffffffffffe"
 					}
 				}
 			]
@@ -2162,11 +2187,36 @@
 								"z": -4.237944453081019
 							},
 							"position": {
-								"x": -0.28644371032714844,
-								"y": 2.5602264404296875,
-								"z": 0.0414609983563423
+								"x": 25.843441009521484,
+								"y": -180.87179565429688,
+								"z": -4.958532333374023
 							}
 						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"35841bc96512cff0",
+				{
+					"AddProperty": [
+						"m_eRoomBehaviour",
+						{
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"35841bc96512cff0",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "fffffffffffffffe"
 					}
 				}
 			]
@@ -2359,15 +2409,40 @@
 						"value": {
 							"rotation": {
 								"x": -0.0,
-								"y": 0.0,
-								"z": -49.95074120047322
+								"y": 0,
+								"z": -49.95074
 							},
 							"position": {
-								"x": -2.3571624755859375,
-								"y": 0.61077880859375,
-								"z": 0.020297000184655
+								"x": 23.774498,
+								"y": -182.85712,
+								"z": -4.979703
 							}
 						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"402b1a04ddf25735",
+				{
+					"AddProperty": [
+						"m_eRoomBehaviour",
+						{
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"402b1a04ddf25735",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "fffffffffffffffe"
 					}
 				}
 			]
@@ -2776,14 +2851,39 @@
 							"rotation": {
 								"x": -0.0,
 								"y": 0.0,
-								"z": 34.94695927938495
+								"z": 34.94695732315779
 							},
 							"position": {
-								"x": 1.881948471069336,
-								"y": 1.0108184814453125,
-								"z": 0.0050079999491572
+								"x": 28.64140510559082,
+								"y": -181.79627990722656,
+								"z": -4.9949846267700195
 							}
 						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"767a061d1d085ccf",
+				{
+					"AddProperty": [
+						"m_eRoomBehaviour",
+						{
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"767a061d1d085ccf",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "fffffffffffffffe"
 					}
 				}
 			]
@@ -14974,7 +15074,10 @@
 						}
 					},
 					"events": {
-						"PollTrue": { "Start": ["cafe62494d16d5da"] }
+						"PollTrue": {
+							"Start": ["cafe62494d16d5da"],
+							"SetVisible": ["cafed9e7c6e06d90"]
+						}
 					}
 				}
 			]
@@ -15057,7 +15160,10 @@
 						}
 					},
 					"events": {
-						"PollTrue": { "Start": ["cafe5fd44cdbf824"] }
+						"PollTrue": {
+							"Start": ["cafe5fd44cdbf824"],
+							"SetVisible": ["cafee9368ea5186a"]
+						}
 					}
 				}
 			]
@@ -15126,7 +15232,9 @@
 								"8cdc97c27feedcf1",
 								"d67abce70b1bb470"
 							],
-							"RotorFullSpeed": ["5ceb886142046c2e"]
+							"RotorFullSpeed": ["5ceb886142046c2e"],
+							"SetVisible": ["cafe2205acfe00ae"],
+							"Activate": ["831dcd89501cfc76"]
 						}
 					}
 				}
@@ -15189,7 +15297,10 @@
 						}
 					},
 					"events": {
-						"PollTrue": { "Start": ["cafea600dccdc9e9"] }
+						"PollTrue": {
+							"Start": ["cafea600dccdc9e9"],
+							"Break": ["cafe90f30ced2935"]
+						}
 					}
 				}
 			]
@@ -15210,7 +15321,10 @@
 						}
 					},
 					"events": {
-						"PollTrue": { "Start": ["cafe298764406b2f"] }
+						"PollTrue": {
+							"Start": ["cafe298764406b2f"],
+							"Break": ["cafe90f30ced2935"]
+						}
 					}
 				}
 			]
@@ -15293,7 +15407,10 @@
 						}
 					},
 					"events": {
-						"PollTrue": { "Start": ["cafe32453480a123"] }
+						"PollTrue": {
+							"Start": ["cafe32453480a123"],
+							"SetVisible": ["cafe3758534134b9"]
+						}
 					}
 				}
 			]
@@ -15487,7 +15604,9 @@
 								"8cdc97c27feedcf1",
 								"d67abce70b1bb470"
 							],
-							"RotorFullSpeed": ["5ceb886142046c2e"]
+							"RotorFullSpeed": ["5ceb886142046c2e"],
+							"SetVisible": ["cafe25d150075b57"],
+							"Activate": ["831dcd89501cfc76"]
 						}
 					}
 				}
@@ -17764,6 +17883,7 @@
 								}
 							}
 						},
+						"m_bVisible": { "type": "bool", "value": false },
 						"m_eRoomBehaviour": {
 							"type": "ZSpatialEntity.ERoomBehaviour",
 							"value": "ROOM_DYNAMIC"
@@ -17801,6 +17921,7 @@
 								}
 							}
 						},
+						"m_bVisible": { "type": "bool", "value": false },
 						"m_eRoomBehaviour": {
 							"type": "ZSpatialEntity.ERoomBehaviour",
 							"value": "ROOM_DYNAMIC"
@@ -17838,6 +17959,7 @@
 								}
 							}
 						},
+						"m_bVisible": { "type": "bool", "value": false },
 						"m_eRoomBehaviour": {
 							"type": "ZSpatialEntity.ERoomBehaviour",
 							"value": "ROOM_DYNAMIC"
@@ -17875,6 +17997,7 @@
 								}
 							}
 						},
+						"m_bVisible": { "type": "bool", "value": false },
 						"m_eRoomBehaviour": {
 							"type": "ZSpatialEntity.ERoomBehaviour",
 							"value": "ROOM_DYNAMIC"
@@ -17912,6 +18035,7 @@
 								}
 							}
 						},
+						"m_bVisible": { "type": "bool", "value": false },
 						"m_eRoomBehaviour": {
 							"type": "ZSpatialEntity.ERoomBehaviour",
 							"value": "ROOM_DYNAMIC"
@@ -18020,6 +18144,58 @@
 					"name": "Office Chairs Borrowed",
 					"factory": "[modules:/zentity.class].pc_entitytype",
 					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe710ebf553a97",
+				{
+					"parent": "cafeed3206e3fe12",
+					"name": "Stool_Laboratory_A_00",
+					"factory": "[assembly:/_pro/environment/templates/props/furniture/laboratory_furniture_a.template?/stool_laboratory_a_00.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/environment/templates/props/furniture/laboratory_furniture_a.template?/stool_laboratory_a_00.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0,
+									"z": -31.465
+								},
+								"position": {
+									"x": 11.316165,
+									"y": -164.75389,
+									"z": -18.998367
+								}
+							}
+						},
+						"m_mSeatTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": 0.0,
+									"y": 0.0,
+									"z": 0.4699999988079071
+								}
+							}
+						},
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
 				}
 			]
 		},

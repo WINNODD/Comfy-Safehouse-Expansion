@@ -358,6 +358,11 @@
 			"comment": "Diana head season 2 mesh",
 			"runtimeID": "00D49620618AD133",
 			"toChunk": 2
+		},
+		{
+			"comment": "stool_laboratory_a_00",
+			"runtimeID": "005DD616B805A9E0",
+			"toChunk": 1
 		}
 	],
 	"options": [
