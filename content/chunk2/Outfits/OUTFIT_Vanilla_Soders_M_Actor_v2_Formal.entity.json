@@ -36,7 +36,7 @@
 			}
 		},
 		"fd8262a7c4498048": {
-			"parent": "30365926dfc88606",
+			"parent": "5a5b7a16c7ebcd26",
 			"name": "C_RToe",
 			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zclothsphere.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zclothsphere.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
@@ -104,7 +104,7 @@
 			}
 		},
 		"0c9cc88e92231d7d": {
-			"parent": "30365926dfc88606",
+			"parent": "5a5b7a16c7ebcd26",
 			"name": "C_RCalf",
 			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zclothsphere.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zclothsphere.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
@@ -172,7 +172,7 @@
 			}
 		},
 		"470942d2d2e98ef7": {
-			"parent": "30365926dfc88606",
+			"parent": "5a5b7a16c7ebcd26",
 			"name": "C_RFoot",
 			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zclothsphere.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zclothsphere.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
@@ -221,7 +221,7 @@
 			}
 		},
 		"d4b608ce2572cbd4": {
-			"parent": "30365926dfc88606",
+			"parent": "72454499cf60fe71",
 			"name": "C_LCalf",
 			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zclothsphere.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zclothsphere.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
@@ -255,7 +255,7 @@
 			}
 		},
 		"d0db4854e10d185d": {
-			"parent": "30365926dfc88606",
+			"parent": "72454499cf60fe71",
 			"name": "C_LToe",
 			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zclothsphere.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zclothsphere.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
@@ -289,7 +289,7 @@
 			}
 		},
 		"8b5c56ac46fd10eb": {
-			"parent": "30365926dfc88606",
+			"parent": "72454499cf60fe71",
 			"name": "C_LThigh",
 			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zclothsphere.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zclothsphere.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
@@ -385,7 +385,7 @@
 			}
 		},
 		"6c69ca8cb8c11ac7": {
-			"parent": "30365926dfc88606",
+			"parent": "5a5b7a16c7ebcd26",
 			"name": "C_RKnee",
 			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zclothsphere.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zclothsphere.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
@@ -419,7 +419,7 @@
 			}
 		},
 		"02adc8f5b3c6fa82": {
-			"parent": "30365926dfc88606",
+			"parent": "5a5b7a16c7ebcd26",
 			"name": "C_RAss",
 			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zclothsphere.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zclothsphere.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
@@ -514,7 +514,7 @@
 			}
 		},
 		"dfeba8d5308d8a31": {
-			"parent": "30365926dfc88606",
+			"parent": "5a5b7a16c7ebcd26",
 			"name": "C_RThigh",
 			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zclothsphere.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zclothsphere.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
@@ -548,7 +548,7 @@
 			}
 		},
 		"eff93bbcfd3abfa9": {
-			"parent": "30365926dfc88606",
+			"parent": "72454499cf60fe71",
 			"name": "C_LFoot",
 			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zclothsphere.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zclothsphere.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
@@ -582,7 +582,7 @@
 			}
 		},
 		"1b59dce89e6494ba": {
-			"parent": "30365926dfc88606",
+			"parent": "72454499cf60fe71",
 			"name": "C_LKnee",
 			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zclothsphere.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zclothsphere.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
@@ -655,7 +655,7 @@
 			}
 		},
 		"4a72201305e50b46": {
-			"parent": "30365926dfc88606",
+			"parent": "72454499cf60fe71",
 			"name": "C_LAss",
 			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zclothsphere.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zclothsphere.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",

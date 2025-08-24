@@ -381,13 +381,10 @@
 			"SubEntityOperation": [
 				"bc7b623018fb1f90",
 				{
-					"AddProperty": [
-						"m_eRoomBehaviour",
-						{
-							"type": "ZSpatialEntity.ERoomBehaviour",
-							"value": "ROOM_DYNAMIC"
-						}
-					]
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "fffffffffffffffe"
+					}
 				}
 			]
 		},
@@ -395,10 +392,13 @@
 			"SubEntityOperation": [
 				"bc7b623018fb1f90",
 				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "fffffffffffffffe"
-					}
+					"AddProperty": [
+						"m_eRoomBehaviour",
+						{
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						}
+					]
 				}
 			]
 		},
@@ -2200,13 +2200,10 @@
 			"SubEntityOperation": [
 				"35841bc96512cff0",
 				{
-					"AddProperty": [
-						"m_eRoomBehaviour",
-						{
-							"type": "ZSpatialEntity.ERoomBehaviour",
-							"value": "ROOM_DYNAMIC"
-						}
-					]
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "fffffffffffffffe"
+					}
 				}
 			]
 		},
@@ -2214,10 +2211,13 @@
 			"SubEntityOperation": [
 				"35841bc96512cff0",
 				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "fffffffffffffffe"
-					}
+					"AddProperty": [
+						"m_eRoomBehaviour",
+						{
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						}
+					]
 				}
 			]
 		},
@@ -2426,13 +2426,10 @@
 			"SubEntityOperation": [
 				"402b1a04ddf25735",
 				{
-					"AddProperty": [
-						"m_eRoomBehaviour",
-						{
-							"type": "ZSpatialEntity.ERoomBehaviour",
-							"value": "ROOM_DYNAMIC"
-						}
-					]
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "fffffffffffffffe"
+					}
 				}
 			]
 		},
@@ -2440,10 +2437,13 @@
 			"SubEntityOperation": [
 				"402b1a04ddf25735",
 				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "fffffffffffffffe"
-					}
+					"AddProperty": [
+						"m_eRoomBehaviour",
+						{
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						}
+					]
 				}
 			]
 		},
@@ -2867,13 +2867,10 @@
 			"SubEntityOperation": [
 				"767a061d1d085ccf",
 				{
-					"AddProperty": [
-						"m_eRoomBehaviour",
-						{
-							"type": "ZSpatialEntity.ERoomBehaviour",
-							"value": "ROOM_DYNAMIC"
-						}
-					]
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "fffffffffffffffe"
+					}
 				}
 			]
 		},
@@ -2881,10 +2878,13 @@
 			"SubEntityOperation": [
 				"767a061d1d085ccf",
 				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "fffffffffffffffe"
-					}
+					"AddProperty": [
+						"m_eRoomBehaviour",
+						{
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						}
+					]
 				}
 			]
 		},
@@ -15297,10 +15297,7 @@
 						}
 					},
 					"events": {
-						"PollTrue": {
-							"Start": ["cafea600dccdc9e9"],
-							"Break": ["cafe90f30ced2935"]
-						}
+						"PollTrue": { "Start": ["cafea600dccdc9e9"] }
 					}
 				}
 			]
@@ -15321,10 +15318,7 @@
 						}
 					},
 					"events": {
-						"PollTrue": {
-							"Start": ["cafe298764406b2f"],
-							"Break": ["cafe90f30ced2935"]
-						}
+						"PollTrue": { "Start": ["cafe298764406b2f"] }
 					}
 				}
 			]
@@ -15345,7 +15339,10 @@
 						}
 					},
 					"events": {
-						"PollTrue": { "Start": ["cafe85bf77b37d8d"] }
+						"PollTrue": {
+							"Start": ["cafe85bf77b37d8d"],
+							"SetVisible": ["cafe90f30ced2935"]
+						}
 					}
 				}
 			]
@@ -16727,6 +16724,7 @@
 							"value": "cafe61a0740e8221",
 							"postInit": true
 						},
+						"m_bVisible": { "type": "bool", "value": false },
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "fffffffffffffffe",

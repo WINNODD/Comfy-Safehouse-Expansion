@@ -77,30 +77,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"Texture2DNormal_01_enab": {
 					"type": "bool",
 					"value": true
 				},
-				"Texture2D_03_enab": {
-					"type": "bool",
-					"value": true
-				},
-				"Texture2D_01_enab": {
-					"type": "bool",
-					"value": true
-				},
+				"Texture2D_03_enab": { "type": "bool", "value": true },
+				"Texture2D_01_enab": { "type": "bool", "value": true },
 				"Diffuse_Color_01_Value_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
 					"value": "eReplace"
@@ -156,9 +142,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"da03cf9b9231ea5d"
-					],
+					"value": ["da03cf9b9231ea5d"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -178,10 +162,7 @@
 					"type": "float32",
 					"value": 0.16200000047683716
 				},
-				"m_BoneName": {
-					"type": "ZString",
-					"value": "Pelvis"
-				},
+				"m_BoneName": { "type": "ZString", "value": "Pelvis" },
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
@@ -231,10 +212,7 @@
 			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zclothcapsule.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zclothcapsule.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
 			"properties": {
-				"m_BoneName": {
-					"type": "ZString",
-					"value": "Spine1"
-				},
+				"m_BoneName": { "type": "ZString", "value": "Spine1" },
 				"m_fRadiusX": {
 					"type": "float32",
 					"value": 0.20999999344348907
@@ -247,38 +225,19 @@
 					"type": "float32",
 					"value": 0.009999999776482582
 				},
-				"m_fBottom": {
-					"type": "float32",
-					"value": 0
-				},
+				"m_fBottom": { "type": "float32", "value": 0 },
 				"m_fRadiusZ": {
 					"type": "float32",
 					"value": 0.16500000655651093
 				},
-				"m_bEnableBottomRadii": {
-					"type": "bool",
-					"value": false
-				},
-				"m_fRadiusXBottom": {
-					"type": "float32",
-					"value": 1
-				},
-				"m_fRadiusYBottom": {
-					"type": "float32",
-					"value": 1
-				},
-				"m_fRadiusZBottom": {
-					"type": "float32",
-					"value": 1
-				},
+				"m_bEnableBottomRadii": { "type": "bool", "value": false },
+				"m_fRadiusXBottom": { "type": "float32", "value": 1 },
+				"m_fRadiusYBottom": { "type": "float32", "value": 1 },
+				"m_fRadiusZBottom": { "type": "float32", "value": 1 },
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 0.043960001319646835,
 							"y": 0.039503999054431915,
@@ -313,9 +272,7 @@
 				},
 				"m_ClothColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"3eb77aa6077b167b"
-					],
+					"value": ["3eb77aa6077b167b"],
 					"postInit": true
 				}
 			}
@@ -329,22 +286,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
-				"Texture2D_01_enab": {
-					"type": "bool",
-					"value": false
-				},
+				"Texture2D_01_enab": { "type": "bool", "value": false },
 				"Diffuse_Color_01_Value_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
 					"value": "eReplace"
@@ -355,9 +301,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"f592365a9253d726"
-					],
+					"value": ["f592365a9253d726"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -377,10 +321,7 @@
 					"type": "float32",
 					"value": 0.10000000149011612
 				},
-				"m_BoneName": {
-					"type": "ZString",
-					"value": "L_Calf"
-				},
+				"m_BoneName": { "type": "ZString", "value": "L_Calf" },
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
@@ -441,18 +382,11 @@
 					"type": "float32",
 					"value": 0.08500000089406967
 				},
-				"m_BoneName": {
-					"type": "ZString",
-					"value": "L_Foot"
-				},
+				"m_BoneName": { "type": "ZString", "value": "L_Foot" },
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": -1.290655973207322e-7,
 							"y": 2.171457902377938e-9,
@@ -478,10 +412,7 @@
 			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zclothcapsule.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zclothcapsule.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
 			"properties": {
-				"m_BoneName": {
-					"type": "ZString",
-					"value": "Spine"
-				},
+				"m_BoneName": { "type": "ZString", "value": "Spine" },
 				"m_fRadiusX": {
 					"type": "float32",
 					"value": 0.2199999988079071
@@ -494,36 +425,21 @@
 					"type": "float32",
 					"value": 0.009999999776482582
 				},
-				"m_fBottom": {
-					"type": "float32",
-					"value": 0
-				},
+				"m_fBottom": { "type": "float32", "value": 0 },
 				"m_fRadiusZ": {
 					"type": "float32",
 					"value": 0.16500000655651093
 				},
-				"m_bEnableBottomRadii": {
-					"type": "bool",
-					"value": false
-				},
-				"m_fRadiusXBottom": {
-					"type": "float32",
-					"value": 1
-				},
-				"m_fRadiusYBottom": {
-					"type": "float32",
-					"value": 1
-				},
-				"m_fRadiusZBottom": {
-					"type": "float32",
-					"value": 1
-				},
+				"m_bEnableBottomRadii": { "type": "bool", "value": false },
+				"m_fRadiusXBottom": { "type": "float32", "value": 1 },
+				"m_fRadiusYBottom": { "type": "float32", "value": 1 },
+				"m_fRadiusZBottom": { "type": "float32", "value": 1 },
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
 							"x": -0.08032870965364704,
-							"y": 0.00011459156572116569,
+							"y": 0.00011459156572116567,
 							"z": -0.1398591430839607
 						},
 						"position": {
@@ -551,10 +467,7 @@
 			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zclothcapsule.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zclothcapsule.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
 			"properties": {
-				"m_BoneName": {
-					"type": "ZString",
-					"value": "Spine1"
-				},
+				"m_BoneName": { "type": "ZString", "value": "Spine1" },
 				"m_fRadiusX": {
 					"type": "float32",
 					"value": 0.20999999344348907
@@ -567,38 +480,19 @@
 					"type": "float32",
 					"value": 0.009999999776482582
 				},
-				"m_fBottom": {
-					"type": "float32",
-					"value": 0
-				},
+				"m_fBottom": { "type": "float32", "value": 0 },
 				"m_fRadiusZ": {
 					"type": "float32",
 					"value": 0.16500000655651093
 				},
-				"m_bEnableBottomRadii": {
-					"type": "bool",
-					"value": false
-				},
-				"m_fRadiusXBottom": {
-					"type": "float32",
-					"value": 1
-				},
-				"m_fRadiusYBottom": {
-					"type": "float32",
-					"value": 1
-				},
-				"m_fRadiusZBottom": {
-					"type": "float32",
-					"value": 1
-				},
+				"m_bEnableBottomRadii": { "type": "bool", "value": false },
+				"m_fRadiusXBottom": { "type": "float32", "value": 1 },
+				"m_fRadiusYBottom": { "type": "float32", "value": 1 },
+				"m_fRadiusZBottom": { "type": "float32", "value": 1 },
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 0.04395199939608574,
 							"y": 0.039503999054431915,
@@ -627,11 +521,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": -1.290655973207322e-7,
 							"y": 2.171457902377938e-9,
@@ -672,18 +562,11 @@
 					"type": "float32",
 					"value": 0.10000000149011612
 				},
-				"m_BoneName": {
-					"type": "ZString",
-					"value": "R_Calf"
-				},
+				"m_BoneName": { "type": "ZString", "value": "R_Calf" },
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 0.0024270000867545605,
 							"y": -0.01853100024163723,
@@ -743,16 +626,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"Diffuse_Color_01_Value_op": {
@@ -765,9 +640,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"da03cf9b9231ea5d"
-					],
+					"value": ["da03cf9b9231ea5d"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -890,18 +763,12 @@
 			"properties": {
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 6.087086200714111,
 							"y": 0.23032799363136292,
@@ -911,20 +778,13 @@
 				},
 				"m_vBodypartBoundingMarginMax": {
 					"type": "SVector3",
-					"value": {
-						"x": 0,
-						"y": 0,
-						"z": 0.009999999776482582
-					}
+					"value": { "x": 0, "y": 0, "z": 0.009999999776482582 }
 				},
 				"m_fFrustumFarDistanceProperty": {
 					"type": "float32",
 					"value": 60
 				},
-				"m_bSimulationEnabled": {
-					"type": "bool",
-					"value": true
-				},
+				"m_bSimulationEnabled": { "type": "bool", "value": true },
 				"m_aBodyParts": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
@@ -991,10 +851,7 @@
 					"type": "float32",
 					"value": 0.08500000089406967
 				},
-				"m_BoneName": {
-					"type": "ZString",
-					"value": "R_Foot"
-				},
+				"m_BoneName": { "type": "ZString", "value": "R_Foot" },
 				"m_linkedEntity": {
 					"type": "SEntityTemplateReference",
 					"value": "c69b1d519e957d0d"
@@ -1002,11 +859,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": -1.290655973207322e-7,
 							"y": 2.171457902377938e-9,
@@ -1031,10 +884,7 @@
 					"type": "float32",
 					"value": 0.16200000047683716
 				},
-				"m_BoneName": {
-					"type": "ZString",
-					"value": "Pelvis"
-				},
+				"m_BoneName": { "type": "ZString", "value": "Pelvis" },
 				"m_linkedEntity": {
 					"type": "SEntityTemplateReference",
 					"value": "c69b1d519e957d0d"
@@ -1045,7 +895,7 @@
 						"rotation": {
 							"x": -0.07912550357283826,
 							"y": 0.00005729578620925229,
-							"z": -0.11533647990351967
+							"z": -0.11533647990351968
 						},
 						"position": {
 							"x": 0.02849400043487549,
@@ -1067,10 +917,7 @@
 			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zclothcapsule.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zclothcapsule.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
 			"properties": {
-				"m_BoneName": {
-					"type": "ZString",
-					"value": "Spine"
-				},
+				"m_BoneName": { "type": "ZString", "value": "Spine" },
 				"m_linkedEntity": {
 					"type": "SEntityTemplateReference",
 					"value": "c69b1d519e957d0d"
@@ -1087,36 +934,21 @@
 					"type": "float32",
 					"value": 0.009999999776482582
 				},
-				"m_fBottom": {
-					"type": "float32",
-					"value": 0
-				},
+				"m_fBottom": { "type": "float32", "value": 0 },
 				"m_fRadiusZ": {
 					"type": "float32",
 					"value": 0.16500000655651093
 				},
-				"m_bEnableBottomRadii": {
-					"type": "bool",
-					"value": false
-				},
-				"m_fRadiusXBottom": {
-					"type": "float32",
-					"value": 1
-				},
-				"m_fRadiusYBottom": {
-					"type": "float32",
-					"value": 1
-				},
-				"m_fRadiusZBottom": {
-					"type": "float32",
-					"value": 1
-				},
+				"m_bEnableBottomRadii": { "type": "bool", "value": false },
+				"m_fRadiusXBottom": { "type": "float32", "value": 1 },
+				"m_fRadiusYBottom": { "type": "float32", "value": 1 },
+				"m_fRadiusZBottom": { "type": "float32", "value": 1 },
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
 							"x": -0.08032870965364704,
-							"y": 0.00011459156572116569,
+							"y": 0.00011459156572116567,
 							"z": -0.1398591430839607
 						},
 						"position": {
@@ -1174,7 +1006,7 @@
 			"properties": {
 				"m_fRadius": {
 					"type": "float32",
-					"value": 0.11999999731779099
+					"value": 0.119999997317791
 				},
 				"m_BoneName": {
 					"type": "ZString",
@@ -1214,7 +1046,7 @@
 			"properties": {
 				"m_fRadius": {
 					"type": "float32",
-					"value": 0.11999999731779099
+					"value": 0.119999997317791
 				},
 				"m_BoneName": {
 					"type": "ZString",
@@ -1227,11 +1059,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 0.05449200049042702,
 							"y": 0.016940999776124954,
@@ -1267,11 +1095,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 0.10783399641513824,
 							"y": 0.015591000206768513,
@@ -1295,16 +1119,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_linkedEntity": {
@@ -1390,23 +1206,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e56e1f68ff6e1f29"
-					]
+					"value": ["e56e1f68ff6e1f29"]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1428,10 +1234,7 @@
 					"type": "float32",
 					"value": 15.729999542236328
 				},
-				"Texture2D_01_enab": {
-					"type": "bool",
-					"value": true
-				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
 				"Texture2D_01": {
 					"type": "ZRuntimeResourceID",
 					"value": {
@@ -1458,23 +1261,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e56e1f68ff6e1f29"
-					],
+					"value": ["e56e1f68ff6e1f29"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -1493,11 +1286,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": -0.6098402142524719,
 							"y": 0.1388016939163208,
@@ -1516,10 +1305,7 @@
 					"type": "bool",
 					"value": true
 				},
-				"Texture2D_01_enab": {
-					"type": "bool",
-					"value": true
-				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
 				"Texture2D_01": {
 					"type": "ZRuntimeResourceID",
 					"value": {
@@ -1534,23 +1320,15 @@
 						"flag": "5F"
 					}
 				},
-				"Texture2D_03_enab": {
-					"type": "bool",
-					"value": true
-				},
-				"Active": {
-					"type": "bool",
-					"value": true
-				},
+				"Texture2D_03_enab": { "type": "bool", "value": true },
+				"Active": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "c69b1d519e957d0d"
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e56e1f68ff6e1f29"
-					],
+					"value": ["e56e1f68ff6e1f29"],
 					"postInit": true
 				}
 			}
@@ -1564,23 +1342,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e56e1f68ff6e1f29"
-					]
+					"value": ["e56e1f68ff6e1f29"]
 				},
 				"ConstantVector1D_01_Value_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
@@ -1613,16 +1381,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"ConstantColorRGB_02_Value": {
@@ -1663,9 +1423,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"6132ab659dfe7e2d"
-					],
+					"value": ["6132ab659dfe7e2d"],
 					"postInit": true
 				}
 			}
@@ -1679,28 +1437,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"6132ab659dfe7e2d"
-					]
+					"value": ["6132ab659dfe7e2d"]
 				},
-				"Texture2D_03_enab": {
-					"type": "bool",
-					"value": false
-				},
+				"Texture2D_03_enab": { "type": "bool", "value": false },
 				"Texture2D_01": {
 					"type": "ZRuntimeResourceID",
 					"value": {
@@ -1708,10 +1453,7 @@
 						"flag": "5F"
 					}
 				},
-				"Texture2D_01_enab": {
-					"type": "bool",
-					"value": true
-				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "c69b1d519e957d0d"
@@ -1727,16 +1469,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"ConstantColorRGB_02_Value_op": {
@@ -1762,15 +1496,10 @@
 						"flag": "5F"
 					}
 				},
-				"Texture2D_04_enab": {
-					"type": "bool",
-					"value": true
-				},
+				"Texture2D_04_enab": { "type": "bool", "value": true },
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"6132ab659dfe7e2d"
-					],
+					"value": ["6132ab659dfe7e2d"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -1786,23 +1515,12 @@
 			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
 			"properties": {
-				"m_BoneName": {
-					"type": "ZString",
-					"value": "L_Finger3"
-				},
+				"m_BoneName": { "type": "ZString", "value": "L_Finger3" },
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_linkedEntity": {
@@ -1832,7 +1550,7 @@
 						"position": {
 							"x": 0.02055099979043007,
 							"y": -0.004608000162988901,
-							"z": 0.0018179999897256494
+							"z": 0.0018179999897256496
 						}
 					}
 				},
@@ -1871,115 +1589,20 @@
 					}
 				}
 			}
-		},
-		"feeddb84b6416e13": {
-			"parent": "c69b1d519e957d0d",
-			"name": "Attacher",
-			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
-			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
-					}
-				},
-				"m_linkedEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "c69b1d519e957d0d"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "c69b1d519e957d0d"
-				}
-			}
-		},
-		"feed589cb650d2f7": {
-			"parent": "feeddb84b6416e13",
-			"name": "Umbrella",
-			"factory": "[assembly:/_pro/items/geometry/melee/umbrella_a.wl2?/umbrella_a_closed.prim].pc_entitytype",
-			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 7.474878850444424,
-							"y": -0.8826196708329072,
-							"z": 0.0576463558769386
-						},
-						"position": {
-							"x": 0.02055099979043007,
-							"y": -0.004608000162988901,
-							"z": 0.0018179999897256494
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 1.495609998703003,
-						"z": 1.097830057144165
-					}
-				},
-				"Texture2D_03": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/characters/assets/workers/eventscrew_01/textures/male_reg_bangkok_bandcrew_02_ring_02.texture?/specular_gold.tex](ascolormap).pc_tex",
-						"flag": "5F"
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feeddb84b6416e13"
-				}
-			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [
-		{
-			"resource": "009683E9932B03A8",
-			"flag": "5F"
-		},
-		{
-			"resource": "00B40E9503CF9271",
-			"flag": "5F"
-		},
-		{
-			"resource": "00CE0687FF97FED2",
-			"flag": "5F"
-		},
-		{
-			"resource": "00347635925C9275",
-			"flag": "5F"
-		},
+		{ "resource": "009683E9932B03A8", "flag": "5F" },
+		{ "resource": "00B40E9503CF9271", "flag": "5F" },
+		{ "resource": "00CE0687FF97FED2", "flag": "5F" },
+		{ "resource": "00347635925C9275", "flag": "5F" },
 		{
 			"resource": "[assembly:/_pro/characters/assets/individuals/italy/private_investigator/textures/male_reg_investigator_hat_01.texture?/specular_a.tex](ascolormap).pc_tex",
 			"flag": "5F"
@@ -1992,26 +1615,11 @@
 			"resource": "[assembly:/_pro/characters/assets/individuals/italy/private_investigator/textures/male_reg_investigator_hat_01.texture?/normal_a.tex](asnormalmap).pc_tex",
 			"flag": "5F"
 		},
-		{
-			"resource": "00F6A6C76C74C59F",
-			"flag": "5F"
-		},
-		{
-			"resource": "0013F0C8B8AAE0C8",
-			"flag": "5F"
-		},
-		{
-			"resource": "001083E516801F5E",
-			"flag": "5F"
-		},
-		{
-			"resource": "00FFC5352D7A5D64",
-			"flag": "5F"
-		},
-		{
-			"resource": "00E4CE86EE7A5CC2",
-			"flag": "5F"
-		},
+		{ "resource": "00F6A6C76C74C59F", "flag": "5F" },
+		{ "resource": "0013F0C8B8AAE0C8", "flag": "5F" },
+		{ "resource": "001083E516801F5E", "flag": "5F" },
+		{ "resource": "00FFC5352D7A5D64", "flag": "5F" },
+		{ "resource": "00E4CE86EE7A5CC2", "flag": "5F" },
 		{
 			"resource": "[assembly:/_pro/characters/assets/individuals/italy/marco_abiatti/textures/male_reg_marcoabiatti_shoes_01.texture?/diffuse_white.tex](ascolormap).pc_tex",
 			"flag": "5F"
@@ -2024,34 +1632,13 @@
 			"resource": "[assembly:/_pro/characters/assets/individuals/italy/marco_abiatti/textures/male_reg_marcoabiatti_shoes_01.texture?/normal_a.tex](asnormalmap).pc_tex",
 			"flag": "5F"
 		},
-		{
-			"resource": "00E2AE809883F439",
-			"flag": "5F"
-		},
-		{
-			"resource": "006F835120511247",
-			"flag": "5F"
-		},
-		{
-			"resource": "00188997D678EF0B",
-			"flag": "5F"
-		},
-		{
-			"resource": "0045F839B337D2B6",
-			"flag": "5F"
-		},
-		{
-			"resource": "006A9072F2C78523",
-			"flag": "5F"
-		},
-		{
-			"resource": "005A3A86E39FBFB7",
-			"flag": "5F"
-		},
-		{
-			"resource": "006258232B3126D5",
-			"flag": "5F"
-		},
+		{ "resource": "00E2AE809883F439", "flag": "5F" },
+		{ "resource": "006F835120511247", "flag": "5F" },
+		{ "resource": "00188997D678EF0B", "flag": "5F" },
+		{ "resource": "0045F839B337D2B6", "flag": "5F" },
+		{ "resource": "006A9072F2C78523", "flag": "5F" },
+		{ "resource": "005A3A86E39FBFB7", "flag": "5F" },
+		{ "resource": "006258232B3126D5", "flag": "5F" },
 		{
 			"resource": "[assembly:/_pro/characters/assets/_apparel/accessories/buttons/textures/buttons_01.texture?/normal_a.tex](asnormalmap).pc_tex",
 			"flag": "5F"
@@ -2064,51 +1651,20 @@
 			"resource": "[assembly:/_pro/characters/assets/_apparel/accessories/buttons/textures/buttons_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
 			"flag": "5F"
 		},
-		{
-			"resource": "00F7F23614B9A7F9",
-			"flag": "5F"
-		},
+		{ "resource": "00F7F23614B9A7F9", "flag": "5F" },
 		{
 			"resource": "[assembly:/_pro/environment/textures/constants/color_white.texture?/diffuse_a.tex](ascolormap).pc_tex",
 			"flag": "5F"
 		},
-		{
-			"resource": "001B53E09DC3916F",
-			"flag": "5F"
-		},
-		{
-			"resource": "00C58D6F5C03088C",
-			"flag": "5F"
-		},
-		{
-			"resource": "003038765D4FCD77",
-			"flag": "5F"
-		},
-		{
-			"resource": "00B3D86F3C2EBB36",
-			"flag": "5F"
-		},
-		{
-			"resource": "00F6CAC5C12212F3",
-			"flag": "5F"
-		},
-		{
-			"resource": "002E7541DF988823",
-			"flag": "5F"
-		},
-		{
-			"resource": "00979077C8C48A46",
-			"flag": "5F"
-		},
-		{
-			"resource": "00335FB770A75902",
-			"flag": "5F"
-		}
+		{ "resource": "001B53E09DC3916F", "flag": "5F" },
+		{ "resource": "00C58D6F5C03088C", "flag": "5F" },
+		{ "resource": "003038765D4FCD77", "flag": "5F" },
+		{ "resource": "00B3D86F3C2EBB36", "flag": "5F" },
+		{ "resource": "00F6CAC5C12212F3", "flag": "5F" },
+		{ "resource": "002E7541DF988823", "flag": "5F" },
+		{ "resource": "00979077C8C48A46", "flag": "5F" },
+		{ "resource": "00335FB770A75902", "flag": "5F" }
 	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

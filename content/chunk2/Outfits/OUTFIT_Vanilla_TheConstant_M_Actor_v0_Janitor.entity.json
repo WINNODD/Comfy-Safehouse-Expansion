@@ -103,7 +103,7 @@
 							"z": -92.02702591578432
 						},
 						"position": {
-							"x": 0.11287199705839157,
+							"x": 0.11287199705839156,
 							"y": 0.12836800515651703,
 							"z": -0.08941199630498886
 						}
@@ -174,16 +174,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_linkedEntity": {
@@ -213,7 +205,7 @@
 					"value": {
 						"rotation": {
 							"x": -8.760253248863505,
-							"y": 10.164275823051785,
+							"y": 10.164275823051783,
 							"z": -84.41950351863602
 						},
 						"position": {
@@ -272,7 +264,7 @@
 							"z": 142.391803145262
 						},
 						"position": {
-							"x": 0.10522270202636719,
+							"x": 0.1052227020263672,
 							"y": 0.015361242927610874,
 							"z": 0.0003803701838478446
 						}
@@ -326,7 +318,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -97.15306533960903,
+							"x": -97.15306533960904,
 							"y": -82.95623619594255,
 							"z": -101.20758927411386
 						},
@@ -377,10 +369,7 @@
 			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
 			"properties": {
-				"m_BoneName": {
-					"type": "ZString",
-					"value": "Pelvis"
-				},
+				"m_BoneName": { "type": "ZString", "value": "Pelvis" },
 				"m_linkedEntity": {
 					"type": "SEntityTemplateReference",
 					"value": "6cf52e3a57e5e073",
@@ -411,10 +400,7 @@
 			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
 			"properties": {
-				"m_BoneName": {
-					"type": "ZString",
-					"value": "Head"
-				},
+				"m_BoneName": { "type": "ZString", "value": "Head" },
 				"m_linkedEntity": {
 					"type": "SEntityTemplateReference",
 					"value": "6cf52e3a57e5e073",
@@ -463,11 +449,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": -31.29705047607422,
 							"y": -16.06926918029785,
@@ -482,10 +464,7 @@
 						"flag": "5F"
 					}
 				},
-				"m_nBodypartLODCutOff": {
-					"type": "uint32",
-					"value": 3
-				}
+				"m_nBodypartLODCutOff": { "type": "uint32", "value": 3 }
 			}
 		},
 		"feed80318fab64c6": {
@@ -526,9 +505,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"6cf52e3a57e5e073"
-					]
+					"value": ["6cf52e3a57e5e073"]
 				},
 				"ConstantColorRGB_02_Value_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
@@ -591,9 +568,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"6cf52e3a57e5e073"
-					]
+					"value": ["6cf52e3a57e5e073"]
 				},
 				"Texture2D_03": {
 					"type": "ZRuntimeResourceID",
@@ -602,10 +577,7 @@
 						"flag": "5F"
 					}
 				},
-				"Texture2D_03_enab": {
-					"type": "bool",
-					"value": true
-				},
+				"Texture2D_03_enab": { "type": "bool", "value": true },
 				"Texture2D_01": {
 					"type": "ZRuntimeResourceID",
 					"value": {
@@ -613,10 +585,7 @@
 						"flag": "5F"
 					}
 				},
-				"Texture2D_01_enab": {
-					"type": "bool",
-					"value": true
-				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
 				"Texture2DNormal_01": {
 					"type": "ZRuntimeResourceID",
 					"value": {
@@ -669,71 +638,17 @@
 					"value": "6cf52e3a57e5e073"
 				}
 			}
-		},
-		"feed4e94184c2d14": {
-			"parent": "887b486da1d27b89",
-			"name": "base_male_body",
-			"factory": "[assembly:/_pro/characters/assets/_base/pro_male_regular/materials/base_male_body.mi].pc_entitytype",
-			"blueprint": "[assembly:/_pro/characters/assets/_base/pro_male_regular/materials/base_male_body.mi].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -90.20998983851266
-						},
-						"position": {
-							"x": -6.393318176269531,
-							"y": -4.789535045623779,
-							"z": 0
-						}
-					}
-				},
-				"Clients": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"6cf52e3a57e5e073"
-					]
-				},
-				"ConstantColorRGB_01_Value_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
-				"ConstantColorRGB_01_Value": {
-					"type": "SColorRGB",
-					"value": "#e87676"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "6cf52e3a57e5e073"
-				}
-			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [
-		{
-			"resource": "00D2EEC6171EA47A",
-			"flag": "5F"
-		},
+		{ "resource": "00D2EEC6171EA47A", "flag": "5F" },
 		{
 			"resource": "[assembly:/_pro/characters/assets/workers/eventscrew_01/textures/male_reg_bangkok_bandcrew_02_hat_01.texture?/diffuse_white.tex](ascolormap).pc_tex",
 			"flag": "5F"
@@ -746,38 +661,14 @@
 			"resource": "[assembly:/_pro/characters/assets/workers/eventscrew_01/textures/male_reg_bangkok_bandcrew_02_hat_01.texture?/specular_a.tex](ascolormap).pc_tex",
 			"flag": "5F"
 		},
-		{
-			"resource": "00D23ACA2BC93530",
-			"flag": "5F"
-		},
-		{
-			"resource": "006731C43241B2EA",
-			"flag": "5F"
-		},
-		{
-			"resource": "007C9737A03E217F",
-			"flag": "5F"
-		},
-		{
-			"resource": "00C197DBB1B74FF6",
-			"flag": "5F"
-		},
-		{
-			"resource": "007E2F6DB1068A8D",
-			"flag": "5F"
-		},
-		{
-			"resource": "00AAD107E192CFAE",
-			"flag": "5F"
-		},
-		{
-			"resource": "0063B05E0712FBB3",
-			"flag": "5F"
-		},
-		{
-			"resource": "0094CA4486996AF9",
-			"flag": "5F"
-		},
+		{ "resource": "00D23ACA2BC93530", "flag": "5F" },
+		{ "resource": "006731C43241B2EA", "flag": "5F" },
+		{ "resource": "007C9737A03E217F", "flag": "5F" },
+		{ "resource": "00C197DBB1B74FF6", "flag": "5F" },
+		{ "resource": "007E2F6DB1068A8D", "flag": "5F" },
+		{ "resource": "00AAD107E192CFAE", "flag": "5F" },
+		{ "resource": "0063B05E0712FBB3", "flag": "5F" },
+		{ "resource": "0094CA4486996AF9", "flag": "5F" },
 		{
 			"resource": "[assembly:/_pro/characters/assets/individuals/flamingo/derekmcinnis/textures/derekmcinnis_idbadge.texture?/specular_a.tex](ascolormap).pc_tex",
 			"flag": "5F"
@@ -786,10 +677,7 @@
 			"resource": "[assembly:/_pro/characters/assets/individuals/flamingo/derekmcinnis/textures/derekmcinnis_idbadge.texture?/normal_a.tex](asnormalmap).pc_tex",
 			"flag": "5F"
 		},
-		{
-			"resource": "00AEB6AA8F474D6D",
-			"flag": "5F"
-		},
+		{ "resource": "00AEB6AA8F474D6D", "flag": "5F" },
 		{
 			"resource": "[assembly:/_pro/characters/assets/workers/gardeners/textures/male_reg_gardener_01_acc_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
 			"flag": "5F"
@@ -814,22 +702,10 @@
 			"resource": "[assembly:/_pro/characters/assets/workers/delivery_01/textures/male_reg_delivery_01_boots_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
 			"flag": "5F"
 		},
-		{
-			"resource": "00DE7DEBEDBDE3FC",
-			"flag": "5F"
-		},
-		{
-			"resource": "00A6F9B7C3B58D59",
-			"flag": "5F"
-		},
-		{
-			"resource": "00215062D34FE975",
-			"flag": "5F"
-		},
-		{
-			"resource": "00FF7446E39F4BC1",
-			"flag": "5F"
-		},
+		{ "resource": "00DE7DEBEDBDE3FC", "flag": "5F" },
+		{ "resource": "00A6F9B7C3B58D59", "flag": "5F" },
+		{ "resource": "00215062D34FE975", "flag": "5F" },
+		{ "resource": "00FF7446E39F4BC1", "flag": "5F" },
 		{
 			"resource": "[assembly:/_pro/characters/assets/guards/colorado/militia_basic/textures/male_reg_militia_basic_02_pants.texture?/specular_a.tex](ascolormap).pc_tex",
 			"flag": "5F"
@@ -838,26 +714,11 @@
 			"resource": "[assembly:/_pro/characters/assets/guards/colorado/militia_basic/textures/male_reg_militia_basic_02_pants.texture?/normal_a.tex](asnormalmap).pc_tex",
 			"flag": "5F"
 		},
-		{
-			"resource": "0036D5169996B159",
-			"flag": "5F"
-		},
-		{
-			"resource": "00A2006105B90A4E",
-			"flag": "5F"
-		},
-		{
-			"resource": "0052421EB0D577F9",
-			"flag": "5F"
-		},
-		{
-			"resource": "0093884D29103D51",
-			"flag": "5F"
-		},
-		{
-			"resource": "000DE1EFCEF8FF6F",
-			"flag": "5F"
-		},
+		{ "resource": "0036D5169996B159", "flag": "5F" },
+		{ "resource": "00A2006105B90A4E", "flag": "5F" },
+		{ "resource": "0052421EB0D577F9", "flag": "5F" },
+		{ "resource": "0093884D29103D51", "flag": "5F" },
+		{ "resource": "000DE1EFCEF8FF6F", "flag": "5F" },
 		{
 			"resource": "[assembly:/_pro/characters/assets/_apparel/accessories/watches/textures/male_reg_watch_a.texture?/normal_c.tex](asnormalmap).pc_tex",
 			"flag": "5F"
@@ -870,63 +731,20 @@
 			"resource": "[assembly:/_pro/characters/assets/individuals/italy/silviocaruso/textures/male_reg_silviocaruso_shirt_01.texture?/normal_a.tex](asnormalmap).pc_tex",
 			"flag": "5F"
 		},
-		{
-			"resource": "001083E516801F5E",
-			"flag": "5F"
-		},
-		{
-			"resource": "00FFC5352D7A5D64",
-			"flag": "5F"
-		},
-		{
-			"resource": "00E4CE86EE7A5CC2",
-			"flag": "5F"
-		},
-		{
-			"resource": "00C8EC7C62C69CFF",
-			"flag": "5F"
-		},
-		{
-			"resource": "00F7F23614B9A7F9",
-			"flag": "5F"
-		},
-		{
-			"resource": "004119F61C3562DE",
-			"flag": "5F"
-		},
-		{
-			"resource": "00C67AD6B87B46D5",
-			"flag": "5F"
-		},
-		{
-			"resource": "00FF81E0FC9A2B5B",
-			"flag": "5F"
-		},
-		{
-			"resource": "0020B8CC72C6219F",
-			"flag": "5F"
-		},
-		{
-			"resource": "00751F249D042475",
-			"flag": "5F"
-		},
-		{
-			"resource": "009FE4BCDE2966EC",
-			"flag": "5F"
-		},
-		{
-			"resource": "00CB41D8760D4C07",
-			"flag": "5F"
-		},
-		{
-			"resource": "0075BDC2FDFB4BC6",
-			"flag": "5F"
-		}
+		{ "resource": "001083E516801F5E", "flag": "5F" },
+		{ "resource": "00FFC5352D7A5D64", "flag": "5F" },
+		{ "resource": "00E4CE86EE7A5CC2", "flag": "5F" },
+		{ "resource": "00C8EC7C62C69CFF", "flag": "5F" },
+		{ "resource": "00F7F23614B9A7F9", "flag": "5F" },
+		{ "resource": "004119F61C3562DE", "flag": "5F" },
+		{ "resource": "00C67AD6B87B46D5", "flag": "5F" },
+		{ "resource": "00FF81E0FC9A2B5B", "flag": "5F" },
+		{ "resource": "0020B8CC72C6219F", "flag": "5F" },
+		{ "resource": "00751F249D042475", "flag": "5F" },
+		{ "resource": "009FE4BCDE2966EC", "flag": "5F" },
+		{ "resource": "00CB41D8760D4C07", "flag": "5F" },
+		{ "resource": "0075BDC2FDFB4BC6", "flag": "5F" }
 	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

@@ -494,45 +494,6 @@
 				}
 			}
 		},
-		"feed4e94184c2d14": {
-			"parent": "887b486da1d27b89",
-			"name": "base_male_body",
-			"factory": "[assembly:/_pro/characters/assets/_base/pro_male_regular/materials/base_male_body.mi].pc_entitytype",
-			"blueprint": "[assembly:/_pro/characters/assets/_base/pro_male_regular/materials/base_male_body.mi].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -90.20998983851266
-						},
-						"position": {
-							"x": -6.393318176269531,
-							"y": -4.789535045623779,
-							"z": 0
-						}
-					}
-				},
-				"Clients": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["6cf52e3a57e5e073"]
-				},
-				"ConstantColorRGB_01_Value_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
-				"ConstantColorRGB_01_Value": {
-					"type": "SColorRGB",
-					"value": "#e87676"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "6cf52e3a57e5e073"
-				}
-			}
-		},
 		"cafe564a1dddedf9": {
 			"parent": "cafe1964cf2cb533",
 			"name": "C_Knee_R",

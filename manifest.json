@@ -58,8 +58,9 @@
 			"toChunk": 2
 		},
 		{
+			"comment": "male_reg_agent47_clown_hair_del02",
 			"runtimeID": "00B9E3C4BA0E8D4C",
-			"toChunk": 2
+			"toChunk": 1
 		},
 		{
 			"runtimeID": "00FF71B4E8796226",

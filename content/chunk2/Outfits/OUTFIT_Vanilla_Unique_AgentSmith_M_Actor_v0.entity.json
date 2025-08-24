@@ -194,38 +194,6 @@
 					}
 				}
 			}
-		},
-		"feed65d8c2ff140a": {
-			"parent": "0eedb9279cb639fb",
-			"name": "base_male_eyeball",
-			"factory": "[assembly:/_pro/characters/assets/_base/pro_male_regular/materials/base_male_eyeball.mi].pc_entitytype",
-			"blueprint": "[assembly:/_pro/characters/assets/_base/pro_male_regular/materials/base_male_eyeball.mi].pc_entityblueprint",
-			"properties": {
-				"Clients": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["0eedb9279cb639fb"]
-				},
-				"Texture2D_01_enab": { "type": "bool", "value": true },
-				"Texture2D_01": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/characters/assets/_base/pro_male_regular/textures/base_male_eyes.texture?/diffuse_green.tex](ascolormap).pc_tex",
-						"flag": "5F"
-					}
-				},
-				"EyeShader_01_IrisBrightness_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
-				"EyeShader_01_IrisBrightness": {
-					"type": "float32",
-					"value": 0.4399999976158142
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "0eedb9279cb639fb"
-				}
-			}
 		}
 	},
 	"propertyOverrides": [],
