@@ -15341,7 +15341,7 @@
 					"events": {
 						"PollTrue": {
 							"Start": ["cafe85bf77b37d8d"],
-							"SetVisible": ["cafe90f30ced2935"]
+							"MakeVisible": ["cafe90f30ced2935"]
 						}
 					}
 				}
