@@ -365,6 +365,11 @@
 			"comment": "stool_laboratory_a_00",
 			"runtimeID": "005DD616B805A9E0",
 			"toChunk": 1
+		},
+		{
+			"comment": "play_magpie_exit_constant_helicopter_loop",
+			"runtimeID": "005A9D7506B39329",
+			"toChunk": 1
 		}
 	],
 	"options": [

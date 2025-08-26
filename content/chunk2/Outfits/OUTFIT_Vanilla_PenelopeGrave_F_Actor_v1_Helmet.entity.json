@@ -573,16 +573,10 @@
 						"flag": "5F"
 					}
 				},
-				"m_bKinematic": { "type": "bool", "value": true },
 				"m_bRemovePhysics": { "type": "bool", "value": true },
-				"m_bEnableCollision": { "type": "bool", "value": false },
 				"m_rLinkedProxyEntity": {
 					"type": "SEntityTemplateReference",
 					"value": "90c47951517d5a62"
-				},
-				"m_CollisionResourceID": {
-					"type": "ZRuntimeResourceID",
-					"value": null
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",

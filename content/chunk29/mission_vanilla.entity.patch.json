@@ -9010,6 +9010,12 @@
 								"originalProperty": "m_bVisible",
 								"originalEntity": "cafe3758534134b9"
 							}
+						],
+						"m_bSuitcase2": [
+							{
+								"originalProperty": "m_bRemovePhysics",
+								"originalEntity": "cafed9e7c6e06d90"
+							}
 						]
 					},
 					"subsets": {
@@ -9210,6 +9216,12 @@
 							{
 								"originalProperty": "m_bVisible",
 								"originalEntity": "cafee9368ea5186a"
+							}
+						],
+						"m_bSuitcase2": [
+							{
+								"originalProperty": "m_bRemovePhysics",
+								"originalEntity": "cafed9e7c6e06d90"
 							}
 						]
 					},
@@ -9600,6 +9612,12 @@
 						"m_bSuitcase": [
 							{
 								"originalProperty": "m_bVisible",
+								"originalEntity": "cafed9e7c6e06d90"
+							}
+						],
+						"m_bSuitcase2": [
+							{
+								"originalProperty": "m_bRemovePhysics",
 								"originalEntity": "cafed9e7c6e06d90"
 							}
 						]
@@ -10137,6 +10155,18 @@
 								"originalProperty": "m_bVisible",
 								"originalEntity": "cafe2205acfe00ae"
 							}
+						],
+						"m_bSuitcase2": [
+							{
+								"originalProperty": "m_bRemovePhysics",
+								"originalEntity": "cafe2205acfe00ae"
+							}
+						],
+						"m_bChopper": [
+							{
+								"originalProperty": "m_bEnabled",
+								"originalEntity": "cafea9e50fdf9e8d"
+							}
 						]
 					},
 					"subsets": {
@@ -10330,6 +10360,18 @@
 							{
 								"originalProperty": "m_bVisible",
 								"originalEntity": "cafe25d150075b57"
+							}
+						],
+						"m_bSuitcase2": [
+							{
+								"originalProperty": "m_bRemovePhysics",
+								"originalEntity": "cafed9e7c6e06d90"
+							}
+						],
+						"m_bChopper": [
+							{
+								"originalProperty": "m_bEnabled",
+								"originalEntity": "cafea9e50fdf9e8d"
 							}
 						]
 					},
@@ -15274,16 +15316,7 @@
 						}
 					},
 					"events": {
-						"PollTrue": {
-							"Start": ["cafee88bc4ff1f09"],
-							"StartRotorFullSpeed": [
-								"66429fe2be8cb7c0",
-								"8cdc97c27feedcf1",
-								"d67abce70b1bb470"
-							],
-							"RotorFullSpeed": ["5ceb886142046c2e"],
-							"Activate": ["831dcd89501cfc76"]
-						}
+						"PollTrue": { "Start": ["cafee88bc4ff1f09"] }
 					}
 				}
 			]
@@ -15639,16 +15672,7 @@
 						}
 					},
 					"events": {
-						"PollTrue": {
-							"Start": ["cafe1e7d08d95048"],
-							"StartRotorFullSpeed": [
-								"66429fe2be8cb7c0",
-								"8cdc97c27feedcf1",
-								"d67abce70b1bb470"
-							],
-							"RotorFullSpeed": ["5ceb886142046c2e"],
-							"Activate": ["831dcd89501cfc76"]
-						}
+						"PollTrue": { "Start": ["cafe1e7d08d95048"] }
 					}
 				}
 			]
@@ -16154,11 +16178,16 @@
 			"AddEntity": [
 				"cafeff01be3027b9",
 				{
-					"parent": "cafe79c13a233881",
-					"name": "VBB",
+					"parent": "cafea9e50fdf9e8d",
+					"name": "Enabled",
 					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
-					"events": { "OnTrue": {}, "OnFalse": {} }
+					"events": {
+						"OnTrue": {
+							"Send": ["cafed35d5fd2fd4f"],
+							"Activate": ["831dcd89501cfc76"]
+						}
+					}
 				}
 			]
 		},
@@ -17926,6 +17955,10 @@
 							}
 						},
 						"m_bVisible": { "type": "bool", "value": false },
+						"m_bRemovePhysics": {
+							"type": "bool",
+							"value": true
+						},
 						"m_eRoomBehaviour": {
 							"type": "ZSpatialEntity.ERoomBehaviour",
 							"value": "ROOM_DYNAMIC"
@@ -17964,6 +17997,10 @@
 							}
 						},
 						"m_bVisible": { "type": "bool", "value": false },
+						"m_bRemovePhysics": {
+							"type": "bool",
+							"value": true
+						},
 						"m_eRoomBehaviour": {
 							"type": "ZSpatialEntity.ERoomBehaviour",
 							"value": "ROOM_DYNAMIC"
@@ -18002,6 +18039,10 @@
 							}
 						},
 						"m_bVisible": { "type": "bool", "value": false },
+						"m_bRemovePhysics": {
+							"type": "bool",
+							"value": true
+						},
 						"m_eRoomBehaviour": {
 							"type": "ZSpatialEntity.ERoomBehaviour",
 							"value": "ROOM_DYNAMIC"
@@ -18040,6 +18081,10 @@
 							}
 						},
 						"m_bVisible": { "type": "bool", "value": false },
+						"m_bRemovePhysics": {
+							"type": "bool",
+							"value": true
+						},
 						"m_eRoomBehaviour": {
 							"type": "ZSpatialEntity.ERoomBehaviour",
 							"value": "ROOM_DYNAMIC"
@@ -18078,6 +18123,10 @@
 							}
 						},
 						"m_bVisible": { "type": "bool", "value": false },
+						"m_bRemovePhysics": {
+							"type": "bool",
+							"value": true
+						},
 						"m_eRoomBehaviour": {
 							"type": "ZSpatialEntity.ERoomBehaviour",
 							"value": "ROOM_DYNAMIC"
@@ -18242,6 +18291,212 @@
 			]
 		},
 		{
+			"AddEntity": [
+				"cafea7df980fe96b",
+				{
+					"parent": "cafea9e50fdf9e8d",
+					"name": "3DAudioEmitter",
+					"factory": "[assembly:/templates/sound/wwise/soundentities.template?/3daudioemitter.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/templates/sound/wwise/soundentities.template?/3daudioemitter.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": -0.031706999987363815,
+									"y": 0.4976939857006073,
+									"z": 6.09795618057251
+								}
+							}
+						},
+						"m_bUseRaycastObstruction": {
+							"type": "bool",
+							"value": false
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					},
+					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafed35d5fd2fd4f",
+				{
+					"parent": "cafea9e50fdf9e8d",
+					"name": "play_magpie_exit_constant_helicopter_loop",
+					"factory": "[modules:/zaudioevententity.class].pc_entitytype",
+					"blueprint": "[modules:/zaudioevententity.class].pc_entityblueprint",
+					"properties": {
+						"m_pEmitter": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea7df980fe96b"
+						},
+						"m_pMainEvent": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "005A9D7506B39329",
+								"flag": "5F"
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe3f377ac9556f",
+				{
+					"parent": "cafea9e50fdf9e8d",
+					"name": "WindEntity_Strong",
+					"factory": "[modules:/zwindentity.class].pc_entitytype",
+					"blueprint": "[modules:/zwindentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": 0.0
+								},
+								"position": {
+									"x": 0.0,
+									"y": 0.0,
+									"z": 0.0
+								}
+							}
+						},
+						"m_AreaBoxes": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": []
+						},
+						"m_fStrength": {
+							"type": "float32",
+							"value": 10.0
+						},
+						"m_fStrengthAmplitude": {
+							"type": "float32",
+							"value": 12.0
+						},
+						"m_fAngularDeviationZ": {
+							"type": "float32",
+							"value": 30.0
+						},
+						"m_bEnabled": { "type": "bool", "value": false },
+						"m_fAngularDeviationY": {
+							"type": "float32",
+							"value": 110.0
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea7df980fe96b"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafea9e50fdf9e8d",
+				{
+					"parent": "cafeed3206e3fe12",
+					"name": "HelicopterEffect",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+					"properties": {
+						"m_bEnabled": { "type": "bool", "value": false }
+					},
+					"propertyAliases": {
+						"m_bEnabled": [
+							{
+								"originalProperty": "m_bEnabled",
+								"originalEntity": "cafe3f377ac9556f"
+							},
+							{
+								"originalProperty": "m_bValue",
+								"originalEntity": "cafeff01be3027b9"
+							},
+							{
+								"originalProperty": "RotorSpinUp",
+								"originalEntity": "66429fe2be8cb7c0"
+							},
+							{
+								"originalProperty": "RotorFullSpeed",
+								"originalEntity": "66429fe2be8cb7c0"
+							},
+							{
+								"originalProperty": "RotorSpinUp",
+								"originalEntity": "5ceb886142046c2e"
+							},
+							{
+								"originalProperty": "RotorFullSpeed",
+								"originalEntity": "5ceb886142046c2e"
+							},
+							{
+								"originalProperty": "RotorSpinUp",
+								"originalEntity": "8cdc97c27feedcf1"
+							},
+							{
+								"originalProperty": "RotorFullSpeed",
+								"originalEntity": "8cdc97c27feedcf1"
+							},
+							{
+								"originalProperty": "RotorSpinUp",
+								"originalEntity": "d67abce70b1bb470"
+							},
+							{
+								"originalProperty": "RotorFullSpeed",
+								"originalEntity": "d67abce70b1bb470"
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe20823ca8ff60",
+				{
+					"parent": "cafea9e50fdf9e8d",
+					"name": "VolumeSphere",
+					"factory": "[modules:/zspherevolumeentity.class].pc_entitytype",
+					"blueprint": "[modules:/zspherevolumeentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 0.0,
+									"y": 0.0,
+									"z": 0.0
+								},
+								"position": {
+									"x": 0.0,
+									"y": 0.0,
+									"z": -2.0
+								}
+							}
+						},
+						"m_fRadius": { "type": "float32", "value": 4.0 },
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea7df980fe96b"
+						}
+					}
+				}
+			]
+		},
+		{
 			"AddComment": {
 				"parent": "cafecc3c50363cbf",
 				"name": "Notes",
@@ -18281,6 +18536,13 @@
 				"parent": "767a061d1d085ccf",
 				"name": "Notes",
 				"text": "Vetrova"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "cafea9e50fdf9e8d",
+				"name": "Notes",
+				"text": ""
 			}
 		}
 	],

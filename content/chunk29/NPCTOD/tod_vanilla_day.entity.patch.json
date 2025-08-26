@@ -277,6 +277,16 @@
 		{
 			"AddPropertyOverrideConnection": {
 				"entity": {
+					"ref": "feed1c05d4a0ba8b",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_bSuitcase2",
+				"propertyOverride": { "type": "bool", "value": false }
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
 					"ref": "feedb1b258fc40dc",
 					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
 				},
@@ -322,6 +332,16 @@
 				},
 				"propertyName": "m_bSuitcase",
 				"propertyOverride": { "type": "bool", "value": true }
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "feedb1b258fc40dc",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_bSuitcase2",
+				"propertyOverride": { "type": "bool", "value": false }
 			}
 		},
 		{
@@ -503,6 +523,26 @@
 					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
 				},
 				"propertyName": "m_bSuitcase",
+				"propertyOverride": { "type": "bool", "value": true }
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "feed50b1c86ebef9",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_bSuitcase2",
+				"propertyOverride": { "type": "bool", "value": false }
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "feed50b1c86ebef9",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_bChopper",
 				"propertyOverride": { "type": "bool", "value": true }
 			}
 		},
