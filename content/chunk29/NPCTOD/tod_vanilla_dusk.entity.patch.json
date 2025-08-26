@@ -53,6 +53,198 @@
 		{
 			"AddPropertyOverrideConnection": {
 				"entity": {
+					"ref": "402b1a04ddf25735",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": -49.95074 },
+						"position": {
+							"x": 23.774498,
+							"y": -182.85712,
+							"z": -4.979703
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "402b1a04ddf25735",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRoomBehaviour",
+				"propertyOverride": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "402b1a04ddf25735",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_eidParent",
+				"propertyOverride": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "35841bc96512cff0",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -4.237944453081019
+						},
+						"position": {
+							"x": 25.843441009521484,
+							"y": -180.87179565429688,
+							"z": -4.958532333374023
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "35841bc96512cff0",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRoomBehaviour",
+				"propertyOverride": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "35841bc96512cff0",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_eidParent",
+				"propertyOverride": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "bc7b623018fb1f90",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": 170.70204 },
+						"position": {
+							"x": 26.203205,
+							"y": -185.28433,
+							"z": -4.994992
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "bc7b623018fb1f90",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRoomBehaviour",
+				"propertyOverride": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "bc7b623018fb1f90",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_eidParent",
+				"propertyOverride": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "767a061d1d085ccf",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 34.94695732315779
+						},
+						"position": {
+							"x": 28.64140510559082,
+							"y": -181.79627990722656,
+							"z": -4.9949846267700195
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "767a061d1d085ccf",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRoomBehaviour",
+				"propertyOverride": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "767a061d1d085ccf",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_eidParent",
+				"propertyOverride": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
 					"ref": "cafedeeed4af5d74",
 					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
 				},

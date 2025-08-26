@@ -351,59 +351,6 @@
 		},
 		{
 			"SubEntityOperation": [
-				"bc7b623018fb1f90",
-				{ "SetParent": "cafe011c2c6ecd91" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"bc7b623018fb1f90",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -0.0,
-								"y": 0,
-								"z": 170.70204
-							},
-							"position": {
-								"x": 26.203205,
-								"y": -185.28433,
-								"z": -4.994992
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"bc7b623018fb1f90",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "fffffffffffffffe"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"bc7b623018fb1f90",
-				{
-					"AddProperty": [
-						"m_eRoomBehaviour",
-						{
-							"type": "ZSpatialEntity.ERoomBehaviour",
-							"value": "ROOM_DYNAMIC"
-						}
-					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
 				"e2f6b8dfdb70014e",
 				{
 					"SetPropertyValue": {
@@ -2170,59 +2117,6 @@
 		},
 		{
 			"SubEntityOperation": [
-				"35841bc96512cff0",
-				{ "SetParent": "cafe011c2c6ecd91" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"35841bc96512cff0",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -0.0,
-								"y": 0.0,
-								"z": -4.237944453081019
-							},
-							"position": {
-								"x": 25.843441009521484,
-								"y": -180.87179565429688,
-								"z": -4.958532333374023
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"35841bc96512cff0",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "fffffffffffffffe"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"35841bc96512cff0",
-				{
-					"AddProperty": [
-						"m_eRoomBehaviour",
-						{
-							"type": "ZSpatialEntity.ERoomBehaviour",
-							"value": "ROOM_DYNAMIC"
-						}
-					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
 				"a6c6835a1145d477",
 				{ "SetParent": "e3c602b2257207a3" }
 			]
@@ -2391,59 +2285,6 @@
 						"property_name": "m_vAreaQuadSize",
 						"value": { "x": 0.16405899822711945, "y": 3.0 }
 					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"402b1a04ddf25735",
-				{ "SetParent": "cafe011c2c6ecd91" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"402b1a04ddf25735",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -0.0,
-								"y": 0,
-								"z": -49.95074
-							},
-							"position": {
-								"x": 23.774498,
-								"y": -182.85712,
-								"z": -4.979703
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"402b1a04ddf25735",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "fffffffffffffffe"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"402b1a04ddf25735",
-				{
-					"AddProperty": [
-						"m_eRoomBehaviour",
-						{
-							"type": "ZSpatialEntity.ERoomBehaviour",
-							"value": "ROOM_DYNAMIC"
-						}
-					]
 				}
 			]
 		},
@@ -2831,59 +2672,6 @@
 								]
 							}
 						]
-					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"767a061d1d085ccf",
-				{ "SetParent": "cafe011c2c6ecd91" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"767a061d1d085ccf",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -0.0,
-								"y": 0.0,
-								"z": 34.94695732315779
-							},
-							"position": {
-								"x": 28.64140510559082,
-								"y": -181.79627990722656,
-								"z": -4.9949846267700195
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"767a061d1d085ccf",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "fffffffffffffffe"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"767a061d1d085ccf",
-				{
-					"AddProperty": [
-						"m_eRoomBehaviour",
-						{
-							"type": "ZSpatialEntity.ERoomBehaviour",
-							"value": "ROOM_DYNAMIC"
-						}
 					]
 				}
 			]
@@ -8210,13 +7998,13 @@
 							"value": {
 								"rotation": {
 									"x": -0.0,
-									"y": 0.0,
-									"z": -121.46499530297498
+									"y": 0,
+									"z": -178.99596
 								},
 								"position": {
-									"x": 11.31616497039795,
-									"y": -164.75389099121094,
-									"z": -18.998367309570312
+									"x": 18.934294,
+									"y": -161.54573,
+									"z": -19.000002
 								}
 							}
 						},
@@ -8998,6 +8786,7 @@
 							"value": true
 						},
 						"m_bSuitcase": { "type": "bool", "value": false },
+						"m_bSuitcase2": { "type": "bool", "value": true },
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "fffffffffffffffe",
@@ -9014,7 +8803,7 @@
 						"m_bSuitcase2": [
 							{
 								"originalProperty": "m_bRemovePhysics",
-								"originalEntity": "cafed9e7c6e06d90"
+								"originalEntity": "cafe3758534134b9"
 							}
 						]
 					},
@@ -9199,6 +8988,7 @@
 						},
 						"m_bBriefcase": { "type": "bool", "value": false },
 						"m_bSuitcase": { "type": "bool", "value": false },
+						"m_bSuitcase2": { "type": "bool", "value": true },
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "fffffffffffffffe",
@@ -9221,7 +9011,7 @@
 						"m_bSuitcase2": [
 							{
 								"originalProperty": "m_bRemovePhysics",
-								"originalEntity": "cafed9e7c6e06d90"
+								"originalEntity": "cafee9368ea5186a"
 							}
 						]
 					},
@@ -9602,6 +9392,7 @@
 							"value": true
 						},
 						"m_bSuitcase": { "type": "bool", "value": false },
+						"m_bSuitcase2": { "type": "bool", "value": true },
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "fffffffffffffffe",
@@ -10143,6 +9934,8 @@
 							"value": true
 						},
 						"m_bSuitcase": { "type": "bool", "value": false },
+						"m_bSuitcase2": { "type": "bool", "value": true },
+						"m_bChopper": { "type": "bool", "value": false },
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "fffffffffffffffe",
@@ -10349,6 +10142,8 @@
 							"value": true
 						},
 						"m_bSuitcase": { "type": "bool", "value": false },
+						"m_bSuitcase2": { "type": "bool", "value": true },
+						"m_bChopper": { "type": "bool", "value": false },
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "fffffffffffffffe",
@@ -10365,7 +10160,7 @@
 						"m_bSuitcase2": [
 							{
 								"originalProperty": "m_bRemovePhysics",
-								"originalEntity": "cafed9e7c6e06d90"
+								"originalEntity": "cafe25d150075b57"
 							}
 						],
 						"m_bChopper": [
@@ -15957,7 +15752,7 @@
 								},
 								"position": {
 									"x": 18.934294,
-									"y": -161.74573,
+									"y": -161.54573,
 									"z": -19.000002
 								}
 							}
@@ -16782,9 +16577,9 @@
 									"z": 8.083933693162212
 								},
 								"position": {
-									"x": -46.027809143066406,
-									"y": -156.89483642578125,
-									"z": -13.322759628295898
+									"x": -46.42660903930664,
+									"y": -158.3932647705078,
+									"z": -13.320366859436035
 								}
 							}
 						},
@@ -17075,7 +16870,7 @@
 					"blueprint": "[assembly:/_pro/design/logic.template?/timer.entitytemplate].pc_entityblueprint",
 					"properties": {
 						"m_bEnabled": { "type": "bool", "value": false },
-						"m_nInterval": { "type": "int32", "value": 2000 }
+						"m_nInterval": { "type": "int32", "value": 20000 }
 					},
 					"events": {
 						"TimeOut": {
@@ -18071,12 +17866,12 @@
 								"rotation": {
 									"x": -0.0,
 									"y": 0.0,
-									"z": -6.5250746570480525
+									"z": 96.77345998721712
 								},
 								"position": {
-									"x": 2.7262730598449707,
-									"y": 1.988453984260559,
-									"z": 0.0
+									"x": -29.97976303100586,
+									"y": -190.6922607421875,
+									"z": -12.321273803710938
 								}
 							}
 						},
@@ -18229,17 +18024,6 @@
 		},
 		{
 			"AddEntity": [
-				"cafe011c2c6ecd91",
-				{
-					"parent": "feeda75649904273",
-					"name": "Office Chairs Borrowed",
-					"factory": "[modules:/zentity.class].pc_entitytype",
-					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
-				}
-			]
-		},
-		{
-			"AddEntity": [
 				"cafe710ebf553a97",
 				{
 					"parent": "cafeed3206e3fe12",
@@ -18252,13 +18036,13 @@
 							"value": {
 								"rotation": {
 									"x": -0.0,
-									"y": 0,
-									"z": -31.465
+									"y": 0.0,
+									"z": -31.46500291145053
 								},
 								"position": {
-									"x": 11.316165,
-									"y": -164.75389,
-									"z": -18.998367
+									"x": 11.726710319519045,
+									"y": -165.565185546875,
+									"z": -18.998218536376953
 								}
 							}
 						},
@@ -18273,13 +18057,17 @@
 								"position": {
 									"x": 0.0,
 									"y": 0.0,
-									"z": 0.4699999988079071
+									"z": 0.79
 								}
 							}
 						},
 						"m_eRoomBehaviour": {
 							"type": "ZSpatialEntity.ERoomBehaviour",
 							"value": "ROOM_DYNAMIC"
+						},
+						"m_bRemovePhysics": {
+							"type": "bool",
+							"value": true
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
@@ -18305,12 +18093,12 @@
 								"rotation": {
 									"x": -0.0,
 									"y": 0.0,
-									"z": -0.0
+									"z": 177.80714750241893
 								},
 								"position": {
-									"x": -0.031706999987363815,
-									"y": 0.4976939857006073,
-									"z": 6.09795618057251
+									"x": 39.307830810546875,
+									"y": -253.2710418701172,
+									"z": -5.3341803550720215
 								}
 							}
 						},
@@ -18365,9 +18153,9 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": -0.0,
+									"x": 0.0,
 									"y": 0.0,
-									"z": 0.0
+									"z": 180.0
 								},
 								"position": {
 									"x": 0.0,
@@ -18378,7 +18166,7 @@
 						},
 						"m_AreaBoxes": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": []
+							"value": ["cafe20823ca8ff60"]
 						},
 						"m_fStrength": {
 							"type": "float32",
@@ -18414,7 +18202,7 @@
 					"factory": "[modules:/zentity.class].pc_entitytype",
 					"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 					"properties": {
-						"m_bEnabled": { "type": "bool", "value": false }
+						"m_bEnabled": { "type": "bool", "value": true }
 					},
 					"propertyAliases": {
 						"m_bEnabled": [
@@ -18487,7 +18275,7 @@
 								}
 							}
 						},
-						"m_fRadius": { "type": "float32", "value": 4.0 },
+						"m_fRadius": { "type": "float32", "value": 10.0 },
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "cafea7df980fe96b"

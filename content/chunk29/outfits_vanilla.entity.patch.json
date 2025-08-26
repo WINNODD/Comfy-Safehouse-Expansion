@@ -234,7 +234,7 @@
 					"properties": {
 						"m_eActorType": {
 							"type": "EActorType",
-							"value": "eAT_Civilian"
+							"value": "eAT_Guard"
 						},
 						"m_eSoundFootwearType": {
 							"type": "EHM5SoundFootwearType",

@@ -31,11 +31,53 @@
 			"SubEntityOperation": [
 				"779ecd31f5f1ac6e",
 				{
+					"AddProperty": [
+						"m_PrimitiveScale",
+						{
+							"type": "SVector3",
+							"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"779ecd31f5f1ac6e",
+				{
 					"AddPropertyAliasConnection": [
 						"m_mSeatTransform",
 						{
 							"originalProperty": "m_mTransform",
 							"originalEntity": "31193b3d4748cd49"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"779ecd31f5f1ac6e",
+				{
+					"AddPropertyAliasConnection": [
+						"m_PrimitiveScale",
+						{
+							"originalProperty": "m_PrimitiveScale",
+							"originalEntity": "31193b3d4748cd49"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"779ecd31f5f1ac6e",
+				{
+					"AddPropertyAliasConnection": [
+						"m_PrimitiveScale",
+						{
+							"originalProperty": "m_PrimitiveScale",
+							"originalEntity": "f514585765f6b34f"
 						}
 					]
 				}
