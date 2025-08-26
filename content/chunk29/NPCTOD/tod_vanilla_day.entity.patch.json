@@ -267,6 +267,16 @@
 		{
 			"AddPropertyOverrideConnection": {
 				"entity": {
+					"ref": "feed1c05d4a0ba8b",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_bSuitcase",
+				"propertyOverride": { "type": "bool", "value": true }
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
 					"ref": "feedb1b258fc40dc",
 					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
 				},
@@ -301,6 +311,16 @@
 					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
 				},
 				"propertyName": "m_bBriefcase",
+				"propertyOverride": { "type": "bool", "value": true }
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "feedb1b258fc40dc",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_bSuitcase",
 				"propertyOverride": { "type": "bool", "value": true }
 			}
 		},
@@ -366,6 +386,16 @@
 				},
 				"propertyName": "m_nOutfitVariation",
 				"propertyOverride": { "type": "int32", "value": 0 }
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "feed7fd86a3c73dd",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_bWaterScooter",
+				"propertyOverride": { "type": "bool", "value": true }
 			}
 		},
 		{
@@ -464,6 +494,16 @@
 				},
 				"propertyName": "m_nOutfitVariation",
 				"propertyOverride": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "feed50b1c86ebef9",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				},
+				"propertyName": "m_bSuitcase",
+				"propertyOverride": { "type": "bool", "value": true }
 			}
 		},
 		{

@@ -8997,11 +8997,20 @@
 							"type": "bool",
 							"value": true
 						},
+						"m_bSuitcase": { "type": "bool", "value": false },
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "fffffffffffffffe",
 							"postInit": true
 						}
+					},
+					"propertyAliases": {
+						"m_bSuitcase": [
+							{
+								"originalProperty": "m_bVisible",
+								"originalEntity": "cafe3758534134b9"
+							}
+						]
 					},
 					"subsets": {
 						"AudioEmitters": ["fffffffffffffffe"],
@@ -9183,6 +9192,7 @@
 							"value": true
 						},
 						"m_bBriefcase": { "type": "bool", "value": false },
+						"m_bSuitcase": { "type": "bool", "value": false },
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "fffffffffffffffe",
@@ -9194,6 +9204,12 @@
 							{
 								"originalProperty": "m_bSpawnOnStart",
 								"originalEntity": "cafeb5f3d33bf03c"
+							}
+						],
+						"m_bSuitcase": [
+							{
+								"originalProperty": "m_bVisible",
+								"originalEntity": "cafee9368ea5186a"
 							}
 						]
 					},
@@ -9376,11 +9392,23 @@
 							"type": "bool",
 							"value": true
 						},
+						"m_bWaterScooter": {
+							"type": "bool",
+							"value": false
+						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "fffffffffffffffe",
 							"postInit": true
 						}
+					},
+					"propertyAliases": {
+						"m_bWaterScooter": [
+							{
+								"originalProperty": "m_bVisible",
+								"originalEntity": "cafe90f30ced2935"
+							}
+						]
 					},
 					"subsets": {
 						"AudioEmitters": ["fffffffffffffffe"],
@@ -9561,11 +9589,20 @@
 							"type": "bool",
 							"value": true
 						},
+						"m_bSuitcase": { "type": "bool", "value": false },
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "fffffffffffffffe",
 							"postInit": true
 						}
+					},
+					"propertyAliases": {
+						"m_bSuitcase": [
+							{
+								"originalProperty": "m_bVisible",
+								"originalEntity": "cafed9e7c6e06d90"
+							}
+						]
 					},
 					"subsets": {
 						"AudioEmitters": ["fffffffffffffffe"],
@@ -10087,11 +10124,20 @@
 							"type": "bool",
 							"value": true
 						},
+						"m_bSuitcase": { "type": "bool", "value": false },
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "fffffffffffffffe",
 							"postInit": true
 						}
+					},
+					"propertyAliases": {
+						"m_bSuitcase": [
+							{
+								"originalProperty": "m_bVisible",
+								"originalEntity": "cafe2205acfe00ae"
+							}
+						]
 					},
 					"subsets": {
 						"AudioEmitters": ["fffffffffffffffe"],
@@ -10272,11 +10318,20 @@
 							"type": "bool",
 							"value": true
 						},
+						"m_bSuitcase": { "type": "bool", "value": false },
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "fffffffffffffffe",
 							"postInit": true
 						}
+					},
+					"propertyAliases": {
+						"m_bSuitcase": [
+							{
+								"originalProperty": "m_bVisible",
+								"originalEntity": "cafe25d150075b57"
+							}
+						]
 					},
 					"subsets": {
 						"AudioEmitters": ["fffffffffffffffe"],
@@ -15074,10 +15129,7 @@
 						}
 					},
 					"events": {
-						"PollTrue": {
-							"Start": ["cafe62494d16d5da"],
-							"SetVisible": ["cafed9e7c6e06d90"]
-						}
+						"PollTrue": { "Start": ["cafe62494d16d5da"] }
 					}
 				}
 			]
@@ -15160,10 +15212,7 @@
 						}
 					},
 					"events": {
-						"PollTrue": {
-							"Start": ["cafe5fd44cdbf824"],
-							"SetVisible": ["cafee9368ea5186a"]
-						}
+						"PollTrue": { "Start": ["cafe5fd44cdbf824"] }
 					}
 				}
 			]
@@ -15233,7 +15282,6 @@
 								"d67abce70b1bb470"
 							],
 							"RotorFullSpeed": ["5ceb886142046c2e"],
-							"SetVisible": ["cafe2205acfe00ae"],
 							"Activate": ["831dcd89501cfc76"]
 						}
 					}
@@ -15404,10 +15452,7 @@
 						}
 					},
 					"events": {
-						"PollTrue": {
-							"Start": ["cafe32453480a123"],
-							"SetVisible": ["cafe3758534134b9"]
-						}
+						"PollTrue": { "Start": ["cafe32453480a123"] }
 					}
 				}
 			]
@@ -15602,7 +15647,6 @@
 								"d67abce70b1bb470"
 							],
 							"RotorFullSpeed": ["5ceb886142046c2e"],
-							"SetVisible": ["cafe25d150075b57"],
 							"Activate": ["831dcd89501cfc76"]
 						}
 					}
