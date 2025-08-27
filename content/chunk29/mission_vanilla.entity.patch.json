@@ -7928,7 +7928,7 @@
 						},
 						"m_aWaypoints": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["cafe05a00cc4830f"],
+							"value": [],
 							"postInit": true
 						},
 						"m_aRoles": {
@@ -9078,7 +9078,7 @@
 						},
 						"m_aWaypoints": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["cafea600dccdc9e9"],
+							"value": [],
 							"postInit": true
 						},
 						"m_aRoles": {
@@ -10623,7 +10623,10 @@
 						}
 					},
 					"events": {
-						"OnDead": { "SetTrue": ["cafed1d86b1fa45e"] }
+						"OnDead": {
+							"SetTrue": ["cafed1d86b1fa45e"],
+							"Poll": ["cafe98827df097b2"]
+						}
 					}
 				}
 			]
@@ -10643,7 +10646,10 @@
 						}
 					},
 					"events": {
-						"OnDead": { "SetTrue": ["cafecae75e572700"] }
+						"OnDead": {
+							"SetTrue": ["cafecae75e572700"],
+							"Poll": ["cafe98827df097b2"]
+						}
 					}
 				}
 			]
@@ -13737,9 +13743,9 @@
 				"cafea600dccdc9e9",
 				{
 					"parent": "cafe61a0740e8221",
-					"name": "act_mr_stand_freeze_short_Dusk",
-					"factory": "[assembly:/_pro/design/actor/acts/levels/hokkaido.template?/act_mr_stand_freeze_short.entitytemplate].pc_entitytype",
-					"blueprint": "[assembly:/_pro/design/actor/acts/levels/hokkaido.template?/act_mr_stand_freeze_short.entitytemplate].pc_entityblueprint",
+					"name": "Act_MR_Sit_HeadInHands_Dusk",
+					"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_headinhands.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_headinhands.entitytemplate].pc_entityblueprint",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -13758,7 +13764,7 @@
 						},
 						"m_fActTimeout": {
 							"type": "float32",
-							"value": -1
+							"value": 10
 						},
 						"m_bAlignPosition": {
 							"type": "bool",
@@ -14675,7 +14681,7 @@
 						}
 					},
 					"events": {
-						"PollTrue": { "Start": ["cafe05a00cc4830f"] }
+						"PollTrue": { "Start": ["cafe41250462f430"] }
 					}
 				}
 			]
@@ -16600,7 +16606,7 @@
 						}
 					},
 					"events": {
-						"Stopped": { "Start": ["cafe85bf77b37d8d"] }
+						"Stopped": { "Start": ["cafe010d3aa08207"] }
 					},
 					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 				}
@@ -18279,6 +18285,131 @@
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "cafea7df980fe96b"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe010d3aa08207",
+				{
+					"parent": "cafe61a0740e8221",
+					"name": "Act_MR_Sit_Ground_Spa_Relaxed",
+					"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_ground_casual.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_ground_casual.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": 93.49778823825427
+								},
+								"position": {
+									"x": 66.03581237792969,
+									"y": 65.79149627685547,
+									"z": 5.0
+								}
+							}
+						},
+						"m_fActTimeout": {
+							"type": "float32",
+							"value": 10.0
+						},
+						"m_pActor": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe61a0740e8221",
+							"postInit": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					},
+					"events": {
+						"OnActTimeout": { "Start": ["cafe85bf77b37d8d"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe41250462f430",
+				{
+					"parent": "cafe9b73842954ae",
+					"name": "Act_MR_Stand_Tough_Guy_Dusk",
+					"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_tough_guy.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_tough_guy.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 0,
+									"y": 0,
+									"z": 173.58613513320512
+								},
+								"position": {
+									"x": 67.8224105834961,
+									"y": -207.37100219726565,
+									"z": -7.917996883392334
+								}
+							}
+						},
+						"m_aApproachPath": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": []
+						},
+						"m_fActTimeout": {
+							"type": "float32",
+							"value": 5.0
+						},
+						"m_pActor": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe9b73842954ae",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe98827df097b2",
+				{
+					"parent": "cafe87f436c13962",
+					"name": "Kill 47 If Not Hunting",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rValueEntity": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe729ffb2345c0"
+						}
+					},
+					"events": {
+						"PollFalse": { "Activate": ["cafea1ce896d7ff3"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafea1ce896d7ff3",
+				{
+					"parent": "cafe98827df097b2",
+					"name": "HitmanDamageOverTime",
+					"factory": "[modules:/zhitmandamageovertime.class].pc_entitytype",
+					"blueprint": "[modules:/zhitmandamageovertime.class].pc_entityblueprint",
+					"properties": {
+						"m_fInterval": { "type": "float32", "value": 0.0 },
+						"m_fDamage": { "type": "float32", "value": 100.0 },
+						"m_Boxes": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["de47fc1dfbc84162"]
 						}
 					}
 				}
