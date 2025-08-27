@@ -8559,12 +8559,12 @@
 								"rotation": {
 									"x": -0.0,
 									"y": 0.0,
-									"z": 92.95220739804192
+									"z": 2.2412298021748014
 								},
 								"position": {
-									"x": 37.886234283447266,
-									"y": -158.13099670410156,
-									"z": -10.996997833251951
+									"x": 37.88212966918945,
+									"y": -155.69667053222656,
+									"z": -10.996963500976564
 								}
 							}
 						},
@@ -9149,12 +9149,12 @@
 								"rotation": {
 									"x": -0.0,
 									"y": 0.0,
-									"z": 88.51943272306211
+									"z": -155.4034077374346
 								},
 								"position": {
-									"x": -37.64410781860352,
-									"y": -158.08425903320312,
-									"z": -12.402729988098145
+									"x": -10.275823593139648,
+									"y": -181.22955322265625,
+									"z": -12.16213035583496
 								}
 							}
 						},
@@ -9823,10 +9823,7 @@
 						"Triggered": {
 							"MoveHitmanToRoom": ["feedde96098917ca"]
 						},
-						"OnStart": {
-							"Poll": ["cafe911504f942a5"],
-							"In": ["cafe65a92975472a"]
-						}
+						"OnStart": { "Poll": ["cafe911504f942a5"] }
 					}
 				}
 			]
@@ -13680,9 +13677,9 @@
 				"cafe44bd5beeb57d",
 				{
 					"parent": "cafefad58865a62c",
-					"name": "act_fr_yuki_stand_yoga_training_Day",
-					"factory": "[assembly:/_pro/design/actor/acts/levels/hokkaido.template?/act_fr_yuki_stand_yoga_training.entitytemplate].pc_entitytype",
-					"blueprint": "[assembly:/_pro/design/actor/acts/levels/hokkaido.template?/act_fr_yuki_stand_yoga_training.entitytemplate].pc_entityblueprint",
+					"name": "Act_FR_Yuki_Stand_Yoga_Warmup_Day",
+					"factory": "[assembly:/_pro/design/actor/acts/levels/hokkaido.template?/act_fr_yuki_stand_yoga_warmup.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/acts/levels/hokkaido.template?/act_fr_yuki_stand_yoga_warmup.entitytemplate].pc_entityblueprint",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -13698,14 +13695,6 @@
 						"m_fActTimeout": {
 							"type": "float32",
 							"value": -1
-						},
-						"m_bAlignPosition": {
-							"type": "bool",
-							"value": true
-						},
-						"m_AlignRotation": {
-							"type": "ZActBehaviorEntity.ERotationAlignment",
-							"value": "RA_EXACT"
 						},
 						"m_pActor": {
 							"type": "SEntityTemplateReference",
@@ -17967,19 +17956,19 @@
 						},
 						"ConstantColorRGB_01_Value": {
 							"type": "SColorRGB",
-							"value": "#b2b2b2"
+							"value": "#2e2e2e"
 						},
 						"ConstantColorRGB_04_Value": {
 							"type": "SColorRGB",
-							"value": "#404040"
+							"value": "#00f0fd"
 						},
 						"ConstantColorRGB_19_Value": {
 							"type": "SColorRGB",
-							"value": "#cf1111"
+							"value": "#6e4e20"
 						},
 						"ConstantColorRGB_18_Value": {
 							"type": "SColorRGB",
-							"value": "#c90000"
+							"value": "#265129"
 						},
 						"m_eRoomBehaviour": {
 							"type": "ZSpatialEntity.ERoomBehaviour",
@@ -17987,19 +17976,19 @@
 						},
 						"ConstantVector1D_23_Value": {
 							"type": "float32",
-							"value": 0.5199999809265137
+							"value": 0.0
 						},
 						"ConstantVector1D_10_Value": {
 							"type": "float32",
-							"value": 0.10000000149011612
+							"value": 0.0
 						},
 						"ConstantColorRGB_02_Value": {
 							"type": "SColorRGB",
-							"value": "#adadad"
+							"value": "#3e4514"
 						},
 						"Color": {
 							"type": "SColorRGB",
-							"value": "#cfcfcf"
+							"value": "#0bd3e1"
 						},
 						"Storage_Containers_Visable": {
 							"type": "bool",
@@ -18017,6 +18006,10 @@
 						"m_bValueEnable": {
 							"type": "bool",
 							"value": false
+						},
+						"ConstantVector1D_07_Value": {
+							"type": "float32",
+							"value": 0.0
 						}
 					},
 					"subsets": {
@@ -18079,6 +18072,10 @@
 							"type": "SEntityTemplateReference",
 							"value": "fffffffffffffffe",
 							"postInit": true
+						},
+						"m_PrimitiveScale": {
+							"type": "SVector3",
+							"value": { "x": 1.0, "y": 1.0, "z": 1.2 }
 						}
 					}
 				}
@@ -18303,14 +18300,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": -0.0,
-									"y": 0.0,
-									"z": 93.49778823825427
+									"x": 2.584565,
+									"y": -2.9283535,
+									"z": 98.08474
 								},
 								"position": {
-									"x": 66.03581237792969,
-									"y": 65.79149627685547,
-									"z": 5.0
+									"x": -10.275824,
+									"y": -181.22955,
+									"z": -12.16213
 								}
 							}
 						},

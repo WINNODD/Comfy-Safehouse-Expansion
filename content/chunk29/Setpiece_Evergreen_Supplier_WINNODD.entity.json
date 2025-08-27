@@ -517,7 +517,7 @@
 					"value": true
 				},
 				"m_bNeverSpectate": { "type": "bool", "value": true },
-				"m_bDeafAndBlind": { "type": "bool", "value": true },
+				"m_bDeafAndBlind": { "type": "bool", "value": false },
 				"m_bIgnoreLowNoise": { "type": "bool", "value": true },
 				"m_bOneHitpoint": { "type": "bool", "value": true },
 				"m_bBlockMelee": { "type": "bool", "value": true },
@@ -525,6 +525,10 @@
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": null
+				},
+				"m_bSuppressSocialGreeting": {
+					"type": "bool",
+					"value": true
 				}
 			}
 		},

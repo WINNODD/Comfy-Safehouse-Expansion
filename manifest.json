@@ -223,8 +223,9 @@
 			"toChunk": 1
 		},
 		{
-			"runtimeID": "0007A2110A0C8730",
-			"toChunk": 2
+			"comment": "act_fr_yuki_stand_yoga_warmup",
+			"runtimeID": "009C0B1AB4B7C332",
+			"toChunk": 1
 		},
 		{
 			"runtimeID": "00CA244155225344",
