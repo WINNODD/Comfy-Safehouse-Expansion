@@ -413,16 +413,6 @@
 		{
 			"AddPropertyOverrideConnection": {
 				"entity": {
-					"ref": "feed7b75fe5b5dc1",
-					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
-				},
-				"propertyName": "m_bWeaponUnholstered",
-				"propertyOverride": { "type": "bool", "value": true }
-			}
-		},
-		{
-			"AddPropertyOverrideConnection": {
-				"entity": {
 					"ref": "feedeffcf36bbb40",
 					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
 				},
@@ -589,14 +579,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 175.0684262984354
+							"x": -0.0,
+							"y": 0.0,
+							"z": 2.387451340560335
 						},
 						"position": {
-							"x": 22.31171226501465,
-							"y": -174.8775177001953,
-							"z": -10.950000762939451
+							"x": 24.301776885986328,
+							"y": -161.78213500976565,
+							"z": -10.928668975830078
 						}
 					}
 				}
