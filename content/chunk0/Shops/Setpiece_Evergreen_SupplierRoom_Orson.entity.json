@@ -774,12 +774,7 @@
 				},
 				"m_entries": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"b090d302df7465d3",
-						"cea7c9aefb1cf959",
-						"a00cb5e254c6ef12",
-						"cafe54661e0cdf6f"
-					],
+					"value": [],
 					"postInit": true
 				}
 			},
@@ -2662,6 +2657,38 @@
 			"name": "Helper_Evergreen_SelectableItem_KronstadtIOI1998XSurroundEarphones",
 			"factory": "0021DA98CCB2C313",
 			"blueprint": "001EBF834E3D7919",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90,
+							"y": -81.45348946731714,
+							"z": 0
+						},
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "22edf43d9609168f",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafeffded4844de7": {
+			"parent": "4c938898b9b64483",
+			"name": "Helper_Evergreen_SelectableItem_RealRFIDTriggeredExplosive",
+			"factory": "00865A26BAD18EDE",
+			"blueprint": "0011D18D59BD31CA",
 			"properties": {
 				"Supplier": { "type": "bool", "value": true },
 				"m_mTransform": {

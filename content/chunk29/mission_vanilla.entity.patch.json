@@ -4,6 +4,23 @@
 	"patch": [
 		{
 			"SubEntityOperation": [
+				"004bdb48ff6a1ddf",
+				{ "SetParent": "129caf96cdc5cd90" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"004bdb48ff6a1ddf",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "129caf96cdc5cd90"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"918246ae3eea0cdb",
 				{
 					"AddEventConnection": [
@@ -49,6 +66,40 @@
 					"SetPropertyValue": {
 						"property_name": "m_eidParent",
 						"value": "0e9463c88101e3a2"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"006f244c093d6b08",
+				{ "SetParent": "129caf96cdc5cd90" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"006f244c093d6b08",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "129caf96cdc5cd90"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"619160324d17f3ce",
+				{ "SetParent": "e3c602b2257207a3" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"619160324d17f3ce",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "e3c602b2257207a3"
 					}
 				}
 			]
@@ -109,6 +160,49 @@
 		},
 		{
 			"SubEntityOperation": [
+				"dc7766928d153f13",
+				{
+					"AddProperty": [
+						"Video1",
+						{ "type": "float32", "value": 2.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"dc7766928d153f13",
+				{
+					"AddProperty": [
+						"Texture2D_04_dest",
+						{
+							"type": "SEntityTemplateReference",
+							"value": "cafe915330de1b0a",
+							"postInit": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6b06f763d4ba044c",
+				{ "SetParent": "129caf96cdc5cd90" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6b06f763d4ba044c",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "129caf96cdc5cd90"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"2ff1ae2e87d7dc35",
 				{ "SetParent": "cafe8d431e29f042" }
 			]
@@ -120,6 +214,23 @@
 					"SetPropertyValue": {
 						"property_name": "m_eidParent",
 						"value": "fffffffffffffffe"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b52e0c2c768194c3",
+				{ "SetParent": "129caf96cdc5cd90" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b52e0c2c768194c3",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "129caf96cdc5cd90"
 					}
 				}
 			]
@@ -283,7 +394,7 @@
 		{
 			"SubEntityOperation": [
 				"fa36dea2c7e006b6",
-				{ "SetParent": "e3c602b2257207a3" }
+				{ "SetParent": "129caf96cdc5cd90" }
 			]
 		},
 		{
@@ -292,7 +403,7 @@
 				{
 					"SetPropertyValue": {
 						"property_name": "m_eidParent",
-						"value": "e3c602b2257207a3"
+						"value": "129caf96cdc5cd90"
 					}
 				}
 			]
@@ -434,6 +545,23 @@
 		},
 		{
 			"SubEntityOperation": [
+				"6a629349a75659af",
+				{ "SetParent": "e3c602b2257207a3" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6a629349a75659af",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "e3c602b2257207a3"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"86ed890fa30fa1c7",
 				{
 					"SetPropertyValue": {
@@ -482,6 +610,49 @@
 							"flag": "5F"
 						}
 					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"60afede59ce236e8",
+				{ "SetParent": "e3c602b2257207a3" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"60afede59ce236e8",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "e3c602b2257207a3"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9f42d211fa7ad630",
+				{
+					"AddProperty": [
+						"Video1",
+						{ "type": "float32", "value": 0.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9f42d211fa7ad630",
+				{
+					"AddProperty": [
+						"Texture2D_04_dest",
+						{
+							"type": "SEntityTemplateReference",
+							"value": "cafe915330de1b0a",
+							"postInit": true
+						}
+					]
 				}
 			]
 		},
@@ -790,8 +961,34 @@
 		},
 		{
 			"SubEntityOperation": [
+				"6a6a394b73f17108",
+				{
+					"AddProperty": [
+						"Video1",
+						{ "type": "float32", "value": 3.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6a6a394b73f17108",
+				{
+					"AddProperty": [
+						"Texture2D_04_dest",
+						{
+							"type": "SEntityTemplateReference",
+							"value": "cafe915330de1b0a",
+							"postInit": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"d2a05659ac5afc53",
-				{ "SetParent": "e3c602b2257207a3" }
+				{ "SetParent": "129caf96cdc5cd90" }
 			]
 		},
 		{
@@ -800,7 +997,7 @@
 				{
 					"SetPropertyValue": {
 						"property_name": "m_eidParent",
-						"value": "e3c602b2257207a3"
+						"value": "129caf96cdc5cd90"
 					}
 				}
 			]
@@ -920,6 +1117,32 @@
 						"property_name": "m_eidParent",
 						"value": "fffffffffffffffe"
 					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6b1c44af3919feca",
+				{
+					"AddProperty": [
+						"Video1",
+						{ "type": "float32", "value": 5.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6b1c44af3919feca",
+				{
+					"AddProperty": [
+						"Texture2D_04_dest",
+						{
+							"type": "SEntityTemplateReference",
+							"value": "cafe915330de1b0a",
+							"postInit": true
+						}
+					]
 				}
 			]
 		},
@@ -1179,6 +1402,23 @@
 		},
 		{
 			"SubEntityOperation": [
+				"91cfce8a418a3646",
+				{ "SetParent": "129caf96cdc5cd90" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"91cfce8a418a3646",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "129caf96cdc5cd90"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"81a078360c6ce094",
 				{ "SetParent": "cafeaec53df203b8" }
 			]
@@ -1240,6 +1480,23 @@
 		},
 		{
 			"SubEntityOperation": [
+				"0cd7c305c64c1709",
+				{ "SetParent": "e3c602b2257207a3" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0cd7c305c64c1709",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "e3c602b2257207a3"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"ab91440ca78a62f6",
 				{
 					"SetPropertyValue": {
@@ -1256,6 +1513,23 @@
 								"z": 1.3143579959869385
 							}
 						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"24acb3b7c96f80b3",
+				{ "SetParent": "129caf96cdc5cd90" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"24acb3b7c96f80b3",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "129caf96cdc5cd90"
 					}
 				}
 			]
@@ -1308,6 +1582,23 @@
 					"SetPropertyValue": {
 						"property_name": "m_eidParent",
 						"value": "fffffffffffffffe"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a8a40725f2661bc1",
+				{ "SetParent": "129caf96cdc5cd90" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a8a40725f2661bc1",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "129caf96cdc5cd90"
 					}
 				}
 			]
@@ -1534,6 +1825,23 @@
 		},
 		{
 			"SubEntityOperation": [
+				"01c3836db144b516",
+				{ "SetParent": "e3c602b2257207a3" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"01c3836db144b516",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "e3c602b2257207a3"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"6cfd37adde7a451a",
 				{ "SetParent": "911ecfd5cf432fac" }
 			]
@@ -1640,6 +1948,23 @@
 								"z": 1.5150049924850464
 							}
 						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2def6a8c42e4d729",
+				{ "SetParent": "129caf96cdc5cd90" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2def6a8c42e4d729",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "129caf96cdc5cd90"
 					}
 				}
 			]
@@ -2364,8 +2689,25 @@
 		},
 		{
 			"SubEntityOperation": [
+				"069f16a4764ef5cb",
+				{ "SetParent": "129caf96cdc5cd90" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"069f16a4764ef5cb",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "129caf96cdc5cd90"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"730d3b2345ed8407",
-				{ "SetParent": "e3c602b2257207a3" }
+				{ "SetParent": "129caf96cdc5cd90" }
 			]
 		},
 		{
@@ -2374,7 +2716,7 @@
 				{
 					"SetPropertyValue": {
 						"property_name": "m_eidParent",
-						"value": "e3c602b2257207a3"
+						"value": "129caf96cdc5cd90"
 					}
 				}
 			]
@@ -2472,6 +2814,58 @@
 						"property_name": "m_eidParent",
 						"value": "c1b395367b88086b"
 					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0cfd760009e82451",
+				{
+					"AddProperty": [
+						"Video1",
+						{ "type": "float32", "value": 4.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0cfd760009e82451",
+				{
+					"AddProperty": [
+						"Texture2D_04_dest",
+						{
+							"type": "SEntityTemplateReference",
+							"value": "cafe915330de1b0a",
+							"postInit": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"84c70625baa43d6b",
+				{
+					"AddProperty": [
+						"Video1",
+						{ "type": "float32", "value": 1.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"84c70625baa43d6b",
+				{
+					"AddProperty": [
+						"Texture2D_04_dest",
+						{
+							"type": "SEntityTemplateReference",
+							"value": "cafe915330de1b0a",
+							"postInit": true
+						}
+					]
 				}
 			]
 		},
@@ -2598,6 +2992,23 @@
 		},
 		{
 			"SubEntityOperation": [
+				"17ca9781920fae94",
+				{ "SetParent": "129caf96cdc5cd90" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"17ca9781920fae94",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "129caf96cdc5cd90"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"82836f6c60ce9b46",
 				{
 					"SetPropertyValue": {
@@ -2673,6 +3084,23 @@
 							}
 						]
 					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"813802d31f5d9d09",
+				{ "SetParent": "129caf96cdc5cd90" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"813802d31f5d9d09",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "129caf96cdc5cd90"
+					}
 				}
 			]
 		},
@@ -8067,7 +8495,7 @@
 				"feedddd5b584d1b7",
 				{
 					"parent": "feeda75649904273",
-					"name": "Setpiece_Evergreen_Supplier_Olivia_AR",
+					"name": "Setpiece_Evergreen_Supplier_Olivia_Other",
 					"factory": "0081A277163662E9",
 					"blueprint": "00C20A98BE1FA492",
 					"properties": {
@@ -8252,7 +8680,7 @@
 				"feedd1fb8df36b24",
 				{
 					"parent": "feeda75649904273",
-					"name": "Setpiece_Evergreen_Supplier_Constant_Tools",
+					"name": "Setpiece_Evergreen_Supplier_Constant_Ancestral",
 					"factory": "0081A277163662E9",
 					"blueprint": "00C20A98BE1FA492",
 					"properties": {
@@ -9027,7 +9455,7 @@
 				"feed7567dcde4ba2",
 				{
 					"parent": "feeda75649904273",
-					"name": "Setpiece_Evergreen_Supplier_Smith_Shotgun",
+					"name": "Setpiece_Evergreen_Supplier_Smith_Shotgun&AR",
 					"factory": "0081A277163662E9",
 					"blueprint": "00C20A98BE1FA492",
 					"properties": {
@@ -9971,7 +10399,7 @@
 				"feed1ce55685f745",
 				{
 					"parent": "feeda75649904273",
-					"name": "Setpiece_Evergreen_Supplier_Vetrova",
+					"name": "Setpiece_Evergreen_Supplier_Vetrova_Luxury",
 					"factory": "0081A277163662E9",
 					"blueprint": "00C20A98BE1FA492",
 					"properties": {
@@ -11821,7 +12249,7 @@
 				"cafed17c2a6eb2f2",
 				{
 					"parent": "3d41d963b8913ae3",
-					"name": "Z7 Deadly Sins and Deluxe Pack",
+					"name": "Z Deadly Sins and Deluxe Pack",
 					"factory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_gearwall.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_gearwall.entitytemplate].pc_entityblueprint",
 					"properties": {
@@ -15106,7 +15534,10 @@
 						}
 					},
 					"events": {
-						"PollTrue": { "Start": ["cafee88bc4ff1f09"] }
+						"PollTrue": {
+							"Start": ["cafee88bc4ff1f09"],
+							"SetTrue": ["cafea9e50fdf9e8d"]
+						}
 					}
 				}
 			]
@@ -15462,7 +15893,10 @@
 						}
 					},
 					"events": {
-						"PollTrue": { "Start": ["cafe1e7d08d95048"] }
+						"PollTrue": {
+							"Start": ["cafe1e7d08d95048"],
+							"SetTrue": ["cafea9e50fdf9e8d"]
+						}
 					}
 				}
 			]
@@ -15742,13 +16176,13 @@
 							"value": {
 								"rotation": {
 									"x": -0.0,
-									"y": 0,
-									"z": -178.99596
+									"y": 0.0,
+									"z": -178.9959480494622
 								},
 								"position": {
-									"x": 18.934294,
-									"y": -161.54573,
-									"z": -19.000002
+									"x": 18.93429374694824,
+									"y": -161.40586853027344,
+									"z": -19.000001907348633
 								}
 							}
 						},
@@ -16865,7 +17299,7 @@
 					"blueprint": "[assembly:/_pro/design/logic.template?/timer.entitytemplate].pc_entityblueprint",
 					"properties": {
 						"m_bEnabled": { "type": "bool", "value": false },
-						"m_nInterval": { "type": "int32", "value": 20000 }
+						"m_nInterval": { "type": "int32", "value": 10000 }
 					},
 					"events": {
 						"TimeOut": {
@@ -16950,7 +17384,7 @@
 						"TimeOut": {
 							"Stop": ["cafe6ca9ff5fd088"],
 							"Reset": ["cafe6ca9ff5fd088"],
-							"Military_Aim_Fire_Loop": ["cafe130e5b7aaf08"],
+							"Military_Aim_Fire": ["cafe130e5b7aaf08"],
 							"Start": ["cafe8069a4a3245c"],
 							"Rand": []
 						}
@@ -17935,7 +18369,7 @@
 				"cafe3aa8310e61ac",
 				{
 					"parent": "cafeed3206e3fe12",
-					"name": "Motorcycle_fox_A_01",
+					"name": "Motorcycle_fox_A_Graves",
 					"factory": "[assembly:/_pro/vehicles/templates/vehicles_fox_a.template?/motorcycle_fox_a.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_fox_a.template?/motorcycle_fox_a.entitytemplate].pc_entityblueprint",
 					"properties": {
@@ -18109,6 +18543,10 @@
 							"type": "bool",
 							"value": false
 						},
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "fffffffffffffffe",
@@ -18202,13 +18640,16 @@
 				{
 					"parent": "cafeed3206e3fe12",
 					"name": "HelicopterEffect",
-					"factory": "[modules:/zentity.class].pc_entitytype",
-					"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-					"properties": {
-						"m_bEnabled": { "type": "bool", "value": true }
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+					"events": {
+						"OnTrue": {
+							"Send": ["cafed35d5fd2fd4f"],
+							"Activate": ["831dcd89501cfc76"]
+						}
 					},
 					"propertyAliases": {
-						"m_bEnabled": [
+						"m_bValue": [
 							{
 								"originalProperty": "m_bEnabled",
 								"originalEntity": "cafe3f377ac9556f"
@@ -18413,6 +18854,473 @@
 			]
 		},
 		{
+			"AddEntity": [
+				"cafecfe7cf9d58a8",
+				{
+					"parent": "e2c270d18a539d5f",
+					"name": "RealTime",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeba483edcf4b4",
+				{
+					"parent": "cafecfe7cf9d58a8",
+					"name": "Camera E",
+					"factory": "[modules:/zcameraentity.class].pc_entitytype",
+					"blueprint": "[modules:/zcameraentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0,
+									"z": 79.00001
+								},
+								"position": {
+									"x": 25.29383,
+									"y": -151.58266,
+									"z": -17.99809
+								}
+							}
+						},
+						"m_fFarZ": { "type": "float32", "value": 3000.0 },
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						},
+						"m_fFovYDeg": { "type": "float32", "value": 25.0 },
+						"m_bFPSSeperateFOV": {
+							"type": "bool",
+							"value": false
+						},
+						"m_fNearZ": {
+							"type": "float32",
+							"value": 0.05000000074505806
+						},
+						"m_eProjectionType": {
+							"type": "ICameraEntity.EProjectionType",
+							"value": "ePerspectiveRH"
+						},
+						"m_fWidth": {
+							"type": "float32",
+							"value": 38.23999786376953
+						},
+						"m_fAspectWByH": {
+							"type": "float32",
+							"value": 1.0
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe3227998e148c",
+				{
+					"parent": "cafecfe7cf9d58a8",
+					"name": "Camera A",
+					"factory": "[modules:/zcameraentity.class].pc_entitytype",
+					"blueprint": "[modules:/zcameraentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0,
+									"z": 79.00001
+								},
+								"position": {
+									"x": 25.29383,
+									"y": -151.58266,
+									"z": -17.99809
+								}
+							}
+						},
+						"m_fFarZ": { "type": "float32", "value": 3000.0 },
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						},
+						"m_fFovYDeg": { "type": "float32", "value": 25.0 },
+						"m_bFPSSeperateFOV": {
+							"type": "bool",
+							"value": false
+						},
+						"m_fNearZ": {
+							"type": "float32",
+							"value": 0.05000000074505806
+						},
+						"m_eProjectionType": {
+							"type": "ICameraEntity.EProjectionType",
+							"value": "ePerspectiveRH"
+						},
+						"m_fWidth": {
+							"type": "float32",
+							"value": 38.23999786376953
+						},
+						"m_fAspectWByH": {
+							"type": "float32",
+							"value": 1.0
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe50146e2ae598",
+				{
+					"parent": "cafecfe7cf9d58a8",
+					"name": "Camera D",
+					"factory": "[modules:/zcameraentity.class].pc_entitytype",
+					"blueprint": "[modules:/zcameraentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0,
+									"z": 79.00001
+								},
+								"position": {
+									"x": 25.29383,
+									"y": -151.58266,
+									"z": -17.99809
+								}
+							}
+						},
+						"m_fFarZ": { "type": "float32", "value": 3000.0 },
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						},
+						"m_fFovYDeg": { "type": "float32", "value": 25.0 },
+						"m_bFPSSeperateFOV": {
+							"type": "bool",
+							"value": false
+						},
+						"m_fNearZ": {
+							"type": "float32",
+							"value": 0.05000000074505806
+						},
+						"m_eProjectionType": {
+							"type": "ICameraEntity.EProjectionType",
+							"value": "ePerspectiveRH"
+						},
+						"m_fWidth": {
+							"type": "float32",
+							"value": 38.23999786376953
+						},
+						"m_fAspectWByH": {
+							"type": "float32",
+							"value": 1.0
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe23b4a21e76d2",
+				{
+					"parent": "cafecfe7cf9d58a8",
+					"name": "Camera B",
+					"factory": "[modules:/zcameraentity.class].pc_entitytype",
+					"blueprint": "[modules:/zcameraentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0,
+									"z": 79.00001
+								},
+								"position": {
+									"x": 25.29383,
+									"y": -151.58266,
+									"z": -17.99809
+								}
+							}
+						},
+						"m_fFarZ": { "type": "float32", "value": 3000.0 },
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						},
+						"m_fFovYDeg": { "type": "float32", "value": 25.0 },
+						"m_bFPSSeperateFOV": {
+							"type": "bool",
+							"value": false
+						},
+						"m_fNearZ": {
+							"type": "float32",
+							"value": 0.05000000074505806
+						},
+						"m_eProjectionType": {
+							"type": "ICameraEntity.EProjectionType",
+							"value": "ePerspectiveRH"
+						},
+						"m_fWidth": {
+							"type": "float32",
+							"value": 38.23999786376953
+						},
+						"m_fAspectWByH": {
+							"type": "float32",
+							"value": 1.0
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe43d8d0e69e88",
+				{
+					"parent": "cafecfe7cf9d58a8",
+					"name": "Camera C",
+					"factory": "[modules:/zcameraentity.class].pc_entitytype",
+					"blueprint": "[modules:/zcameraentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0,
+									"z": 79.00001
+								},
+								"position": {
+									"x": 25.29383,
+									"y": -151.58266,
+									"z": -17.99809
+								}
+							}
+						},
+						"m_fFarZ": { "type": "float32", "value": 3000.0 },
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						},
+						"m_fFovYDeg": { "type": "float32", "value": 25.0 },
+						"m_bFPSSeperateFOV": {
+							"type": "bool",
+							"value": false
+						},
+						"m_fNearZ": {
+							"type": "float32",
+							"value": 0.05000000074505806
+						},
+						"m_eProjectionType": {
+							"type": "ICameraEntity.EProjectionType",
+							"value": "ePerspectiveRH"
+						},
+						"m_fWidth": {
+							"type": "float32",
+							"value": 38.23999786376953
+						},
+						"m_fAspectWByH": {
+							"type": "float32",
+							"value": 1.0
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe94b1766235ca",
+				{
+					"parent": "cafecfe7cf9d58a8",
+					"name": "Camera F",
+					"factory": "[modules:/zcameraentity.class].pc_entitytype",
+					"blueprint": "[modules:/zcameraentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0,
+									"z": 79.00001
+								},
+								"position": {
+									"x": 25.29383,
+									"y": -151.58266,
+									"z": -17.99809
+								}
+							}
+						},
+						"m_fFarZ": { "type": "float32", "value": 3000.0 },
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						},
+						"m_fFovYDeg": { "type": "float32", "value": 25.0 },
+						"m_bFPSSeperateFOV": {
+							"type": "bool",
+							"value": false
+						},
+						"m_fNearZ": {
+							"type": "float32",
+							"value": 0.05000000074505806
+						},
+						"m_eProjectionType": {
+							"type": "ICameraEntity.EProjectionType",
+							"value": "ePerspectiveRH"
+						},
+						"m_fWidth": {
+							"type": "float32",
+							"value": 38.23999786376953
+						},
+						"m_fAspectWByH": {
+							"type": "float32",
+							"value": 1.0
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe915330de1b0a",
+				{
+					"parent": "cafecfe7cf9d58a8",
+					"name": "Render Destination Texture",
+					"factory": "[modules:/zrenderdestinationtextureentity.class].pc_entitytype",
+					"blueprint": "[modules:/zrenderdestinationtextureentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -180.0
+								},
+								"position": {
+									"x": -42.176170349121094,
+									"y": 72.88215637207031,
+									"z": 90.84789276123048
+								}
+							}
+						},
+						"m_nWidth": { "type": "uint32", "value": 512 },
+						"m_nHeight": { "type": "uint32", "value": 512 },
+						"m_bNeedsGamma": {
+							"type": "bool",
+							"value": false
+						},
+						"m_bUseSimpleRendering": {
+							"type": "bool",
+							"value": false
+						},
+						"m_bUseBGRA": { "type": "bool", "value": false },
+						"m_bIsHDR": { "type": "bool", "value": true },
+						"m_nSelectedSource": {
+							"type": "int32",
+							"value": 1
+						},
+						"m_fOutputScale": {
+							"type": "float32",
+							"value": 0.019999999552965164
+						},
+						"m_bDrawShadows": {
+							"type": "bool",
+							"value": false
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe"
+						},
+						"m_aMultiSource": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"cafe3227998e148c",
+								"cafe23b4a21e76d2",
+								"cafe43d8d0e69e88",
+								"cafe50146e2ae598",
+								"cafeba483edcf4b4",
+								"cafe94b1766235ca"
+							],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe417aa3158608",
+				{
+					"parent": "cafeed3206e3fe12",
+					"name": "Laptop_A_00_Olivia",
+					"factory": "[assembly:/_pro/environment/templates/props/electronics/computers_a.template?/laptop_a_00.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/environment/templates/props/electronics/computers_a.template?/laptop_a_00.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0,
+									"z": 0.48497155
+								},
+								"position": {
+									"x": 4.543232,
+									"y": -157.15022,
+									"z": -18.005205
+								}
+							}
+						},
+						"GlowPower": { "type": "float32", "value": 30.0 },
+						"LaptopGlowOn": { "type": "bool", "value": true },
+						"m_bRemovePhysics": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					},
+					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+				}
+			]
+		},
+		{
 			"AddComment": {
 				"parent": "cafecc3c50363cbf",
 				"name": "Notes",
@@ -18459,6 +19367,20 @@
 				"parent": "cafea9e50fdf9e8d",
 				"name": "Notes",
 				"text": ""
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "129caf96cdc5cd90",
+				"name": "Notes",
+				"text": "Bigger"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "e3c602b2257207a3",
+				"name": "Notes",
+				"text": "Smaller"
 			}
 		}
 	],

@@ -565,42 +565,6 @@
 				}
 			}
 		},
-		"1c305815de9dae51": {
-			"parent": "4c938898b9b64483",
-			"name": "Helper_Evergreen_SelectableItem_Krugermeier22Dark",
-			"factory": "00D350E1E011757B",
-			"blueprint": "00F30A01F5DF1C02",
-			"properties": {
-				"Supplier": { "type": "bool", "value": true },
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -180,
-							"y": 89.95154498200453,
-							"z": -90
-						},
-						"position": {
-							"x": 0.010089999996125698,
-							"y": -0.00002300000051036477,
-							"z": -9.000000318337698e-6
-						}
-					}
-				},
-				"m_bVisibleInBoxReflection": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"GearCapacityUsed": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "22edf43d9609168f",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
-		},
 		"6223f41c1cb39371": {
 			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_Custom5mm",
@@ -854,24 +818,7 @@
 				},
 				"m_entries": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"83bdb72c81081edc",
-						"a58930a78d135a51",
-						"9fbc93bf359ebe65",
-						"0942d3dbeb3d4917",
-						"abcc138583cd9a3d",
-						"ef38fb18bc2a3c1d",
-						"1c305815de9dae51",
-						"e8577014b4fb4238",
-						"b4a8d70a816344a7",
-						"6758b84e82545ce4",
-						"6223f41c1cb39371",
-						"feed4c2a24abd324",
-						"feedefbd6d03df81",
-						"feedb445462896c3",
-						"feeda0d7bfa5a607",
-						"cafe26d7cf86a60f"
-					],
+					"value": [],
 					"postInit": true
 				}
 			},
@@ -1245,9 +1192,9 @@
 		},
 		"0942d3dbeb3d4917": {
 			"parent": "4c938898b9b64483",
-			"name": "Helper_Evergreen_SelectableItem_TheOrnamentalKatana",
-			"factory": "0095AD019BB6D559",
-			"blueprint": "0048F0457BAE54F8",
+			"name": "Helper_Evergreen_SelectableItem_ConcealableBaton",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_concealablebaton.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_concealablebaton.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -1277,9 +1224,9 @@
 		},
 		"9fbc93bf359ebe65": {
 			"parent": "4c938898b9b64483",
-			"name": "Helper_Evergreen_SelectableItem_MakeshiftKatana",
-			"factory": "00B52A650A7C4F9A",
-			"blueprint": "00DC34787F4BDE4F",
+			"name": "Helper_Evergreen_SelectableItem_PoliceBaton",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_policebaton.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_policebaton.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -1309,9 +1256,9 @@
 		},
 		"6758b84e82545ce4": {
 			"parent": "4c938898b9b64483",
-			"name": "Helper_Evergreen_SelectableItem_Krugermeier22",
-			"factory": "0011855311BD87E3",
-			"blueprint": "00B82B2ABC87100F",
+			"name": "Helper_Evergreen_SelectableItem_ICACombatAxe",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_icacombataxe.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_icacombataxe.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"Supplier": { "type": "bool", "value": true },
 				"m_mTransform": {
@@ -1450,8 +1397,6 @@
 						"0942d3dbeb3d4917",
 						"abcc138583cd9a3d",
 						"ef38fb18bc2a3c1d",
-						"1c305815de9dae51",
-						"e8577014b4fb4238",
 						"b4a8d70a816344a7",
 						"6758b84e82545ce4",
 						"6223f41c1cb39371",
@@ -2798,42 +2743,6 @@
 				}
 			}
 		},
-		"e8577014b4fb4238": {
-			"parent": "4c938898b9b64483",
-			"name": "Helper_Evergreen_SelectableItem_Krugermeier22Silver",
-			"factory": "00E8DAB295A070BB",
-			"blueprint": "0022F44B48CA685C",
-			"properties": {
-				"Supplier": { "type": "bool", "value": true },
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -180,
-							"y": 89.95154498200453,
-							"z": -90
-						},
-						"position": {
-							"x": 0.010089999996125698,
-							"y": -0.00002300000051036477,
-							"z": -9.000000318337698e-6
-						}
-					}
-				},
-				"m_bVisibleInBoxReflection": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"GearCapacityUsed": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "22edf43d9609168f",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
-		},
 		"f0f42d8add64dfeb": {
 			"parent": "94942b43238078d1",
 			"name": "Light",
@@ -3095,9 +3004,9 @@
 		},
 		"cafe26d7cf86a60f": {
 			"parent": "4c938898b9b64483",
-			"name": "Helper_Evergreen_SelectableItem_AsylumTranquilizer",
-			"factory": "00582E55A1995672",
-			"blueprint": "003D1A07E9140323",
+			"name": "Helper_Evergreen_SelectableItem_TheRedLightFlashGrenade",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_theredlightflashgrenade.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_theredlightflashgrenade.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"Supplier": { "type": "bool", "value": true },
 				"m_mTransform": {

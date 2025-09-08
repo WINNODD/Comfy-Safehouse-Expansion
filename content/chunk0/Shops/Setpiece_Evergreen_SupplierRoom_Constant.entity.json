@@ -261,9 +261,9 @@
 		},
 		"1a62e83a0642c64b": {
 			"parent": "4c938898b9b64483",
-			"name": "Helper_Evergreen_SelectableItem_HandymanWrench",
-			"factory": "0052AC140DF63469",
-			"blueprint": "0076F445CC146C03",
+			"name": "Helper_Evergreen_SelectableItem_AncestralPistol",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_ancestralpistol.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_ancestralpistol.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"Supplier": { "type": "bool", "value": true },
 				"m_mTransform": {
@@ -1187,7 +1187,12 @@
 						"feedb0f9cda31a31",
 						"cafecdf388c89d0c",
 						"cafe9b5bdfa4061e",
-						"cafe090183575222"
+						"cafee45ac22fbe0c",
+						"cafecdb26591652a",
+						"cafe090183575222",
+						"cafe556f35b5913a",
+						"cafe3e7840b1b9ad",
+						"cafed08447274539"
 					],
 					"postInit": true
 				}
@@ -1292,9 +1297,9 @@
 		},
 		"cdd2ab745dd91a37": {
 			"parent": "4c938898b9b64483",
-			"name": "Helper_Evergreen_SelectableItem_ClawHammer",
-			"factory": "003F60A8049D46EE",
-			"blueprint": "009EC9AAEC182C7C",
+			"name": "Helper_Evergreen_SelectableItem_AncestralKnife",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_ancestralknife.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_ancestralknife.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -2623,9 +2628,9 @@
 		},
 		"feedb0f9cda31a31": {
 			"parent": "4c938898b9b64483",
-			"name": "Helper_Evergreen_SelectableItem_HobbyKnife",
-			"factory": "007E04581A85F379",
-			"blueprint": "00B160927B49B0F8",
+			"name": "Helper_Evergreen_SelectableItem_AncestralShotgun",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_ancestralshotgun.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_ancestralshotgun.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -2659,9 +2664,9 @@
 		},
 		"cafe9b5bdfa4061e": {
 			"parent": "4c938898b9b64483",
-			"name": "Helper_Evergreen_SelectableItem_OilSpillCanister",
-			"factory": "00DB39B69DF466F9",
-			"blueprint": "004C97456B348A8B",
+			"name": "Helper_Evergreen_SelectableItem_AncestralSniper",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_ancestralsniper.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_ancestralsniper.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"Supplier": { "type": "bool", "value": true },
 				"m_mTransform": {
@@ -2687,9 +2692,9 @@
 		},
 		"cafe090183575222": {
 			"parent": "4c938898b9b64483",
-			"name": "Helper_Evergreen_SelectableItem_WaterSpillCanister",
-			"factory": "003689B4343DD63C",
-			"blueprint": "005BFFB35CA3128E",
+			"name": "Helper_Evergreen_SelectableItem_ICA19Cherryballer",
+			"factory": "0014EA41D85AC588",
+			"blueprint": "0047523BF2B80A77",
 			"properties": {
 				"Supplier": { "type": "bool", "value": true },
 				"m_mTransform": {
@@ -2715,15 +2720,155 @@
 		},
 		"cafecdf388c89d0c": {
 			"parent": "4c938898b9b64483",
-			"name": "Helper_Evergreen_SelectableItem_ChloroformFlask",
-			"factory": "001720D9C6ADDF3A",
-			"blueprint": "0049BE923AF4C3F6",
+			"name": "Helper_Evergreen_SelectableItem_AncestralAR",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_ancestralar.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_ancestralar.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"Supplier": { "type": "bool", "value": true },
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "22edf43d9609168f",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafecdb26591652a": {
+			"parent": "4c938898b9b64483",
+			"name": "Helper_Evergreen_SelectableItem_BulldogCane",
+			"factory": "008B001C71CE2CF2",
+			"blueprint": "004E4C02F3855C41",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "22edf43d9609168f",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafed08447274539": {
+			"parent": "4c938898b9b64483",
+			"name": "Helper_Evergreen_SelectableItem_TheSplitterKukriKnife",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_thesplitterkukriknife.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_thesplitterkukriknife.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "22edf43d9609168f",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafe3e7840b1b9ad": {
+			"parent": "4c938898b9b64483",
+			"name": "Helper_Evergreen_SelectableItem_KukriKnife",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_kukriknife.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_kukriknife.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "22edf43d9609168f",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafee45ac22fbe0c": {
+			"parent": "4c938898b9b64483",
+			"name": "Helper_Evergreen_SelectableItem_BartoliHuntingShotgun",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_bartolihuntingshotgun.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_bartolihuntingshotgun.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"GearCapacityUsed": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "22edf43d9609168f",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafe556f35b5913a": {
+			"parent": "4c938898b9b64483",
+			"name": "Helper_Evergreen_SelectableItem_ICA19Flowerballer",
+			"factory": "00D5C128B0BC3CCD",
+			"blueprint": "008B0981275F96EE",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
 						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},

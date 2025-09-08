@@ -187,9 +187,9 @@
 		},
 		"f34ea80f25bbbb8c": {
 			"parent": "4c938898b9b64483",
-			"name": "Helper_Evergreen_SelectableItem_BurialDagger",
-			"factory": "00269799D573916C",
-			"blueprint": "001B605CB32A0555",
+			"name": "Helper_Evergreen_SelectableItem_Saber",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_saber.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_saber.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -822,21 +822,7 @@
 				},
 				"m_entries": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"87b1b9d6524fd915",
-						"b090d302df7465d3",
-						"14115ab2f3ec29bb",
-						"ca547f6aff67f7cc",
-						"abcc138583cd9a3d",
-						"5f6891b07b62f4f0",
-						"def4e2e4b0d8acd1",
-						"0496a89bba9f1fa6",
-						"5b69f8542078fbb1",
-						"f34ea80f25bbbb8c",
-						"25924b272dbfe61d",
-						"f44ae5b2e180715a",
-						"cafe3716c1de3625"
-					],
+					"value": [],
 					"postInit": true
 				}
 			},
@@ -2842,9 +2828,9 @@
 		},
 		"ca547f6aff67f7cc": {
 			"parent": "4c938898b9b64483",
-			"name": "Helper_Evergreen_SelectableItem_KukriKnife",
-			"factory": "00EE615BE1CFE337",
-			"blueprint": "0068E19BD9626779",
+			"name": "Helper_Evergreen_SelectableItem_SappersAxe",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_sappersaxe.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_sappersaxe.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -3013,9 +2999,9 @@
 		},
 		"cafe3716c1de3625": {
 			"parent": "4c938898b9b64483",
-			"name": "Helper_Evergreen_SelectableItem_TheSplitterKukriKnife",
-			"factory": "006745987B8F6F80",
-			"blueprint": "003848A58032DE77",
+			"name": "Helper_Evergreen_SelectableItem_BaseballBat",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_baseballbat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_baseballbat.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",

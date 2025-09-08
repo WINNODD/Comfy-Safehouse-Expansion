@@ -5,9 +5,9 @@
 	"entities": {
 		"038cfa2c07b76724": {
 			"parent": "4c938898b9b64483",
-			"name": "Helper_Evergreen_SelectableItem_HWK21",
-			"factory": "00891F70D1C55CFF",
-			"blueprint": "006EF30843B5BDEC",
+			"name": "Helper_Evergreen_SelectableItem_HX10Militia",
+			"factory": "00752EF17E0076C0",
+			"blueprint": "00EE41EB76332E1E",
 			"properties": {
 				"Supplier": { "type": "bool", "value": true },
 				"m_mTransform": {
@@ -329,9 +329,9 @@
 		},
 		"5bb918e7fbdc213b": {
 			"parent": "4c938898b9b64483",
-			"name": "Helper_Evergreen_SelectableItem_GoldenSawedOffBartoli12G",
-			"factory": "000FD1BCA04039A3",
-			"blueprint": "009C3FA7A7ED9A63",
+			"name": "Helper_Evergreen_SelectableItem_HX10",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_hx10.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_hx10.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"Supplier": { "type": "bool", "value": true },
 				"m_mTransform": {
@@ -617,8 +617,8 @@
 		"bd99e5e8e9f1fd60": {
 			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_DAKBlackCovert",
-			"factory": "00BD74BC331753CB",
-			"blueprint": "00F026C061FCA48A",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_dakblackcovert.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_dakblackcovert.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"Supplier": { "type": "bool", "value": true },
 				"m_mTransform": {
@@ -649,8 +649,8 @@
 		"011159b196e22a0c": {
 			"parent": "4c938898b9b64483",
 			"name": "Helper_Evergreen_SelectableItem_HX7Covert",
-			"factory": "00AFB052C3C12AC3",
-			"blueprint": "00A51797251A8EB6",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_hx7covert.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_hx7covert.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"Supplier": { "type": "bool", "value": true },
 				"m_mTransform": {
@@ -846,24 +846,7 @@
 				},
 				"m_entries": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"011159b196e22a0c",
-						"bd99e5e8e9f1fd60",
-						"e5d23764266fda6b",
-						"5bb918e7fbdc213b",
-						"cee961eece5eeb90",
-						"b415c07d6b054e31",
-						"9aa984953db708fe",
-						"5c28379c7c6035ac",
-						"a190eb753f17384a",
-						"033d6d4ef8d88e45",
-						"f07275b50e03b487",
-						"038cfa2c07b76724",
-						"9db19c47309ac4fd",
-						"feeda0fbe3e2224c",
-						"cafe27a43cf29e38",
-						"cafee6f1374a6a29"
-					],
+					"value": [],
 					"postInit": true
 				}
 			},
@@ -1340,7 +1323,6 @@
 						"bd99e5e8e9f1fd60",
 						"e5d23764266fda6b",
 						"5bb918e7fbdc213b",
-						"cee961eece5eeb90",
 						"b415c07d6b054e31",
 						"9aa984953db708fe",
 						"5c28379c7c6035ac",
@@ -1350,8 +1332,7 @@
 						"038cfa2c07b76724",
 						"9db19c47309ac4fd",
 						"feeda0fbe3e2224c",
-						"cafe27a43cf29e38",
-						"cafee6f1374a6a29"
+						"cafe27a43cf29e38"
 					],
 					"postInit": true
 				}
@@ -1380,9 +1361,9 @@
 		},
 		"a190eb753f17384a": {
 			"parent": "4c938898b9b64483",
-			"name": "Helper_Evergreen_SelectableItem_HWK21PaleHomemadeSilencer",
-			"factory": "00BCD481D746FA64",
-			"blueprint": "0034F0C609FB5547",
+			"name": "Helper_Evergreen_SelectableItem_TACSMGCovert",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_tacsmgcovert.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_tacsmgcovert.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"Supplier": { "type": "bool", "value": true },
 				"m_mTransform": {
@@ -1522,9 +1503,9 @@
 		},
 		"033d6d4ef8d88e45": {
 			"parent": "4c938898b9b64483",
-			"name": "Helper_Evergreen_SelectableItem_HWK21Covert",
-			"factory": "007CE7C4FBAF75FD",
-			"blueprint": "00E8163988505014",
+			"name": "Helper_Evergreen_SelectableItem_ICASMGRaptorCovert",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_icasmgraptorcovert.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_icasmgraptorcovert.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"Supplier": { "type": "bool", "value": true },
 				"m_mTransform": {
@@ -2191,9 +2172,9 @@
 		},
 		"e5d23764266fda6b": {
 			"parent": "4c938898b9b64483",
-			"name": "Helper_Evergreen_SelectableItem_Bartoli12GShortH",
-			"factory": "0075785F51399134",
-			"blueprint": "004AEDBC54143B60",
+			"name": "Helper_Evergreen_SelectableItem_DAKDTI",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_dakdti.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_dakdti.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"Supplier": { "type": "bool", "value": true },
 				"m_mTransform": {
@@ -2261,9 +2242,9 @@
 		},
 		"9db19c47309ac4fd": {
 			"parent": "4c938898b9b64483",
-			"name": "Helper_Evergreen_SelectableItem_ElMatador",
-			"factory": "006C89F5F8BEB010",
-			"blueprint": "00BF4D6DA0F770D5",
+			"name": "Helper_Evergreen_SelectableItem_DAKX2CovertSilenced",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_dakx2covertsilenced.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_dakx2covertsilenced.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"Supplier": { "type": "bool", "value": true },
 				"m_mTransform": {
@@ -2582,9 +2563,9 @@
 		},
 		"b415c07d6b054e31": {
 			"parent": "4c938898b9b64483",
-			"name": "Helper_Evergreen_SelectableItem_ShashkaA33Gold",
-			"factory": "00F1D3CEB44304CD",
-			"blueprint": "0037B83BC8296577",
+			"name": "Helper_Evergreen_SelectableItem_TACSMGS",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_tacsmgs.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_tacsmgs.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"Supplier": { "type": "bool", "value": true },
 				"m_mTransform": {
@@ -2858,38 +2839,6 @@
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
-		"cee961eece5eeb90": {
-			"parent": "4c938898b9b64483",
-			"name": "Helper_Evergreen_SelectableItem_SawedOffBartoli12G",
-			"factory": "00FEE69511CC3AD2",
-			"blueprint": "00868BE4889BF1AA",
-			"properties": {
-				"Supplier": { "type": "bool", "value": true },
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -90, "y": 0, "z": -180 },
-						"position": {
-							"x": 0.10445600003004074,
-							"y": 0,
-							"z": 0
-						}
-					}
-				},
-				"m_bVisibleInBoxReflection": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"GearCapacityUsed": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "22edf43d9609168f",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
-		},
 		"f0f42d8add64dfeb": {
 			"parent": "94942b43238078d1",
 			"name": "Light",
@@ -3063,9 +3012,9 @@
 		},
 		"cafe27a43cf29e38": {
 			"parent": "4c938898b9b64483",
-			"name": "Helper_Evergreen_SelectableItem_BartoliHuntingShotgunDeluxe",
-			"factory": "00347F57D2CD25E3",
-			"blueprint": "0020B5A31B2C5DF8",
+			"name": "Helper_Evergreen_SelectableItem_DAKX2",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_dakx2.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_dakx2.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -3080,38 +3029,6 @@
 					"type": "bool",
 					"value": false
 				},
-				"GearCapacityUsed": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "22edf43d9609168f",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
-		},
-		"cafee6f1374a6a29": {
-			"parent": "4c938898b9b64483",
-			"name": "Helper_Evergreen_SelectableItem_TheSplitterSMG",
-			"factory": "00C398105D336DDF",
-			"blueprint": "002D7E1F73007DCC",
-			"properties": {
-				"Supplier": { "type": "bool", "value": true },
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -90, "y": 0, "z": -180 },
-						"position": {
-							"x": -0.09193801879882812,
-							"y": 0,
-							"z": 0.03917801007628441
-						}
-					}
-				},
-				"m_bVisibleInBoxReflection": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bVisible": { "type": "bool", "value": true },
 				"GearCapacityUsed": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
