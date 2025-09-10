@@ -2984,7 +2984,7 @@
 						"property_name": "m_mTransform",
 						"value": {
 							"rotation": { "x": 90.0, "y": 0.0, "z": -0.0 },
-							"position": { "x": -0.69, "y": 0.0, "z": 1.46 }
+							"position": { "x": -0.69, "y": 0.0, "z": 1.49 }
 						}
 					}
 				}
@@ -13261,7 +13261,7 @@
 									"z": -180
 								},
 								"position": {
-									"x": -1.17,
+									"x": 0.835,
 									"y": 0.0,
 									"z": 1.46
 								}
@@ -13413,7 +13413,7 @@
 									"z": -180
 								},
 								"position": {
-									"x": -1.17,
+									"x": 1.335,
 									"y": 0.0,
 									"z": 1.46
 								}
@@ -14174,7 +14174,7 @@
 								},
 								"position": {
 									"x": 24.297853469848633,
-									"y": -160.82687377929688,
+									"y": -161.0268737792969,
 									"z": -10.928592681884766
 								}
 							}
@@ -19309,6 +19309,10 @@
 						"m_bRemovePhysics": {
 							"type": "bool",
 							"value": true
+						},
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",

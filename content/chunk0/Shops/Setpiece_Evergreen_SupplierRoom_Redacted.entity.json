@@ -94,12 +94,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -90, "y": 0, "z": -180 },
-						"position": {
-							"x": -0.09193801879882812,
-							"y": 0,
-							"z": 0.03917801007628441
-						}
+						"rotation": { "x": -90, "y": 0, "z": 180 },
+						"position": { "x": -0.6, "y": -0.02, "z": -0.3 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -221,12 +217,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 90, "y": 90, "z": 0 },
-						"position": {
-							"x": 0.06999999284744263,
-							"y": 0,
-							"z": 0.04223442077636719
-						}
+						"rotation": { "x": -90, "y": 0, "z": 180 },
+						"position": { "x": 0.27, "y": -0.02, "z": -0.0 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -333,12 +325,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -90,
-							"y": 0.0238923367624362,
-							"z": 179.99587470301893
-						},
-						"position": { "x": 0, "y": 0, "z": 0 }
+						"rotation": { "x": -90, "y": 0, "z": 180 },
+						"position": { "x": -0.3, "y": -0.02, "z": -0.3 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -382,12 +370,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -90,
-							"y": 0.0238923367624362,
-							"z": 179.99587470301893
-						},
-						"position": { "x": 0, "y": 0, "z": 0 }
+						"rotation": { "x": -90, "y": 0, "z": 180 },
+						"position": { "x": -0.5, "y": -0.02, "z": -0.6 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -786,12 +770,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -90, "y": 0, "z": -180 },
-						"position": {
-							"x": -0.09351500123739244,
-							"y": 0,
-							"z": 0.10010699927806854
-						}
+						"rotation": { "x": -90, "y": 0, "z": 180 },
+						"position": { "x": 0.3, "y": -0.02, "z": -0.9 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -1468,12 +1448,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -90, "y": 0, "z": -180 },
-						"position": {
-							"x": -0.09351540356874466,
-							"y": 0,
-							"z": 0.10010699927806854
-						}
+						"rotation": { "x": -90, "y": 0, "z": 180 },
+						"position": { "x": -0.33, "y": -0.02, "z": -0.0 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -1718,12 +1694,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -90, "y": 0, "z": -180 },
-						"position": {
-							"x": -0.09351540356874466,
-							"y": 0,
-							"z": 0.10010699927806854
-						}
+						"rotation": { "x": 90, "y": 90, "z": 0 },
+						"position": { "x": -0.08, "y": -0.02, "z": -0.0 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -2165,16 +2137,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -180,
-							"y": 89.95154498200453,
-							"z": -90
-						},
-						"position": {
-							"x": -0.019968029111623764,
-							"y": 9.999999974752427e-7,
-							"z": -6.020069122314453e-6
-						}
+						"rotation": { "x": 90, "y": 90, "z": 0 },
+						"position": { "x": 0.7, "y": -0.02, "z": -0.0 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -2537,12 +2501,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 90, "y": 0, "z": 0 },
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0.009996414184570312
-						}
+						"rotation": { "x": -90, "y": 0, "z": 180 },
+						"position": { "x": 0.4, "y": -0.02, "z": -0.6 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -2667,8 +2627,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 90, "y": -90, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0 }
+						"rotation": { "x": -90, "y": 0, "z": 180 },
+						"position": { "x": 0.6, "y": -0.02, "z": -0.3 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -2762,12 +2722,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -90, "y": 0, "z": -180 },
-						"position": {
-							"x": -0.09193801879882812,
-							"y": 0,
-							"z": 0.03917801007628441
-						}
+						"rotation": { "x": -90, "y": 0, "z": 180 },
+						"position": { "x": -0.62, "y": -0.02, "z": -0.9 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {

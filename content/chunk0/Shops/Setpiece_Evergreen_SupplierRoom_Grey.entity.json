@@ -62,16 +62,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -90.0,
-							"y": -0.004125296253035899,
-							"z": 179.97610766103642
-						},
-						"position": {
-							"x": -0.3199999928474426,
-							"y": 0.0,
-							"z": 0.009999999776482582
-						}
+						"rotation": { "x": -90.0, "y": -0.0, "z": 180.0 },
+						"position": { "x": -0.6, "y": -0.03, "z": -0.6 }
 					}
 				},
 				"Supplier": { "type": "bool", "value": true },
@@ -129,12 +121,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -90.0, "y": 0.0, "z": -180.0 },
-						"position": {
-							"x": -0.20000100135803223,
-							"y": 0.0,
-							"z": 0.0
-						}
+						"rotation": { "x": -90.0, "y": -0.0, "z": 180.0 },
+						"position": { "x": 0.65, "y": -0.035, "z": -0.9 }
 					}
 				},
 				"Supplier": { "type": "bool", "value": true },
@@ -194,16 +182,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -90.0,
-							"y": -0.004125296253035899,
-							"z": 179.97610766103642
-						},
-						"position": {
-							"x": -0.14000099897384644,
-							"y": 0.0,
-							"z": 0.009999999776482582
-						}
+						"rotation": { "x": -90.0, "y": -0.0, "z": 180.0 },
+						"position": { "x": -0.25, "y": -0.035, "z": -0.3 }
 					}
 				},
 				"Supplier": { "type": "bool", "value": true },
@@ -610,16 +590,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -90.0,
-							"y": -0.004125296253035899,
-							"z": 179.97610766103642
-						},
-						"position": {
-							"x": -0.17000000178813934,
-							"y": 0.0,
-							"z": 0.009999999776482582
-						}
+						"rotation": { "x": -90.0, "y": -0.0, "z": 180.0 },
+						"position": { "x": 0.2, "y": -0.025, "z": -0.3 }
 					}
 				},
 				"Supplier": { "type": "bool", "value": true },
@@ -1203,16 +1175,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -90.0,
-							"y": -0.004125296253035899,
-							"z": 179.97610766103642
-						},
-						"position": {
-							"x": -0.4099999964237213,
-							"y": 0.0,
-							"z": 0.0
-						}
+						"rotation": { "x": -90.0, "y": -0.0, "z": 180.0 },
+						"position": { "x": 0.25, "y": -0.035, "z": 0.3 }
 					}
 				},
 				"Supplier": { "type": "bool", "value": true },
@@ -1239,16 +1203,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -90.0,
-							"y": -0.004125296253035899,
-							"z": 179.97610766103642
-						},
-						"position": {
-							"x": -0.12000100314617156,
-							"y": 0.0,
-							"z": 0.009999999776482582
-						}
+						"rotation": { "x": -90.0, "y": -0.0, "z": 180.0 },
+						"position": { "x": -0.25, "y": -0.025, "z": -0.0 }
 					}
 				},
 				"Supplier": { "type": "bool", "value": true },
@@ -1373,7 +1329,6 @@
 						"ca547f6aff67f7cc",
 						"abcc138583cd9a3d",
 						"5f6891b07b62f4f0",
-						"def4e2e4b0d8acd1",
 						"0496a89bba9f1fa6",
 						"5b69f8542078fbb1",
 						"f34ea80f25bbbb8c",
@@ -1669,16 +1624,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -90.0,
-							"y": -0.004125296253035899,
-							"z": 179.97610766103642
-						},
-						"position": {
-							"x": -0.12000100314617156,
-							"y": 0.0,
-							"z": 0.029999999329447743
-						}
+						"rotation": { "x": -90.0, "y": -0.0, "z": 180.0 },
+						"position": { "x": 0.7, "y": -0.02, "z": -0.0 }
 					}
 				},
 				"Supplier": { "type": "bool", "value": true },
@@ -1839,16 +1786,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -90.0,
-							"y": -0.004125296253035899,
-							"z": 179.97610766103642
-						},
-						"position": {
-							"x": -0.14000099897384644,
-							"y": 0.0,
-							"z": 0.009999999776482582
-						}
+						"rotation": { "x": -90.0, "y": -0.0, "z": 180.0 },
+						"position": { "x": 0.7, "y": -0.01, "z": -0.3 }
 					}
 				},
 				"Supplier": { "type": "bool", "value": true },
@@ -2043,16 +1982,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -90.0,
-							"y": -0.004125296253035899,
-							"z": 179.97610766103642
-						},
-						"position": {
-							"x": -0.14000099897384644,
-							"y": 0.0,
-							"z": 0.009999999776482582
-						}
+						"rotation": { "x": -90.0, "y": -0.0, "z": 180.0 },
+						"position": { "x": 0.25, "y": -0.015, "z": -0.0 }
 					}
 				},
 				"Supplier": { "type": "bool", "value": true },
@@ -2262,16 +2193,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -90.0,
-							"y": -0.004125296253035899,
-							"z": 179.97610766103642
-						},
-						"position": {
-							"x": -0.07999999821186066,
-							"y": 0.0,
-							"z": 0.009998999536037443
-						}
+						"rotation": { "x": -90.0, "y": -0.0, "z": 180.0 },
+						"position": { "x": -0.65, "y": -0.03, "z": -0.0 }
 					}
 				},
 				"Supplier": { "type": "bool", "value": true },
@@ -2723,42 +2646,6 @@
 				}
 			}
 		},
-		"def4e2e4b0d8acd1": {
-			"parent": "4c938898b9b64483",
-			"name": "Helper_Evergreen_SelectableItem_Machete",
-			"factory": "0093018C35DA286F",
-			"blueprint": "002E55D62DA9BFE8",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -90.0,
-							"y": -0.004125296253035899,
-							"z": 179.97610766103642
-						},
-						"position": {
-							"x": -0.18000000715255737,
-							"y": 0.0,
-							"z": 0.009999999776482582
-						}
-					}
-				},
-				"Supplier": { "type": "bool", "value": true },
-				"m_bVisibleInBoxReflection": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"GearCapacityUsed": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "22edf43d9609168f",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
-		},
 		"0e9eb55c0ba13f81": {
 			"parent": "94942b43238078d1",
 			"name": "fog_sphere_4x4m_a_03",
@@ -2835,16 +2722,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -90.0,
-							"y": -0.004125296253035899,
-							"z": 179.97610766103642
-						},
-						"position": {
-							"x": -0.07000000029802322,
-							"y": 0.0,
-							"z": 0.03999900072813034
-						}
+						"rotation": { "x": -90.0, "y": -0.0, "z": 180.0 },
+						"position": { "x": -0.55, "y": -0.035, "z": -0.9 }
 					}
 				},
 				"Supplier": { "type": "bool", "value": true },
@@ -3006,16 +2885,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -90.0,
-							"y": -0.004125296253035899,
-							"z": 179.97610766103642
-						},
-						"position": {
-							"x": -0.07000000029802322,
-							"y": 0.0,
-							"z": 0.03999900072813034
-						}
+						"rotation": { "x": -90.0, "y": -0.0, "z": 180.0 },
+						"position": { "x": 0.5, "y": -0.035, "z": -0.6 }
 					}
 				},
 				"Supplier": { "type": "bool", "value": true },

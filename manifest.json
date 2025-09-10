@@ -371,6 +371,11 @@
 			"comment": "play_magpie_exit_constant_helicopter_loop",
 			"runtimeID": "005A9D7506B39329",
 			"toChunk": 1
+		},
+		{
+			"comment": "Helper_Evergreen_SelectableItem_AssassinsHWK21Covert",
+			"runtimeID": "003C1277B8778179",
+			"toChunk": 0
 		}
 	],
 	"options": [

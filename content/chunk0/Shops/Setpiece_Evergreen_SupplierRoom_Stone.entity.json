@@ -3,38 +3,6 @@
 	"tbluHash": "00DB66C64D75F1B0",
 	"rootEntity": "22edf43d9609168f",
 	"entities": {
-		"59a6b3387d33f98d": {
-			"parent": "4c938898b9b64483",
-			"name": "Helper_Evergreen_SelectableItem_ConcreteSniper",
-			"factory": "00EAC5D68147F1AC",
-			"blueprint": "0087CE85F6D34E46",
-			"properties": {
-				"Supplier": { "type": "bool", "value": true },
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -90, "y": 0, "z": -180 },
-						"position": {
-							"x": 0.030000999569892883,
-							"y": 0,
-							"z": 0.0045079998672008514
-						}
-					}
-				},
-				"m_bVisibleInBoxReflection": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"GearCapacityUsed": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "22edf43d9609168f",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
-		},
 		"0a1533829baaf31b": {
 			"parent": "7f7698a22dd99f6e",
 			"name": "gear_wall_room_table_a",
@@ -714,20 +682,7 @@
 				},
 				"m_entries": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e4985f154db50ee8",
-						"59a6b3387d33f98d",
-						"feed8d764c2b0cdb",
-						"feed510620394a83",
-						"feedc08d7bc9bfc4",
-						"feeda3b45e7361e4",
-						"feed5c4f0d14cd93",
-						"feed00c12348ed38",
-						"feed111ddec3bd86",
-						"feed88e18eb78122",
-						"feede6df40e4107d",
-						"feed8ddbdbfb7d0f"
-					],
+					"value": [],
 					"postInit": true
 				}
 			},
@@ -1200,8 +1155,6 @@
 				"m_entries": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-						"e4985f154db50ee8",
-						"59a6b3387d33f98d",
 						"feed8d764c2b0cdb",
 						"feed510620394a83",
 						"feedc08d7bc9bfc4",
@@ -1210,8 +1163,7 @@
 						"feed00c12348ed38",
 						"feed111ddec3bd86",
 						"feed88e18eb78122",
-						"feede6df40e4107d",
-						"feed8ddbdbfb7d0f"
+						"feede6df40e4107d"
 					],
 					"postInit": true
 				}
@@ -1313,38 +1265,6 @@
 					"postInit": true
 				}
 			}
-		},
-		"e4985f154db50ee8": {
-			"parent": "4c938898b9b64483",
-			"name": "Helper_Evergreen_SelectableItem_TheOrnamentalSniper",
-			"factory": "007B954AAA7588CA",
-			"blueprint": "00837B87C3A99278",
-			"properties": {
-				"Supplier": { "type": "bool", "value": true },
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -90, "y": 0, "z": -180 },
-						"position": {
-							"x": 0.030000999569892883,
-							"y": 0,
-							"z": 0.0045079998672008514
-						}
-					}
-				},
-				"m_bVisibleInBoxReflection": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"GearCapacityUsed": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "22edf43d9609168f",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
 		"88e51aa285e0aa7f": {
 			"parent": "7f7698a22dd99f6e",
@@ -2656,11 +2576,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -90, "y": 0, "z": -180 },
-						"position": {
-							"x": 0.030000999569892883,
-							"y": 0,
-							"z": 0.0045079998672008514
-						}
+						"position": { "x": 0.0, "y": -0.0, "z": -0.0 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -2688,11 +2604,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -90, "y": 0, "z": -180 },
-						"position": {
-							"x": 0.030000999569892883,
-							"y": 0,
-							"z": 0.0045079998672008514
-						}
+						"position": { "x": 0.0, "y": -0.0, "z": -0.0 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -2720,11 +2632,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -90, "y": 0, "z": -180 },
-						"position": {
-							"x": 0.030000999569892883,
-							"y": 0,
-							"z": 0.0045079998672008514
-						}
+						"position": { "x": 0.0, "y": -0.0, "z": -0.0 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -2752,11 +2660,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -90, "y": 0, "z": -180 },
-						"position": {
-							"x": 0.030000999569892883,
-							"y": 0,
-							"z": 0.0045079998672008514
-						}
+						"position": { "x": 0.0, "y": -0.0, "z": -0.0 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -2784,11 +2688,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -90, "y": 0, "z": -180 },
-						"position": {
-							"x": 0.030000999569892883,
-							"y": 0,
-							"z": 0.0045079998672008514
-						}
+						"position": { "x": 0.0, "y": -0.0, "z": -0.0 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -2816,11 +2716,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -90, "y": 0, "z": -180 },
-						"position": {
-							"x": 0.030000999569892883,
-							"y": 0,
-							"z": 0.0045079998672008514
-						}
+						"position": { "x": 0.0, "y": -0.0, "z": -0.0 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -2848,11 +2744,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -90, "y": 0, "z": -180 },
-						"position": {
-							"x": 0.030000999569892883,
-							"y": 0,
-							"z": 0.0045079998672008514
-						}
+						"position": { "x": 0.0, "y": -0.0, "z": -0.0 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -2880,11 +2772,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -90, "y": 0, "z": -180 },
-						"position": {
-							"x": 0.030000999569892883,
-							"y": 0,
-							"z": 0.0045079998672008514
-						}
+						"position": { "x": 0.0, "y": -0.0, "z": -0.0 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -2912,43 +2800,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -90, "y": 0, "z": -180 },
-						"position": {
-							"x": 0.030000999569892883,
-							"y": 0,
-							"z": 0.0045079998672008514
-						}
-					}
-				},
-				"m_bVisibleInBoxReflection": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"GearCapacityUsed": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "22edf43d9609168f",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
-		},
-		"feed8ddbdbfb7d0f": {
-			"parent": "4c938898b9b64483",
-			"name": "Helper_Evergreen_SelectableItem_Sieger300WhiteNinja",
-			"factory": "001345AF6F671120",
-			"blueprint": "0018EE3B87AEAAC4",
-			"properties": {
-				"Supplier": { "type": "bool", "value": true },
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -90, "y": 0, "z": -180 },
-						"position": {
-							"x": 0.030000999569892883,
-							"y": 0,
-							"z": 0.0045079998672008514
-						}
+						"position": { "x": 0.0, "y": -0.0, "z": -0.0 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
