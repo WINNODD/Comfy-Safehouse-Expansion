@@ -9078,10 +9078,7 @@
 						},
 						"m_pAudioEvent_Hello": {
 							"type": "ZRuntimeResourceID",
-							"value": {
-								"resource": "008483EE358BDE11",
-								"flag": "5F"
-							}
+							"value": null
 						},
 						"m_pAudioEvent_Goodbye": {
 							"type": "ZRuntimeResourceID",
@@ -16408,7 +16405,7 @@
 					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
 					"events": {
 						"OnTrue": {
-							"Send": ["cafed35d5fd2fd4f"],
+							"Signal": ["cafea85c818c8521"],
 							"Activate": ["831dcd89501cfc76"]
 						}
 					}
@@ -18573,7 +18570,7 @@
 						"m_pMainEvent": {
 							"type": "ZRuntimeResourceID",
 							"value": {
-								"resource": "005A9D7506B39329",
+								"resource": "[assembly:/sound/wwise/exportedwwisedata/events/loc_island/mission_magpie/subl_ark_s2/helicopter/play_magpie_exit_constant_helicopter_loop.wwiseevent].pc_wwisebank",
 								"flag": "5F"
 							}
 						}
@@ -18644,16 +18641,13 @@
 					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
 					"events": {
 						"OnTrue": {
-							"Send": ["cafed35d5fd2fd4f"],
-							"Activate": ["831dcd89501cfc76"]
+							"Signal": ["cafea85c818c8521"],
+							"Activate": ["831dcd89501cfc76"],
+							"Enable": ["cafe3f377ac9556f"]
 						}
 					},
 					"propertyAliases": {
 						"m_bValue": [
-							{
-								"originalProperty": "m_bEnabled",
-								"originalEntity": "cafe3f377ac9556f"
-							},
 							{
 								"originalProperty": "m_bValue",
 								"originalEntity": "cafeff01be3027b9"
@@ -19321,6 +19315,18 @@
 						}
 					},
 					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafea85c818c8521",
+				{
+					"parent": "cafea9e50fdf9e8d",
+					"name": "VoidSignalOnce_Simple",
+					"factory": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entityblueprint",
+					"events": { "Out": { "Send": ["cafed35d5fd2fd4f"] } }
 				}
 			]
 		},

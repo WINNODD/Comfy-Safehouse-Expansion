@@ -2576,7 +2576,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -90, "y": 0, "z": -180 },
-						"position": { "x": 0.0, "y": -0.0, "z": -0.0 }
+						"position": { "x": -0.2, "y": -0.02, "z": -0.55 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -2604,7 +2604,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -90, "y": 0, "z": -180 },
-						"position": { "x": 0.0, "y": -0.0, "z": -0.0 }
+						"position": { "x": -0.7, "y": -0.02, "z": -0.3 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -2632,7 +2632,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -90, "y": 0, "z": -180 },
-						"position": { "x": 0.0, "y": -0.0, "z": -0.0 }
+						"position": { "x": 0.0, "y": -0.02, "z": -1.05 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -2660,7 +2660,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -90, "y": 0, "z": -180 },
-						"position": { "x": 0.0, "y": -0.0, "z": -0.0 }
+						"position": { "x": 0.5, "y": -0.02, "z": -0.8 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -2688,7 +2688,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -90, "y": 0, "z": -180 },
-						"position": { "x": 0.0, "y": -0.0, "z": -0.0 }
+						"position": { "x": -0.7, "y": -0.02, "z": 0.2 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -2716,7 +2716,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -90, "y": 0, "z": -180 },
-						"position": { "x": 0.0, "y": -0.0, "z": -0.0 }
+						"position": { "x": -0.65, "y": -0.02, "z": -0.8 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -2744,7 +2744,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -90, "y": 0, "z": -180 },
-						"position": { "x": 0.0, "y": -0.0, "z": -0.0 }
+						"position": { "x": 0.4, "y": -0.02, "z": -0.3 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -2772,7 +2772,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -90, "y": 0, "z": -180 },
-						"position": { "x": 0.0, "y": -0.0, "z": -0.0 }
+						"position": { "x": 0.5, "y": -0.02, "z": 0.2 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -2800,7 +2800,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -90, "y": 0, "z": -180 },
-						"position": { "x": 0.0, "y": -0.0, "z": -0.0 }
+						"position": { "x": -0.2, "y": -0.02, "z": -0.05 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {

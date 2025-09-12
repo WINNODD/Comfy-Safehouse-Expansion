@@ -63,7 +63,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -90, "y": 0, "z": 180 },
-						"position": { "x": 0, "y": 0, "z": 0 }
+						"position": { "x": -0.55, "y": -0.025, "z": -0.9 }
 					}
 				},
 				"Supplier": { "type": "bool", "value": true },
@@ -535,12 +535,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 90, "y": 0, "z": 0 },
-						"position": {
-							"x": 0,
-							"y": 0.019999999552965164,
-							"z": -0.012231829576194286
-						}
+						"rotation": { "x": -90, "y": 0, "z": 180 },
+						"position": { "x": -0.4, "y": -0.025, "z": 0.6 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -567,8 +563,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 90, "y": -90, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0 }
+						"rotation": { "x": -90, "y": 0, "z": 180 },
+						"position": { "x": 0.75, "y": -0.025, "z": -0.3 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -1251,7 +1247,6 @@
 						"feed7349a456d417",
 						"feed6718a78f17ce",
 						"feedfcec82094d68",
-						"feedf94b669f8c5c",
 						"feed149641d0e7fc",
 						"feeda812b6ac1b78",
 						"cafe1559930610bd",
@@ -2039,16 +2034,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -180,
-							"y": 89.95154498200453,
-							"z": -90
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": -9.999999974752427e-7
-						}
+						"rotation": { "x": -90, "y": 0, "z": 180 },
+						"position": { "x": -0.45, "y": -0.025, "z": -0.6 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -2705,7 +2692,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -90, "y": 0, "z": 180 },
-						"position": { "x": 0.2, "y": 0, "z": 0 }
+						"position": { "x": -0.45, "y": -0.025, "z": -0.3 }
 					}
 				},
 				"Supplier": { "type": "bool", "value": true },
@@ -2733,7 +2720,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -90, "y": 0, "z": 180 },
-						"position": { "x": -0.08, "y": 0, "z": 0 }
+						"position": { "x": -0.45, "y": -0.03, "z": 0.3 }
 					}
 				},
 				"Supplier": { "type": "bool", "value": true },
@@ -2760,12 +2747,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -90, "y": 0, "z": -180 },
-						"position": {
-							"x": -0.07999999821186066,
-							"y": 0,
-							"z": 0.03999999910593033
-						}
+						"rotation": { "x": -90, "y": 0, "z": 180 },
+						"position": { "x": 0.55, "y": -0.025, "z": -0.0 }
 					}
 				},
 				"Supplier": { "type": "bool", "value": true },
@@ -2792,12 +2775,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 90,
-							"y": 0.03202833282830483,
-							"z": -0.012204005044799482
-						},
-						"position": { "x": 0, "y": 0, "z": 0 }
+						"rotation": { "x": -90, "y": 0, "z": 180 },
+						"position": { "x": -0.7, "y": -0.025, "z": -0.0 }
 					}
 				},
 				"Supplier": { "type": "bool", "value": true },
@@ -2824,8 +2803,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 90, "y": -90, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0 }
+						"rotation": { "x": -90, "y": 0, "z": 180 },
+						"position": { "x": 0.45, "y": -0.025, "z": -0.9 }
 					}
 				},
 				"Supplier": { "type": "bool", "value": true },
@@ -2852,44 +2831,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 90, "y": -90, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0 }
-					}
-				},
-				"Supplier": { "type": "bool", "value": true },
-				"m_bVisibleInBoxReflection": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"GearCapacityUsed": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "22edf43d9609168f",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
-		},
-		"feedf94b669f8c5c": {
-			"parent": "4c938898b9b64483",
-			"name": "Helper_Evergreen_SelectableItem_RS15",
-			"factory": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_rs15.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/templates/ld design assets/helpers_evergreen_selectableitems.template?/helper_evergreen_selectableitem_rs15.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 90,
-							"y": 0.03202833282830483,
-							"z": -0.012204005044799482
-						},
-						"position": {
-							"x": -0.07999999821186066,
-							"y": 0,
-							"z": 0.009998999536037443
-						}
+						"rotation": { "x": -90, "y": 0, "z": 180 },
+						"position": { "x": 0.5, "y": -0.025, "z": -0.6 }
 					}
 				},
 				"Supplier": { "type": "bool", "value": true },
@@ -2917,7 +2860,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -90, "y": 0, "z": 180 },
-						"position": { "x": 0, "y": 0, "z": 0 }
+						"position": { "x": 0.6, "y": -0.025, "z": 0.6 }
 					}
 				},
 				"Supplier": { "type": "bool", "value": true },
@@ -2945,16 +2888,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -180,
-							"y": 89.95154498200453,
-							"z": -90
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": -9.999999974752427e-7
-						}
+						"rotation": { "x": -90, "y": 0, "z": 180 },
+						"position": { "x": 0.55, "y": -0.03, "z": 0.3 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -2981,16 +2916,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -180,
-							"y": 89.95154498200453,
-							"z": -90
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": -9.999999974752427e-7
-						}
+						"rotation": { "x": -90, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": -0.04, "z": -0.3 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -3017,16 +2944,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -180,
-							"y": 89.95154498200453,
-							"z": -90
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": -9.999999974752427e-7
-						}
+						"rotation": { "x": 90, "y": 0, "z": 0 },
+						"position": { "x": -0.05, "y": 0.015, "z": -0.0 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
