@@ -372,5 +372,43 @@
 			"runtimeID": "003C1277B8778179",
 			"toChunk": 0
 		}
+	],
+	"options": [
+		{
+			"name": "Debug Remove Cripplebox",
+			"tooltip": "Remove cripplebox so you can shoot people anytime. May cause crash if you drop and pick item too fast.",
+			"group": "Debug",
+			"type": "checkbox",
+			"contentFolders": [
+				"DebugRemoveCrippleBox"
+			]
+		},
+		{
+			"name": "Debug Always Show Outline",
+			"tooltip": "Always show weapons outline on the wall so I can manipulate their position more easily.",
+			"group": "Debug",
+			"type": "checkbox",
+			"contentFolders": [
+				"DebugAlwaysShowsOutline"
+			]
+		},
+		{
+			"name": "Debug Put Outfit In Map",
+			"tooltip": "Put all suppliers' outfits on the pier, for showcase purpose. You can also wear their outfits by asking them nicely.",
+			"group": "Debug",
+			"type": "checkbox",
+			"contentFolders": [
+				"DebugAddOutfitOnBridge"
+			]
+		},
+		{
+			"name": "Debug No Black Screen",
+			"tooltip": "You may ignore this",
+			"group": "Debug",
+			"type": "checkbox",
+			"contentFolders": [
+				"DebugNoBlackScreen"
+			]
+		}
 	]
 }
