@@ -1,0 +1,653 @@
+{
+	"tempHash": "00A9B93A825F5BDC",
+	"tbluHash": "005BA5CA6AC00627",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"dc7766928d153f13",
+				{
+					"AddProperty": [
+						"Video1",
+						{ "type": "float32", "value": 2.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"dc7766928d153f13",
+				{
+					"AddProperty": [
+						"Texture2D_04_dest",
+						{
+							"type": "SEntityTemplateReference",
+							"value": "cafe915330de1b0a",
+							"postInit": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9f42d211fa7ad630",
+				{
+					"AddProperty": [
+						"Video1",
+						{ "type": "float32", "value": 0.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9f42d211fa7ad630",
+				{
+					"AddProperty": [
+						"Texture2D_04_dest",
+						{
+							"type": "SEntityTemplateReference",
+							"value": "cafe915330de1b0a",
+							"postInit": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6a6a394b73f17108",
+				{
+					"AddProperty": [
+						"Video1",
+						{ "type": "float32", "value": 3.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6a6a394b73f17108",
+				{
+					"AddProperty": [
+						"Texture2D_04_dest",
+						{
+							"type": "SEntityTemplateReference",
+							"value": "cafe915330de1b0a",
+							"postInit": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6b1c44af3919feca",
+				{
+					"AddProperty": [
+						"Video1",
+						{ "type": "float32", "value": 5.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6b1c44af3919feca",
+				{
+					"AddProperty": [
+						"Texture2D_04_dest",
+						{
+							"type": "SEntityTemplateReference",
+							"value": "cafe915330de1b0a",
+							"postInit": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0cfd760009e82451",
+				{
+					"AddProperty": [
+						"Video1",
+						{ "type": "float32", "value": 4.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0cfd760009e82451",
+				{
+					"AddProperty": [
+						"Texture2D_04_dest",
+						{
+							"type": "SEntityTemplateReference",
+							"value": "cafe915330de1b0a",
+							"postInit": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"84c70625baa43d6b",
+				{
+					"AddProperty": [
+						"Video1",
+						{ "type": "float32", "value": 1.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"84c70625baa43d6b",
+				{
+					"AddProperty": [
+						"Texture2D_04_dest",
+						{
+							"type": "SEntityTemplateReference",
+							"value": "cafe915330de1b0a",
+							"postInit": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafecfe7cf9d58a8",
+				{
+					"parent": "4729cefa2497df85",
+					"name": "BasementCCTV",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeba483edcf4b4",
+				{
+					"parent": "cafecfe7cf9d58a8",
+					"name": "Camera E",
+					"factory": "[modules:/zcameraentity.class].pc_entitytype",
+					"blueprint": "[modules:/zcameraentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0,
+									"z": 79.00001
+								},
+								"position": {
+									"x": 25.29383,
+									"y": -151.58266,
+									"z": -17.99809
+								}
+							}
+						},
+						"m_fFarZ": { "type": "float32", "value": 3000.0 },
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						},
+						"m_fFovYDeg": { "type": "float32", "value": 25.0 },
+						"m_bFPSSeperateFOV": {
+							"type": "bool",
+							"value": false
+						},
+						"m_fNearZ": {
+							"type": "float32",
+							"value": 0.05000000074505806
+						},
+						"m_eProjectionType": {
+							"type": "ICameraEntity.EProjectionType",
+							"value": "ePerspectiveRH"
+						},
+						"m_fWidth": {
+							"type": "float32",
+							"value": 38.23999786376953
+						},
+						"m_fAspectWByH": {
+							"type": "float32",
+							"value": 1.0
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe3227998e148c",
+				{
+					"parent": "cafecfe7cf9d58a8",
+					"name": "Camera A",
+					"factory": "[modules:/zcameraentity.class].pc_entitytype",
+					"blueprint": "[modules:/zcameraentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0,
+									"z": 79.00001
+								},
+								"position": {
+									"x": 25.29383,
+									"y": -151.58266,
+									"z": -17.99809
+								}
+							}
+						},
+						"m_fFarZ": { "type": "float32", "value": 3000.0 },
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						},
+						"m_fFovYDeg": { "type": "float32", "value": 25.0 },
+						"m_bFPSSeperateFOV": {
+							"type": "bool",
+							"value": false
+						},
+						"m_fNearZ": {
+							"type": "float32",
+							"value": 0.05000000074505806
+						},
+						"m_eProjectionType": {
+							"type": "ICameraEntity.EProjectionType",
+							"value": "ePerspectiveRH"
+						},
+						"m_fWidth": {
+							"type": "float32",
+							"value": 38.23999786376953
+						},
+						"m_fAspectWByH": {
+							"type": "float32",
+							"value": 1.0
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe50146e2ae598",
+				{
+					"parent": "cafecfe7cf9d58a8",
+					"name": "Camera D",
+					"factory": "[modules:/zcameraentity.class].pc_entitytype",
+					"blueprint": "[modules:/zcameraentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0,
+									"z": 79.00001
+								},
+								"position": {
+									"x": 25.29383,
+									"y": -151.58266,
+									"z": -17.99809
+								}
+							}
+						},
+						"m_fFarZ": { "type": "float32", "value": 3000.0 },
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						},
+						"m_fFovYDeg": { "type": "float32", "value": 25.0 },
+						"m_bFPSSeperateFOV": {
+							"type": "bool",
+							"value": false
+						},
+						"m_fNearZ": {
+							"type": "float32",
+							"value": 0.05000000074505806
+						},
+						"m_eProjectionType": {
+							"type": "ICameraEntity.EProjectionType",
+							"value": "ePerspectiveRH"
+						},
+						"m_fWidth": {
+							"type": "float32",
+							"value": 38.23999786376953
+						},
+						"m_fAspectWByH": {
+							"type": "float32",
+							"value": 1.0
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe23b4a21e76d2",
+				{
+					"parent": "cafecfe7cf9d58a8",
+					"name": "Camera B",
+					"factory": "[modules:/zcameraentity.class].pc_entitytype",
+					"blueprint": "[modules:/zcameraentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0,
+									"z": 79.00001
+								},
+								"position": {
+									"x": 25.29383,
+									"y": -151.58266,
+									"z": -17.99809
+								}
+							}
+						},
+						"m_fFarZ": { "type": "float32", "value": 3000.0 },
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						},
+						"m_fFovYDeg": { "type": "float32", "value": 25.0 },
+						"m_bFPSSeperateFOV": {
+							"type": "bool",
+							"value": false
+						},
+						"m_fNearZ": {
+							"type": "float32",
+							"value": 0.05000000074505806
+						},
+						"m_eProjectionType": {
+							"type": "ICameraEntity.EProjectionType",
+							"value": "ePerspectiveRH"
+						},
+						"m_fWidth": {
+							"type": "float32",
+							"value": 38.23999786376953
+						},
+						"m_fAspectWByH": {
+							"type": "float32",
+							"value": 1.0
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe43d8d0e69e88",
+				{
+					"parent": "cafecfe7cf9d58a8",
+					"name": "Camera C",
+					"factory": "[modules:/zcameraentity.class].pc_entitytype",
+					"blueprint": "[modules:/zcameraentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0,
+									"z": 79.00001
+								},
+								"position": {
+									"x": 25.29383,
+									"y": -151.58266,
+									"z": -17.99809
+								}
+							}
+						},
+						"m_fFarZ": { "type": "float32", "value": 3000.0 },
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						},
+						"m_fFovYDeg": { "type": "float32", "value": 25.0 },
+						"m_bFPSSeperateFOV": {
+							"type": "bool",
+							"value": false
+						},
+						"m_fNearZ": {
+							"type": "float32",
+							"value": 0.05000000074505806
+						},
+						"m_eProjectionType": {
+							"type": "ICameraEntity.EProjectionType",
+							"value": "ePerspectiveRH"
+						},
+						"m_fWidth": {
+							"type": "float32",
+							"value": 38.23999786376953
+						},
+						"m_fAspectWByH": {
+							"type": "float32",
+							"value": 1.0
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe94b1766235ca",
+				{
+					"parent": "cafecfe7cf9d58a8",
+					"name": "Camera F",
+					"factory": "[modules:/zcameraentity.class].pc_entitytype",
+					"blueprint": "[modules:/zcameraentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0,
+									"z": 79.00001
+								},
+								"position": {
+									"x": 25.29383,
+									"y": -151.58266,
+									"z": -17.99809
+								}
+							}
+						},
+						"m_fFarZ": { "type": "float32", "value": 3000.0 },
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						},
+						"m_fFovYDeg": { "type": "float32", "value": 25.0 },
+						"m_bFPSSeperateFOV": {
+							"type": "bool",
+							"value": false
+						},
+						"m_fNearZ": {
+							"type": "float32",
+							"value": 0.05000000074505806
+						},
+						"m_eProjectionType": {
+							"type": "ICameraEntity.EProjectionType",
+							"value": "ePerspectiveRH"
+						},
+						"m_fWidth": {
+							"type": "float32",
+							"value": 38.23999786376953
+						},
+						"m_fAspectWByH": {
+							"type": "float32",
+							"value": 1.0
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe915330de1b0a",
+				{
+					"parent": "cafecfe7cf9d58a8",
+					"name": "Render Destination Texture",
+					"factory": "[modules:/zrenderdestinationtextureentity.class].pc_entitytype",
+					"blueprint": "[modules:/zrenderdestinationtextureentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -180.0
+								},
+								"position": {
+									"x": -42.176170349121094,
+									"y": 72.88215637207031,
+									"z": 90.84789276123048
+								}
+							}
+						},
+						"m_nWidth": { "type": "uint32", "value": 512 },
+						"m_nHeight": { "type": "uint32", "value": 512 },
+						"m_bNeedsGamma": {
+							"type": "bool",
+							"value": false
+						},
+						"m_bUseSimpleRendering": {
+							"type": "bool",
+							"value": false
+						},
+						"m_bUseBGRA": { "type": "bool", "value": false },
+						"m_bIsHDR": { "type": "bool", "value": true },
+						"m_nSelectedSource": {
+							"type": "int32",
+							"value": 1
+						},
+						"m_fOutputScale": {
+							"type": "float32",
+							"value": 0.019999999552965164
+						},
+						"m_bDrawShadows": {
+							"type": "bool",
+							"value": false
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe"
+						},
+						"m_aMultiSource": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"cafe3227998e148c",
+								"cafe23b4a21e76d2",
+								"cafe43d8d0e69e88",
+								"cafe50146e2ae598",
+								"cafeba483edcf4b4",
+								"cafe94b1766235ca"
+							],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddComment": {
+				"parent": "cafecc3c50363cbf",
+				"name": "Notes",
+				"text": "I might actually make a golf mini game. Who knows..."
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "cafedeeed4af5d74",
+				"name": "Notes",
+				"text": "1 is day\n2 is dusk (morning)\n3 is night\nSet by random tod brick overrides"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "bc7b623018fb1f90",
+				"name": "Notes",
+				"text": "Diana"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "402b1a04ddf25735",
+				"name": "Notes",
+				"text": "Graves"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "35841bc96512cff0",
+				"name": "Notes",
+				"text": "Rolf"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "767a061d1d085ccf",
+				"name": "Notes",
+				"text": "Vetrova"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "cafea9e50fdf9e8d",
+				"name": "Notes",
+				"text": ""
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "129caf96cdc5cd90",
+				"name": "Notes",
+				"text": "Bigger"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "e3c602b2257207a3",
+				"name": "Notes",
+				"text": "Smaller"
+			}
+		}
+	],
+	"patchVersion": 6
+}

@@ -17,8 +17,8 @@
 						"value": {
 							"rotation": { "x": 90.0, "y": 90.0, "z": 0.0 },
 							"position": {
-								"x": 1.2022247314453125,
-								"y": 0.0013229325413703918,
+								"x": 1.236968994140625,
+								"y": 0.0013059750199317932,
 								"z": 1.5277023315429688
 							}
 						}
@@ -90,20 +90,34 @@
 		},
 		{
 			"SubEntityOperation": [
+				"bc98f1c5a80d2193",
+				{
+					"AddProperty": [
+						"m_eRoomBehaviour",
+						{
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"006f244c093d6b08",
 				{
 					"SetPropertyValue": {
 						"property_name": "m_mTransform",
 						"value": {
 							"rotation": {
-								"x": -180.0,
-								"y": 89.94067872914675,
-								"z": -90.00349812480852
+								"x": -90.0314700971877,
+								"y": 0.0032545115536929425,
+								"z": -179.91049077728962
 							},
 							"position": {
-								"x": -1.00262451171875,
-								"y": 0.0013995468616485596,
-								"z": 2.8346099853515625
+								"x": 0.8153076171875,
+								"y": 0.0004952028393745422,
+								"z": 1.2837905883789065
 							}
 						}
 					}
@@ -114,6 +128,28 @@
 			"SubEntityOperation": [
 				"619160324d17f3ce",
 				{ "SetParent": "e3c602b2257207a3" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"619160324d17f3ce",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -89.9999965849052,
+								"y": 0.0,
+								"z": -180.0
+							},
+							"position": {
+								"x": -1.084503173828125,
+								"y": -0.0006909593939781189,
+								"z": 3.120541572570801
+							}
+						}
+					}
+				}
 			]
 		},
 		{
@@ -183,32 +219,6 @@
 		},
 		{
 			"SubEntityOperation": [
-				"dc7766928d153f13",
-				{
-					"AddProperty": [
-						"Video1",
-						{ "type": "float32", "value": 2.0 }
-					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"dc7766928d153f13",
-				{
-					"AddProperty": [
-						"Texture2D_04_dest",
-						{
-							"type": "SEntityTemplateReference",
-							"value": "cafe915330de1b0a",
-							"postInit": true
-						}
-					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
 				"6b06f763d4ba044c",
 				{ "SetParent": "129caf96cdc5cd90" }
 			]
@@ -265,6 +275,18 @@
 		},
 		{
 			"SubEntityOperation": [
+				"80a351216ee45b53",
+				{ "RemoveAllEventConnectionsForEvent": "OnFalse" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"80a351216ee45b53",
+				{ "RemoveAllEventConnectionsForEvent": "OnTrue" }
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"b52e0c2c768194c3",
 				{ "SetParent": "e3c602b2257207a3" }
 			]
@@ -282,9 +304,9 @@
 								"z": -0.0
 							},
 							"position": {
-								"x": 0.2985076904296875,
-								"y": 0.04947441071271896,
-								"z": 2.4697933197021484
+								"x": 1.1762847900390625,
+								"y": 0.04908231645822525,
+								"z": 1.2912635803222656
 							}
 						}
 					}
@@ -299,6 +321,20 @@
 						"property_name": "m_eidParent",
 						"value": "e3c602b2257207a3"
 					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b52e0c2c768194c3",
+				{
+					"AddProperty": [
+						"m_eRoomBehaviour",
+						{
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						}
+					]
 				}
 			]
 		},
@@ -460,6 +496,20 @@
 		},
 		{
 			"SubEntityOperation": [
+				"2332abb586533dc3",
+				{
+					"AddProperty": [
+						"m_eRoomBehaviour",
+						{
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"fa36dea2c7e006b6",
 				{ "SetParent": "e3c602b2257207a3" }
 			]
@@ -477,9 +527,9 @@
 								"z": -180.0
 							},
 							"position": {
-								"x": 0.1661834716796875,
-								"y": 0.049901388585567474,
-								"z": 2.980661392211914
+								"x": 0.0311,
+								"y": 0.052,
+								"z": 1.8922805786132812
 							}
 						}
 					}
@@ -494,6 +544,20 @@
 						"property_name": "m_eidParent",
 						"value": "e3c602b2257207a3"
 					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fa36dea2c7e006b6",
+				{
+					"AddProperty": [
+						"m_eRoomBehaviour",
+						{
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						}
+					]
 				}
 			]
 		},
@@ -545,6 +609,28 @@
 					"SetPropertyValue": {
 						"property_name": "m_eidParent",
 						"value": "fffffffffffffffe"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e51f63fcf677f392",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -90.02796279890877,
+								"y": -0.03427237643617532,
+								"z": -179.96574434606384
+							},
+							"position": {
+								"x": 0.4768829345703125,
+								"y": 0.0019916966557502747,
+								"z": 1.6559295654296875
+							}
+						}
 					}
 				}
 			]
@@ -643,30 +729,30 @@
 				"6a629349a75659af",
 				{
 					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "e3c602b2257207a3"
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -90.02796279890877,
+								"y": 0.027969627439363515,
+								"z": -179.97201672051912
+							},
+							"position": {
+								"x": -0.0439910888671875,
+								"y": 0.00004100799560546875,
+								"z": 1.6679019927978516
+							}
+						}
 					}
 				}
 			]
 		},
 		{
 			"SubEntityOperation": [
-				"86ed890fa30fa1c7",
+				"6a629349a75659af",
 				{
 					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -0.0,
-								"y": 0.0,
-								"z": -88.65050300844429
-							},
-							"position": {
-								"x": 29.639650344848633,
-								"y": -172.6563262939453,
-								"z": 20.525779724121097
-							}
-						}
+						"property_name": "m_eidParent",
+						"value": "e3c602b2257207a3"
 					}
 				}
 			]
@@ -713,6 +799,28 @@
 				"60afede59ce236e8",
 				{
 					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -89.9999965849052,
+								"y": 0.0,
+								"z": -180.0
+							},
+							"position": {
+								"x": 0.313079833984375,
+								"y": -0.0013730376958847046,
+								"z": 2.456209182739258
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"60afede59ce236e8",
+				{
+					"SetPropertyValue": {
 						"property_name": "m_eidParent",
 						"value": "e3c602b2257207a3"
 					}
@@ -732,38 +840,12 @@
 								"z": -180.0
 							},
 							"position": {
-								"x": -0.0453338623046875,
-								"y": -0.0018485784530639648,
+								"x": -0.1525115966796875,
+								"y": -0.0017962679266929626,
 								"z": 1.2202396392822266
 							}
 						}
 					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"9f42d211fa7ad630",
-				{
-					"AddProperty": [
-						"Video1",
-						{ "type": "float32", "value": 0.0 }
-					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"9f42d211fa7ad630",
-				{
-					"AddProperty": [
-						"Texture2D_04_dest",
-						{
-							"type": "SEntityTemplateReference",
-							"value": "cafe915330de1b0a",
-							"postInit": true
-						}
-					]
 				}
 			]
 		},
@@ -1072,27 +1154,37 @@
 		},
 		{
 			"SubEntityOperation": [
-				"6a6a394b73f17108",
+				"910a924bcdd83561",
 				{
 					"AddProperty": [
-						"Video1",
-						{ "type": "float32", "value": 3.0 }
+						"m_eRoomBehaviour",
+						{
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						}
 					]
 				}
 			]
 		},
 		{
 			"SubEntityOperation": [
-				"6a6a394b73f17108",
+				"9acb859725e71bcb",
 				{
-					"AddProperty": [
-						"Texture2D_04_dest",
-						{
-							"type": "SEntityTemplateReference",
-							"value": "cafe915330de1b0a",
-							"postInit": true
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -90.00001366037834,
+								"y": 0.005730738774223119,
+								"z": -179.93171199161006
+							},
+							"position": {
+								"x": 0.6120147705078125,
+								"y": -0.00005789846181869507,
+								"z": 3.125424385070801
+							}
 						}
-					]
+					}
 				}
 			]
 		},
@@ -1107,9 +1199,45 @@
 				"d2a05659ac5afc53",
 				{
 					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": 90.0,
+								"y": -90.0,
+								"z": 0.0
+							},
+							"position": {
+								"x": 0.07501220703125,
+								"y": -0.00003810971975326538,
+								"z": 1.762346267700195
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d2a05659ac5afc53",
+				{
+					"SetPropertyValue": {
 						"property_name": "m_eidParent",
 						"value": "129caf96cdc5cd90"
 					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d2a05659ac5afc53",
+				{
+					"AddProperty": [
+						"m_eRoomBehaviour",
+						{
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						}
+					]
 				}
 			]
 		},
@@ -1198,6 +1326,28 @@
 		},
 		{
 			"SubEntityOperation": [
+				"23e58f2dc4be3ddf",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -89.99998975471502,
+								"y": -0.029673510497344825,
+								"z": -179.9703264846388
+							},
+							"position": {
+								"x": -0.753875732421875,
+								"y": -0.00024577975273132324,
+								"z": 2.45914077758789
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"5055cf8b5df22f55",
 				{
 					"SetPropertyValue": {
@@ -1233,27 +1383,23 @@
 		},
 		{
 			"SubEntityOperation": [
-				"6b1c44af3919feca",
+				"879d45385b93f4fd",
 				{
-					"AddProperty": [
-						"Video1",
-						{ "type": "float32", "value": 5.0 }
-					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"6b1c44af3919feca",
-				{
-					"AddProperty": [
-						"Texture2D_04_dest",
-						{
-							"type": "SEntityTemplateReference",
-							"value": "cafe915330de1b0a",
-							"postInit": true
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -89.97204403461302,
+								"y": -0.007086221124435883,
+								"z": -179.9586379385381
+							},
+							"position": {
+								"x": 1.173553466796875,
+								"y": 0.000015184283256530762,
+								"z": 1.6791954040527344
+							}
 						}
-					]
+					}
 				}
 			]
 		},
@@ -1276,6 +1422,30 @@
 							}
 						}
 					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"cf04a0e71fc794e6",
+				{
+					"AddEventConnection": [
+						"EventReceived",
+						"ForceUpdateValue",
+						"cafe99f478066589"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"cf04a0e71fc794e6",
+				{
+					"AddEventConnection": [
+						"EventReceived",
+						"ForceUpdateValue",
+						"cafe99f478066589"
+					]
 				}
 			]
 		},
@@ -1410,7 +1580,25 @@
 							{
 								"AddItemAfter": [
 									"e51f63fcf677f392",
-									"feeda9a4d345d381"
+									"cafed786e260e87a"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"e51f63fcf677f392",
+									"feedbf56902382a3"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"e51f63fcf677f392",
+									"787f0d6e823b8459"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"e51f63fcf677f392",
+									"006f244c093d6b08"
 								]
 							},
 							{
@@ -1638,6 +1826,28 @@
 				"0cd7c305c64c1709",
 				{
 					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": 89.9999965849052,
+								"y": -0.0,
+								"z": -180.0
+							},
+							"position": {
+								"x": -0.1466217041015625,
+								"y": 0.011024020612239838,
+								"z": 2.790855407714844
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0cd7c305c64c1709",
+				{
+					"SetPropertyValue": {
 						"property_name": "m_eidParent",
 						"value": "e3c602b2257207a3"
 					}
@@ -1724,6 +1934,28 @@
 		},
 		{
 			"SubEntityOperation": [
+				"7461df7d399d230c",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -90.02793548148226,
+								"y": 0.039574329324447335,
+								"z": 179.9604449611984
+							},
+							"position": {
+								"x": -1.1843414306640625,
+								"y": 0.00178392231464386,
+								"z": 2.44845199584961
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"cc3a29a86dbf0425",
 				{
 					"SetPropertyValue": {
@@ -1735,6 +1967,24 @@
 								"z": -0.0
 							},
 							"position": { "x": 1.335, "y": 0.0, "z": 2.06 }
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"060d7a10bc9ddb68",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": 90.0, "y": 90.0, "z": 0.0 },
+							"position": {
+								"x": 0.944671630859375,
+								"y": 0.00013256072998046875,
+								"z": 1.524456024169922
+							}
 						}
 					}
 				}
@@ -1776,8 +2026,8 @@
 								"z": -180.0
 							},
 							"position": {
-								"x": -0.0405426025390625,
-								"y": -0.0009277611970901488,
+								"x": -0.1530303955078125,
+								"y": -0.0008728578686714172,
 								"z": 2.0704803466796875
 							}
 						}
@@ -1855,25 +2105,7 @@
 							{
 								"AddItemAfter": [
 									"060d7a10bc9ddb68",
-									"1e059e20ee78a46b"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"060d7a10bc9ddb68",
 									"d2a05659ac5afc53"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"060d7a10bc9ddb68",
-									"cafed786e260e87a"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"060d7a10bc9ddb68",
-									"feedbf56902382a3"
 								]
 							},
 							{
@@ -1897,30 +2129,23 @@
 							{
 								"AddItemAfter": [
 									"060d7a10bc9ddb68",
-									"006f244c093d6b08"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"060d7a10bc9ddb68",
 									"004bdb48ff6a1ddf"
-								]
-							},
-							{ "RemoveItemByValue": "1e059e20ee78a46b" },
-							{ "RemoveItemByValue": "01c3836db144b516" },
-							{ "RemoveItemByValue": "60afede59ce236e8" },
-							{ "RemoveItemByValue": "0cd7c305c64c1709" },
-							{ "RemoveItemByValue": "619160324d17f3ce" },
-							{
-								"AddItemAfter": [
-									"2a2cae69d24d207f",
-									"730d3b2345ed8407"
 								]
 							},
 							{
 								"AddItemAfter": [
 									"2a2cae69d24d207f",
 									"813802d31f5d9d09"
+								]
+							},
+							{ "RemoveItemByValue": "01c3836db144b516" },
+							{ "RemoveItemByValue": "60afede59ce236e8" },
+							{ "RemoveItemByValue": "0cd7c305c64c1709" },
+							{ "RemoveItemByValue": "619160324d17f3ce" },
+							{
+								"AddItemAfter": [
+									"1e059e20ee78a46b",
+									"730d3b2345ed8407"
 								]
 							},
 							{ "RemoveItemByValue": "99334257ba02591e" },
@@ -2091,6 +2316,28 @@
 				"01c3836db144b516",
 				{
 					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": 89.9999965849052,
+								"y": -0.0,
+								"z": -180.0
+							},
+							"position": {
+								"x": -0.554534912109375,
+								"y": -0.0011403411626815796,
+								"z": 3.11568832397461
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"01c3836db144b516",
+				{
+					"SetPropertyValue": {
 						"property_name": "m_eidParent",
 						"value": "e3c602b2257207a3"
 					}
@@ -2138,6 +2385,20 @@
 		},
 		{
 			"SubEntityOperation": [
+				"6cfd37adde7a451a",
+				{
+					"AddProperty": [
+						"m_eRoomBehaviour",
+						{
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"1360fd7cfe3533a2",
 				{ "SetParent": "cafeb1cafbc63d92" }
 			]
@@ -2167,6 +2428,24 @@
 						"property_name": "m_eidParent",
 						"value": "fffffffffffffffe"
 					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"021b00c44646306c",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aValues",
+						[
+							{
+								"AddItemAfter": [
+									"27850210c165ddb6",
+									"cafe741e49a9c28e"
+								]
+							}
+						]
+					]
 				}
 			]
 		},
@@ -2345,6 +2624,12 @@
 							{
 								"AddItemAfter": [
 									"c9ccb074a210c4fc",
+									"feeda9a4d345d381"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"c9ccb074a210c4fc",
 									"cafe492c6feb4247"
 								]
 							},
@@ -2452,6 +2737,28 @@
 						"Disable",
 						"cafedb313d5d5189"
 					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"77168eabebc6251f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -90.03886378199938,
+								"y": -0.034252392627297165,
+								"z": 179.96572435979525
+							},
+							"position": {
+								"x": -0.7052764892578125,
+								"y": 0.035672590136528015,
+								"z": 2.817502975463867
+							}
+						}
+					}
 				}
 			]
 		},
@@ -2730,9 +3037,45 @@
 				"a6c6835a1145d477",
 				{
 					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -90.02793206305749,
+								"y": 0.033771975372393286,
+								"z": 179.99421411608876
+							},
+							"position": {
+								"x": 0.4014434814453125,
+								"y": 0.049471914768218994,
+								"z": 2.809978485107422
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a6c6835a1145d477",
+				{
+					"SetPropertyValue": {
 						"property_name": "m_eidParent",
 						"value": "e3c602b2257207a3"
 					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a6c6835a1145d477",
+				{
+					"AddProperty": [
+						"m_eRoomBehaviour",
+						{
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						}
+					]
 				}
 			]
 		},
@@ -2916,28 +3259,6 @@
 		},
 		{
 			"SubEntityOperation": [
-				"a7ea6da0f3834875",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -0.0,
-								"y": 0.0,
-								"z": -101.00064222148092
-							},
-							"position": {
-								"x": -0.5949696898460388,
-								"y": 4.412398815155029,
-								"z": 1.5650099515914917
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
 				"98b9099c5ad80255",
 				{
 					"SetPropertyValue": {
@@ -3029,6 +3350,28 @@
 		},
 		{
 			"SubEntityOperation": [
+				"8a36642e4092e8b3",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -89.9999897547144,
+								"y": -0.034264016204581665,
+								"z": -179.96573597766854
+							},
+							"position": {
+								"x": -1.0709381103515625,
+								"y": -0.00020166486501693728,
+								"z": 2.8063812255859375
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"730d3b2345ed8407",
 				{ "SetParent": "129caf96cdc5cd90" }
 			]
@@ -3046,8 +3389,8 @@
 								"z": -180.0
 							},
 							"position": {
-								"x": -0.12939453125,
-								"y": 0.0007673799991607666,
+								"x": -0.2283782958984375,
+								"y": 0.0008156821131706238,
 								"z": 1.6516151428222656
 							}
 						}
@@ -3063,6 +3406,20 @@
 						"property_name": "m_eidParent",
 						"value": "129caf96cdc5cd90"
 					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"730d3b2345ed8407",
+				{
+					"AddProperty": [
+						"m_eRoomBehaviour",
+						{
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						}
+					]
 				}
 			]
 		},
@@ -3102,6 +3459,20 @@
 						"property_name": "m_eidParent",
 						"value": "911ecfd5cf432fac"
 					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b34de55746ff496c",
+				{
+					"AddProperty": [
+						"m_eRoomBehaviour",
+						{
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						}
+					]
 				}
 			]
 		},
@@ -3159,58 +3530,6 @@
 						"property_name": "m_eidParent",
 						"value": "c1b395367b88086b"
 					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"0cfd760009e82451",
-				{
-					"AddProperty": [
-						"Video1",
-						{ "type": "float32", "value": 4.0 }
-					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"0cfd760009e82451",
-				{
-					"AddProperty": [
-						"Texture2D_04_dest",
-						{
-							"type": "SEntityTemplateReference",
-							"value": "cafe915330de1b0a",
-							"postInit": true
-						}
-					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"84c70625baa43d6b",
-				{
-					"AddProperty": [
-						"Video1",
-						{ "type": "float32", "value": 1.0 }
-					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"84c70625baa43d6b",
-				{
-					"AddProperty": [
-						"Texture2D_04_dest",
-						{
-							"type": "SEntityTemplateReference",
-							"value": "cafe915330de1b0a",
-							"postInit": true
-						}
-					]
 				}
 			]
 		},
@@ -3323,6 +3642,28 @@
 		},
 		{
 			"SubEntityOperation": [
+				"d28c279ef7dc5629",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -90.0388501193076,
+								"y": 0.005782663984056619,
+								"z": -179.96622747028348
+							},
+							"position": {
+								"x": -0.2075042724609375,
+								"y": -0.00008518993854522705,
+								"z": 2.462677001953125
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"c9ccb074a210c4fc",
 				{
 					"SetPropertyValue": {
@@ -3350,8 +3691,8 @@
 						"value": {
 							"rotation": { "x": 90.0, "y": 90.0, "z": 0.0 },
 							"position": {
-								"x": 0.5791473388671875,
-								"y": 0.001070074737071991,
+								"x": 0.65106201171875,
+								"y": 0.0010349825024604795,
 								"z": 1.5234851837158203
 							}
 						}
@@ -3389,6 +3730,30 @@
 							}
 						}
 					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"559912cee4ebe70d",
+				{
+					"AddEventConnection": [
+						"EventOccurred",
+						"ForceUpdateValue",
+						"cafe99f478066589"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"559912cee4ebe70d",
+				{
+					"AddEventConnection": [
+						"EventOccurred",
+						"ForceUpdateValue",
+						"cafe99f478066589"
+					]
 				}
 			]
 		},
@@ -3485,6 +3850,24 @@
 					"SetPropertyValue": {
 						"property_name": "m_eidParent",
 						"value": "129caf96cdc5cd90"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"787f0d6e823b8459",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": 90.0, "y": 90.0, "z": 0.0 },
+							"position": {
+								"x": 1.142547607421875,
+								"y": 0.00083903968334198,
+								"z": 2.8643150329589844
+							}
+						}
 					}
 				}
 			]
@@ -4113,7 +4496,7 @@
 			"AddEntity": [
 				"feeda9a4d345d381",
 				{
-					"parent": "e3c602b2257207a3",
+					"parent": "c1b395367b88086b",
 					"name": "Helper_Evergreen_SelectableItem_SmallGoldbar",
 					"factory": "008C4D7C984A2908",
 					"blueprint": "0055BEBE74D7FAB1",
@@ -4121,11 +4504,15 @@
 						"m_mTransform": {
 							"type": "SMatrix43",
 							"value": {
-								"rotation": { "x": 90, "y": 90, "z": 0 },
+								"rotation": {
+									"x": 90.0,
+									"y": 90.0,
+									"z": 0.0
+								},
 								"position": {
-									"x": 1.23,
-									"y": -0.03,
-									"z": 2.42
+									"x": 0.3312530517578125,
+									"y": -0.029998779296875,
+									"z": 1.455322265625
 								}
 							}
 						},
@@ -4136,7 +4523,7 @@
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
-							"value": "e3c602b2257207a3",
+							"value": "c1b395367b88086b",
 							"postInit": true
 						}
 					},
@@ -4771,14 +5158,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": -90,
-									"y": 0,
-									"z": -180
+									"x": -89.9999965849052,
+									"y": 0.0,
+									"z": -180.0
 								},
 								"position": {
-									"x": -0.65,
-									"y": 0,
-									"z": 1.65
+									"x": -0.8860931396484375,
+									"y": 0.00011629611253738405,
+									"z": 1.6499996185302734
 								}
 							}
 						},
@@ -4808,11 +5195,15 @@
 						"m_mTransform": {
 							"type": "SMatrix43",
 							"value": {
-								"rotation": { "x": 90, "y": -90, "z": 0 },
+								"rotation": {
+									"x": -89.97204403461302,
+									"y": -0.007086221124435883,
+									"z": -179.9586379385381
+								},
 								"position": {
-									"x": 0.79,
-									"y": 0.0006879866123199463,
-									"z": 1.99
+									"x": 1.172576904296875,
+									"y": 0.0005001276731491089,
+									"z": 2.0145797729492188
 								}
 							}
 						},
@@ -4845,13 +5236,13 @@
 							"value": {
 								"rotation": {
 									"x": -89.99996926414873,
-									"y": 0,
-									"z": -180
+									"y": 0.0,
+									"z": 180.0
 								},
 								"position": {
-									"x": 0.36201171875,
-									"y": 8.344650268554688e-7,
-									"z": 1.2064228057861328
+									"x": -0.075714111328125,
+									"y": 0.00020526349544525144,
+									"z": 3.124704360961914
 								}
 							}
 						},
@@ -4882,14 +5273,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": 89.99997950943005,
-									"y": 0.021266808798279493,
-									"z": -179.9263940261799
+									"x": 89.99997950942883,
+									"y": 0.028110828552370418,
+									"z": -179.92343251792056
 								},
 								"position": {
-									"x": 0.3298614501953125,
-									"y": 1.2665987014770508e-6,
-									"z": 1.420919418334961
+									"x": 0.86376953125,
+									"y": -0.0002532452344894409,
+									"z": 1.6809959411621094
 								}
 							}
 						},
@@ -4925,9 +5316,9 @@
 									"z": -179.97577167005352
 								},
 								"position": {
-									"x": 0.96,
-									"y": 0.02091105282306671,
-									"z": 3.201422691345215
+									"x": 0.8941650390625,
+									"y": 0.02486315369606018,
+									"z": 2.789257049560547
 								}
 							}
 						},
@@ -4963,9 +5354,9 @@
 									"z": -179.97577167005352
 								},
 								"position": {
-									"x": 0.9,
-									"y": 0.022847674787044525,
-									"z": 2.82
+									"x": 0.852783203125,
+									"y": 0.02287299931049347,
+									"z": 2.4533615112304688
 								}
 							}
 						},
@@ -4996,13 +5387,13 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": -92.35181675597352,
-									"y": -89.9718842615762,
-									"z": 177.68289731517953
+									"x": -92.3623020444614,
+									"y": -89.97147277252952,
+									"z": 177.67575746484792
 								},
 								"position": {
-									"x": 0.2548675537109375,
-									"y": 0.000274658203125,
+									"x": 0.3660736083984375,
+									"y": 0.0002203807234764099,
 									"z": 1.7550029754638672
 								}
 							}
@@ -5034,8 +5425,16 @@
 						"m_mTransform": {
 							"type": "SMatrix43",
 							"value": {
-								"rotation": { "x": 90, "y": 0, "z": 0 },
-								"position": { "x": -0.6, "y": 0, "z": 2 }
+								"rotation": {
+									"x": 89.9999965849052,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": -0.7149200439453125,
+									"y": 0.00005564093589782715,
+									"z": 2.0
+								}
 							}
 						},
 						"GearWall": { "type": "bool", "value": true },
@@ -5066,14 +5465,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": 90.02795596538698,
-									"y": 180,
-									"z": 0
+									"x": -89.9720474480411,
+									"y": 0.0,
+									"z": 180.0
 								},
 								"position": {
-									"x": -0.3,
-									"y": 0,
-									"z": 1.29
+									"x": -0.3534088134765625,
+									"y": 0.0000279843807220459,
+									"z": 1.2900009155273438
 								}
 							}
 						},
@@ -5104,14 +5503,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": -90.00003415094992,
-									"y": -0.02211733900314923,
-									"z": -179.97788267932
+									"x": 179.98250617436108,
+									"y": -89.97205086803862,
+									"z": 90.0069971031591
 								},
 								"position": {
-									"x": 0.0158843994140625,
-									"y": -0.0008561164140701294,
-									"z": 2.3562545776367188
+									"x": 0.841339111328125,
+									"y": -0.0012531951069831848,
+									"z": 1.9968757629394531
 								}
 							}
 						},
@@ -5331,252 +5730,23 @@
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
 							"value": [
-								"cafe2f1f818366e2",
-								"cafea2d556df4f8a",
-								"cafe41e5e124f6d1",
-								"cafe3d938725a874",
-								"cafe32fa33d5adbb",
-								"cafe3de5673b92ac",
-								"cafef3f08a62b642",
-								"cafe0a646a4b1de7",
-								"cafe1b2ec90fe9f6",
-								"6cd86fedc147cbd9"
-							],
-							"postInit": true
-						}
-					},
-					"events": {
-						"OnTrue": {
-							"FlickerOn": [
-								"b200ae446bd7dd48",
-								"a60c6bce138078a9"
-							],
-							"Send": [
-								"cafeaf592075f7e3",
-								"cafe4a9a049fcba7"
-							]
-						}
-					}
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"cafe2f1f818366e2",
-				{
-					"parent": "cb695646a9f47498",
-					"name": "All Owned AR",
-					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
-					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
-					"properties": {
-						"m_aValues": {
-							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								{
-									"ref": "7b17484e83122dd4",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "44b9065ad86a2fbd",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "bae1178268867be8",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "11f4d6adf14499d5",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "5ec1d2a23fcdef93",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "d1c1b163c96dbf2f",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "9dde720889c88b82",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "77de0cc6d8c6d4a3",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "c5ba277769a2d8ad",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "f00d46b3d45aa307",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "6ef05d7d1ed77534",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "3064e273de800c7c",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "30ea24186401c24f",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "dc84d1243289685e",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								}
-							],
-							"postInit": true
-						}
-					}
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"cafea2d556df4f8a",
-				{
-					"parent": "129caf96cdc5cd90",
-					"name": "All Owned Staff & Gadget",
-					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
-					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
-					"properties": {
-						"m_aValues": {
-							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								{
-									"ref": "004bdb48ff6a1ddf",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
 								{
 									"ref": "feed5cfbbdd152ac",
 									"externalScene": null,
 									"exposedEntity": "Owned"
 								},
 								{
-									"ref": "006f244c093d6b08",
+									"ref": "feed7017ae845196",
 									"externalScene": null,
 									"exposedEntity": "Owned"
 								},
 								{
-									"ref": "feed271d77d2e727",
+									"ref": "feed828f18ca344e",
 									"externalScene": null,
 									"exposedEntity": "Owned"
 								},
 								{
-									"ref": "91cfce8a418a3646",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "1a5b27dba6e53beb",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "94361fe1a68f83e0",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "feed91e7c7aafbfb",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "17ca9781920fae94",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "feed384c371cd225",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "feed4d1decfe629b",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "769465b5ee008e9d",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "feedbf56902382a3",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "feeda9a4d345d381",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "060d7a10bc9ddb68",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								}
-							],
-							"postInit": true
-						}
-					}
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"cafe41e5e124f6d1",
-				{
-					"parent": "e3c602b2257207a3",
-					"name": "All Owned Xmas & Sharp",
-					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
-					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
-					"properties": {
-						"m_aValues": {
-							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								{
-									"ref": "d28c279ef7dc5629",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "48a985110a7309b8",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "0cd7c305c64c1709",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "619160324d17f3ce",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "23e58f2dc4be3ddf",
+									"ref": "feedc7c4f774b693",
 									"externalScene": null,
 									"exposedEntity": "Owned"
 								},
@@ -5586,17 +5756,7 @@
 									"exposedEntity": "Owned"
 								},
 								{
-									"ref": "91cfce8a418a3646",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
 									"ref": "feedeb75137a5a1a",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "60afede59ce236e8",
 									"externalScene": null,
 									"exposedEntity": "Owned"
 								},
@@ -5611,42 +5771,7 @@
 									"exposedEntity": "Owned"
 								},
 								{
-									"ref": "77168eabebc6251f",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
 									"ref": "feed4646f0f3ab33",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "e51f63fcf677f392",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "6a629349a75659af",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "879d45385b93f4fd",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "01c3836db144b516",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "8a36642e4092e8b3",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "9acb859725e71bcb",
 									"externalScene": null,
 									"exposedEntity": "Owned"
 								},
@@ -5666,66 +5791,17 @@
 									"exposedEntity": "Owned"
 								},
 								{
+									"ref": "feedbf56902382a3",
+									"externalScene": null,
+									"exposedEntity": "Owned"
+								},
+								{
+									"ref": "cafed786e260e87a",
+									"externalScene": null,
+									"exposedEntity": "Owned"
+								},
+								{
 									"ref": "feed18f8bc81ccb6",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								}
-							],
-							"postInit": true
-						}
-					}
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"cafe3d938725a874",
-				{
-					"parent": "911ecfd5cf432fac",
-					"name": "All Owned Pistol",
-					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
-					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
-					"properties": {
-						"m_aValues": {
-							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								{
-									"ref": "aa90e9bf81931b44",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "0eb69d641c22a90e",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "82340a0527c40839",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "057d13bdd5e1bae0",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "5c9dad30cf08621e",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "fb06ad7c565c7021",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "6f108e012241b13f",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "66588e93403220e1",
 									"externalScene": null,
 									"exposedEntity": "Owned"
 								},
@@ -5735,52 +5811,7 @@
 									"exposedEntity": "Owned"
 								},
 								{
-									"ref": "877441e22d035657",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "09ec9ebe572c5abe",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "d5cb91b03ea5e1a9",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "b7bc295e326668cd",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "6b42b7d11bc61c64",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "c60a8494a39f8c4a",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "5346c29af5f763d7",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "cc0aaecca25b6500",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "ffeab38c9f052d57",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "3368c3c31bd13aa8",
+									"ref": "cafe3be16ce1890a",
 									"externalScene": null,
 									"exposedEntity": "Owned"
 								},
@@ -5790,32 +5821,7 @@
 									"exposedEntity": "Owned"
 								},
 								{
-									"ref": "c8fdcda42a3a9b5b",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
 									"ref": "feedb9b997060471",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "70c37c1632bddb6e",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "242af15172c5e799",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "5193870c0f4dce7d",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "39814cb311515429",
 									"externalScene": null,
 									"exposedEntity": "Owned"
 								},
@@ -5825,180 +5831,7 @@
 									"exposedEntity": "Owned"
 								},
 								{
-									"ref": "bc2cd5b3499d63c3",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "2fdc8c992e79bc9e",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "f073b549277a3528",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "82836f6c60ce9b46",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
 									"ref": "feed3ff2676bd8ef",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "18e5c0b5aeb0962d",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								}
-							],
-							"postInit": true
-						}
-					}
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"cafe32fa33d5adbb",
-				{
-					"parent": "4d0355c974f6c856",
-					"name": "All Owned Shotgun",
-					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
-					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
-					"properties": {
-						"m_aValues": {
-							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								{
-									"ref": "188da9685022252a",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "c3c580d3d4b4a8d0",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "dc21b66296830cd6",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "55759a083ef7fa2b",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "7bb9ebb9ece79380",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "5736707d79b14e92",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "d2a8924688f7eaff",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "74b0b6ef34b26fda",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "caa736a15b78c533",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "6b3968c53ebe707a",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "b3acdc16dd04688a",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "f30b8806217ee12f",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "58323586a163ea8e",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "69ffe4d9ab073fab",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "21a201a8261041e6",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								}
-							],
-							"postInit": true
-						}
-					}
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"cafe3de5673b92ac",
-				{
-					"parent": "0e9463c88101e3a2",
-					"name": "All Owned SMG",
-					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
-					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
-					"properties": {
-						"m_aValues": {
-							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								{
-									"ref": "b3e2b4e029852374",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "03754ef72141b3b5",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "654b8cbe6a3e95d0",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "d324149cf6c9733f",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "4177ddd692f09ef2",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "322b948b97183388",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "d4a8f3f4f38486bb",
 									"externalScene": null,
 									"exposedEntity": "Owned"
 								},
@@ -6008,66 +5841,12 @@
 									"exposedEntity": "Owned"
 								},
 								{
-									"ref": "22919d4f90cf2c91",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
 									"ref": "feed7552597c2a4f",
 									"externalScene": null,
 									"exposedEntity": "Owned"
 								},
 								{
-									"ref": "ba660b67c438392f",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "1339e91386c84e8a",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "0382412bf5427c0b",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "16edd7995ccd1048",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "7a613ecb7adf991a",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								}
-							],
-							"postInit": true
-						}
-					}
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"cafef3f08a62b642",
-				{
-					"parent": "e5b0aa5553c89229",
-					"name": "All Owned SP 1",
-					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
-					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
-					"properties": {
-						"m_aValues": {
-							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								{
-									"ref": "1545e12b4dc94973",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "ab91440ca78a62f6",
+									"ref": "feed7eb294db68fb",
 									"externalScene": null,
 									"exposedEntity": "Owned"
 								},
@@ -6077,66 +5856,7 @@
 									"exposedEntity": "Owned"
 								},
 								{
-									"ref": "7468dacdb802fdcb",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "52fe7c9f33346129",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "e2f6b8dfdb70014e",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "9ed2e628b7a10b94",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
 									"ref": "feed7108a7f736bd",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "6170d1ed2324e08f",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								}
-							],
-							"postInit": true
-						}
-					}
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"cafe0a646a4b1de7",
-				{
-					"parent": "fa95b15c95e13d0a",
-					"name": "All Owned SP 2",
-					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
-					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
-					"properties": {
-						"m_aValues": {
-							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								{
-									"ref": "e9763e338e573943",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "64573522ef7d6b76",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "dd5d5a670fee62bd",
 									"externalScene": null,
 									"exposedEntity": "Owned"
 								},
@@ -6146,37 +5866,59 @@
 									"exposedEntity": "Owned"
 								},
 								{
-									"ref": "d8e70b18f9f63237",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "f97dce24ffcd71f3",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "ab4f6b7dbab52b1c",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "b0fd80d0ecbfcb8e",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
 									"ref": "feedfcb553bc3e9b",
 									"externalScene": null,
 									"exposedEntity": "Owned"
 								},
 								{
-									"ref": "ea7fcc6c7a6fabe2",
+									"ref": "cafe4076981fafde",
+									"externalScene": null,
+									"exposedEntity": "Owned"
+								},
+								{
+									"ref": "feed271d77d2e727",
+									"externalScene": null,
+									"exposedEntity": "Owned"
+								},
+								{
+									"ref": "feed91e7c7aafbfb",
+									"externalScene": null,
+									"exposedEntity": "Owned"
+								},
+								{
+									"ref": "feed384c371cd225",
+									"externalScene": null,
+									"exposedEntity": "Owned"
+								},
+								{
+									"ref": "feed4d1decfe629b",
+									"externalScene": null,
+									"exposedEntity": "Owned"
+								},
+								{
+									"ref": "cafea7bb262e1f61",
+									"externalScene": null,
+									"exposedEntity": "Owned"
+								},
+								{
+									"ref": "feeda9a4d345d381",
 									"externalScene": null,
 									"exposedEntity": "Owned"
 								}
 							],
 							"postInit": true
+						}
+					},
+					"events": {
+						"OnTrue": {
+							"FlickerOn": [
+								"b200ae446bd7dd48",
+								"a60c6bce138078a9"
+							],
+							"Send": [
+								"cafeaf592075f7e3",
+								"cafe4a9a049fcba7"
+							]
 						}
 					}
 				}
@@ -8497,7 +8239,7 @@
 			"AddEntity": [
 				"feeda75649904273",
 				{
-					"parent": "b2efc71c85212877",
+					"parent": "4729cefa2497df85",
 					"name": "Suppliers",
 					"factory": "[modules:/zentity.class].pc_entitytype",
 					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
@@ -12529,95 +12271,6 @@
 		},
 		{
 			"AddEntity": [
-				"cafe1b2ec90fe9f6",
-				{
-					"parent": "c1b395367b88086b",
-					"name": "All Owned DLCs",
-					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
-					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
-					"properties": {
-						"m_aValues": {
-							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								{
-									"ref": "cc3a29a86dbf0425",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "9117c01b8aac7e2e",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "fa36dea2c7e006b6",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "a6c6835a1145d477",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "15d0941011a0f5f2",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "98b9099c5ad80255",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "b52e0c2c768194c3",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "ace9c9d4a106badc",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "730d3b2345ed8407",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "d2a05659ac5afc53",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "bc98f1c5a80d2193",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "910a924bcdd83561",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "2332abb586533dc3",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								},
-								{
-									"ref": "b34de55746ff496c",
-									"externalScene": null,
-									"exposedEntity": "Owned"
-								}
-							],
-							"postInit": true
-						}
-					}
-				}
-			]
-		},
-		{
-			"AddEntity": [
 				"cafed17c2a6eb2f2",
 				{
 					"parent": "3d41d963b8913ae3",
@@ -12707,31 +12360,8 @@
 							"postInit": true
 						}
 					},
-					"exposedEntities": {
-						"All Owned": {
-							"isArray": false,
-							"refersTo": ["cafe0f498cfc0e28"]
-						}
-					},
+					"exposedEntities": {},
 					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"cafe0f498cfc0e28",
-				{
-					"parent": "cafed17c2a6eb2f2",
-					"name": "All Owned",
-					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
-					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
-					"properties": {
-						"m_aValues": {
-							"type": "TArray<SEntityTemplateReference>",
-							"value": [],
-							"postInit": true
-						}
-					}
 				}
 			]
 		},
@@ -13589,14 +13219,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": 90.0,
-									"y": 0.0,
+									"x": 89.9999965849052,
+									"y": -0.0,
 									"z": -180.0
 								},
 								"position": {
-									"x": -0.3866730034351349,
-									"y": 0.011138999834656715,
-									"z": 2.8416099548339844
+									"x": 0.2941131591796875,
+									"y": 0.010801292955875397,
+									"z": 1.290853500366211
 								}
 							}
 						},
@@ -18997,433 +18627,6 @@
 		},
 		{
 			"AddEntity": [
-				"cafecfe7cf9d58a8",
-				{
-					"parent": "e2c270d18a539d5f",
-					"name": "RealTime",
-					"factory": "[modules:/zentity.class].pc_entitytype",
-					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"cafeba483edcf4b4",
-				{
-					"parent": "cafecfe7cf9d58a8",
-					"name": "Camera E",
-					"factory": "[modules:/zcameraentity.class].pc_entitytype",
-					"blueprint": "[modules:/zcameraentity.class].pc_entityblueprint",
-					"properties": {
-						"m_mTransform": {
-							"type": "SMatrix43",
-							"value": {
-								"rotation": {
-									"x": -0.0,
-									"y": 0,
-									"z": 79.00001
-								},
-								"position": {
-									"x": 25.29383,
-									"y": -151.58266,
-									"z": -17.99809
-								}
-							}
-						},
-						"m_fFarZ": { "type": "float32", "value": 3000.0 },
-						"m_eRoomBehaviour": {
-							"type": "ZSpatialEntity.ERoomBehaviour",
-							"value": "ROOM_DYNAMIC"
-						},
-						"m_fFovYDeg": { "type": "float32", "value": 25.0 },
-						"m_bFPSSeperateFOV": {
-							"type": "bool",
-							"value": false
-						},
-						"m_fNearZ": {
-							"type": "float32",
-							"value": 0.05000000074505806
-						},
-						"m_eProjectionType": {
-							"type": "ICameraEntity.EProjectionType",
-							"value": "ePerspectiveRH"
-						},
-						"m_fWidth": {
-							"type": "float32",
-							"value": 38.23999786376953
-						},
-						"m_fAspectWByH": {
-							"type": "float32",
-							"value": 1.0
-						},
-						"m_eidParent": {
-							"type": "SEntityTemplateReference",
-							"value": "fffffffffffffffe"
-						}
-					}
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"cafe3227998e148c",
-				{
-					"parent": "cafecfe7cf9d58a8",
-					"name": "Camera A",
-					"factory": "[modules:/zcameraentity.class].pc_entitytype",
-					"blueprint": "[modules:/zcameraentity.class].pc_entityblueprint",
-					"properties": {
-						"m_mTransform": {
-							"type": "SMatrix43",
-							"value": {
-								"rotation": {
-									"x": -0.0,
-									"y": 0,
-									"z": 79.00001
-								},
-								"position": {
-									"x": 25.29383,
-									"y": -151.58266,
-									"z": -17.99809
-								}
-							}
-						},
-						"m_fFarZ": { "type": "float32", "value": 3000.0 },
-						"m_eRoomBehaviour": {
-							"type": "ZSpatialEntity.ERoomBehaviour",
-							"value": "ROOM_DYNAMIC"
-						},
-						"m_fFovYDeg": { "type": "float32", "value": 25.0 },
-						"m_bFPSSeperateFOV": {
-							"type": "bool",
-							"value": false
-						},
-						"m_fNearZ": {
-							"type": "float32",
-							"value": 0.05000000074505806
-						},
-						"m_eProjectionType": {
-							"type": "ICameraEntity.EProjectionType",
-							"value": "ePerspectiveRH"
-						},
-						"m_fWidth": {
-							"type": "float32",
-							"value": 38.23999786376953
-						},
-						"m_fAspectWByH": {
-							"type": "float32",
-							"value": 1.0
-						},
-						"m_eidParent": {
-							"type": "SEntityTemplateReference",
-							"value": "fffffffffffffffe"
-						}
-					}
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"cafe50146e2ae598",
-				{
-					"parent": "cafecfe7cf9d58a8",
-					"name": "Camera D",
-					"factory": "[modules:/zcameraentity.class].pc_entitytype",
-					"blueprint": "[modules:/zcameraentity.class].pc_entityblueprint",
-					"properties": {
-						"m_mTransform": {
-							"type": "SMatrix43",
-							"value": {
-								"rotation": {
-									"x": -0.0,
-									"y": 0,
-									"z": 79.00001
-								},
-								"position": {
-									"x": 25.29383,
-									"y": -151.58266,
-									"z": -17.99809
-								}
-							}
-						},
-						"m_fFarZ": { "type": "float32", "value": 3000.0 },
-						"m_eRoomBehaviour": {
-							"type": "ZSpatialEntity.ERoomBehaviour",
-							"value": "ROOM_DYNAMIC"
-						},
-						"m_fFovYDeg": { "type": "float32", "value": 25.0 },
-						"m_bFPSSeperateFOV": {
-							"type": "bool",
-							"value": false
-						},
-						"m_fNearZ": {
-							"type": "float32",
-							"value": 0.05000000074505806
-						},
-						"m_eProjectionType": {
-							"type": "ICameraEntity.EProjectionType",
-							"value": "ePerspectiveRH"
-						},
-						"m_fWidth": {
-							"type": "float32",
-							"value": 38.23999786376953
-						},
-						"m_fAspectWByH": {
-							"type": "float32",
-							"value": 1.0
-						},
-						"m_eidParent": {
-							"type": "SEntityTemplateReference",
-							"value": "fffffffffffffffe"
-						}
-					}
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"cafe23b4a21e76d2",
-				{
-					"parent": "cafecfe7cf9d58a8",
-					"name": "Camera B",
-					"factory": "[modules:/zcameraentity.class].pc_entitytype",
-					"blueprint": "[modules:/zcameraentity.class].pc_entityblueprint",
-					"properties": {
-						"m_mTransform": {
-							"type": "SMatrix43",
-							"value": {
-								"rotation": {
-									"x": -0.0,
-									"y": 0,
-									"z": 79.00001
-								},
-								"position": {
-									"x": 25.29383,
-									"y": -151.58266,
-									"z": -17.99809
-								}
-							}
-						},
-						"m_fFarZ": { "type": "float32", "value": 3000.0 },
-						"m_eRoomBehaviour": {
-							"type": "ZSpatialEntity.ERoomBehaviour",
-							"value": "ROOM_DYNAMIC"
-						},
-						"m_fFovYDeg": { "type": "float32", "value": 25.0 },
-						"m_bFPSSeperateFOV": {
-							"type": "bool",
-							"value": false
-						},
-						"m_fNearZ": {
-							"type": "float32",
-							"value": 0.05000000074505806
-						},
-						"m_eProjectionType": {
-							"type": "ICameraEntity.EProjectionType",
-							"value": "ePerspectiveRH"
-						},
-						"m_fWidth": {
-							"type": "float32",
-							"value": 38.23999786376953
-						},
-						"m_fAspectWByH": {
-							"type": "float32",
-							"value": 1.0
-						},
-						"m_eidParent": {
-							"type": "SEntityTemplateReference",
-							"value": "fffffffffffffffe"
-						}
-					}
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"cafe43d8d0e69e88",
-				{
-					"parent": "cafecfe7cf9d58a8",
-					"name": "Camera C",
-					"factory": "[modules:/zcameraentity.class].pc_entitytype",
-					"blueprint": "[modules:/zcameraentity.class].pc_entityblueprint",
-					"properties": {
-						"m_mTransform": {
-							"type": "SMatrix43",
-							"value": {
-								"rotation": {
-									"x": -0.0,
-									"y": 0,
-									"z": 79.00001
-								},
-								"position": {
-									"x": 25.29383,
-									"y": -151.58266,
-									"z": -17.99809
-								}
-							}
-						},
-						"m_fFarZ": { "type": "float32", "value": 3000.0 },
-						"m_eRoomBehaviour": {
-							"type": "ZSpatialEntity.ERoomBehaviour",
-							"value": "ROOM_DYNAMIC"
-						},
-						"m_fFovYDeg": { "type": "float32", "value": 25.0 },
-						"m_bFPSSeperateFOV": {
-							"type": "bool",
-							"value": false
-						},
-						"m_fNearZ": {
-							"type": "float32",
-							"value": 0.05000000074505806
-						},
-						"m_eProjectionType": {
-							"type": "ICameraEntity.EProjectionType",
-							"value": "ePerspectiveRH"
-						},
-						"m_fWidth": {
-							"type": "float32",
-							"value": 38.23999786376953
-						},
-						"m_fAspectWByH": {
-							"type": "float32",
-							"value": 1.0
-						},
-						"m_eidParent": {
-							"type": "SEntityTemplateReference",
-							"value": "fffffffffffffffe"
-						}
-					}
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"cafe94b1766235ca",
-				{
-					"parent": "cafecfe7cf9d58a8",
-					"name": "Camera F",
-					"factory": "[modules:/zcameraentity.class].pc_entitytype",
-					"blueprint": "[modules:/zcameraentity.class].pc_entityblueprint",
-					"properties": {
-						"m_mTransform": {
-							"type": "SMatrix43",
-							"value": {
-								"rotation": {
-									"x": -0.0,
-									"y": 0,
-									"z": 79.00001
-								},
-								"position": {
-									"x": 25.29383,
-									"y": -151.58266,
-									"z": -17.99809
-								}
-							}
-						},
-						"m_fFarZ": { "type": "float32", "value": 3000.0 },
-						"m_eRoomBehaviour": {
-							"type": "ZSpatialEntity.ERoomBehaviour",
-							"value": "ROOM_DYNAMIC"
-						},
-						"m_fFovYDeg": { "type": "float32", "value": 25.0 },
-						"m_bFPSSeperateFOV": {
-							"type": "bool",
-							"value": false
-						},
-						"m_fNearZ": {
-							"type": "float32",
-							"value": 0.05000000074505806
-						},
-						"m_eProjectionType": {
-							"type": "ICameraEntity.EProjectionType",
-							"value": "ePerspectiveRH"
-						},
-						"m_fWidth": {
-							"type": "float32",
-							"value": 38.23999786376953
-						},
-						"m_fAspectWByH": {
-							"type": "float32",
-							"value": 1.0
-						},
-						"m_eidParent": {
-							"type": "SEntityTemplateReference",
-							"value": "fffffffffffffffe"
-						}
-					}
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"cafe915330de1b0a",
-				{
-					"parent": "cafecfe7cf9d58a8",
-					"name": "Render Destination Texture",
-					"factory": "[modules:/zrenderdestinationtextureentity.class].pc_entitytype",
-					"blueprint": "[modules:/zrenderdestinationtextureentity.class].pc_entityblueprint",
-					"properties": {
-						"m_mTransform": {
-							"type": "SMatrix43",
-							"value": {
-								"rotation": {
-									"x": -0.0,
-									"y": 0.0,
-									"z": -180.0
-								},
-								"position": {
-									"x": -42.176170349121094,
-									"y": 72.88215637207031,
-									"z": 90.84789276123048
-								}
-							}
-						},
-						"m_nWidth": { "type": "uint32", "value": 512 },
-						"m_nHeight": { "type": "uint32", "value": 512 },
-						"m_bNeedsGamma": {
-							"type": "bool",
-							"value": false
-						},
-						"m_bUseSimpleRendering": {
-							"type": "bool",
-							"value": false
-						},
-						"m_bUseBGRA": { "type": "bool", "value": false },
-						"m_bIsHDR": { "type": "bool", "value": true },
-						"m_nSelectedSource": {
-							"type": "int32",
-							"value": 1
-						},
-						"m_fOutputScale": {
-							"type": "float32",
-							"value": 0.019999999552965164
-						},
-						"m_bDrawShadows": {
-							"type": "bool",
-							"value": false
-						},
-						"m_eidParent": {
-							"type": "SEntityTemplateReference",
-							"value": "fffffffffffffffe"
-						},
-						"m_aMultiSource": {
-							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"cafe3227998e148c",
-								"cafe23b4a21e76d2",
-								"cafe43d8d0e69e88",
-								"cafe50146e2ae598",
-								"cafeba483edcf4b4",
-								"cafe94b1766235ca"
-							],
-							"postInit": true
-						}
-					}
-				}
-			]
-		},
-		{
-			"AddEntity": [
 				"cafe417aa3158608",
 				{
 					"parent": "cafeed3206e3fe12",
@@ -19471,7 +18674,7 @@
 				"cafe8b0ddd1d0155",
 				{
 					"parent": "cafe3aa8310e61ac",
-					"name": "Spatial Garage Door",
+					"name": "Garage Door Motor Spatial",
 					"factory": "[modules:/zspatialentity.class].pc_entitytype",
 					"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
 					"properties": {
@@ -19539,11 +18742,7 @@
 							"postInit": true
 						}
 					},
-					"events": {
-						"RotationOutput": {
-							"Angles": ["cafe82110f2e5d99"]
-						}
-					}
+					"events": { "RotationOutput": { "Angles": [] } }
 				}
 			]
 		},
@@ -19556,6 +18755,14 @@
 					"factory": "[modules:/zsetrotationentity.class].pc_entitytype",
 					"blueprint": "[modules:/zsetrotationentity.class].pc_entityblueprint",
 					"properties": {
+						"m_fAngles": {
+							"type": "SVector3",
+							"value": {
+								"x": -0.003460981420790723,
+								"y": 3.9482365607289256,
+								"z": 35.16306588444594
+							}
+						},
 						"m_Geom": {
 							"type": "SEntityTemplateReference",
 							"value": "cafe3aa8310e61ac",
@@ -19578,14 +18785,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": 153.83304,
-									"y": 7.9204593,
-									"z": 13.453997
+									"x": 164.91588110622828,
+									"y": 4.822555114382654,
+									"z": -68.095901676816
 								},
 								"position": {
-									"x": -0.4644661,
-									"y": -0.08036804,
-									"z": 1.0368433
+									"x": -0.31366342306137085,
+									"y": -0.3267103135585785,
+									"z": 1.0363683700561523
 								}
 							}
 						},
@@ -19657,6 +18864,101 @@
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "cafee5eb0c7a46ef"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe4305a424453f",
+				{
+					"parent": "cafea095fce1120c",
+					"name": "If shooting is allowed, deactivate cripplebox",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rValueEntity": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea095fce1120c"
+						}
+					},
+					"events": {
+						"PollTrue": {
+							"Deactivate": [
+								"901665526a9ff11c",
+								"e07c81c25ad49639"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe99f478066589",
+				{
+					"parent": "03c56a51359c4434",
+					"name": "Not in shooting range and can not shoot",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_eEvaluation": {
+							"type": "ZValueBool_Operation_Signal.EEvaluationType",
+							"value": "ALL"
+						},
+						"m_bFireOnLevelStart": {
+							"type": "bool",
+							"value": true
+						},
+						"m_aValues": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"80a351216ee45b53",
+								"cafe741e49a9c28e"
+							],
+							"postInit": true
+						}
+					},
+					"events": {
+						"OnTrue": {
+							"Activate": ["e07c81c25ad49639"],
+							"Deactivate": ["975b7045061419a5"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafed1b676c5f32d",
+				{
+					"parent": "03c56a51359c4434",
+					"name": "Not in shooting range and can shoot",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_eEvaluation": {
+							"type": "ZValueBool_Operation_Signal.EEvaluationType",
+							"value": "ALL"
+						},
+						"m_bFireOnLevelStart": {
+							"type": "bool",
+							"value": true
+						},
+						"m_aValues": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"80a351216ee45b53",
+								"cafea095fce1120c"
+							],
+							"postInit": true
+						}
+					},
+					"events": {
+						"OnTrue": {
+							"Deactivate": ["e07c81c25ad49639"],
+							"Activate": ["975b7045061419a5"]
 						}
 					}
 				}
