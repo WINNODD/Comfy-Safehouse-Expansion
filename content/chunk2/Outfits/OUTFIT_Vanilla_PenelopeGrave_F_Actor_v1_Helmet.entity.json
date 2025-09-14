@@ -569,7 +569,7 @@
 				"m_ResourceID": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "00D7184648549B04",
+						"resource": "[assembly:/_pro/characters/assets/_apparel/male/accessories/geometry/male_reg_hats.wl2?/helmet_racing_open.prim].pc_prim",
 						"flag": "5F"
 					}
 				},
@@ -605,7 +605,11 @@
 				"Texture2D_01_enab": { "type": "bool", "value": true },
 				"Diffuse_Color_01_Value": {
 					"type": "SColorRGB",
-					"value": "#ffffff"
+					"value": "#282828"
+				},
+				"Diffuse_Color_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",

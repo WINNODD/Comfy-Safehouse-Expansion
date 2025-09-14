@@ -13,6 +13,24 @@
 				"004bdb48ff6a1ddf",
 				{
 					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": 90.0, "y": 90.0, "z": 0.0 },
+							"position": {
+								"x": 1.2022247314453125,
+								"y": 0.0013229325413703918,
+								"z": 1.5277023315429688
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"004bdb48ff6a1ddf",
+				{
+					"SetPropertyValue": {
 						"property_name": "m_eidParent",
 						"value": "129caf96cdc5cd90"
 					}
@@ -73,16 +91,21 @@
 		{
 			"SubEntityOperation": [
 				"006f244c093d6b08",
-				{ "SetParent": "129caf96cdc5cd90" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"006f244c093d6b08",
 				{
 					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "129caf96cdc5cd90"
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -180.0,
+								"y": 89.94067872914675,
+								"z": -90.00349812480852
+							},
+							"position": {
+								"x": -1.00262451171875,
+								"y": 0.0013995468616485596,
+								"z": 2.8346099853515625
+							}
+						}
 					}
 				}
 			]
@@ -195,6 +218,28 @@
 				"6b06f763d4ba044c",
 				{
 					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -89.9999897547144,
+								"y": 0.03830833601868679,
+								"z": -0.0383083434395968
+							},
+							"position": {
+								"x": -0.9086456298828124,
+								"y": -0.00038964301347732544,
+								"z": 3.1746864318847656
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6b06f763d4ba044c",
+				{
+					"SetPropertyValue": {
 						"property_name": "m_eidParent",
 						"value": "129caf96cdc5cd90"
 					}
@@ -221,7 +266,29 @@
 		{
 			"SubEntityOperation": [
 				"b52e0c2c768194c3",
-				{ "SetParent": "129caf96cdc5cd90" }
+				{ "SetParent": "e3c602b2257207a3" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b52e0c2c768194c3",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": 89.9999965849052,
+								"y": 0.0,
+								"z": -0.0
+							},
+							"position": {
+								"x": 0.2985076904296875,
+								"y": 0.04947441071271896,
+								"z": 2.4697933197021484
+							}
+						}
+					}
+				}
 			]
 		},
 		{
@@ -230,7 +297,7 @@
 				{
 					"SetPropertyValue": {
 						"property_name": "m_eidParent",
-						"value": "129caf96cdc5cd90"
+						"value": "e3c602b2257207a3"
 					}
 				}
 			]
@@ -261,14 +328,14 @@
 						"property_name": "m_mTransform",
 						"value": {
 							"rotation": {
-								"x": -90.0,
+								"x": -90.00000341509478,
 								"y": 90.0,
 								"z": 0.0
 							},
 							"position": {
-								"x": -1.0695040225982666,
-								"y": 0.03340800106525421,
-								"z": 2.243662118911743
+								"x": -1.299468994140625,
+								"y": 0.033407531678676605,
+								"z": 1.920206069946289
 							}
 						}
 					}
@@ -394,7 +461,29 @@
 		{
 			"SubEntityOperation": [
 				"fa36dea2c7e006b6",
-				{ "SetParent": "129caf96cdc5cd90" }
+				{ "SetParent": "e3c602b2257207a3" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fa36dea2c7e006b6",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -180.0
+							},
+							"position": {
+								"x": 0.1661834716796875,
+								"y": 0.049901388585567474,
+								"z": 2.980661392211914
+							}
+						}
+					}
+				}
 			]
 		},
 		{
@@ -403,7 +492,7 @@
 				{
 					"SetPropertyValue": {
 						"property_name": "m_eidParent",
-						"value": "129caf96cdc5cd90"
+						"value": "e3c602b2257207a3"
 					}
 				}
 			]
@@ -626,6 +715,28 @@
 					"SetPropertyValue": {
 						"property_name": "m_eidParent",
 						"value": "e3c602b2257207a3"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3accb495e2618d34",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -89.9999965849052,
+								"y": 0.0,
+								"z": -180.0
+							},
+							"position": {
+								"x": -0.0453338623046875,
+								"y": -0.0018485784530639648,
+								"z": 1.2202396392822266
+							}
+						}
 					}
 				}
 			]
@@ -1148,6 +1259,28 @@
 		},
 		{
 			"SubEntityOperation": [
+				"1e059e20ee78a46b",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -89.9999965849052,
+								"y": 0.0,
+								"z": -0.0
+							},
+							"position": {
+								"x": -1.0867156982421875,
+								"y": -0.0005316212773323059,
+								"z": 2.064990997314453
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"d2345f09f565926b",
 				{ "SetParent": "cafe8d431e29f042" }
 			]
@@ -1277,6 +1410,12 @@
 							{
 								"AddItemAfter": [
 									"e51f63fcf677f392",
+									"feeda9a4d345d381"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"e51f63fcf677f392",
 									"b52e0c2c768194c3"
 								]
 							},
@@ -1289,19 +1428,7 @@
 							{
 								"AddItemAfter": [
 									"e51f63fcf677f392",
-									"730d3b2345ed8407"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"e51f63fcf677f392",
 									"fa36dea2c7e006b6"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"e51f63fcf677f392",
-									"d2a05659ac5afc53"
 								]
 							},
 							{
@@ -1404,6 +1531,28 @@
 			"SubEntityOperation": [
 				"91cfce8a418a3646",
 				{ "SetParent": "129caf96cdc5cd90" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"91cfce8a418a3646",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -89.9999965849052,
+								"y": 0.0,
+								"z": -0.0
+							},
+							"position": {
+								"x": -1.008392333984375,
+								"y": 0.0012917369604110718,
+								"z": 2.832792282104492
+							}
+						}
+					}
+				}
 			]
 		},
 		{
@@ -1528,6 +1677,28 @@
 				"24acb3b7c96f80b3",
 				{
 					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": 89.98601006280896,
+								"y": 0.032049536626531205,
+								"z": 0.0762974218890636
+							},
+							"position": {
+								"x": -1.1096038818359375,
+								"y": 0.002786897122859955,
+								"z": 2.4840869903564453
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"24acb3b7c96f80b3",
+				{
+					"SetPropertyValue": {
 						"property_name": "m_eidParent",
 						"value": "129caf96cdc5cd90"
 					}
@@ -1597,6 +1768,28 @@
 				"a8a40725f2661bc1",
 				{
 					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -89.9999965849052,
+								"y": 0.0,
+								"z": -180.0
+							},
+							"position": {
+								"x": -0.0405426025390625,
+								"y": -0.0009277611970901488,
+								"z": 2.0704803466796875
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a8a40725f2661bc1",
+				{
+					"SetPropertyValue": {
 						"property_name": "m_eidParent",
 						"value": "129caf96cdc5cd90"
 					}
@@ -1659,18 +1852,18 @@
 						[
 							{ "RemoveItemByValue": "6a629349a75659af" },
 							{ "RemoveItemByValue": "94361fe1a68f83e0" },
-							{ "RemoveItemByValue": "2a2cae69d24d207f" },
-							{ "RemoveItemByValue": "1e059e20ee78a46b" },
-							{ "RemoveItemByValue": "01c3836db144b516" },
-							{ "RemoveItemByValue": "60afede59ce236e8" },
-							{ "RemoveItemByValue": "0cd7c305c64c1709" },
-							{ "RemoveItemByValue": "619160324d17f3ce" },
-							{ "RemoveItemByValue": "3accb495e2618d34" },
-							{ "RemoveItemByValue": "99334257ba02591e" },
-							{ "RemoveItemByValue": "03afe69143af3a64" },
-							{ "RemoveItemByValue": "4090c9e73bf318dc" },
-							{ "RemoveItemByValue": "0b33aba788fdb2ef" },
-							{ "RemoveItemByValue": "1048ef9d5f7b6d4e" },
+							{
+								"AddItemAfter": [
+									"060d7a10bc9ddb68",
+									"1e059e20ee78a46b"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"060d7a10bc9ddb68",
+									"d2a05659ac5afc53"
+								]
+							},
 							{
 								"AddItemAfter": [
 									"060d7a10bc9ddb68",
@@ -1698,12 +1891,6 @@
 							{
 								"AddItemAfter": [
 									"060d7a10bc9ddb68",
-									"feeda9a4d345d381"
-								]
-							},
-							{
-								"AddItemAfter": [
-									"060d7a10bc9ddb68",
 									"91cfce8a418a3646"
 								]
 							},
@@ -1717,6 +1904,76 @@
 								"AddItemAfter": [
 									"060d7a10bc9ddb68",
 									"004bdb48ff6a1ddf"
+								]
+							},
+							{ "RemoveItemByValue": "1e059e20ee78a46b" },
+							{ "RemoveItemByValue": "01c3836db144b516" },
+							{ "RemoveItemByValue": "60afede59ce236e8" },
+							{ "RemoveItemByValue": "0cd7c305c64c1709" },
+							{ "RemoveItemByValue": "619160324d17f3ce" },
+							{
+								"AddItemAfter": [
+									"2a2cae69d24d207f",
+									"730d3b2345ed8407"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2a2cae69d24d207f",
+									"813802d31f5d9d09"
+								]
+							},
+							{ "RemoveItemByValue": "99334257ba02591e" },
+							{ "RemoveItemByValue": "03afe69143af3a64" },
+							{ "RemoveItemByValue": "4090c9e73bf318dc" },
+							{ "RemoveItemByValue": "0b33aba788fdb2ef" },
+							{ "RemoveItemByValue": "1048ef9d5f7b6d4e" },
+							{
+								"AddItemAfter": [
+									"3accb495e2618d34",
+									"feedc7c4f774b693"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"3accb495e2618d34",
+									"2def6a8c42e4d729"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"3accb495e2618d34",
+									"feed828f18ca344e"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"3accb495e2618d34",
+									"24acb3b7c96f80b3"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"3accb495e2618d34",
+									"069f16a4764ef5cb"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"3accb495e2618d34",
+									"6b06f763d4ba044c"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"3accb495e2618d34",
+									"feed7017ae845196"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"3accb495e2618d34",
+									"a8a40725f2661bc1"
 								]
 							}
 						]
@@ -1956,6 +2213,28 @@
 			"SubEntityOperation": [
 				"2def6a8c42e4d729",
 				{ "SetParent": "129caf96cdc5cd90" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2def6a8c42e4d729",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -90.04764399629245,
+								"y": -0.03837849848964862,
+								"z": 0.06631143322469178
+							},
+							"position": {
+								"x": 0.6280517578125,
+								"y": -0.000384308397769928,
+								"z": 2.460355758666992
+							}
+						}
+					}
+				}
 			]
 		},
 		{
@@ -2615,6 +2894,28 @@
 		},
 		{
 			"SubEntityOperation": [
+				"2a2cae69d24d207f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -89.9999965849052,
+								"y": 0.0,
+								"z": -0.0
+							},
+							"position": {
+								"x": -1.08856201171875,
+								"y": -0.0003323554992675781,
+								"z": 1.2081756591796875
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"a7ea6da0f3834875",
 				{
 					"SetPropertyValue": {
@@ -2698,6 +2999,28 @@
 				"069f16a4764ef5cb",
 				{
 					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": 89.9999965849052,
+								"y": -0.0,
+								"z": -180.0
+							},
+							"position": {
+								"x": 0.0282440185546875,
+								"y": -0.0007972940802574158,
+								"z": 2.4859848022460938
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"069f16a4764ef5cb",
+				{
+					"SetPropertyValue": {
 						"property_name": "m_eidParent",
 						"value": "129caf96cdc5cd90"
 					}
@@ -2708,6 +3031,28 @@
 			"SubEntityOperation": [
 				"730d3b2345ed8407",
 				{ "SetParent": "129caf96cdc5cd90" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"730d3b2345ed8407",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -180.0
+							},
+							"position": {
+								"x": -0.12939453125,
+								"y": 0.0007673799991607666,
+								"z": 1.6516151428222656
+							}
+						}
+					}
+				}
 			]
 		},
 		{
@@ -2735,14 +3080,14 @@
 						"property_name": "m_mTransform",
 						"value": {
 							"rotation": {
-								"x": -90.0,
+								"x": -90.00000341509478,
 								"y": 90.0,
 								"z": 0.0
 							},
 							"position": {
-								"x": -1.0695040225982666,
-								"y": 0.032694000750780106,
-								"z": 3.276076078414917
+								"x": -1.1866912841796875,
+								"y": 0.03269418701529503,
+								"z": 2.6378936767578125
 							}
 						}
 					}
@@ -3001,6 +3346,24 @@
 				"17ca9781920fae94",
 				{
 					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": 90.0, "y": 90.0, "z": 0.0 },
+							"position": {
+								"x": 0.5791473388671875,
+								"y": 0.001070074737071991,
+								"z": 1.5234851837158203
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"17ca9781920fae94",
+				{
+					"SetPropertyValue": {
 						"property_name": "m_eidParent",
 						"value": "129caf96cdc5cd90"
 					}
@@ -3091,6 +3454,28 @@
 			"SubEntityOperation": [
 				"813802d31f5d9d09",
 				{ "SetParent": "129caf96cdc5cd90" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"813802d31f5d9d09",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -89.97577673122031,
+								"y": 0.022195394593911965,
+								"z": 0.061742336885622806
+							},
+							"position": {
+								"x": -1.0458984375,
+								"y": 0.00016943365335464478,
+								"z": 1.6445255279541016
+							}
+						}
+					}
+				}
 			]
 		},
 		{
@@ -3728,7 +4113,7 @@
 			"AddEntity": [
 				"feeda9a4d345d381",
 				{
-					"parent": "129caf96cdc5cd90",
+					"parent": "e3c602b2257207a3",
 					"name": "Helper_Evergreen_SelectableItem_SmallGoldbar",
 					"factory": "008C4D7C984A2908",
 					"blueprint": "0055BEBE74D7FAB1",
@@ -3751,7 +4136,7 @@
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
-							"value": "129caf96cdc5cd90",
+							"value": "e3c602b2257207a3",
 							"postInit": true
 						}
 					},
@@ -4001,14 +4386,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": -90.0,
+									"x": -90.00000341509478,
 									"y": 90.0,
 									"z": 0.0
 								},
 								"position": {
-									"x": -1.0695040225982666,
-									"y": 0.03306400030851364,
-									"z": 2.65726089477539
+									"x": -1.1359100341796875,
+									"y": 0.03306421637535095,
+									"z": 2.241840362548828
 								}
 							}
 						},
@@ -4155,14 +4540,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": -90.00098697233577,
-									"y": -0.25822915694878606,
-									"z": -179.99356142808395
+									"x": -90.00096989668981,
+									"y": -0.25818686976563054,
+									"z": 0.007955410311367516
 								},
 								"position": {
-									"x": -0.628662109375,
-									"y": -0.0005421856185421348,
-									"z": 2.4258956909179688
+									"x": 0.639923095703125,
+									"y": -0.0011759325861930847,
+									"z": 2.818811416625977
 								}
 							}
 						},
@@ -4193,14 +4578,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": -89.96031657415323,
-									"y": 0.06327953246646517,
-									"z": 179.81309311991853
+									"x": -89.96031315905742,
+									"y": 0.06407687549149055,
+									"z": -0.1861100809458422
 								},
 								"position": {
-									"x": -0.613861083984375,
-									"y": -0.0005421847454272211,
-									"z": 3.2072649002075195
+									"x": -0.4113006591796875,
+									"y": -0.0006590709090232849,
+									"z": 2.84444808959961
 								}
 							}
 						},
@@ -4232,14 +4617,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": -89.99999316981042,
-									"y": 0.02359207318193268,
-									"z": 179.91706089763946
+									"x": -90.000003415095,
+									"y": 0.019867465571769063,
+									"z": -0.10833678319448996
 								},
 								"position": {
-									"x": 0.8720703125,
-									"y": -0.0005420961533673108,
-									"z": 2.813699722290039
+									"x": 0.18292236328125,
+									"y": -0.000209026038646698,
+									"z": 3.1616926193237305
 								}
 							}
 						},
@@ -4611,14 +4996,14 @@
 							"type": "SMatrix43",
 							"value": {
 								"rotation": {
-									"x": -92.3492026451948,
-									"y": -89.96571230079562,
-									"z": 177.69269034838268
+									"x": -92.35181675597352,
+									"y": -89.9718842615762,
+									"z": 177.68289731517953
 								},
 								"position": {
-									"x": 0.56658935546875,
-									"y": 0.00012252479791641235,
-									"z": 1.733999252319336
+									"x": 0.2548675537109375,
+									"y": 0.000274658203125,
+									"z": 1.7550029754638672
 								}
 							}
 						},
@@ -4710,7 +5095,7 @@
 			"AddEntity": [
 				"feedbf56902382a3",
 				{
-					"parent": "129caf96cdc5cd90",
+					"parent": "e3c602b2257207a3",
 					"name": "Helper_Evergreen_SelectableItem_SkyScraperModel",
 					"factory": "00DF42C3CB934F1E",
 					"blueprint": "00E9FBB0F8BD47FC",
@@ -4737,7 +5122,7 @@
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
-							"value": "129caf96cdc5cd90",
+							"value": "e3c602b2257207a3",
 							"postInit": true
 						}
 					},
@@ -8986,13 +9371,13 @@
 							"value": {
 								"rotation": {
 									"x": -0.0,
-									"y": 0.0,
-									"z": 2.2412298021748014
+									"y": 0,
+									"z": 2.24123
 								},
 								"position": {
-									"x": 37.88212966918945,
-									"y": -155.69667053222656,
-									"z": -10.996963500976564
+									"x": 37.88213,
+									"y": -155.69667,
+									"z": -10.9969635
 								}
 							}
 						},
@@ -10377,12 +10762,7 @@
 								"originalEntity": "cafe2205acfe00ae"
 							}
 						],
-						"m_bChopper": [
-							{
-								"originalProperty": "m_bEnabled",
-								"originalEntity": "cafea9e50fdf9e8d"
-							}
-						]
+						"m_bChopper": []
 					},
 					"subsets": {
 						"AudioEmitters": ["fffffffffffffffe"],
@@ -10585,12 +10965,7 @@
 								"originalEntity": "cafe25d150075b57"
 							}
 						],
-						"m_bChopper": [
-							{
-								"originalProperty": "m_bEnabled",
-								"originalEntity": "cafea9e50fdf9e8d"
-							}
-						]
+						"m_bChopper": []
 					},
 					"subsets": {
 						"AudioEmitters": ["fffffffffffffffe"],
@@ -13205,7 +13580,7 @@
 			"AddEntity": [
 				"cafed786e260e87a",
 				{
-					"parent": "129caf96cdc5cd90",
+					"parent": "e3c602b2257207a3",
 					"name": "Helper_Evergreen_SelectableItem_SwitchWrench",
 					"factory": "00A23A5CC304B42F",
 					"blueprint": "0004E6892FA38622",
@@ -13232,7 +13607,7 @@
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
-							"value": "129caf96cdc5cd90",
+							"value": "e3c602b2257207a3",
 							"postInit": true
 						}
 					},
@@ -14170,7 +14545,7 @@
 									"z": -3.9119144302236193
 								},
 								"position": {
-									"x": 24.297853469848633,
+									"x": 24.294853469848633,
 									"y": -161.0268737792969,
 									"z": -10.928592681884766
 								}
@@ -15531,10 +15906,7 @@
 						}
 					},
 					"events": {
-						"PollTrue": {
-							"Start": ["cafee88bc4ff1f09"],
-							"SetTrue": ["cafea9e50fdf9e8d"]
-						}
+						"PollTrue": { "Start": ["cafee88bc4ff1f09"] }
 					}
 				}
 			]
@@ -15890,10 +16262,7 @@
 						}
 					},
 					"events": {
-						"PollTrue": {
-							"Start": ["cafe1e7d08d95048"],
-							"SetTrue": ["cafea9e50fdf9e8d"]
-						}
+						"PollTrue": { "Start": ["cafe1e7d08d95048"] }
 					}
 				}
 			]
@@ -16026,7 +16395,13 @@
 							"postInit": true
 						}
 					},
-					"events": { "OnActTimeout": { "Done": [] } }
+					"events": {
+						"OnReached": {
+							"GetRotation": ["cafe0d2301fb3cd1"],
+							"SetPosition": ["cafe7dd7756c8963"],
+							"SetAngles": ["cafe82110f2e5d99"]
+						}
+					}
 				}
 			]
 		},
@@ -16392,23 +16767,6 @@
 						}
 					},
 					"events": { "TimeOut": {} }
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"cafeff01be3027b9",
-				{
-					"parent": "cafea9e50fdf9e8d",
-					"name": "Enabled",
-					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
-					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
-					"events": {
-						"OnTrue": {
-							"Signal": ["cafea85c818c8521"],
-							"Activate": ["831dcd89501cfc76"]
-						}
-					}
 				}
 			]
 		},
@@ -18387,7 +18745,7 @@
 						},
 						"ConstantColorRGB_01_Value": {
 							"type": "SColorRGB",
-							"value": "#2e2e2e"
+							"value": "#353535"
 						},
 						"ConstantColorRGB_04_Value": {
 							"type": "SColorRGB",
@@ -18395,11 +18753,11 @@
 						},
 						"ConstantColorRGB_19_Value": {
 							"type": "SColorRGB",
-							"value": "#6e4e20"
+							"value": "#32454d"
 						},
 						"ConstantColorRGB_18_Value": {
 							"type": "SColorRGB",
-							"value": "#265129"
+							"value": "#32454d"
 						},
 						"m_eRoomBehaviour": {
 							"type": "ZSpatialEntity.ERoomBehaviour",
@@ -18415,7 +18773,7 @@
 						},
 						"ConstantColorRGB_02_Value": {
 							"type": "SColorRGB",
-							"value": "#3e4514"
+							"value": "#32454d"
 						},
 						"Color": {
 							"type": "SColorRGB",
@@ -18457,7 +18815,7 @@
 				"cafe710ebf553a97",
 				{
 					"parent": "cafeed3206e3fe12",
-					"name": "Stool_Laboratory_A_00",
+					"name": "Stool_Laboratory_A_00_Grey",
 					"factory": "[assembly:/_pro/environment/templates/props/furniture/laboratory_furniture_a.template?/stool_laboratory_a_00.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/environment/templates/props/furniture/laboratory_furniture_a.template?/stool_laboratory_a_00.entitytemplate].pc_entityblueprint",
 					"properties": {
@@ -18507,216 +18865,6 @@
 						"m_PrimitiveScale": {
 							"type": "SVector3",
 							"value": { "x": 1.0, "y": 1.0, "z": 1.2 }
-						}
-					}
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"cafea7df980fe96b",
-				{
-					"parent": "cafea9e50fdf9e8d",
-					"name": "3DAudioEmitter",
-					"factory": "[assembly:/templates/sound/wwise/soundentities.template?/3daudioemitter.entitytemplate].pc_entitytype",
-					"blueprint": "[assembly:/templates/sound/wwise/soundentities.template?/3daudioemitter.entitytemplate].pc_entityblueprint",
-					"properties": {
-						"m_mTransform": {
-							"type": "SMatrix43",
-							"value": {
-								"rotation": {
-									"x": -0.0,
-									"y": 0.0,
-									"z": 177.80714750241893
-								},
-								"position": {
-									"x": 39.307830810546875,
-									"y": -253.2710418701172,
-									"z": -5.3341803550720215
-								}
-							}
-						},
-						"m_bUseRaycastObstruction": {
-							"type": "bool",
-							"value": false
-						},
-						"m_eRoomBehaviour": {
-							"type": "ZSpatialEntity.ERoomBehaviour",
-							"value": "ROOM_DYNAMIC"
-						},
-						"m_eidParent": {
-							"type": "SEntityTemplateReference",
-							"value": "fffffffffffffffe",
-							"postInit": true
-						}
-					},
-					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"cafed35d5fd2fd4f",
-				{
-					"parent": "cafea9e50fdf9e8d",
-					"name": "play_magpie_exit_constant_helicopter_loop",
-					"factory": "[modules:/zaudioevententity.class].pc_entitytype",
-					"blueprint": "[modules:/zaudioevententity.class].pc_entityblueprint",
-					"properties": {
-						"m_pEmitter": {
-							"type": "SEntityTemplateReference",
-							"value": "cafea7df980fe96b"
-						},
-						"m_pMainEvent": {
-							"type": "ZRuntimeResourceID",
-							"value": {
-								"resource": "[assembly:/sound/wwise/exportedwwisedata/events/loc_island/mission_magpie/subl_ark_s2/helicopter/play_magpie_exit_constant_helicopter_loop.wwiseevent].pc_wwisebank",
-								"flag": "5F"
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"cafe3f377ac9556f",
-				{
-					"parent": "cafea9e50fdf9e8d",
-					"name": "WindEntity_Strong",
-					"factory": "[modules:/zwindentity.class].pc_entitytype",
-					"blueprint": "[modules:/zwindentity.class].pc_entityblueprint",
-					"properties": {
-						"m_mTransform": {
-							"type": "SMatrix43",
-							"value": {
-								"rotation": {
-									"x": 0.0,
-									"y": 0.0,
-									"z": 180.0
-								},
-								"position": {
-									"x": 0.0,
-									"y": 0.0,
-									"z": 0.0
-								}
-							}
-						},
-						"m_AreaBoxes": {
-							"type": "TArray<SEntityTemplateReference>",
-							"value": ["cafe20823ca8ff60"]
-						},
-						"m_fStrength": {
-							"type": "float32",
-							"value": 10.0
-						},
-						"m_fStrengthAmplitude": {
-							"type": "float32",
-							"value": 12.0
-						},
-						"m_fAngularDeviationZ": {
-							"type": "float32",
-							"value": 30.0
-						},
-						"m_bEnabled": { "type": "bool", "value": false },
-						"m_fAngularDeviationY": {
-							"type": "float32",
-							"value": 110.0
-						},
-						"m_eidParent": {
-							"type": "SEntityTemplateReference",
-							"value": "cafea7df980fe96b"
-						}
-					}
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"cafea9e50fdf9e8d",
-				{
-					"parent": "cafeed3206e3fe12",
-					"name": "HelicopterEffect",
-					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
-					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
-					"events": {
-						"OnTrue": {
-							"Signal": ["cafea85c818c8521"],
-							"Activate": ["831dcd89501cfc76"],
-							"Enable": ["cafe3f377ac9556f"]
-						}
-					},
-					"propertyAliases": {
-						"m_bValue": [
-							{
-								"originalProperty": "m_bValue",
-								"originalEntity": "cafeff01be3027b9"
-							},
-							{
-								"originalProperty": "RotorSpinUp",
-								"originalEntity": "66429fe2be8cb7c0"
-							},
-							{
-								"originalProperty": "RotorFullSpeed",
-								"originalEntity": "66429fe2be8cb7c0"
-							},
-							{
-								"originalProperty": "RotorSpinUp",
-								"originalEntity": "5ceb886142046c2e"
-							},
-							{
-								"originalProperty": "RotorFullSpeed",
-								"originalEntity": "5ceb886142046c2e"
-							},
-							{
-								"originalProperty": "RotorSpinUp",
-								"originalEntity": "8cdc97c27feedcf1"
-							},
-							{
-								"originalProperty": "RotorFullSpeed",
-								"originalEntity": "8cdc97c27feedcf1"
-							},
-							{
-								"originalProperty": "RotorSpinUp",
-								"originalEntity": "d67abce70b1bb470"
-							},
-							{
-								"originalProperty": "RotorFullSpeed",
-								"originalEntity": "d67abce70b1bb470"
-							}
-						]
-					}
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"cafe20823ca8ff60",
-				{
-					"parent": "cafea9e50fdf9e8d",
-					"name": "VolumeSphere",
-					"factory": "[modules:/zspherevolumeentity.class].pc_entitytype",
-					"blueprint": "[modules:/zspherevolumeentity.class].pc_entityblueprint",
-					"properties": {
-						"m_mTransform": {
-							"type": "SMatrix43",
-							"value": {
-								"rotation": {
-									"x": 0.0,
-									"y": 0.0,
-									"z": 0.0
-								},
-								"position": {
-									"x": 0.0,
-									"y": 0.0,
-									"z": -2.0
-								}
-							}
-						},
-						"m_fRadius": { "type": "float32", "value": 10.0 },
-						"m_eidParent": {
-							"type": "SEntityTemplateReference",
-							"value": "cafea7df980fe96b"
 						}
 					}
 				}
@@ -19320,13 +19468,197 @@
 		},
 		{
 			"AddEntity": [
-				"cafea85c818c8521",
+				"cafe8b0ddd1d0155",
 				{
-					"parent": "cafea9e50fdf9e8d",
-					"name": "VoidSignalOnce_Simple",
-					"factory": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entitytype",
-					"blueprint": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entityblueprint",
-					"events": { "Out": { "Send": ["cafed35d5fd2fd4f"] } }
+					"parent": "cafe3aa8310e61ac",
+					"name": "Spatial Garage Door",
+					"factory": "[modules:/zspatialentity.class].pc_entitytype",
+					"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.003460981420790723,
+									"y": 3.9482365607289256,
+									"z": 35.16306588444594
+								},
+								"position": {
+									"x": 38.47940444946289,
+									"y": -157.87240600585938,
+									"z": -11.02915859222412
+								}
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe7dd7756c8963",
+				{
+					"parent": "cafe3aa8310e61ac",
+					"name": "Set Motorcycle Position",
+					"factory": "[modules:/zsetpositionentity.class].pc_entitytype",
+					"blueprint": "[modules:/zsetpositionentity.class].pc_entityblueprint",
+					"properties": {
+						"m_Entity": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe3aa8310e61ac"
+						},
+						"m_Reference": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe8b0ddd1d0155"
+						},
+						"m_bSetLocalPosition": {
+							"type": "bool",
+							"value": false
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe0d2301fb3cd1",
+				{
+					"parent": "cafe3aa8310e61ac",
+					"name": "Get Motorcycle Rotation",
+					"factory": "[modules:/zgetrotationentity.class].pc_entitytype",
+					"blueprint": "[modules:/zgetrotationentity.class].pc_entityblueprint",
+					"properties": {
+						"m_Source": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe8b0ddd1d0155",
+							"postInit": true
+						}
+					},
+					"events": {
+						"RotationOutput": {
+							"Angles": ["cafe82110f2e5d99"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe82110f2e5d99",
+				{
+					"parent": "cafe3aa8310e61ac",
+					"name": "Set Motorcycle Rotation",
+					"factory": "[modules:/zsetrotationentity.class].pc_entitytype",
+					"blueprint": "[modules:/zsetrotationentity.class].pc_entityblueprint",
+					"properties": {
+						"m_Geom": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe3aa8310e61ac",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafee5eb0c7a46ef",
+				{
+					"parent": "cafe3aa8310e61ac",
+					"name": "helmet_motorbike_new",
+					"factory": "00519263C8D97B20",
+					"blueprint": "006A428F192E6D2F",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 153.83304,
+									"y": 7.9204593,
+									"z": 13.453997
+								},
+								"position": {
+									"x": -0.4644661,
+									"y": -0.08036804,
+									"z": 1.0368433
+								}
+							}
+						},
+						"m_PrimitiveScale": {
+							"type": "SVector3",
+							"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+						},
+						"m_ResourceID": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/_pro/characters/assets/_apparel/male/accessories/geometry/male_reg_hats.wl2?/helmet_racing_open.prim].pc_prim",
+								"flag": "5F"
+							}
+						},
+						"m_bRemovePhysics": {
+							"type": "bool",
+							"value": true
+						},
+						"m_bVisible": { "type": "bool", "value": true },
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe3aa8310e61ac",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeb16837c63217",
+				{
+					"parent": "cafee5eb0c7a46ef",
+					"name": "helmet_racing",
+					"factory": "00D2988B6B2E566F",
+					"blueprint": "00744C979EEC4D16",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": 0.0,
+									"y": 0.0,
+									"z": 0.0
+								}
+							}
+						},
+						"Clients": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafee5eb0c7a46ef"]
+						},
+						"Texture2D_01_enab": {
+							"type": "bool",
+							"value": true
+						},
+						"Diffuse_Color_01_Value": {
+							"type": "SColorRGB",
+							"value": "#282828"
+						},
+						"Diffuse_Color_01_Value_op": {
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafee5eb0c7a46ef"
+						}
+					}
 				}
 			]
 		},
