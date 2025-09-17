@@ -291,19 +291,21 @@
 		{
 			"SubEntityOperation": [
 				"8a3208d42e77da90",
-				{ "SetName": "Helper_Evergreen_SelectableItem_GreedCane" }
+				{
+					"SetName": "Helper_Evergreen_SelectableItem_HX10Militia"
+				}
 			]
 		},
 		{
 			"SubEntityOperation": [
 				"8a3208d42e77da90",
-				{ "SetFactory": "0052D3B2364B6BF4" }
+				{ "SetFactory": "00752EF17E0076C0" }
 			]
 		},
 		{
 			"SubEntityOperation": [
 				"8a3208d42e77da90",
-				{ "SetBlueprint": "0024AC0FCC90A225" }
+				{ "SetBlueprint": "00EE41EB76332E1E" }
 			]
 		},
 		{
@@ -315,8 +317,8 @@
 						"value": {
 							"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
 							"position": {
-								"x": -0.07161100208759308,
-								"y": -0.08665499836206436,
+								"x": -0.016581999137997627,
+								"y": -0.01132300030440092,
 								"z": 0.0
 							}
 						}
@@ -619,19 +621,19 @@
 		{
 			"SubEntityOperation": [
 				"6945c0c2f051d836",
-				{ "SetName": "Helper_Evergreen_SelectableItem_PrideSaber" }
+				{ "SetName": "Helper_Evergreen_SelectableItem_Scimitar" }
 			]
 		},
 		{
 			"SubEntityOperation": [
 				"6945c0c2f051d836",
-				{ "SetFactory": "00AD0725BAA2E911" }
+				{ "SetFactory": "00D0FB8AFD9D40C6" }
 			]
 		},
 		{
 			"SubEntityOperation": [
 				"6945c0c2f051d836",
-				{ "SetBlueprint": "004B0E9877440C6F" }
+				{ "SetBlueprint": "00578567E9BB670C" }
 			]
 		},
 		{
@@ -715,19 +717,21 @@
 		{
 			"SubEntityOperation": [
 				"b88faa4390bf1b84",
-				{ "SetName": "Helper_Evergreen_SelectableItem_EnvyKnife" }
+				{
+					"SetName": "Helper_Evergreen_SelectableItem_ICA19Cherryballer"
+				}
 			]
 		},
 		{
 			"SubEntityOperation": [
 				"b88faa4390bf1b84",
-				{ "SetFactory": "00DAE97E76BD6116" }
+				{ "SetFactory": "0014EA41D85AC588" }
 			]
 		},
 		{
 			"SubEntityOperation": [
 				"b88faa4390bf1b84",
-				{ "SetBlueprint": "00B53F006BCD14FC" }
+				{ "SetBlueprint": "0047523BF2B80A77" }
 			]
 		},
 		{
@@ -737,11 +741,15 @@
 					"SetPropertyValue": {
 						"property_name": "m_mTransform",
 						"value": {
-							"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -90.0
+							},
 							"position": {
-								"x": -0.03,
-								"y": -0.01,
-								"z": 0.01
+								"x": -0.07800500094890594,
+								"y": -0.03961100056767464,
+								"z": 0.0
 							}
 						}
 					}
