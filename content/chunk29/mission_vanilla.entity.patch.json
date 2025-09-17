@@ -276,12 +276,6 @@
 		{
 			"SubEntityOperation": [
 				"80a351216ee45b53",
-				{ "RemoveAllEventConnectionsForEvent": "OnFalse" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"80a351216ee45b53",
 				{ "RemoveAllEventConnectionsForEvent": "OnTrue" }
 			]
 		},
