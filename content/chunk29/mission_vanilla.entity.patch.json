@@ -7604,7 +7604,7 @@
 						},
 						"m_vGlobalSize": {
 							"type": "SVector3",
-							"value": { "x": 4.0, "y": 2.0, "z": 4.0 }
+							"value": { "x": 40.0, "y": 2.0, "z": 40.0 }
 						}
 					}
 				}
@@ -7729,7 +7729,7 @@
 						},
 						"m_vGlobalSize": {
 							"type": "SVector3",
-							"value": { "x": 4.0, "y": 2.0, "z": 4.0 }
+							"value": { "x": 40.0, "y": 2.0, "z": 40.0 }
 						}
 					}
 				}
