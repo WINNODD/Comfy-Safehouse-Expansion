@@ -1833,13 +1833,13 @@
 				"cafe7f7b7f4c0f68",
 				{
 					"parent": "feedd2347f5322ab",
-					"name": "ItemKey__S3_ Sieger_AR552_Tactical",
+					"name": "ItemKey__(AR) Shashka A33 Black",
 					"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 					"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
 					"properties": {
 						"m_RepositoryId": {
 							"type": "ZGuid",
-							"value": "a8309099-1b89-4492-bf37-37d4312b6615"
+							"value": "09efc132-d35a-4e4e-b58e-ba802cc91dce"
 						}
 					}
 				}
